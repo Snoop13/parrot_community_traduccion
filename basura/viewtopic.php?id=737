@@ -1,0 +1,7 @@
+<h3>[SOLVED] How To Open: Images - Videos - Executable Files?</h3>
+<div class="postmsg">
+<p>Hi! First of all I would like to thank all the developers and team who are contributing to this great Community &amp; OS!</p><p>I now have several questiens since I have ran into several issues.</p><p>How do I open:</p><p>- Images (JPG/JPEG/PNG) Pictures?</p><p>- Videos (MP4)?</p><p>- Games (sdl/glx/dedicated) executable (application/x-executable)? <br/>(Also where is it advised to locate a folder of a game that does NOT require any installation?)</p><br/><p>Thank&#039;s in advance//A Confused Parrot : )</p>
+
+<p>Well, there should probably be applications for that ... Just double click?</p><p>As for executables, in case of ELF run in from the terminal as in CD path/to/dir and ./executable,</p><p>And I don&#039;t believe there is any restriction on where game folders should be placed, if there is an installation option, that is automatic, otherwise place them as you like.</p><br/><p>Also, Please any more experienced parrot users correct me if I&#039;m wrong</p>
+
+<p>Hi actee and thanks for you answer!</p><p>It is all good now. After I booted PC the last time everything worked properly.</p><p>About the Executable file I manually had to pick a program for it to run.<br/><strong>Right click on file &gt; Open With Other Application.. &gt; Autorun Prompt</strong></p><p><span style="color: green">Update: <strong>SOLVED</strong></span></p>
