@@ -1,0 +1,787 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>[SOLVED] Background,internet connection problem / General Questions / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=592" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=592&amp;type=atom" title="Atom topic feed"/>
+ 
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div> </div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=4">General Questions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=592">[SOLVED] Background,internet connection problem</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p2360" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=2360#p2360">2017-07-06 12:59:14</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9452">teniiver</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-07-06</span></dd>
+<dd><span>Posts: 1</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>[SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<p>Hi guys,</p><p>So I am pretty new to Linux in general, and this is my first time using Linux as primary OS.<br/>I decided to give a try to Parrot.<br/>So I installed I think it was 2.5 back then, everything was working fine, which is important I was using VPN to connect to a network.<br/>One day out of sudden my Internet connection stopped to work, but what is interesting through VPN it was working just fine.<br/>And then folder background changed, which is nothing more but annoying.<br/>So as there was Internet connection problem I decided to reinstall whole system.<br/>And just the next day the same problem came back, background color changed, Internet stopped working, even through VPN.<br/>Then I decided to install Parrot Lite, but even here the same problem occurred.<br/>There is a screen shot that explain exactly how my background color problem look like. - <a href="https://imgur.com/a/wlNvr" rel="nofollow">https://imgur.com/a/wlNvr</a></p><p>So what am I doing wrong?<br/>For a moment I thought that it is maybe because I am using apt-get upgrade, but with Parrot Lite I only used update and dist-upgrade, and problem occurred anyway, so I have no clue what is causing this.<br/>I am downloading Parrot once again, and I will try to reinstall today once again.</p><br/><p>Yesterday I also accidentally formated my external HDD, by using DD (I disconnected is as fast as I realised what I did).<br/>So I am using ddrescue and testdisk, to rescue as much as I can, would you recommend anything else to try?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2363" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=2363#p2363">2017-07-06 14:18:45</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9439">rbrick49</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>From: Thailand</span></dd>
+<dd><span>Registered: 2017-07-04</span></dd>
+<dd><span>Posts: 27</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<p>same for me no internet on parrot i did 2 installs both installs lost internet after updating bye bye parrot</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Linux User #621932</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2364" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=2364#p2364">2017-07-06 16:03:53</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9439">rbrick49</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>From: Thailand</span></dd>
+<dd><span>Registered: 2017-07-04</span></dd>
+<dd><span>Posts: 27</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<p>can somebody let us know when this internet problem is resolved<br/>thank you regards Ron</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Linux User #621932</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2370" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=2370#p2370">2017-07-06 23:27:35</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9463">PoshMagiC0de</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-07-06</span></dd>
+<dd><span>Posts: 11</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<p>If you are getting no DNS resolution, I had the same issue this morning too after an update.&#160; Had many weird things go bad recently after updating.&#160; Anyway, what I seen happen was my resolv.conf vanished (good thing I had a backup from messing with it one time) and was replaced by a sim link to folder in the same folder called resolvconf and to another synlink inside that folder to run which simlinks to the resolvconf folder to resolv.conf which even if I put it there doesn&#039;t work so I remove the symlink of resolv.conf and put my resolv.conf back in and I have dns resolution.<br/>Yeah, no bueno on recent updates.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2375" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=2375#p2375">2017-07-07 00:59:18</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7692">josegatica</a></strong></dt>
+<dd class="usertitle"><strong>ParrotSec Ambassador - Debian Contributor</strong></dd>
+<dd><span>From: Valdivia, Chile</span></dd>
+<dd><span>Registered: 2017-03-31</span></dd>
+<dd><span>Posts: 156</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://www.josegatica.cl" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>rbrick49 wrote:</cite><blockquote><div><p>can somebody let us know when this internet problem is resolved<br/>thank you regards Ron</p></div></blockquote></div><p>Which is your wifi card model??</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>José Gatica A.</p><p>ParrotSec Ambassador<br/><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="d5bfbaa6b0b2b4a1bcb6b495a5b4a7a7baa1a6b0b6fbbaa7b2">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></p><p>www.josegatica.cl</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2376" class="blockpost roweven">
+<h2><span><span class="conr">#6</span> <a href="viewtopic.php?pid=2376#p2376">2017-07-07 02:25:31</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9439">rbrick49</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>From: Thailand</span></dd>
+<dd><span>Registered: 2017-07-04</span></dd>
+<dd><span>Posts: 27</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<p>broadcom 4360 I am back up and running</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Linux User #621932</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2377" class="blockpost rowodd">
+<h2><span><span class="conr">#7</span> <a href="viewtopic.php?pid=2377#p2377">2017-07-07 02:26:57</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7692">josegatica</a></strong></dt>
+<dd class="usertitle"><strong>ParrotSec Ambassador - Debian Contributor</strong></dd>
+<dd><span>From: Valdivia, Chile</span></dd>
+<dd><span>Registered: 2017-03-31</span></dd>
+<dd><span>Posts: 156</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://www.josegatica.cl" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<p>ok, so it&#039;s solved?</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>José Gatica A.</p><p>ParrotSec Ambassador<br/><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="7a1015091f1d1b0e13191b3a0a1b0808150e091f195415081d">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></p><p>www.josegatica.cl</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2378" class="blockpost roweven">
+<h2><span><span class="conr">#8</span> <a href="viewtopic.php?pid=2378#p2378">2017-07-07 03:02:26</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9439">rbrick49</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>From: Thailand</span></dd>
+<dd><span>Registered: 2017-07-04</span></dd>
+<dd><span>Posts: 27</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<p>yes something went wrong after updating it took the internet connection out had to reinstall again,I noticed after reinstall and waiting a few hours to update that this time a lot of packages held back</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Linux User #621932</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2379" class="blockpost rowodd">
+<h2><span><span class="conr">#9</span> <a href="viewtopic.php?pid=2379#p2379">2017-07-07 03:06:51</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7692">josegatica</a></strong></dt>
+<dd class="usertitle"><strong>ParrotSec Ambassador - Debian Contributor</strong></dd>
+<dd><span>From: Valdivia, Chile</span></dd>
+<dd><span>Registered: 2017-03-31</span></dd>
+<dd><span>Posts: 156</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://www.josegatica.cl" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<p>cool.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>José Gatica A.</p><p>ParrotSec Ambassador<br/><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="3a5055495f5d5b4e53595b7a4a5b4848554e495f591455485d">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></p><p>www.josegatica.cl</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2380" class="blockpost roweven">
+<h2><span><span class="conr">#10</span> <a href="viewtopic.php?pid=2380#p2380">2017-07-07 03:07:36</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9439">rbrick49</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>From: Thailand</span></dd>
+<dd><span>Registered: 2017-07-04</span></dd>
+<dd><span>Posts: 27</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<p>inxi -F<br/>System:&#160; &#160; Host: parrot Kernel: 4.9.0-parrot25-amd64 x86_64 (64 bit)<br/>&#160; &#160; &#160; &#160; &#160; &#160;Desktop: MATE 1.16.2&#160; Distro: Parrot GNU/Linux 3.7 JollyRoger<br/>Machine:&#160; &#160;Device: desktop Mobo: ASRock model: Z97 Extreme4<br/>&#160; &#160; &#160; &#160; &#160; &#160;UEFI: American Megatrends v: P2.50 date: 07/27/2016<br/>CPU:&#160; &#160; &#160; &#160;Quad core Intel Core i7-4770K (-HT-MCP-) cache: 8192 KB <br/>&#160; &#160; &#160; &#160; &#160; &#160;clock speeds: max: 3900 MHz 1: 810 MHz 2: 833 MHz 3: 810 MHz<br/>&#160; &#160; &#160; &#160; &#160; &#160;4: 807 MHz 5: 1999 MHz 6: 923 MHz 7: 800 MHz 8: 1001 MHz<br/>Graphics:&#160; Card: Intel Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller<br/>&#160; &#160; &#160; &#160; &#160; &#160;Display Server: X.Org 1.19.3 drivers: modesetting (unloaded: fbdev,vesa)<br/>&#160; &#160; &#160; &#160; &#160; &#160;Resolution: <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="edded9d9dd95dcd9d9ddadd8d4c3d4da8597">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script><br/>&#160; &#160; &#160; &#160; &#160; &#160;GLX Renderer: Mesa DRI Intel Haswell Desktop<br/>&#160; &#160; &#160; &#160; &#160; &#160;GLX Version: 3.0 Mesa 13.0.6<br/>Audio:&#160; &#160; &#160;Card-1 C-Media CMI8788 [Oxygen HD Audio] driver: snd_virtuoso<br/>&#160; &#160; &#160; &#160; &#160; &#160;Card-2 Logitech Webcam Pro 9000 driver: USB Audio<br/>&#160; &#160; &#160; &#160; &#160; &#160;Sound: Advanced Linux Sound Architecture v: k4.9.0-parrot25-amd64<br/>Network:&#160; &#160;Card-1: Intel Ethernet Connection (2) I218-V driver: e1000e<br/>&#160; &#160; &#160; &#160; &#160; &#160;IF: eth0 state: down mac: d0:50:99:71:21:bc<br/>&#160; &#160; &#160; &#160; &#160; &#160;Card-2: Broadcom Limited BCM4360 802.11ac Wireless Network Adapter<br/>&#160; &#160; &#160; &#160; &#160; &#160;driver: wl<br/>&#160; &#160; &#160; &#160; &#160; &#160;IF: wlan0 state: up mac: 84:16:f9:8c:97:71<br/>Drives:&#160; &#160; HDD Total Size: 1220.3GB (3.7% used)<br/>&#160; &#160; &#160; &#160; &#160; &#160;ID-1: /dev/sda model: KINGSTON_SA400S3 size: 240.1GB<br/>&#160; &#160; &#160; &#160; &#160; &#160;ID-2: /dev/sdb model: INTEL_SSDSC2BW24 size: 240.1GB<br/>&#160; &#160; &#160; &#160; &#160; &#160;ID-3: /dev/sdc model: Samsung_SSD_840 size: 250.1GB<br/>&#160; &#160; &#160; &#160; &#160; &#160;ID-4: /dev/sdd model: INTEL_SSDSC2BW24 size: 240.1GB<br/>&#160; &#160; &#160; &#160; &#160; &#160;ID-5: /dev/sde model: Samsung_SSD_850 size: 250.1GB<br/>Partition: ID-1: / size: 23G used: 9.8G (46%) fs: ext4 dev: /dev/sdc2<br/>&#160; &#160; &#160; &#160; &#160; &#160;ID-2: /tmp size: 1.9G used: 5.7M (1%) fs: ext4 dev: /dev/sdc5<br/>&#160; &#160; &#160; &#160; &#160; &#160;ID-3: /var size: 9.2G used: 1.5G (17%) fs: ext4 dev: /dev/sdc3<br/>&#160; &#160; &#160; &#160; &#160; &#160;ID-4: /home size: 163G used: 502M (1%) fs: ext4 dev: /dev/sdc6<br/>&#160; &#160; &#160; &#160; &#160; &#160;ID-5: swap-1 size: 34.04GB used: 0.00GB (0%) fs: swap dev: /dev/sdc4<br/>Sensors:&#160; &#160;System Temperatures: cpu: 39.0C mobo: N/A<br/>&#160; &#160; &#160; &#160; &#160; &#160;Fan Speeds (in rpm): cpu: N/A<br/>Info:&#160; &#160; &#160; Processes: 196 Uptime: 44 min Memory: 1002.0/31878.5MB<br/>&#160; &#160; &#160; &#160; &#160; &#160;Client: Shell (bash) inxi: 2.3.11 <br/>┌─[<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="f39481869e838ab3839281819c87">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>]─[~]<br/>HERES MY INXI</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Linux User #621932</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2385" class="blockpost rowodd">
+<h2><span><span class="conr">#11</span> <a href="viewtopic.php?pid=2385#p2385">2017-07-07 13:21:35</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9467">Decoy</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-07-07</span></dd>
+<dd><span>Posts: 3</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>PoshMagiC0de wrote:</cite><blockquote><div><p>If you are getting no DNS resolution, I had the same issue this morning too after an update.&#160; Had many weird things go bad recently after updating.&#160; Anyway, what I seen happen was my resolv.conf vanished (good thing I had a backup from messing with it one time) and was replaced by a sim link to folder in the same folder called resolvconf and to another synlink inside that folder to run which simlinks to the resolvconf folder to resolv.conf which even if I put it there doesn&#039;t work so I remove the symlink of resolv.conf and put my resolv.conf back in and I have dns resolution.<br/>Yeah, no bueno on recent updates.</p></div></blockquote></div><p>This must be part of yesterday&#039;s update, because it only started happening yesterday. Has anyone reported this as a bug I wonder? I know the problem seems to only be for the original Network device that I was connected to. When I tried loading up my Phone&#039;s AP, that worked fine. So did any other network I connected to.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2386" class="blockpost roweven">
+<h2><span><span class="conr">#12</span> <a href="viewtopic.php?pid=2386#p2386">2017-07-07 13:56:08</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<p>this is the official solution o fix the caja background bug</p><p><a href="https://blog.parrotsec.org/fix-file-manager-background-color/" rel="nofollow">https://blog.parrotsec.org/fix-file-man … und-color/</a></p><br/><p>and this is the official solution to fix the internet connection problems</p><p><a href="https://blog.parrotsec.org/no-internet-connection-when-upgrading-to-parrot-3-7/" rel="nofollow">https://blog.parrotsec.org/no-internet- … arrot-3-7/</a></p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2390" class="blockpost rowodd">
+<h2><span><span class="conr">#13</span> <a href="viewtopic.php?pid=2390#p2390">2017-07-07 14:12:27</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9467">Decoy</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-07-07</span></dd>
+<dd><span>Posts: 3</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><p>this is the official solution o fix the caja background bug</p><p>...</p><br/><p>and this is the official solution to fix the internet connection problems</p><p>...</p></div></blockquote></div><p>Thanks for this solution. I will try this out later.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2391" class="blockpost roweven">
+<h2><span><span class="conr">#14</span> <a href="viewtopic.php?pid=2391#p2391">2017-07-07 14:45:51</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9439">rbrick49</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>From: Thailand</span></dd>
+<dd><span>Registered: 2017-07-04</span></dd>
+<dd><span>Posts: 27</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<p>yes thank you for the fix</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Linux User #621932</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2392" class="blockpost rowodd">
+<h2><span><span class="conr">#15</span> <a href="viewtopic.php?pid=2392#p2392">2017-07-07 16:24:14</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9470">mamber</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-07-07</span></dd>
+<dd><span>Posts: 1</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<p>just start anonsurf and you will have Internet&#160; if you facing any Internet problems</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2394" class="blockpost roweven">
+<h2><span><span class="conr">#16</span> <a href="viewtopic.php?pid=2394#p2394">2017-07-07 18:03:25</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9046">whitefedora</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-30</span></dd>
+<dd><span>Posts: 7</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<p>Palinuro,<br/>you are the man!!!&#160; First off, to teniiver, you need to be more lenient on this OS.&#160; They are brand new and what they are doing is courageous not to mention innovative.&#160; When Kali first came out as Backtrack, they had their issues as well and many complaints.&#160; If you don&#039;t believe me, just look at their old forums.&#160; Second, in a lot of ways Parrot is a few steps ahead of Kali in a number of ways by having the anonsurf option, including new tools like airgeddon and atscan, and many others, and it is already on the newest 4.11 kernel!&#160; Parrot is already a contender for becoming a huge innovation for ethical hackers and pentesters everywhere.&#160; The background issue is a matter of taste and honestly I like it.&#160; I find the new background soothing and pleasing to the eye but again, a matter of taste.&#160; I really think people need to be more grateful to these prodijy developers for having the courage to start and continue such a huge undertaking and to pour their heart and soul into it.&#160; You can see the pride they take in their work in how well they designed the OS on top of Mate and the fact that they hold lots of conferences shows just how committed they are to this project.&#160; Good luck getting hold of anyone from Kali linux right away let alone have an actual founder talk to you in a forum.&#160; The fact that they even grace the forum is something you should never take for granted.&#160; While I still use Kali for some of my machines, I find Parrot&#039;s personal touch refreshing and their founders very humble and friendly since they actually take time out of development, personal life, career, and conferences just to talk with me and help me with my issues.&#160; Parrot is the most caring pentesting OS and I believe it is one that might dominate the cyber security community in the near future.&#160; I may just ditch Kali on some of my high powered machines for Parrot soon since there are even features I cannot use in Kali even with the power of GitHub.&#160; I really apologize for bringing up another OS in this forum and if I broke any rules doing so, I will understand if this message gets removed but it was well worth the cost and it needed to be said.&#160; To Palinuro and the other founders of Parrot, thank you so much for all of your hard work and effort to deliver what I believe is a godsend to the security community and words will not do it any justice.&#160; I am honored to use this OS and to be a part of such a friendly and warm community!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2397" class="blockpost rowodd">
+<h2><span><span class="conr">#17</span> <a href="viewtopic.php?pid=2397#p2397">2017-07-07 21:46:40</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9463">PoshMagiC0de</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-07-06</span></dd>
+<dd><span>Posts: 11</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<p>More fixing needed.<br/>I believe another way to fix the DNS issue is:<br/>sudo dpkg-reconfigure resolvconf</p><p>I found another thing that will need to be modified.&#160; If you have an internal domain and DNS server, the head Parrot puts on your resolv.conf breaks you resolving internal DNS names.&#160; I had a field day today trying to connect to customer stuff by name today while onsite with Parrot.&#160; I had to hand blow away the Parrot and OpenDNS sections in resolv.conf and was able to resolve internal names.</p><p>So, my permanent fix was..after resolv.conf began working again..:<br/>go into /etc/resolvconf/resolv.conf.d<br/>I then renamed head to headback.<br/>Now after a reboot, only the DNS entries for DHCP and stuff is seen.&#160; If you want the parrot DNS entries, I advise they be placed in the tail file as I think it being in front is preventing the DNS server DHCP finds from being used.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2411" class="blockpost roweven">
+<h2><span><span class="conr">#18</span> <a href="viewtopic.php?pid=2411#p2411">2017-07-09 01:40:55</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9046">whitefedora</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-30</span></dd>
+<dd><span>Posts: 7</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<p>PoshMagiC0de,<br/>Good looking out.&#160; I did the &#039;sudo dpkg-reconfigure resolvconf&#039; option which to be honest, I&#039;m a little nervous about.&#160; I&#039;m not gonna do anything beyond that unless I have any issues.&#160; I know nameservers can be resolved later if needed by commenting out the parrot and just sticking with the open.&#160; Thank you for that.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2426" class="blockpost rowodd">
+<h2><span><span class="conr">#19</span> <a href="viewtopic.php?pid=2426#p2426">2017-07-09 15:21:23</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>Palinuro,<br/>you are the man!!!&#160; First off, to teniiver, you need to be more lenient on this OS.</p></div></blockquote></div><p>what do you mean?</p><div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>They are brand new and what they are doing is courageous not to mention innovative.&#160; When Kali first came out as Backtrack, they had their issues as well and many complaints.&#160; If you don&#039;t believe me, just look at their old forums.</p></div></blockquote></div><p>this is a standard behavior for every project, the forum is where to go when something does not work.</p><div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>Second, in a lot of ways Parrot is a few steps ahead of Kali in a number of ways by having the anonsurf option, including new tools like airgeddon and atscan, and many others, and it is already on the newest 4.11 kernel!</p></div></blockquote></div><p>we have a very small team, actually i am the only one working on our code and all the internals of the project, from the releases to the mirrors, from the website to the project infrastructure up to the public relations, while sheireen helps me with some metapackages and quality tests, mibofra coordinates the ARM team and our ambassadors (first of all jeff) handle the community and the helpdesk.</p><p>but again, when you have an extremely small team with too few people working on important stuff, the only solution is to not re-invent the wheel, and because back in 2012 (before kali even existed) i have decided to base parrot on top of debian, and because kali emerged right when i started to effectively work on parrot, it was extremely convenient for me to import all the tools of kali and work only on what was missing, and yes, it is easy to build something better than something else when you import and &quot;fix&quot; the work of someone else, but in our case it does not mean that we are &quot;better&quot; than kali, backbox and any other project we have taken things from, it means that they were able to do something awesome and we were just able to make something nice from their beautiful work.</p><p>probably parrot, intended as a complete and a standalone system is better, less resource-hungry and more &quot;sexy&quot; than kali, but wait, SET, sqlmap, rfcat, cryptsetup+nuke and many many other awesome things exist in parrot only because of kali (just to make an example with kali because it is the project where we import most of the things from)</p><p>but as i said in other places: does this means that we are a kali derivative? unfortunately the way we import things from them does not allow us to qualify as a true kali derivative, but of course i love to lead a project which is completely independent from the &quot;concurrency&quot; (note: concurrency between pentesting distribution simply DOES NOT EXISTS, it is just shit for fanboys), and to be based directly on top of debian allows us to do whatever we want.</p><div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>Parrot is already a contender for becoming a huge innovation for ethical hackers and pentesters everywhere.</p></div></blockquote></div><p>i hope so, i have wasted an exaggerate amount of time working almost alone on it, and to do something useful for people is the best reward i can hope to receive</p><div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>The background issue is a matter of taste and honestly I like it.&#160; I find the new background soothing and pleasing to the eye but again, a matter of taste.</p></div></blockquote></div><p>we don&#039;t define it as a bug because of how it looks, we define it as a bug because it was configured for testing purposes in our dconf database but with no effects on precedent configurations and with the precedent version of the icy-dark theme, and then we forgot to remove it, while with the latest upgrades it came up and working unexpectedly. but feel free to keep it.</p><div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>I really think people need to be more grateful to these prodijy developers for having the courage to start and continue such a huge undertaking and to pour their heart and soul into it.</p></div></blockquote></div><p>the real prodigy is who invented the vorbis codec or who designed the btrfs filesystem, i&#039;m just a guy who is mixing existing things together without a true and strong reason to do that except for the fact that i am having a lot of fun doing it.</p><div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>You can see the pride they take in their work in how well they designed the OS on top of Mate and the fact that they hold lots of conferences shows just how committed they are to this project.&#160; Good luck getting hold of anyone from Kali linux right away let alone have an actual founder talk to you in a forum.&#160; The fact that they even grace the forum is something you should never take for granted.</p></div></blockquote></div><p>I hate those snob guys who invent something useful and try to assume that VIP behavior surrounded by that aura of distance and unreachability. i understand that not everyone is a &quot;people person&quot; (cit. Torvalds), but putting on airs is just dumb. full stop.</p><div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>While I still use Kali for some of my machines, I find Parrot&#039;s personal touch refreshing and their founders very humble and friendly since they actually take time out of development, personal life, career, and conferences just to talk with me and help me with my issues.</p></div></blockquote></div><p>hey, no one is forcing you to switch from kali, i am the founder of parrot and i am the first to not go anywhere without some usb drives with kali, backbox, blackarch, caine and deft.<br/>yes, at the end of the day i always use parrot, but i am the first one who does not want to be a parrot fanboy, and because i know almost any part of it in its best and worst parts, i am the first one who criticize parrot and underlines its weak points, and behind many of the jokes and memes that criticize parrot there is my contribution too.</p><div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>Parrot is the most caring pentesting OS and I believe it is one that might dominate the cyber security community in the near future.</p></div></blockquote></div><p>aww shit! if it happens it would be a huge amount of new responsibilities for us lol.</p><div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>I may just ditch Kali on some of my high powered machines for Parrot soon since there are even features I cannot use in Kali even with the power of GitHub.&#160; I really apologize for bringing up another OS in this forum and if I broke any rules doing so, I will understand if this message gets removed but it was well worth the cost and it needed to be said.</p></div></blockquote></div><p>Don&#039;t worry, i am the first one who is happy to talk about blackarch, backbox or whatever else here.</p><div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>To Palinuro and the other founders of Parrot, thank you so much for all of your hard work and effort to deliver what I believe is a godsend to the security community and words will not do it any justice.&#160; I am honored to use this OS and to be a part of such a friendly and warm community!</p></div></blockquote></div><p>happy to see that it wasn&#039;t a waste of time.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2429" class="blockpost roweven">
+<h2><span><span class="conr">#20</span> <a href="viewtopic.php?pid=2429#p2429">2017-07-09 15:31:30</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>PoshMagiC0de wrote:</cite><blockquote><div><p>More fixing needed.<br/>I believe another way to fix the DNS issue is:<br/>sudo dpkg-reconfigure resolvconf</p><p>I found another thing that will need to be modified.&#160; If you have an internal domain and DNS server, the head Parrot puts on your resolv.conf breaks you resolving internal DNS names.&#160; I had a field day today trying to connect to customer stuff by name today while onsite with Parrot.&#160; I had to hand blow away the Parrot and OpenDNS sections in resolv.conf and was able to resolve internal names.</p><p>So, my permanent fix was..after resolv.conf began working again..:<br/>go into /etc/resolvconf/resolv.conf.d<br/>I then renamed head to headback.<br/>Now after a reboot, only the DNS entries for DHCP and stuff is seen.&#160; If you want the parrot DNS entries, I advise they be placed in the tail file as I think it being in front is preventing the DNS server DHCP finds from being used.</p></div></blockquote></div><p>we should probably fix it in the future giving the DHCP settings the precedence over our hardcoded dns resolvers, or probably bring back the dnsmasq cacher</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2433" class="blockpost rowodd">
+<h2><span><span class="conr">#21</span> <a href="viewtopic.php?pid=2433#p2433">2017-07-09 16:51:22</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9492">KhaOS</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-07-09</span></dd>
+<dd><span>Posts: 4</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>rbrick49 wrote:</cite><blockquote><div><p>can somebody let us know when this internet problem is resolved<br/>thank you regards Ron</p></div></blockquote></div><p>Just open a terminal and do: sudo dnsmasq&#160; (that is it!&#160; and you will have internet back <br/>It is not creating a listenning socket, enjoy!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2512" class="blockpost roweven">
+<h2><span><span class="conr">#22</span> <a href="viewtopic.php?pid=2512#p2512">2017-07-13 21:47:34</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9046">whitefedora</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-30</span></dd>
+<dd><span>Posts: 7</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Background,internet connection problem</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>Palinuro,<br/>you are the man!!!&#160; First off, to teniiver, you need to be more lenient on this OS.</p></div></blockquote></div><p>what do you mean?</p><p>**For &quot;you are the man!&quot;, I mean that you rock for helping us with that issue we were having.&#160; For the &quot;First off, to teniiver, you need to be more lenient on this OS.&quot;, I mean he needs to be much more forgiving than he is with the issues the OS has since it is still brand new and working out the bugs as well as the direction it is going.**</p><div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>They are brand new and what they are doing is courageous not to mention innovative.&#160; When Kali first came out as Backtrack, they had their issues as well and many complaints.&#160; If you don&#039;t believe me, just look at their old forums.</p></div></blockquote></div><p>this is a standard behavior for every project, the forum is where to go when something does not work.</p><p>**I agree and I may have been too hard on him for saying so.**</p><div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>Second, in a lot of ways Parrot is a few steps ahead of Kali in a number of ways by having the anonsurf option, including new tools like airgeddon and atscan, and many others, and it is already on the newest 4.11 kernel!</p></div></blockquote></div><p>we have a very small team, actually i am the only one working on our code and all the internals of the project, from the releases to the mirrors, from the website to the project infrastructure up to the public relations, while sheireen helps me with some metapackages and quality tests, mibofra coordinates the ARM team and our ambassadors (first of all jeff) handle the community and the helpdesk.</p><p>but again, when you have an extremely small team with too few people working on important stuff, the only solution is to not re-invent the wheel, and because back in 2012 (before kali even existed) i have decided to base parrot on top of debian, and because kali emerged right when i started to effectively work on parrot, it was extremely convenient for me to import all the tools of kali and work only on what was missing, and yes, it is easy to build something better than something else when you import and &quot;fix&quot; the work of someone else, but in our case it does not mean that we are &quot;better&quot; than kali, backbox and any other project we have taken things from, it means that they were able to do something awesome and we were just able to make something nice from their beautiful work.</p><p>probably parrot, intended as a complete and a standalone system is better, less resource-hungry and more &quot;sexy&quot; than kali, but wait, SET, sqlmap, rfcat, cryptsetup+nuke and many many other awesome things exist in parrot only because of kali (just to make an example with kali because it is the project where we import most of the things from)</p><p>but as i said in other places: does this means that we are a kali derivative? unfortunately the way we import things from them does not allow us to qualify as a true kali derivative, but of course i love to lead a project which is completely independent from the &quot;concurrency&quot; (note: concurrency between pentesting distribution simply DOES NOT EXISTS, it is just shit for fanboys), and to be based directly on top of debian allows us to do whatever we want.</p><p>**I can appreciate that and I know Parrot is still far from being considered a derivative of Kali but that&#039;s ok.&#160; I like it anyways and it&#039;s still something somewhat new and different.&#160; Plus the fact you have a small team and community make it so it&#039;s easier to get help from others a lot quicker.&#160; Not to mention the fact you guys take the time to help out in a more direct and personal way despite being stretched thin really goes a long ways with users and helps us feel so important to the project.** </p><div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>Parrot is already a contender for becoming a huge innovation for ethical hackers and pentesters everywhere.</p></div></blockquote></div><p>i hope so, i have wasted an exaggerate amount of time working almost alone on it, and to do something useful for people is the best reward i can hope to receive</p><p>**I believe so and in the near future I believe it will receive the much needed support it deserves, if it hasn&#039;t already.**</p><div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>The background issue is a matter of taste and honestly I like it.&#160; I find the new background soothing and pleasing to the eye but again, a matter of taste.</p></div></blockquote></div><p>we don&#039;t define it as a bug because of how it looks, we define it as a bug because it was configured for testing purposes in our dconf database but with no effects on precedent configurations and with the precedent version of the icy-dark theme, and then we forgot to remove it, while with the latest upgrades it came up and working unexpectedly. but feel free to keep it.</p><p>**Ha ha, I will.**</p><div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>I really think people need to be more grateful to these prodijy developers for having the courage to start and continue such a huge undertaking and to pour their heart and soul into it.</p></div></blockquote></div><p>the real prodigy is who invented the vorbis codec or who designed the btrfs filesystem, i&#039;m just a guy who is mixing existing things together without a true and strong reason to do that except for the fact that i am having a lot of fun doing it.</p><p>**You are too humble.&#160; Of course you&#039;re right, they are geniuses but you are doing something most people find to overwhelming and time consuming to do not to mention it takes a serious amount of creativity to accomplish.&#160; I believe it&#039;s ok for you to admit that at least to yourself.&#160; You deserve the high praise.**</p><div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>You can see the pride they take in their work in how well they designed the OS on top of Mate and the fact that they hold lots of conferences shows just how committed they are to this project.&#160; Good luck getting hold of anyone from Kali linux right away let alone have an actual founder talk to you in a forum.&#160; The fact that they even grace the forum is something you should never take for granted.</p></div></blockquote></div><p>I hate those snob guys who invent something useful and try to assume that VIP behavior surrounded by that aura of distance and unreachability. i understand that not everyone is a &quot;people person&quot; (cit. Torvalds), but putting on airs is just dumb. full stop.</p><p>**Still, I admire your dedication for doing so.**</p><div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>While I still use Kali for some of my machines, I find Parrot&#039;s personal touch refreshing and their founders very humble and friendly since they actually take time out of development, personal life, career, and conferences just to talk with me and help me with my issues.</p></div></blockquote></div><p>hey, no one is forcing you to switch from kali, i am the founder of parrot and i am the first to not go anywhere without some usb drives with kali, backbox, blackarch, caine and deft.<br/>yes, at the end of the day i always use parrot, but i am the first one who does not want to be a parrot fanboy, and because i know almost any part of it in its best and worst parts, i am the first one who criticize parrot and underlines its weak points, and behind many of the jokes and memes that criticize parrot there is my contribution too.</p><p>**I find it refreshing you can criticize and laugh at your project.&#160; I believe that&#039;s a good thing and I agree, it&#039;s good to have a variety.&#160; I&#039;m not a fanboy of any distro myself and I even use Windows or OSX if it has the tools I need at the moment.&#160; Yes, my main choice is always Linux but not because I am a fanboy but because I just find it more secure and fun to use given my interests.**</p><div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>Parrot is the most caring pentesting OS and I believe it is one that might dominate the cyber security community in the near future.</p></div></blockquote></div><p>aww shit! if it happens it would be a huge amount of new responsibilities for us lol.</p><p>**Lol yeah but it would force other distros to get better where they are lacking.&#160; Honestly, I just want everyone to get better so our tools for cyber security get better.&#160; I would love to help out in any way as well whenever I have time to do so.&#160; I admire what you guys do and would love to contribute to the project any way I can.**</p><div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>I may just ditch Kali on some of my high powered machines for Parrot soon since there are even features I cannot use in Kali even with the power of GitHub.&#160; I really apologize for bringing up another OS in this forum and if I broke any rules doing so, I will understand if this message gets removed but it was well worth the cost and it needed to be said.</p></div></blockquote></div><p>Don&#039;t worry, i am the first one who is happy to talk about blackarch, backbox or whatever else here.</p><p>**That&#039;s good.&#160; I was a little nervous about getting banned, lol!**</p><div class="quotebox"><cite>whitefedora wrote:</cite><blockquote><div><p>To Palinuro and the other founders of Parrot, thank you so much for all of your hard work and effort to deliver what I believe is a godsend to the security community and words will not do it any justice.&#160; I am honored to use this OS and to be a part of such a friendly and warm community!</p></div></blockquote></div><p>happy to see that it wasn&#039;t a waste of time.</p></div></blockquote></div><p>**It was not only time well spent, it is an OS that has revived some of my machines that can not run Kali or really much of anything.&#160; I have been able to use more computers and do more pentesting because of it.&#160; Parrot is my bread and butter and I would not be able to run my business without it.&#160; I really appreciate it and I know you guys are onto something really awesome!**</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=4">General Questions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=592">[SOLVED] Background,internet connection problem</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4" selected="selected">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=592&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div> </div></div>
+</div>
+</body>
+</html>

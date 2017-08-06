@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>ethernet and cardreader is not working / General Questions / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=661" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=661&amp;type=atom" title="Atom topic feed"/>
+ 
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div> </div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=4">General Questions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=661">ethernet and cardreader is not working</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p2606" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=2606#p2606">2017-07-23 18:43:44</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9646">fathurwlx</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-07-23</span></dd>
+<dd><span>Posts: 4</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>ethernet and cardreader is not working</h3>
+<div class="postmsg">
+<p>haloo, <br/>i have some problem&#160; for running parrot os in my device, <br/>my device is asus x453ma (baytrail celeron) with parrot sec os 3.7 (Jolly Jogger) </p><p>first time i did see kernel name version :<br/>┌─[<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="6e1a1b1c2e1e0f1c1c011a">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>]─[~]<br/>└──╼ $uname -r<br/>4.11.0-parrot6-amd64</p><p>this kern.log for my device </p><p>Jul 23 16:17:51 parrot kernel: [&#160; &#160; 0.000000] Linux version 4.11.0-parrot6-amd64 (<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="760617040419025b121300131a361a1f0502055806170404190205131558190411">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>) (gcc version 6.3.0 20170516 (Debian 6.3.0-18) ) #1 SMP Parrot 4.11.6-1parrot6 (2017-06-28)<br/>Jul 23 16:17:51 parrot kernel: [&#160; &#160; 0.000000] Command line: BOOT_IMAGE=/vmlinuz-4.11.0-parrot6-amd64 root=/dev/sda9 ro noautomount quiet<br/>Jul 23 16:48:22 parrot kernel: [&#160; 722.106594] cdc_ether 1-1:2.0 eth1: register &#039;cdc_ether&#039; at usb-0000:00:14.0-1, CDC Ethernet Device, 00:e0:4c:36:27:b2<br/>Jul 23 16:48:22 parrot kernel: [&#160; 722.108686] usbcore: registered new interface driver cdc_ether<br/>Jul 23 16:48:22 parrot kernel: [&#160; 722.160890] IPv6: ADDRCONF(NETDEV_UP): eth1: link is not ready<br/>Jul 23 16:48:22 parrot kernel: [&#160; 722.161029] cdc_ether 1-1:2.0 eth1: kevent 12 may have been dropped<br/>Jul 23 16:48:22 parrot kernel: [&#160; 722.161040] cdc_ether 1-1:2.0 eth1: kevent 12 may have been dropped<br/>Jul 23 16:48:22 parrot kernel: [&#160; 722.165388] cdc_ether 1-1:2.0 eth1: kevent 12 may have been dropped<br/>Jul 23 16:48:22 parrot kernel: [&#160; 722.165415] cdc_ether 1-1:2.0 eth1: kevent 12 may have been dropped<br/>Jul 23 16:48:22 parrot kernel: [&#160; 722.183692] IPv6: ADDRCONF(NETDEV_UP): eth1: link is not ready<br/>Jul 23 16:48:22 parrot kernel: [&#160; 722.184133] cdc_ether 1-1:2.0 eth1: kevent 12 may have been dropped<br/>Jul 23 16:48:23 parrot kernel: [&#160; 723.260404] IPv6: ADDRCONF(NETDEV_CHANGE): eth1: link becomes ready</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2609" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=2609#p2609">2017-07-23 21:21:24</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=23">vzz1x2</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/23.png?m=1486864625" width="60" height="60" alt=""/></dd>
+<dd><span>From: Ireland</span></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 163</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: ethernet and cardreader is not working</h3>
+<div class="postmsg">
+<p>please use a service like pastebin or any other to post this information.. is horrible to see a post like this.. </p><p>Im seeing that Ethernet link is up and wireless also.. what exactly is not working?</p><p>Jul 23 23:51:37 parrot kernel: [&#160; &#160;30.942677] r8169 0000:03:00.2 eth0: link up</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><a href="/cdn-cgi/l/email-protection#ed8e818c98898482ad898c998c8e829fc38e8280c38c9f"><span class="__cf_email__" data-cfemail="87e4ebe6f2e3eee8c7e3e6f3e6e4e8f5a9e4e8eaa9e6f5">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a><br/><a href="http://pgp.key-server.io/pks/lookup?op=get&amp;search=0x8266F5857EC82A4C" rel="nofollow">PGP Key</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2616" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=2616#p2616">2017-07-24 05:16:18</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=54">qr0f1l3R</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Ambassador</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/54.jpg?m=1495471116" width="60" height="58" alt=""/></dd>
+<dd><span>From: Germany</span></dd>
+<dd><span>Registered: 2017-02-15</span></dd>
+<dd><span>Posts: 182</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: ethernet and cardreader is not working</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>fathurwlx wrote:</cite><blockquote><div><p>haloo, <br/>i have some problem&#160; for running parrot os in my device, <br/>my device is asus x453ma (baytrail celeron) with parrot sec os 3.7 (Jolly Jogger)</p></div></blockquote></div><p>Please never ever post a log with over 6000 lines here ;-)<br/>Use <a href="http://pastebin.com" rel="nofollow">pastebin.com</a></p><p>I also can&#039;t see any problem. eth0 should me running.</p><p>Try</p><div class="quotebox"><blockquote><div><p>ifup eth0</p></div></blockquote></div><p>You can check your eth0 status:</p><div class="quotebox"><blockquote><div><p>ethtool eth0</p></div></blockquote></div><p>Do you changed anything in your <strong>/etc/network/interfaces</strong> ?</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Andre &quot;qr0f1l3R&quot; P. - Parrot Ambassador - Founder of the German community</p><p>GPG Fingerprint: 290A C689 2EB1 45F6 5E74 2C11 99B1 2DF0 E85A E4E6<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … F0E85AE4E6</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … F0E85AE4E6</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2619" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=2619#p2619">2017-07-24 08:07:01</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9646">fathurwlx</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-07-23</span></dd>
+<dd><span>Posts: 4</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: ethernet and cardreader is not working</h3>
+<div class="postmsg">
+<p>im sorry bro :( thanks for remind me :)</p><p>my problem, is link not detected if i plug the cable to jack, <br/>In this condition, my laptop has plugged the LAN cable, but indicator on router is not on , </p><p>check this out bro : <br/>pastebin.com/x3MMSxCt</p><p>if i unplug and plug the lan cable, i see no respone from kern.log or dmesg , <br/>ethtool eth0 : always say &quot;link detected : no&quot;</p><p>So i try to reinstall r8168-dkms, but installation is gone wrong , <br/>check this for installation log : <br/>pastebin.com/4BdFvL8m</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2641" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=2641#p2641">2017-07-25 14:18:55</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9646">fathurwlx</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-07-23</span></dd>
+<dd><span>Posts: 4</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: ethernet and cardreader is not working</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>qr0f1l3R wrote:</cite><blockquote><div><div class="quotebox"><cite>fathurwlx wrote:</cite><blockquote><div><p>haloo, <br/>i have some problem&#160; for running parrot os in my device, <br/>my device is asus x453ma (baytrail celeron) with parrot sec os 3.7 (Jolly Jogger)</p></div></blockquote></div><p>Please never ever post a log with over 6000 lines here ;-)<br/>Use pastebin.com</p><p>I also can&#039;t see any problem. eth0 should me running.</p><p>Try</p><div class="quotebox"><blockquote><div><p>ifup eth0</p></div></blockquote></div><p>You can check your eth0 status:</p><div class="quotebox"><blockquote><div><p>ethtool eth0</p></div></blockquote></div><p>Do you changed anything in your <strong>/etc/network/interfaces</strong> ?</p></div></blockquote></div><br/><br/><p>im sorry bro :( thanks for remind me :)<br/>my problem, is link not detected if i plug the cable to jack, <br/>In this condition, my laptop has plugged the LAN cable, but indicator on router is not on ,<br/>check this out bro : <br/>pastebin.com/x3MMSxCt<br/>if i unplug and plug the lan cable, i see no respone from kern.log or dmesg , <br/>ethtool eth0 : always say &quot;link detected : no&quot;<br/>So i try to reinstall r8168-dkms, but installation is gone wrong , <br/>check this for installation log : <br/>pastebin.com/4BdFvL8m</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=4">General Questions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=661">ethernet and cardreader is not working</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4" selected="selected">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=661&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div> </div></div>
+</div>
+<script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+</html>

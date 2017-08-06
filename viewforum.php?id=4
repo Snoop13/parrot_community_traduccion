@@ -1,0 +1,809 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>General Questions / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewforum.php?id=4" title="Page 1"/>
+<link rel="next" href="viewforum.php?id=4&amp;p=2" title="Page 2"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;fid=4&amp;type=atom" title="Atom forum feed"/>
+ 
+</head>
+<body>
+<div id="punviewforum" class="pun">
+<div class="top-box"><div> </div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><strong><a href="viewforum.php?id=4">General Questions</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong> <a href="viewforum.php?id=4&amp;p=2">2</a> <a href="viewforum.php?id=4&amp;p=3">3</a> <a href="viewforum.php?id=4&amp;p=4">4</a> <a href="viewforum.php?id=4&amp;p=5">5</a> <a rel="next" href="viewforum.php?id=4&amp;p=2">Next</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="vf" class="blocktable">
+<h2><span>General Questions</span></h2>
+<div class="box">
+<div class="inbox">
+<table>
+<thead>
+<tr>
+<th class="tcl" scope="col">Topic</th>
+<th class="tc2" scope="col">Replies</th>
+<th class="tc3" scope="col">Views</th>
+<th class="tcr" scope="col">Last post</th>
+</tr>
+</thead>
+<tbody>
+<tr class="rowodd isticky">
+<td class="tcl">
+<div class="icon"><div class="nosize">1</div></div>
+<div class="tclcon">
+<div>
+<span class="stickytext">Sticky:</span> <a href="viewtopic.php?id=605">[SOLVED] No internet connection after upgrade</a> <span class="byuser">by qr0f1l3R</span>
+</div>
+</div>
+</td>
+<td class="tc2">8</td>
+<td class="tc3">596</td>
+<td class="tcr"><a href="viewtopic.php?pid=2788#p2788">2017-08-01 18:52:48</a> <span class="byuser">by josegatica</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">2</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=740">No Sound - Parrot Security 3.7 Full Edition [64bit]</a> <span class="byuser">by ParaX0rmal</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">39</td>
+<td class="tcr"><a href="viewtopic.php?pid=2870#p2870">Today 15:02:12</a> <span class="byuser">by ParaX0rmal</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">3</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=737">[SOLVED] How To Open: Images - Videos - Executable Files?</a> <span class="byuser">by ParaX0rmal</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">28</td>
+<td class="tcr"><a href="viewtopic.php?pid=2866#p2866">Today 13:25:49</a> <span class="byuser">by ParaX0rmal</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">4</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=738">ip and mac address</a> <span class="byuser">by Invictus</span>
+</div>
+</div>
+</td>
+<td class="tc2">1</td>
+<td class="tc3">26</td>
+<td class="tcr"><a href="viewtopic.php?pid=2860#p2860">Today 05:33:10</a> <span class="byuser">by actee</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">5</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=733">parrot os received 0 bytes problem with connection</a> <span class="byuser">by 20b0t</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">57</td>
+<td class="tcr"><a href="viewtopic.php?pid=2853#p2853">Yesterday 23:39:40</a> <span class="byuser">by 20b0t</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">6</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=731">Veil3 launch issue</a> <span class="byuser">by trabucaire</span>
+</div>
+</div>
+</td>
+<td class="tc2">0</td>
+<td class="tc3">26</td>
+<td class="tcr"><a href="viewtopic.php?pid=2838#p2838">2017-08-04 20:41:59</a> <span class="byuser">by trabucaire</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">7</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=728">IPv6 tools missing/broken</a> <span class="byuser">by synfidel</span>
+</div>
+</div>
+</td>
+<td class="tc2">1</td>
+<td class="tc3">43</td>
+<td class="tcr"><a href="viewtopic.php?pid=2836#p2836">2017-08-04 15:35:58</a> <span class="byuser">by xx4h</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">8</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=729">Start Parrot Security with Virtual Box</a> <span class="byuser">by banditu</span>
+</div>
+</div>
+</td>
+<td class="tc2">6</td>
+<td class="tc3">92</td>
+<td class="tcr"><a href="viewtopic.php?pid=2833#p2833">2017-08-04 02:26:51</a> <span class="byuser">by Paaltomo</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">9</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=673">I want to hack and be anonymous</a> <span class="byuser">by 8e80uf+c9wm3hei2a354</span>
+</div>
+</div>
+</td>
+<td class="tc2">5</td>
+<td class="tc3">191</td>
+<td class="tcr"><a href="viewtopic.php?pid=2818#p2818">2017-08-03 15:22:08</a> <span class="byuser">by PoshMagiC0de</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">10</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=719">How zoom out interface?</a> <span class="byuser">by jordan</span>
+</div>
+</div>
+</td>
+<td class="tc2">0</td>
+<td class="tc3">28</td>
+<td class="tcr"><a href="viewtopic.php?pid=2799#p2799">2017-08-02 10:45:11</a> <span class="byuser">by jordan</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">11</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=712">Tor browser is not working</a> <span class="byuser">by justin</span>
+</div>
+</div>
+</td>
+<td class="tc2">1</td>
+<td class="tc3">68</td>
+<td class="tcr"><a href="viewtopic.php?pid=2779#p2779">2017-08-01 07:47:26</a> <span class="byuser">by qr0f1l3R</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">12</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=700">Parrot OS for odroid?</a> <span class="byuser">by Arjay</span>
+</div>
+</div>
+</td>
+<td class="tc2">6</td>
+<td class="tc3">118</td>
+<td class="tcr"><a href="viewtopic.php?pid=2762#p2762">2017-07-31 13:42:35</a> <span class="byuser">by Paaltomo</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">13</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=701">Can&#039;t setup default panel again</a> <span class="byuser">by zinmin.htet</span>
+</div>
+</div>
+</td>
+<td class="tc2">7</td>
+<td class="tc3">81</td>
+<td class="tcr"><a href="viewtopic.php?pid=2750#p2750">2017-07-31 05:02:27</a> <span class="byuser">by josegatica</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">14</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=702">Having problems with Anon Surf and Macchanger</a> <span class="byuser">by Privacyman0101</span>
+</div>
+</div>
+</td>
+<td class="tc2">0</td>
+<td class="tc3">54</td>
+<td class="tcr"><a href="viewtopic.php?pid=2732#p2732">2017-07-30 19:41:25</a> <span class="byuser">by Privacyman0101</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">15</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=685">Can not connect to Tor network</a> <span class="byuser">by Mavrick</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">93</td>
+<td class="tcr"><a href="viewtopic.php?pid=2730#p2730">2017-07-30 13:52:46</a> <span class="byuser">by red2scratch</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">16</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=688">keyboard panel problem</a> <span class="byuser">by stek-kravari</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">80</td>
+<td class="tcr"><a href="viewtopic.php?pid=2715#p2715">2017-07-29 10:29:49</a> <span class="byuser">by stek-kravari</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">17</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=684">EtherApe &quot;root&quot; icon missing from application internet section</a> <span class="byuser">by Azrael</span>
+</div>
+</div>
+</td>
+<td class="tc2">0</td>
+<td class="tc3">37</td>
+<td class="tcr"><a href="viewtopic.php?pid=2677#p2677">2017-07-27 10:21:57</a> <span class="byuser">by Azrael</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">18</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=683">how to fix animation boot ?</a> <span class="byuser">by montassar00</span>
+</div>
+</div>
+</td>
+<td class="tc2">0</td>
+<td class="tc3">41</td>
+<td class="tcr"><a href="viewtopic.php?pid=2676#p2676">2017-07-27 10:01:50</a> <span class="byuser">by montassar00</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">19</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=667">[SOLVED] Wireless Not Working.</a> <span class="byuser">by iboyperson</span>
+</div>
+</div>
+</td>
+<td class="tc2">1</td>
+<td class="tc3">81</td>
+<td class="tcr"><a href="viewtopic.php?pid=2675#p2675">2017-07-27 08:16:27</a> <span class="byuser">by recodeking</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">20</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=682">problema de instalacion de Parrot OS</a> <span class="byuser">by Miky</span>
+</div>
+</div>
+</td>
+<td class="tc2">1</td>
+<td class="tc3">41</td>
+<td class="tcr"><a href="viewtopic.php?pid=2673#p2673">2017-07-27 00:56:26</a> <span class="byuser">by josegatica</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">21</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=674">Installing parrot os and what i do after installing os</a> <span class="byuser">by razorbackz</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">120</td>
+<td class="tcr"><a href="viewtopic.php?pid=2659#p2659">2017-07-26 11:38:09</a> <span class="byuser">by palinuro</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">22</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=666">[SOLVED] bug</a> <span class="byuser">by montassar00</span>
+</div>
+</div>
+</td>
+<td class="tc2">4</td>
+<td class="tc3">94</td>
+<td class="tcr"><a href="viewtopic.php?pid=2656#p2656">2017-07-26 10:44:31</a> <span class="byuser">by palinuro</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">23</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=668">[SOLVED] Updating tools</a> <span class="byuser">by trabucaire</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">87</td>
+<td class="tcr"><a href="viewtopic.php?pid=2655#p2655">2017-07-26 10:43:48</a> <span class="byuser">by palinuro</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">24</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=675">Backdoor in ? in Parrot os</a> <span class="byuser">by nullunkown</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">106</td>
+<td class="tcr"><a href="viewtopic.php?pid=2651#p2651">2017-07-26 02:46:47</a> <span class="byuser">by nullunkown</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">25</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=661">ethernet and cardreader is not working</a> <span class="byuser">by fathurwlx</span>
+</div>
+</div>
+</td>
+<td class="tc2">4</td>
+<td class="tc3">139</td>
+<td class="tcr"><a href="viewtopic.php?pid=2641#p2641">2017-07-25 14:18:55</a> <span class="byuser">by fathurwlx</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">26</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=669">TL-WN722N Wont Work.</a> <span class="byuser">by iboyperson</span>
+</div>
+</div>
+</td>
+<td class="tc2">1</td>
+<td class="tc3">37</td>
+<td class="tcr"><a href="viewtopic.php?pid=2633#p2633">2017-07-25 00:24:03</a> <span class="byuser">by vzz1x2</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">27</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=653">fprint_demo can&#039;t seem to find fingerprint device</a> <span class="byuser">by Redhat256</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">56</td>
+<td class="tcr"><a href="viewtopic.php?pid=2618#p2618">2017-07-24 06:36:20</a> <span class="byuser">by Redhat256</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">28</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=663">please clear answer:what does Anonymous Mode means?</a> <span class="byuser">by 8dqdfi+4l3q13xcfewr0</span>
+</div>
+</div>
+</td>
+<td class="tc2">0</td>
+<td class="tc3">66</td>
+<td class="tcr"><a href="viewtopic.php?pid=2615#p2615">2017-07-23 23:06:42</a> <span class="byuser">by 8dqdfi+4l3q13xcfewr0</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">29</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=643">KVM Whonix install on Parrot Full problem</a> <span class="byuser">by CleanZombie</span>
+</div>
+</div>
+</td>
+<td class="tc2">3</td>
+<td class="tc3">93</td>
+<td class="tcr"><a href="viewtopic.php?pid=2601#p2601">2017-07-23 14:07:42</a> <span class="byuser">by vzz1x2</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">30</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=650">apt-add-repository not installing ? ?</a> <span class="byuser">by bhalachandra</span>
+</div>
+</div>
+</td>
+<td class="tc2">1</td>
+<td class="tc3">75</td>
+<td class="tcr"><a href="viewtopic.php?pid=2600#p2600">2017-07-23 14:02:35</a> <span class="byuser">by vzz1x2</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">31</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=659">hashcat and oclhashcat</a> <span class="byuser">by Decoy</span>
+</div>
+</div>
+</td>
+<td class="tc2">1</td>
+<td class="tc3">73</td>
+<td class="tcr"><a href="viewtopic.php?pid=2599#p2599">2017-07-23 13:59:46</a> <span class="byuser">by vzz1x2</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">32</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=655">so what does &quot;Anonymous Mode&quot; means?</a> <span class="byuser">by ccosmic</span>
+</div>
+</div>
+</td>
+<td class="tc2">3</td>
+<td class="tc3">136</td>
+<td class="tcr"><a href="viewtopic.php?pid=2598#p2598">2017-07-23 13:54:59</a> <span class="byuser">by vzz1x2</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">33</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=651">Something is wrong!</a> <span class="byuser">by root755</span>
+</div>
+</div>
+</td>
+<td class="tc2">3</td>
+<td class="tc3">89</td>
+<td class="tcr"><a href="viewtopic.php?pid=2596#p2596">2017-07-23 07:07:45</a> <span class="byuser">by qr0f1l3R</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">34</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=646">[SOLVED] how change background colour</a> <span class="byuser">by bhalachandra</span>
+</div>
+</div>
+</td>
+<td class="tc2">3</td>
+<td class="tc3">69</td>
+<td class="tcr"><a href="viewtopic.php?pid=2576#p2576">2017-07-21 22:16:16</a> <span class="byuser">by josegatica</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">35</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=581">[SOLVED] How to change lock screen?</a> <span class="byuser">by bhalachandra</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">114</td>
+<td class="tcr"><a href="viewtopic.php?pid=2575#p2575">2017-07-21 21:28:27</a> <span class="byuser">by bhalachandra</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">36</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=637">How to enable the system/sensors/cpu/memory/network/hdd widget</a> <span class="byuser">by sl4y3r</span>
+</div>
+</div>
+</td>
+<td class="tc2">3</td>
+<td class="tc3">110</td>
+<td class="tcr"><a href="viewtopic.php?pid=2562#p2562">2017-07-20 19:10:18</a> <span class="byuser">by sl4y3r</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">37</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=642">Tool request</a> <span class="byuser">by Nymphador4</span>
+</div>
+</div>
+</td>
+<td class="tc2">0</td>
+<td class="tc3">67</td>
+<td class="tcr"><a href="viewtopic.php?pid=2551#p2551">2017-07-19 08:17:30</a> <span class="byuser">by Nymphador4</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">38</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=611">Reaver and Bully no longer functioning in new update 3.7</a> <span class="byuser">by PoshMagiC0de</span>
+</div>
+</div>
+</td>
+<td class="tc2">8</td>
+<td class="tc3">212</td>
+<td class="tcr"><a href="viewtopic.php?pid=2548#p2548">2017-07-19 02:17:42</a> <span class="byuser">by JUXT1</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">39</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=633">dns random?!</a> <span class="byuser">by Abrikoss2041</span>
+</div>
+</div>
+</td>
+<td class="tc2">0</td>
+<td class="tc3">199</td>
+<td class="tcr"><a href="viewtopic.php?pid=2531#p2531">2017-07-17 01:28:41</a> <span class="byuser">by Abrikoss2041</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">40</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=630">installation on surface pro 4</a> <span class="byuser">by Kil2000</span>
+</div>
+</div>
+</td>
+<td class="tc2">0</td>
+<td class="tc3">52</td>
+<td class="tcr"><a href="viewtopic.php?pid=2526#p2526">2017-07-16 19:33:56</a> <span class="byuser">by Kil2000</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">41</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=627">Repositories through Tor</a> <span class="byuser">by disrupt_the_flow</span>
+</div>
+</div>
+</td>
+<td class="tc2">1</td>
+<td class="tc3">95</td>
+<td class="tcr"><a href="viewtopic.php?pid=2525#p2525">2017-07-16 08:28:01</a> <span class="byuser">by gnugr</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">42</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=612">anonymous mode + Armitage really anonymous?</a> <span class="byuser">by Witle1958</span>
+</div>
+</div>
+</td>
+<td class="tc2">1</td>
+<td class="tc3">140</td>
+<td class="tcr"><a href="viewtopic.php?pid=2523#p2523">2017-07-15 16:44:01</a> <span class="byuser">by PoshMagiC0de</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">43</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=626">Does Parrot use Linux-Libre by default?</a> <span class="byuser">by sauceboss</span>
+</div>
+</div>
+</td>
+<td class="tc2">0</td>
+<td class="tc3">49</td>
+<td class="tcr"><a href="viewtopic.php?pid=2514#p2514">2017-07-14 15:31:35</a> <span class="byuser">by sauceboss</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">44</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=592">[SOLVED] Background,internet connection problem</a> <span class="byuser">by teniiver</span>
+</div>
+</div>
+</td>
+<td class="tc2">21</td>
+<td class="tc3">785</td>
+<td class="tcr"><a href="viewtopic.php?pid=2512#p2512">2017-07-13 21:47:34</a> <span class="byuser">by whitefedora</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">45</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=620">[SOLVED] Getting &quot;Hash Sum Mismatch&quot; when trying to install wine32</a> <span class="byuser">by Retro7</span>
+</div>
+</div>
+</td>
+<td class="tc2">5</td>
+<td class="tc3">67</td>
+<td class="tcr"><a href="viewtopic.php?pid=2507#p2507">2017-07-13 17:43:42</a> <span class="byuser">by qr0f1l3R</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">46</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=617">Penetration Testing Certificate</a> <span class="byuser">by Nkaratzis</span>
+</div>
+</div>
+</td>
+<td class="tc2">1</td>
+<td class="tc3">92</td>
+<td class="tcr"><a href="viewtopic.php?pid=2493#p2493">2017-07-13 14:55:35</a> <span class="byuser">by Fernandunix</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">47</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=621">Virtual Machine Manager: KVM is not available</a> <span class="byuser">by j1mmy5p3tc4t</span>
+</div>
+</div>
+</td>
+<td class="tc2">0</td>
+<td class="tc3">53</td>
+<td class="tcr"><a href="viewtopic.php?pid=2483#p2483">2017-07-13 00:09:14</a> <span class="byuser">by j1mmy5p3tc4t</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">48</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=484">[SOLVED] Troubleshooting: There is a mouse cursor, but it doesn&#039;t move</a> <span class="byuser">by Retro7</span>
+</div>
+</div>
+</td>
+<td class="tc2">9</td>
+<td class="tc3">219</td>
+<td class="tcr"><a href="viewtopic.php?pid=2480#p2480">2017-07-12 18:48:13</a> <span class="byuser">by Retro7</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">49</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=599">[SOLVED] Connecting to networks / no internet access after upgrade</a> <span class="byuser">by Harry_Root</span>
+</div>
+</div>
+</td>
+<td class="tc2">14</td>
+<td class="tc3">290</td>
+<td class="tcr"><a href="viewtopic.php?pid=2464#p2464">2017-07-11 13:48:44</a> <span class="byuser">by Harry_Root</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">50</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=567">[SOLVED] 79% in use as cache, Is it normal ?</a> <span class="byuser">by Fernandunix</span>
+</div>
+</div>
+</td>
+<td class="tc2">3</td>
+<td class="tc3">136</td>
+<td class="tcr"><a href="viewtopic.php?pid=2455#p2455">2017-07-10 17:39:39</a> <span class="byuser">by qr0f1l3R</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="linksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong> <a href="viewforum.php?id=4&amp;p=2">2</a> <a href="viewforum.php?id=4&amp;p=3">3</a> <a href="viewforum.php?id=4&amp;p=4">4</a> <a href="viewforum.php?id=4&amp;p=5">5</a> <a rel="next" href="viewforum.php?id=4&amp;p=2">Next</a></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><strong><a href="viewforum.php?id=4">General Questions</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4" selected="selected">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;fid=4&amp;type=atom">Atom forum feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div> </div></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>[SOLVED] Download Security / General Questions / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=45" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=45&amp;type=atom" title="Atom topic feed"/>
+ 
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div> </div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=4">General Questions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=45">[SOLVED] Download Security</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p173" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=173#p173">2017-02-18 17:14:24</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong>Jay</strong></dt>
+<dd class="usertitle"><strong>Guest</strong></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>[SOLVED] Download Security</h3>
+<div class="postmsg">
+<p>Okay so I&#039;m trying to figure out where you signing key is but I see that neither your hashes or your ISO has been signed. I&#039;m sorry but this is completely unacceptable if you&#039;re going to call yourself a secure Linux operating system. No security conscious person in their right mind is going to download and use a distro when they can&#039;t even check it&#039;s integrity.</p><p>Not only this but the hashes you do offer, you have specifically chosen to not use your SSL/TLS certificate on the page where you&#039;ve made those hashes available. I mean, how do you really expect anyone to take your claims seriously if you can&#039;t even offer proper download security? I&#039;m sorry if this email upsets you but I just can&#039;t believe what I&#039;m seeing here. I considered checking the distribution out but not after this. I always thought of these kind of Linux distros as a shortcut anyway for script kiddies but at least Kali Linux get&#039;s their download security correct.</p><p>Even distros with no focus on security of any kind offer proper download security. Take Linux Mint for example. They learned their lesson and you will to and the hard way like they did if you don&#039;t change your methods.</p><p>You need to offer a properly secured page, possibly even a Tor Onion Service where the hashes, signatures, signing key as well as your ISOs can be downloaded from in a secure manner. You need to sign both your hashes and your ISO&#039;s and offer strong hashes such as sha512 and sha256. Then maybe I&#039;ll consider giving it a look but as this is right now I&#039;m extremely disappointed in what I see and couldn&#039;t recommend it to anyone. I&#039;d probably warn anyone who asks to stay away.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p175" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=175#p175">2017-02-18 18:05:36</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=14">Jeff</a></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd><span>From: USA</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 296</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Download Security</h3>
+<div class="postmsg">
+<p>Simply the sha512 ans sha256 hashes are already with the iso. B) Even tor is not secure. So even if you can switch anytime to https, if you want the maximum level of security, I can send the iso burned to you via mail (yes the old and sweet mail lol) on dvd-r, as others do this, signed with my gpg key (or the fsfe one on me fellowship card).</p><p>***Note***&#160; &#160;And by the way if you do read the info out there,&#160; Linux Mint got Hacked. SO before seriously writing a true novel on our distribution we need to alleviate all possibilities or errors and ( low security ) doubts.&#160; &#160;This distribution has made it to the top 2017 list and it was not because its some little unpopular piece.&#160; So with that, if there is anything else I am able to help you with, please do not hesitate to contact me directly.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>-Jeff Szydel </p><p>*Parrot Ambassador&#160; &#160;*Social Groups Manager&#160; &#160;*Helpdesk&#160; &#160;*Wiki Editor&#160; &#160; <br/>*Parrot Telegram Group Administrator&#160; &#160;*Parrot Community Administrator</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p176" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=176#p176">2017-02-18 18:44:19</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Download Security</h3>
+<div class="postmsg">
+<p><a href="https://postimg.org/image/btrns7e8t/" rel="nofollow"><span class="postimg"><img src="https://s22.postimg.org/btrns7e8t/IMG_20170218_175918.jpg" alt="IMG_20170218_175918.jpg"/></span></a></p><p><a href="https://postimg.org/image/s29xhb18r/" rel="nofollow"><span class="postimg"><img src="https://s9.postimg.org/s29xhb18r/IMG_20170218_175952.jpg" alt="IMG_20170218_175952.jpg"/></span></a></p><p>no signatures on our hashes? wre you serious? we offer several hashes for each image in a document which is digitally signed with 3 different gpg keys with detailed info on the used keys inside the signed document itself where one of the keys is mine and is certified by some debian developers (sullivan and paleino), and another one is used for our repository</p><p>the ssl/https question is an open issue for almost all the GNU/LINUX distributions because the mirror servers are hosted by third parties and https will not ensure you that th4 content is genuine anyway, the only solution is to use end to end signatures with gpg, so that you are 100% sure that what you have is what i have released</p><p>infact even the official debian mirrors (including the security one) are in http and they are secure not because of server-to-client encryption (which is useless in this case) but because of developer-to-client signatures which is way better</p><p>and just to let you know, most (if not every) kali-rolling apt and iso mirror servers are in http</p><br/><p>anyway if you check, all our services that are not related to our mirrors network, are ssl-enforced, while important things (ssl or not) are gpg-enfor ed with at least my key (with several signatures) and with the repository key (integrated in the system keyring)</p><br/><br/><p>anyway i am not here to defend the project &quot;against&quot; you</p><p>i just want to clarify where you are wromg and i&#039;ll try to improve how we offer this kind of security, for example even if i can&#039;t pur ssl encryption on our mirror servers, i can offer some things via ssl on a different server, for example the file with the signed hashes can be offered by our central server instead of one of the repositories as it is a very small file and a CDN os not strictly needed for it</p><br/><p>if you have other questions about our way of considering security, feel free to ask whatever you want<br/>for example an interesting topic no one asks is how we build our packages or if we recompile some critical debian sources or how we verify packages authenticity when importing stuff from debian or if this kind of things is automatic or if there is someone to manuallu check everything and who he/she is</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p177" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=177#p177">2017-02-18 18:50:06</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Download Security</h3>
+<div class="postmsg">
+<p>p.s.<br/>as you can see we don&#039;t offer strong hashes like sha512 OR sha256</p><p>instead we offer ALL of them for every ISO, and GPG is enforced to use sha512 for its signatures</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=4">General Questions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=45">[SOLVED] Download Security</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4" selected="selected">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=45&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div> </div></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,671 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>[SOLVED] Raspberry PI Problem after Upgrade / General Questions / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=498" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=498&amp;type=atom" title="Atom topic feed"/>
+ 
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div> </div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=4">General Questions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=498">[SOLVED] Raspberry PI Problem after Upgrade</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p1836" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=1836#p1836">2017-06-04 19:06:25</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9140">Flop</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-03</span></dd>
+<dd><span>Posts: 31</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>[SOLVED] Raspberry PI Problem after Upgrade</h3>
+<div class="postmsg">
+<p>Hello, I&#039;ve upgraded my Raspberry PI 3 with &quot;sudo apt-get upgrade&quot; then I rebooted.<br/>And now I can&#039;t access the internet.<br/>When I type &quot;sudo apt-get update&quot; I become this:</p><div class="codebox"><pre><code>Err:1 http://archive.parrotsec.org/parrot stable InRelease
+  Temporary failure resolving &#039;archive.parrotsec.org&#039;
+Err:2 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot InRelease
+  Temporary failure resolving &#039;rwth-aachen-euro.archive.parrotsec.org&#039;
+Reading package lists... Done                            
+W: Failed to fetch http://archive.parrotsec.org/parrot/dists/stable/InRelease  Temporary failure resolving &#039;archive.parrotsec.org&#039;
+W: Failed to fetch http://rwth-aachen-euro.archive.parrotsec.org/parrotsec/dists/parrot/InRelease  Temporary failure resolving &#039;rwth-aachen-euro.archive.parrotsec.org&#039;
+W: Some index files failed to download. They have been ignored, or old ones used instead.</code></pre></div><p>When I search something on chromium I get this message:</p><p>This site can’t be reached</p><p>The webpage at <a href="https://www.google.com/" rel="nofollow">http://google.com/</a> might be temporarily down or it may have moved permanently to a new web address.<br/>ERR_NAME_RESOLUTION_FAILED</p><p>My Internet worked before the upgrade fine.</p><br/><p>Please help me to fix this please.</p>
+<p class="postedit"><em>Last edited by Flop (2017-06-05 15:20:49)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1839" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=1839#p1839">2017-06-04 19:13:32</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9150">xx4h</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-04</span></dd>
+<dd><span>Posts: 39</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Raspberry PI Problem after Upgrade</h3>
+<div class="postmsg">
+<p>Hi,</p><p>post output of:</p><div class="codebox"><pre><code>cat /etc/resolv.conf</code></pre></div><p>and</p><div class="codebox"><pre><code>host google.de 8.8.8.8</code></pre></div><p>EDIT1: just put commands into code wrapper</p>
+<p class="postedit"><em>Last edited by xx4h (2017-06-04 22:44:47)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1843" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=1843#p1843">2017-06-04 19:43:43</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9140">Flop</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-03</span></dd>
+<dd><span>Posts: 31</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Raspberry PI Problem after Upgrade</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>xx4h wrote:</cite><blockquote><div><p>Hi,</p><p>post output of:<br/>- cat /etc/resolv.conf<br/>- host google.de 8.8.8.8</p></div></blockquote></div><p>Here it is and thank you for the reply.</p><p>1.</p><div class="codebox"><pre><code># Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
+#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+nameserver 127.0.0.1</code></pre></div><p>2.</p><div class="codebox"><pre><code>Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases: 
+
+google.de has address 172.217.22.99
+google.de has IPv6 address 2a00:1450:4001:81d::2003
+google.de mail is handled by 20 alt1.aspmx.l.google.com.
+google.de mail is handled by 10 aspmx.l.google.com.
+google.de mail is handled by 40 alt3.aspmx.l.google.com.
+google.de mail is handled by 50 alt4.aspmx.l.google.com.
+google.de mail is handled by 30 alt2.aspmx.l.google.com.</code></pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1845" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=1845#p1845">2017-06-04 22:37:57</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9150">xx4h</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-04</span></dd>
+<dd><span>Posts: 39</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Raspberry PI Problem after Upgrade</h3>
+<div class="postmsg">
+<p>Ok,</p><p>DNS in general is working. But you use localhost as DNS Server. This is a common setup e.g. in Ubuntu, using<br/>dnsmasq as your local DNS Caching Forwarder. To make this work, dnsmasq or similar needs to listen on Port 53.<br/>Let&#039;s see if this is the case:</p><div class="codebox"><pre><code>lsof -ni:53</code></pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1863" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=1863#p1863">2017-06-05 13:48:47</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9140">Flop</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-03</span></dd>
+<dd><span>Posts: 31</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Raspberry PI Problem after Upgrade</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>xx4h wrote:</cite><blockquote><div><p>Ok,</p><p>DNS in general is working. But you use localhost as DNS Server. This is a common setup e.g. in Ubuntu, using<br/>dnsmasq as your local DNS Caching Forwarder. To make this work, dnsmasq or similar needs to listen on Port 53.<br/>Let&#039;s see if this is the case:</p><div class="codebox"><pre><code>lsof -ni:53</code></pre></div></div></blockquote></div><p>Hi,</p><p>When I type it in I get this:</p><div class="codebox"><pre><code>bash: lsof:  command not found</code></pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1864" class="blockpost roweven">
+<h2><span><span class="conr">#6</span> <a href="viewtopic.php?pid=1864#p1864">2017-06-05 13:52:50</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9150">xx4h</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-04</span></dd>
+<dd><span>Posts: 39</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Raspberry PI Problem after Upgrade</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>Flop wrote:</cite><blockquote><div><p>Hi,</p><p>When I type it in I get this:</p><div class="codebox"><pre><code>bash: lsof:  command not found</code></pre></div></div></blockquote></div><p>Ok, so then try:</p><div class="codebox"><pre><code>ss -lnp | grep :53</code></pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1865" class="blockpost rowodd">
+<h2><span><span class="conr">#7</span> <a href="viewtopic.php?pid=1865#p1865">2017-06-05 13:57:54</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9140">Flop</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-03</span></dd>
+<dd><span>Posts: 31</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Raspberry PI Problem after Upgrade</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>xx4h wrote:</cite><blockquote><div><div class="quotebox"><cite>Flop wrote:</cite><blockquote><div><p>Hi,</p><p>When I type it in I get this:</p><div class="codebox"><pre><code>bash: lsof:  command not found</code></pre></div></div></blockquote></div><p>Ok, so then try:</p><div class="codebox"><pre><code>ss -lnp | grep :53</code></pre></div></div></blockquote></div><p>Nice! Everything is working now. Thank you Thank you Thank you !!!!!!!!!!!!!!!!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1867" class="blockpost roweven">
+<h2><span><span class="conr">#8</span> <a href="viewtopic.php?pid=1867#p1867">2017-06-05 14:04:17</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9150">xx4h</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-04</span></dd>
+<dd><span>Posts: 39</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Raspberry PI Problem after Upgrade</h3>
+<div class="postmsg">
+<p>Good to hear that. But i didn&#039;t do anything.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1869" class="blockpost rowodd">
+<h2><span><span class="conr">#9</span> <a href="viewtopic.php?pid=1869#p1869">2017-06-05 14:09:28</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9140">Flop</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-03</span></dd>
+<dd><span>Posts: 31</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Raspberry PI Problem after Upgrade</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>xx4h wrote:</cite><blockquote><div><p>Good to hear that. But i didn&#039;t do anything.</p></div></blockquote></div><p>I don&#039;t matter but it&#039;s working and....I found a new Problem ....</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1873" class="blockpost roweven">
+<h2><span><span class="conr">#10</span> <a href="viewtopic.php?pid=1873#p1873">2017-06-05 14:20:58</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9140">Flop</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-03</span></dd>
+<dd><span>Posts: 31</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Raspberry PI Problem after Upgrade</h3>
+<div class="postmsg">
+<p>There is not sound should I make a new Question?</p>
+<p class="postedit"><em>Last edited by Flop (2017-06-05 14:21:45)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1875" class="blockpost rowodd">
+<h2><span><span class="conr">#11</span> <a href="viewtopic.php?pid=1875#p1875">2017-06-05 14:28:28</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9150">xx4h</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-04</span></dd>
+<dd><span>Posts: 39</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Raspberry PI Problem after Upgrade</h3>
+<div class="postmsg">
+<p>yes, please open a new thread =) and mark this one as solved.<br/>But before you do so, could you please once more post the output of</p><div class="codebox"><pre><code>/etc/resolv.conf</code></pre></div><p>Did you reboot and then it started working again?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1876" class="blockpost roweven">
+<h2><span><span class="conr">#12</span> <a href="viewtopic.php?pid=1876#p1876">2017-06-05 14:34:17</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9140">Flop</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-03</span></dd>
+<dd><span>Posts: 31</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Raspberry PI Problem after Upgrade</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>xx4h wrote:</cite><blockquote><div><p>yes, please open a new thread =) and mark this one as solved.<br/>But before you do so, could you please once more post the output of</p><div class="codebox"><pre><code>/etc/resolv.conf</code></pre></div><p>Did you reboot and then it started working again?</p></div></blockquote></div><p>Do you mean </p><div class="codebox"><pre><code>cat /etc/resolv.conf</code></pre></div><p>?</p><p>And no I didn&#039;t rebooted but after a reboot it didn&#039;t worked again so I did all the steps again and then it worked again.</p>
+<p class="postedit"><em>Last edited by Flop (2017-06-05 15:21:17)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1890" class="blockpost rowodd">
+<h2><span><span class="conr">#13</span> <a href="viewtopic.php?pid=1890#p1890">2017-06-05 15:29:29</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9150">xx4h</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-04</span></dd>
+<dd><span>Posts: 39</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Raspberry PI Problem after Upgrade</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>Flop wrote:</cite><blockquote><div><p>Do you mean </p><div class="codebox"><pre><code>cat /etc/resolv.conf</code></pre></div><p>?</p><p>And no I didn&#039;t rebooted but after a reboot it didn&#039;t worked again so I did all the steps again and then it worked again.</p></div></blockquote></div><p>The steps from within this thread? This fixed the issue?<br/>Yes, i meant</p><div class="codebox"><pre><code>cat /etc/resolv.conf</code></pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1892" class="blockpost roweven">
+<h2><span><span class="conr">#14</span> <a href="viewtopic.php?pid=1892#p1892">2017-06-05 16:08:18</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9140">Flop</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-03</span></dd>
+<dd><span>Posts: 31</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Raspberry PI Problem after Upgrade</h3>
+<div class="postmsg">
+<p>WTF I booted and again no internet access then I typed in </p><div class="codebox"><pre><code>dnsmasq</code></pre></div><p>And it worked again...lol...</p><p>Output of &quot;cat /etc/resolv.conf&quot;</p><div class="codebox"><pre><code># Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
+#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+nameserver 127.0.0.1</code></pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1893" class="blockpost rowodd">
+<h2><span><span class="conr">#15</span> <a href="viewtopic.php?pid=1893#p1893">2017-06-05 16:12:35</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9150">xx4h</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-04</span></dd>
+<dd><span>Posts: 39</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Raspberry PI Problem after Upgrade</h3>
+<div class="postmsg">
+<p>if you want to use dnsmasq, you can enable it on system boot with:</p><div class="codebox"><pre><code>systemctl enable dnsmasq</code></pre></div><p>do you know/remember when and why you did install dnsmasq?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1894" class="blockpost roweven">
+<h2><span><span class="conr">#16</span> <a href="viewtopic.php?pid=1894#p1894">2017-06-05 16:15:19</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9140">Flop</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-03</span></dd>
+<dd><span>Posts: 31</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Raspberry PI Problem after Upgrade</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>xx4h wrote:</cite><blockquote><div><p>if you want to use dnsmasq, you can enable it on system boot with:</p><div class="codebox"><pre><code>systemctl enable dnsmasq</code></pre></div><p>do you know/remember when and why you did install dnsmasq?</p></div></blockquote></div><p>I never installed it maybe it was already installed...</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1895" class="blockpost rowodd">
+<h2><span><span class="conr">#17</span> <a href="viewtopic.php?pid=1895#p1895">2017-06-05 16:16:48</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9150">xx4h</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-04</span></dd>
+<dd><span>Posts: 39</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Raspberry PI Problem after Upgrade</h3>
+<div class="postmsg">
+<p>afaik, it does not ship with parrot os.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1896" class="blockpost roweven">
+<h2><span><span class="conr">#18</span> <a href="viewtopic.php?pid=1896#p1896">2017-06-05 16:19:40</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9140">Flop</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-03</span></dd>
+<dd><span>Posts: 31</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [SOLVED] Raspberry PI Problem after Upgrade</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>xx4h wrote:</cite><blockquote><div><p>afaik, it does not ship with parrot os.</p></div></blockquote></div><p>Okay.<br/>I remember that I installed wicd to fix the problem but than I uninstalled it maybe wicd installed dnsmasq with.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=4">General Questions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=498">[SOLVED] Raspberry PI Problem after Upgrade</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4" selected="selected">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=498&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div> </div></div>
+</div>
+</body>
+</html>

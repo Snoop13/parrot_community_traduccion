@@ -1,0 +1,440 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Parrot OS freezing...need help / General Questions / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=469" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=469&amp;type=atom" title="Atom topic feed"/>
+ 
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div> </div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=4">General Questions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=469">Parrot OS freezing...need help</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p1693" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=1693#p1693">2017-05-31 20:14:13</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9093">xErased</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-31</span></dd>
+<dd><span>Posts: 9</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Parrot OS freezing...need help</h3>
+<div class="postmsg">
+<p>Hello guys! i really need help now because i want to keep parrot and don&#039;t want to change back to kali because i love this OS....<br/>anyways i installed parrot OS yesterday before parrot i was using kali linux. I am not really pro at this i am pretty new actually but <br/>when i am working in the terminal it sometimes freezes when i klick on right mouse button to copy or paste. When i was using kali linux i didn&#039;t have this problem<br/>here is some info about my pc</p><p>Architecture:&#160; &#160; &#160; &#160; &#160; x86_64<br/>CPU op-mode(s):&#160; &#160; &#160; &#160; 32-bit, 64-bit<br/>Byte Order:&#160; &#160; &#160; &#160; &#160; &#160; Little Endian<br/>CPU(s):&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; 8<br/>On-line CPU(s) list:&#160; &#160;0-7<br/>Thread(s) per core:&#160; &#160; 2<br/>Core(s) per socket:&#160; &#160; 4<br/>Socket(s):&#160; &#160; &#160; &#160; &#160; &#160; &#160;1<br/>NUMA node(s):&#160; &#160; &#160; &#160; &#160; 1<br/>Vendor ID:&#160; &#160; &#160; &#160; &#160; &#160; &#160;GenuineIntel<br/>CPU family:&#160; &#160; &#160; &#160; &#160; &#160; 6<br/>Model:&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;42<br/>Model name:&#160; &#160; &#160; &#160; &#160; &#160; Intel(R) Core(TM) i7-2760QM CPU @ 2.40GHz<br/>Stepping:&#160; &#160; &#160; &#160; &#160; &#160; &#160; 7<br/>CPU MHz:&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;867.626<br/>CPU max MHz:&#160; &#160; &#160; &#160; &#160; &#160;3500.0000<br/>CPU min MHz:&#160; &#160; &#160; &#160; &#160; &#160;800.0000<br/>BogoMIPS:&#160; &#160; &#160; &#160; &#160; &#160; &#160; 4791.88<br/>Virtualization:&#160; &#160; &#160; &#160; VT-x<br/>L1d cache:&#160; &#160; &#160; &#160; &#160; &#160; &#160;32K<br/>L1i cache:&#160; &#160; &#160; &#160; &#160; &#160; &#160;32K<br/>L2 cache:&#160; &#160; &#160; &#160; &#160; &#160; &#160; 256K<br/>L3 cache:&#160; &#160; &#160; &#160; &#160; &#160; &#160; 6144K<br/>NUMA node0 CPU(s):&#160; &#160; &#160;0-7<br/>Flags:&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm epb tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts</p><p>what i have been done is to check ram memory with memtest86 and i got no errors or anything like that so i really doubt that would be the problem. This laptop is more then powerful enough to don&#039;t freeze with a lightweight OS as parrot...</p><p>i can&#039;t really work with a OS that freezes when i work in terminal.... (IT ONLY DOES WHILE RIGHT KLICKING IN&#160; TERMINAL) </p><p>does anyone have any ideas about what it could be and how to solve this? :(</p><p>the answer i got of a dude i talked to was that it probably is because of the hardware and that i could ask for help here to see if a more recent kernel that includes the hardware support for my computer exists</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1702" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=1702#p1702">2017-06-01 02:46:11</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9024">Consul</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-28</span></dd>
+<dd><span>Posts: 16</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Parrot OS freezing...need help</h3>
+<div class="postmsg">
+<p>Hello, I don&#039;t sure but maybe something about driver. Can you test this command and put here your information?</p><div class="codebox"><pre><code>lspci</code></pre></div><div class="codebox"><pre><code>dmesg</code></pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1714" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=1714#p1714">2017-06-01 05:05:02</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=54">qr0f1l3R</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Ambassador</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/54.jpg?m=1495471116" width="60" height="58" alt=""/></dd>
+<dd><span>From: Germany</span></dd>
+<dd><span>Registered: 2017-02-15</span></dd>
+<dd><span>Posts: 182</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Parrot OS freezing...need help</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>xErased wrote:</cite><blockquote><div><p>:00.0 Host bridge: Intel Corporation 2nd Generation Core Processor Family DRAM Controller (rev 09)<br/>00:01.0 PCI bridge: Intel Corporation Xeon E3-1200/2nd Generation Core Processor Family PCI Express Root Port (rev 09)<br/>...<br/>[20267.957122] nouveau 0000:01:00.0: DRM: suspending kernel object tree...</p></div></blockquote></div><p>Paste this on <a href="https://pastebin.com/" rel="nofollow">pastebin.com</a>. Then post the link here.</p>
+<p class="postedit"><em>Last edited by qr0f1l3R (2017-06-01 08:51:12)</em></p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Andre &quot;qr0f1l3R&quot; P. - Parrot Ambassador - Founder of the German community</p><p>GPG Fingerprint: 290A C689 2EB1 45F6 5E74 2C11 99B1 2DF0 E85A E4E6<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … F0E85AE4E6</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … F0E85AE4E6</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1718" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=1718#p1718">2017-06-01 05:47:17</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9093">xErased</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-31</span></dd>
+<dd><span>Posts: 9</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Parrot OS freezing...need help</h3>
+<div class="postmsg">
+<p>Thanks alot man you saved me!!!&#160; &#160;</p><p>here is the link https://pastebin.com/KpqQXS5Q</p>
+<p class="postedit"><em>Last edited by xErased (2017-06-01 05:47:40)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1719" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=1719#p1719">2017-06-01 06:19:14</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9093">xErased</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-31</span></dd>
+<dd><span>Posts: 9</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Parrot OS freezing...need help</h3>
+<div class="postmsg">
+<p>btw could you tell me how to solve this? as i said earlier i am pretty new to linux system. i just tried couple of commands i found in google but they didn&#039;t work really.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1720" class="blockpost roweven">
+<h2><span><span class="conr">#6</span> <a href="viewtopic.php?pid=1720#p1720">2017-06-01 09:07:36</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=54">qr0f1l3R</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Ambassador</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/54.jpg?m=1495471116" width="60" height="58" alt=""/></dd>
+<dd><span>From: Germany</span></dd>
+<dd><span>Registered: 2017-02-15</span></dd>
+<dd><span>Posts: 182</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Parrot OS freezing...need help</h3>
+<div class="postmsg">
+<p>I have unfortunately no solution for this problem!</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Andre &quot;qr0f1l3R&quot; P. - Parrot Ambassador - Founder of the German community</p><p>GPG Fingerprint: 290A C689 2EB1 45F6 5E74 2C11 99B1 2DF0 E85A E4E6<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … F0E85AE4E6</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … F0E85AE4E6</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1727" class="blockpost rowodd">
+<h2><span><span class="conr">#7</span> <a href="viewtopic.php?pid=1727#p1727">2017-06-01 12:02:17</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8964">Michael Brahms</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/8964.jpg?m=1496145248" width="60" height="60" alt=""/></dd>
+<dd><span>Registered: 2017-05-24</span></dd>
+<dd><span>Posts: 27</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Parrot OS freezing...need help</h3>
+<div class="postmsg">
+<p>Seems like an architecture conflict.</p><p>Question: Which ISO did you install? 64 or 32 bit? </p><p>If you installed 64 bit then I would recommend to try and install a 32 bit version. </p><p>See? this is why i prefer older hardware over this new stuff. Installation always works and never any troubles.</p><p>Anyway, try 32 bit. :)</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Encourage and teach others to be better at Linux stuff. Don&#039;t talk &#039;em down but help them. We are all in the same boat.</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1768" class="blockpost roweven">
+<h2><span><span class="conr">#8</span> <a href="viewtopic.php?pid=1768#p1768">2017-06-02 04:40:19</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9093">xErased</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-31</span></dd>
+<dd><span>Posts: 9</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Parrot OS freezing...need help</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>Michael Brahms wrote:</cite><blockquote><div><p>Seems like an architecture conflict.</p><p>Question: Which ISO did you install? 64 or 32 bit? </p><p>If you installed 64 bit then I would recommend to try and install a 32 bit version. </p><p>See? this is why i prefer older hardware over this new stuff. Installation always works and never any troubles.</p><p>Anyway, try 32 bit. :)</p></div></blockquote></div><br/><br/><p>Yeah man but i don&#039;t really want to have 32 bit since i am used with 64 :) also 32 can use max 4 gb and i have 16 gb of ram thanks for advice anyways i will get to parrot page and see how i can fix that. Seems like as long i don&#039;t klick the right mouse button in terminal it doesn&#039;t freeze so i will survive till i find the solution :) i can do copy/paste option in &quot;edit&quot; i just got to parrot but i am kinda in love with this system...it is much better and less problematic then kali :)</p>
+<p class="postedit"><em>Last edited by xErased (2017-06-02 04:42:10)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1769" class="blockpost rowodd">
+<h2><span><span class="conr">#9</span> <a href="viewtopic.php?pid=1769#p1769">2017-06-02 04:45:41</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9093">xErased</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-31</span></dd>
+<dd><span>Posts: 9</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Parrot OS freezing...need help</h3>
+<div class="postmsg">
+<p>and honestly one more thing i like about parrot is that parrot people/society seems to be much more helpful serious and nicer then kali...i get more help with parrot of serious people then kali pages :)</p>
+<p class="postedit"><em>Last edited by xErased (2017-06-02 04:47:28)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1798" class="blockpost roweven">
+<h2><span><span class="conr">#10</span> <a href="viewtopic.php?pid=1798#p1798">2017-06-03 05:32:00</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=54">qr0f1l3R</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Ambassador</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/54.jpg?m=1495471116" width="60" height="58" alt=""/></dd>
+<dd><span>From: Germany</span></dd>
+<dd><span>Registered: 2017-02-15</span></dd>
+<dd><span>Posts: 182</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Parrot OS freezing...need help</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>xErased wrote:</cite><blockquote><div><p>and honestly one more thing i like about parrot is that parrot people/society seems to be much more helpful serious and nicer then kali...i get more help with parrot of serious people then kali pages :)</p></div></blockquote></div><p>Your welcome :)</p>
+<p class="postedit"><em>Last edited by qr0f1l3R (2017-06-03 05:32:19)</em></p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Andre &quot;qr0f1l3R&quot; P. - Parrot Ambassador - Founder of the German community</p><p>GPG Fingerprint: 290A C689 2EB1 45F6 5E74 2C11 99B1 2DF0 E85A E4E6<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … F0E85AE4E6</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … F0E85AE4E6</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=4">General Questions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=469">Parrot OS freezing...need help</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4" selected="selected">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=469&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div> </div></div>
+</div>
+</body>
+</html>

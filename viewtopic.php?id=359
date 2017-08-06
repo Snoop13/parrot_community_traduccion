@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>UNMET DEPENDENCIES in parrot 3.6 / General Questions / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=359" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=359&amp;type=atom" title="Atom topic feed"/>
+ 
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div> </div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=4">General Questions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=359">UNMET DEPENDENCIES in parrot 3.6</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p1262" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=1262#p1262">2017-05-17 07:14:20</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8864">Harry_Root</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-17</span></dd>
+<dd><span>Posts: 11</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>UNMET DEPENDENCIES in parrot 3.6</h3>
+<div class="postmsg">
+<p>hi i have tried some of solutions from internet but of no vain.<br/>Help me how to go about it.</p><p> $sudo apt-get clean<br/>┌─[<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="cca4adbebeb58cbcadbebea3b8">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>]─[~]<br/>└──╼ $sudo apt-get -f install<br/>Reading package lists... Done<br/>Building dependency tree&#160; &#160; &#160; &#160;<br/>Reading state information... Done<br/>Correcting dependencies... Done<br/>The following packages were automatically installed and are no longer required:<br/>&#160; python3-advancedhttpserver python3-boltons python3-editor python3-geoip2<br/>&#160; python3-geojson python3-graphene python3-graphene-sqlalchemy<br/>&#160; python3-graphql-core python3-graphql-relay python3-icalendar python3-iso8601<br/>&#160; python3-mako python3-markupsafe python3-maxminddb python3-msgpack<br/>&#160; python3-pampy python3-paramiko python3-pluginbase python3-promise<br/>&#160; python3-psycopg2 python3-pyotp python3-singledispatch python3-sqlalchemy<br/>&#160; python3-termcolor python3-tzlocal python3-websocket python3-xlsxwriter<br/>Use &#039;sudo apt autoremove&#039; to remove them.<br/>The following additional packages will be installed:<br/>&#160; jsql-injection linux-headers-4.9.0-parrot25-amd64<br/>&#160; linux-headers-4.9.0-parrot25-common linux-image-4.9.0-parrot25-amd64<br/>Suggested packages:<br/>&#160; linux-doc-4.9 debian-kernel-handbook<br/>The following NEW packages will be installed:<br/>&#160; jsql-injection linux-headers-4.9.0-parrot25-amd64<br/>&#160; linux-headers-4.9.0-parrot25-common linux-image-4.9.0-parrot25-amd64<br/>0 upgraded, 4 newly installed, 0 to remove and 2 not upgraded.<br/>3 not fully installed or removed.<br/>Need to get 47.6 MB of archives.<br/>After this operation, 240 MB of additional disk space will be used.<br/>Do you want to continue? [Y/n] Y<br/>Err:1 http://ftp.cc.uoc.gr/mirrors/linux/parrot parrot/main amd64 linux-headers-4.9.0-parrot25-common all 4.9.25-1parrot25<br/>&#160; 404&#160; Not Found [IP: 147.52.159.12 80]<br/>Err:2 http://ftp.cc.uoc.gr/mirrors/linux/parrot parrot/main amd64 linux-headers-4.9.0-parrot25-amd64 amd64 4.9.25-1parrot25<br/>&#160; 404&#160; Not Found [IP: 147.52.159.12 80]<br/>Err:3 http://ftp.cc.uoc.gr/mirrors/linux/parrot parrot/main amd64 linux-image-4.9.0-parrot25-amd64 amd64 4.9.25-1parrot25<br/>&#160; 404&#160; Not Found [IP: 147.52.159.12 80]<br/>Err:4 http://ftp.cc.uoc.gr/mirrors/linux/parrot parrot/main amd64 jsql-injection all 0.79-0kali2<br/>&#160; 404&#160; Not Found [IP: 147.52.159.12 80]<br/>E: Failed to fetch http://ftp.cc.uoc.gr/mirrors/linux/parrot/pool/main/l/linux/linux-headers-4.9.0-parrot25-common_4.9.25-1parrot25_all.deb&#160; 404&#160; Not Found [IP: 147.52.159.12 80]<br/>E: Failed to fetch http://ftp.cc.uoc.gr/mirrors/linux/parrot/pool/main/l/linux/linux-headers-4.9.0-parrot25-amd64_4.9.25-1parrot25_amd64.deb&#160; 404&#160; Not Found [IP: 147.52.159.12 80]<br/>E: Failed to fetch http://ftp.cc.uoc.gr/mirrors/linux/parrot/pool/main/l/linux/linux-image-4.9.0-parrot25-amd64_4.9.25-1parrot25_amd64.deb&#160; 404&#160; Not Found [IP: 147.52.159.12 80]<br/>E: Failed to fetch http://ftp.cc.uoc.gr/mirrors/linux/parrot/pool/main/j/jsql/jsql-injection_0.79-0kali2_all.deb&#160; 404&#160; Not Found [IP: 147.52.159.12 80]<br/>E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1266" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=1266#p1266">2017-05-17 12:40:14</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=23">vzz1x2</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/23.png?m=1486864625" width="60" height="60" alt=""/></dd>
+<dd><span>From: Ireland</span></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 163</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: UNMET DEPENDENCIES in parrot 3.6</h3>
+<div class="postmsg">
+<p>have you update first? </p><p>sudo apt-get update</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><a href="/cdn-cgi/l/email-protection#1f7c737e6a7b76705f7b7e6b7e7c706d317c7072317e6d"><span class="__cf_email__" data-cfemail="1c7f707d697875735c787d687d7f736e327f7371327d6e">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a><br/><a href="http://pgp.key-server.io/pks/lookup?op=get&amp;search=0x8266F5857EC82A4C" rel="nofollow">PGP Key</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1292" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=1292#p1292">2017-05-19 03:46:03</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8864">Harry_Root</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-17</span></dd>
+<dd><span>Posts: 11</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: UNMET DEPENDENCIES in parrot 3.6</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>vzz1x2 wrote:</cite><blockquote><div><p>have you update first? </p><p>sudo apt-get update</p></div></blockquote></div><br/><p>yes i updated. this is what i get after i run some of the commands:</p><br/><p>┌─[<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="660e0714141f26160714140912">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>]─[~]<br/>└──╼ $sudo apt-get upgrade<br/>[sudo] password for harry: <br/>Reading package lists... Done<br/>Building dependency tree&#160; &#160; &#160; &#160;<br/>Reading state information... Done<br/>You might want to run &#039;apt --fix-broken install&#039; to correct these.<br/>The following packages have unmet dependencies:<br/> jsql : Depends: jsql-injection but it is not installed<br/> linux-headers-amd64 : Depends: linux-headers-4.9.0-parrot25-amd64 but it is not installed<br/> linux-image-amd64 : Depends: linux-image-4.9.0-parrot25-amd64 but it is not installed<br/>E: Unmet dependencies. Try &#039;apt --fix-broken install&#039; with no packages (or specify a solution).<br/>┌─[✗]─[<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="99f1f8ebebe0d9e9f8ebebf6ed">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>]─[~]<br/>└──╼ $uname -a<br/>Linux parrot 4.9.0-parrot18-amd64 #1 SMP Parrot 4.9.18-1parrot18 (2017-04-23) x86_64 GNU/Linux</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1293" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=1293#p1293">2017-05-19 06:08:23</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8864">Harry_Root</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-17</span></dd>
+<dd><span>Posts: 11</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: UNMET DEPENDENCIES in parrot 3.6</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>ggwtfmate wrote:</cite><blockquote><div><p>Had the same problem earlier today with the same mirror. Seems like UoC mirror is down or whatever. What i did is i changed update mirror through synaptic and that way i could move on. (I used the italian mirrors).</p></div></blockquote></div><p>i removed broken packages and now i dont get unmet dependencies error.<br/>i think also that uoc mirror is down.&#160; so what is the address for alternative mirrors?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=4">General Questions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=359">UNMET DEPENDENCIES in parrot 3.6</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4" selected="selected">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=359&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div> </div></div>
+</div>
+<script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+</html>

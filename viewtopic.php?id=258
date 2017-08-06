@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Clean install Apt-get install problems on Pi3 B / General Questions / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=258" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=258&amp;type=atom" title="Atom topic feed"/>
+ 
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div> </div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=4">General Questions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=258">Clean install Apt-get install problems on Pi3 B</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p830" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=830#p830">2017-04-07 00:46:12</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7982">Champg</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-04-07</span></dd>
+<dd><span>Posts: 2</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Clean install Apt-get install problems on Pi3 B</h3>
+<div class="postmsg">
+<p>Just recently installed the parrot os on a raspberry pi 3 model B and tried installing synapse from the parrot repos. After running apt-get install or apt install i get an error for every package that there was a file sum mishmatch. I have also tried to fix the problem running apt update and with --fix-missing. What could be the problem?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p850" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=850#p850">2017-04-08 21:22:44</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=3856">gnugr</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-02-28</span></dd>
+<dd><span>Posts: 31</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Clean install Apt-get install problems on Pi3 B</h3>
+<div class="postmsg">
+<p>Hi,<br/>First check with: &quot;apt-cache policy synapse&quot; to see if it&#039;s native package. if you see that it&#039;s a native package do: &quot;apt -f install&quot; to see if apt wants to remove it. If yes follow what apt suggests. Then do: &quot;apt clean, apt autoclean, apt autoremove&quot;. The --fix-missing string use it for &quot;apt dist-upgrade --fix-missing&quot;. To check if everything is OK use: &quot;dpkg --configure -a&quot;.<br/>To install apt-cache do &quot;apt install apt-cacher&quot; and select &quot;daemon&quot; when ask.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>GPG FINGERPRINT: 868D EF24 37CC E9F5 C5DC&#160; 63B7 5E57 25A1 FB41 2219<br/>GPG KEY: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x868DEF2437CCE9F5C5DC63B75E5725A1FB412219" rel="nofollow">https://pgp.mit.edu/pks/lookup?op=vinde … A1FB412219</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p867" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=867#p867">2017-04-10 16:28:21</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7982">Champg</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-04-07</span></dd>
+<dd><span>Posts: 2</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Clean install Apt-get install problems on Pi3 B</h3>
+<div class="postmsg">
+<p>Unfortunatley everything you suggested there failed. That last command you suggested was interesting too I get a message saying:<br/>┌─[<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="5d2f3232291d2d3c2f2f3229">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>]─[/home/parrot]<br/>└──╼ #apt install apt-cacher<br/>Reading package lists... Done<br/>Building dependency tree&#160; &#160; &#160; &#160;<br/>Reading state information... Done<br/>The following additional packages will be installed:<br/>&#160; ed libberkeleydb-perl libcompress-raw-lzma-perl libfile-copy-recursive-perl<br/>&#160; libfilesys-df-perl libio-compress-lzma-perl libio-interface-perl<br/>&#160; libipc-shareable-perl libnetaddr-ip-perl libsys-syscall-perl<br/>&#160; libwww-curl-perl update-inetd<br/>Suggested packages:<br/>&#160; libfreezethaw-perl libcurl4-gnutls-dev<br/>The following NEW packages will be installed:<br/>&#160; apt-cacher ed libberkeleydb-perl libcompress-raw-lzma-perl<br/>&#160; libfile-copy-recursive-perl libfilesys-df-perl libio-compress-lzma-perl<br/>&#160; libio-interface-perl libipc-shareable-perl libnetaddr-ip-perl<br/>&#160; libsys-syscall-perl libwww-curl-perl update-inetd<br/>0 upgraded, 13 newly installed, 0 to remove and 0 not upgraded.<br/>Need to get 625 kB of archives.<br/>After this operation, 1915 kB of additional disk space will be used.<br/>Do you want to continue? [Y/n] y<br/>Get:1 http://archive.parrotsec.org/parrot stable/main armhf libwww-curl-perl armhf 4.17-3 [56.0 kB]<br/>Err:1 http://archive.parrotsec.org/parrot stable/main armhf libwww-curl-perl armhf 4.17-3<br/>&#160; Hash Sum mismatch<br/>&#160; Hashes of expected file:<br/>&#160; &#160;- SHA256:36a0c3c2a7e540be6dbd0df74ae2cf541679cd9dfd6b1adebfee2693fbb309f1<br/>&#160; &#160;- SHA1:42a8aebc52c86345b84a797933c94a70b1841546 [weak]<br/>&#160; &#160;- MD5Sum:92e4db1737161276bf2a2c63d6b63b36 [weak]<br/>&#160; &#160;- Filesize:56000 [weak]<br/>&#160; Hashes of received file:<br/>&#160; &#160;- SHA256:ae3ae1611ce8ef844ff00d8b47806795354f575cc1a2ae0df00f01620ebfb556<br/>&#160; &#160;- SHA1:a2c5f8bff86945b7c27fe546688cec5570c8802a [weak]<br/>&#160; &#160;- MD5Sum:6a9ce54872bf93e88417e504b144e628 [weak]<br/>&#160; &#160;- Filesize:3522 [weak]<br/>&#160; Last modification reported: Tue, 20 Sep 2016 21:56:33 +0000<br/>Get:2 http://archive.parrotsec.org/parrot stable/main armhf ed armhf 1.10-2.1 [52.1 kB]<br/>Ign:2 http://archive.parrotsec.org/parrot stable/main armhf ed armhf 1.10-2.1&#160; <br/>Get:3 http://archive.parrotsec.org/parrot stable/main armhf libio-interface-perl armhf 1.09-1+b2 [26.5 kB]<br/>Ign:3 http://archive.parrotsec.org/parrot stable/main armhf libio-interface-perl armhf 1.09-1+b2<br/>Get:4 http://archive.parrotsec.org/parrot stable/main armhf libfilesys-df-perl armhf 0.92-6+b1 [12.9 kB]<br/>Ign:4 http://archive.parrotsec.org/parrot stable/main armhf libfilesys-df-perl armhf 0.92-6+b1<br/>Get:5 http://archive.parrotsec.org/parrot stable/main armhf libnetaddr-ip-perl armhf 4.079+dfsg-1+b1 [103 kB]<br/>Ign:5 http://archive.parrotsec.org/parrot stable/main armhf libnetaddr-ip-perl armhf 4.079+dfsg-1+b1<br/>Get:6 http://archive.parrotsec.org/parrot stable/main armhf libfile-copy-recursive-perl all 0.38-1 [20.6 kB]<br/>Ign:6 http://archive.parrotsec.org/parrot stable/main armhf libfile-copy-recursive-perl all 0.38-1<br/>Get:7 http://archive.parrotsec.org/parrot stable/main armhf update-inetd all 4.43 [21.8 kB]<br/>Ign:7 http://archive.parrotsec.org/parrot stable/main armhf update-inetd all 4.43<br/>Get:8 http://archive.parrotsec.org/parrot stable/main armhf libsys-syscall-perl armhf 0.25-6 [9892 B]<br/>Ign:8 http://archive.parrotsec.org/parrot stable/main armhf libsys-syscall-perl armhf 0.25-6<br/>Get:9 http://archive.parrotsec.org/parrot stable/main armhf libipc-shareable-perl all 0.61-1 [35.4 kB]<br/>Ign:9 http://archive.parrotsec.org/parrot stable/main armhf libipc-shareable-perl all 0.61-1<br/>Get:10 http://archive.parrotsec.org/parrot stable/main armhf apt-cacher all 1.7.13 [102 kB]<br/>Ign:10 http://archive.parrotsec.org/parrot stable/main armhf apt-cacher all 1.7.13<br/>Get:11 http://archive.parrotsec.org/parrot stable/main armhf libberkeleydb-perl armhf 0.55-1+b2 [110 kB]<br/>Ign:11 http://archive.parrotsec.org/parrot stable/main armhf libberkeleydb-perl armhf 0.55-1+b2<br/>Get:1 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf libwww-curl-perl armhf 4.17-3 [56.0 kB]<br/>Err:1 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf libwww-curl-perl armhf 4.17-3<br/>&#160; Hash Sum mismatch<br/>&#160; Hashes of expected file:<br/>&#160; &#160;- SHA256:36a0c3c2a7e540be6dbd0df74ae2cf541679cd9dfd6b1adebfee2693fbb309f1<br/>&#160; &#160;- SHA1:42a8aebc52c86345b84a797933c94a70b1841546 [weak]<br/>&#160; &#160;- MD5Sum:92e4db1737161276bf2a2c63d6b63b36 [weak]<br/>&#160; &#160;- Filesize:56000 [weak]<br/>&#160; Hashes of received file:<br/>&#160; &#160;- SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160;- SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160;- MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160;- Filesize:3523 [weak]<br/>&#160; Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>Get:2 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf ed armhf 1.10-2.1 [52.1 kB]<br/>Err:2 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf ed armhf 1.10-2.1<br/>&#160; Hash Sum mismatch<br/>&#160; Hashes of expected file:<br/>&#160; &#160;- SHA256:5e40c1bc28c2f2b653d1966367aef50670a783c7ea7a6e64c29f6cd64511aaa8<br/>&#160; &#160;- SHA1:143df27af7a5d187eafaee50b1f237e86123e576 [weak]<br/>&#160; &#160;- MD5Sum:2674fcbde54db9ae447bea611fa859e9 [weak]<br/>&#160; &#160;- Filesize:52098 [weak]<br/>&#160; Hashes of received file:<br/>&#160; &#160;- SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160;- SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160;- MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160;- Filesize:3523 [weak]<br/>&#160; Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>Get:3 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf libio-interface-perl armhf 1.09-1+b2 [26.5 kB]<br/>Err:3 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf libio-interface-perl armhf 1.09-1+b2<br/>&#160; Hash Sum mismatch<br/>&#160; Hashes of expected file:<br/>&#160; &#160;- SHA256:a3a77215cef79b99708255e0cf70300d442f944f8e8b053caa45ce0767380c94<br/>&#160; &#160;- SHA1:cbe8ad068377889d47fcd312480a6d18116b795b [weak]<br/>&#160; &#160;- MD5Sum:cd37cd1d72cbe96e192eee7756fa3d4f [weak]<br/>&#160; &#160;- Filesize:26454 [weak]<br/>&#160; Hashes of received file:<br/>&#160; &#160;- SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160;- SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160;- MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160;- Filesize:3523 [weak]<br/>&#160; Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>Get:4 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf libfilesys-df-perl armhf 0.92-6+b1 [12.9 kB]<br/>Err:4 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf libfilesys-df-perl armhf 0.92-6+b1<br/>&#160; Hash Sum mismatch<br/>&#160; Hashes of expected file:<br/>&#160; &#160;- SHA256:21d26edb08f314faf33983ee0ef2ed93b186d3fb28701127597900ee916fd9f7<br/>&#160; &#160;- SHA1:fcde0ee83e5919de922de4b4b241b13927267630 [weak]<br/>&#160; &#160;- MD5Sum:21062854df8b0bc12bb5bac39734e0f3 [weak]<br/>&#160; &#160;- Filesize:12882 [weak]<br/>&#160; Hashes of received file:<br/>&#160; &#160;- SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160;- SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160;- MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160;- Filesize:3523 [weak]<br/>&#160; Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>Get:5 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf libnetaddr-ip-perl armhf 4.079+dfsg-1+b1 [103 kB]<br/>Err:5 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf libnetaddr-ip-perl armhf 4.079+dfsg-1+b1<br/>&#160; Hash Sum mismatch<br/>&#160; Hashes of expected file:<br/>&#160; &#160;- SHA256:cdd7307485a5efd91a6136204efe6d063c9f7a4dd83df1342bae9e8b9ec326e4<br/>&#160; &#160;- SHA1:a6e42bd55995185873182502e8278dece95a9a38 [weak]<br/>&#160; &#160;- MD5Sum:97df706c09cf8e480aa997792b0fbfc9 [weak]<br/>&#160; &#160;- Filesize:102512 [weak]<br/>&#160; Hashes of received file:<br/>&#160; &#160;- SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160;- SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160;- MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160;- Filesize:3523 [weak]<br/>&#160; Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>Get:6 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf libfile-copy-recursive-perl all 0.38-1 [20.6 kB]<br/>Err:6 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf libfile-copy-recursive-perl all 0.38-1<br/>&#160; Hash Sum mismatch<br/>&#160; Hashes of expected file:<br/>&#160; &#160;- SHA256:022eb490b0fbf721fa321725e158a040949479c09c2f9c910c19589a1e57bc8f<br/>&#160; &#160;- SHA1:c0ac443726800384d9b2d97c3575f0338a5fed95 [weak]<br/>&#160; &#160;- MD5Sum:6637082afadd2ce1536e0496da1c70ae [weak]<br/>&#160; &#160;- Filesize:20554 [weak]<br/>&#160; Hashes of received file:<br/>&#160; &#160;- SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160;- SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160;- MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160;- Filesize:3523 [weak]<br/>&#160; Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>Get:7 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf update-inetd all 4.43 [21.8 kB]<br/>Err:7 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf update-inetd all 4.43<br/>&#160; Hash Sum mismatch<br/>&#160; Hashes of expected file:<br/>&#160; &#160;- SHA256:69954fa886ab62eb2fbca1add9e237a9b4e19d1c1e0b91b148f7dbf3695cf048<br/>&#160; &#160;- SHA1:f058444df5a6d2c36dabb4ffca6005cc0ca6d798 [weak]<br/>&#160; &#160;- MD5Sum:2609248fac6590aada4735eda4fb1b9b [weak]<br/>&#160; &#160;- Filesize:21760 [weak]<br/>&#160; Hashes of received file:<br/>&#160; &#160;- SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160;- SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160;- MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160;- Filesize:3523 [weak]<br/>&#160; Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>Get:8 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf libsys-syscall-perl armhf 0.25-6 [9892 B]<br/>Err:8 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf libsys-syscall-perl armhf 0.25-6<br/>&#160; Hash Sum mismatch<br/>&#160; Hashes of expected file:<br/>&#160; &#160;- SHA256:f59184196c53397d57ead3adece2b91df18bc1d9ca15503a76655e24939880e5<br/>&#160; &#160;- SHA1:0618776c33f4bff0108815538031f05b6631768b [weak]<br/>&#160; &#160;- MD5Sum:e66a1f0e52625dca6ed4ca2d8e90e5fc [weak]<br/>&#160; &#160;- Filesize:9892 [weak]<br/>&#160; Hashes of received file:<br/>&#160; &#160;- SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160;- SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160;- MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160;- Filesize:3523 [weak]<br/>&#160; Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>Get:9 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf libipc-shareable-perl all 0.61-1 [35.4 kB]<br/>Err:9 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf libipc-shareable-perl all 0.61-1<br/>&#160; Hash Sum mismatch<br/>&#160; Hashes of expected file:<br/>&#160; &#160;- SHA256:d85814500afce3221580d90057cbb97eb78cd4d73310f83bf3001a696a2b9382<br/>&#160; &#160;- SHA1:cf090123affe0ff0362912ca0498c952dae43b3d [weak]<br/>&#160; &#160;- MD5Sum:496d0f39eb261452170918a7c004995c [weak]<br/>&#160; &#160;- Filesize:35430 [weak]<br/>&#160; Hashes of received file:<br/>&#160; &#160;- SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160;- SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160;- MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160;- Filesize:3523 [weak]<br/>&#160; Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>Get:10 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf apt-cacher all 1.7.13 [102 kB]<br/>Err:10 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf apt-cacher all 1.7.13<br/>&#160; Hash Sum mismatch<br/>&#160; Hashes of expected file:<br/>&#160; &#160;- SHA256:84e52728728fef80c73d10c0e914427619298b3708d36f59e7df34a59dd129ce<br/>&#160; &#160;- SHA1:e3184b1ee0824170d4f9e14cf4928e18d72e72b1 [weak]<br/>&#160; &#160;- MD5Sum:893bec4b85cd252677f004d3417cef72 [weak]<br/>&#160; &#160;- Filesize:102096 [weak]<br/>&#160; Hashes of received file:<br/>&#160; &#160;- SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160;- SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160;- MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160;- Filesize:3523 [weak]<br/>&#160; Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>Get:11 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf libberkeleydb-perl armhf 0.55-1+b2 [110 kB]<br/>Err:11 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf libberkeleydb-perl armhf 0.55-1+b2<br/>&#160; Hash Sum mismatch<br/>&#160; Hashes of expected file:<br/>&#160; &#160;- SHA256:1535a989d666ccc2dbd7a292c61e970f5a794fb08157eaaf02c239e8d4f67891<br/>&#160; &#160;- SHA1:1e75dc4deebee82739544c67410f32e1b25f24af [weak]<br/>&#160; &#160;- MD5Sum:e138716c8be5aee7d9fafd8218a75094 [weak]<br/>&#160; &#160;- Filesize:110082 [weak]<br/>&#160; Hashes of received file:<br/>&#160; &#160;- SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160;- SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160;- MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160;- Filesize:3523 [weak]<br/>&#160; Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>Get:12 http://archive.parrotsec.org/parrot stable/main armhf libcompress-raw-lzma-perl armhf 2.069-2 [31.0 kB]<br/>Err:12 http://archive.parrotsec.org/parrot stable/main armhf libcompress-raw-lzma-perl armhf 2.069-2<br/>&#160; Hash Sum mismatch<br/>&#160; Hashes of expected file:<br/>&#160; &#160;- SHA256:cae36b899d5fa9b9f8451fdca32827150f783c8011e8fb7f86f9e365d73ba448<br/>&#160; &#160;- SHA1:1172a4fc33eff274599d393f56d8ca47a1b4cdb9 [weak]<br/>&#160; &#160;- MD5Sum:80f0f750a88fb0978369bf5efd49bbc6 [weak]<br/>&#160; &#160;- Filesize:31040 [weak]<br/>&#160; Hashes of received file:<br/>&#160; &#160;- SHA256:ae3ae1611ce8ef844ff00d8b47806795354f575cc1a2ae0df00f01620ebfb556<br/>&#160; &#160;- SHA1:a2c5f8bff86945b7c27fe546688cec5570c8802a [weak]<br/>&#160; &#160;- MD5Sum:6a9ce54872bf93e88417e504b144e628 [weak]<br/>&#160; &#160;- Filesize:3522 [weak]<br/>&#160; Last modification reported: Tue, 20 Sep 2016 21:56:33 +0000<br/>Get:12 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf libcompress-raw-lzma-perl armhf 2.069-2 [31.0 kB]<br/>Err:12 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf libcompress-raw-lzma-perl armhf 2.069-2<br/>&#160; Hash Sum mismatch<br/>&#160; Hashes of expected file:<br/>&#160; &#160;- SHA256:cae36b899d5fa9b9f8451fdca32827150f783c8011e8fb7f86f9e365d73ba448<br/>&#160; &#160;- SHA1:1172a4fc33eff274599d393f56d8ca47a1b4cdb9 [weak]<br/>&#160; &#160;- MD5Sum:80f0f750a88fb0978369bf5efd49bbc6 [weak]<br/>&#160; &#160;- Filesize:31040 [weak]<br/>&#160; Hashes of received file:<br/>&#160; &#160;- SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160;- SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160;- MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160;- Filesize:3523 [weak]<br/>&#160; Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>Get:13 http://archive.parrotsec.org/parrot stable/main armhf libio-compress-lzma-perl all 2.069-2 [44.1 kB]<br/>Err:13 http://archive.parrotsec.org/parrot stable/main armhf libio-compress-lzma-perl all 2.069-2<br/>&#160; Hash Sum mismatch<br/>&#160; Hashes of expected file:<br/>&#160; &#160;- SHA256:77993f056cad5f0ee9766a4fad1f601d7301a6cb03d7133d9f4c0cabe22c0226<br/>&#160; &#160;- SHA1:8050bdb2ab981d761305fdb24b76f839bf1d2a9d [weak]<br/>&#160; &#160;- MD5Sum:18b8b17eed23bbe38401be28fe21fe3d [weak]<br/>&#160; &#160;- Filesize:44078 [weak]<br/>&#160; Hashes of received file:<br/>&#160; &#160;- SHA256:ae3ae1611ce8ef844ff00d8b47806795354f575cc1a2ae0df00f01620ebfb556<br/>&#160; &#160;- SHA1:a2c5f8bff86945b7c27fe546688cec5570c8802a [weak]<br/>&#160; &#160;- MD5Sum:6a9ce54872bf93e88417e504b144e628 [weak]<br/>&#160; &#160;- Filesize:3522 [weak]<br/>&#160; Last modification reported: Tue, 20 Sep 2016 21:56:33 +0000<br/>Get:13 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf libio-compress-lzma-perl all 2.069-2 [44.1 kB]<br/>Err:13 http://rwth-aachen-euro.archive.parrotsec.org/parrotsec parrot/main armhf libio-compress-lzma-perl all 2.069-2<br/>&#160; Hash Sum mismatch<br/>&#160; Hashes of expected file:<br/>&#160; &#160;- SHA256:77993f056cad5f0ee9766a4fad1f601d7301a6cb03d7133d9f4c0cabe22c0226<br/>&#160; &#160;- SHA1:8050bdb2ab981d761305fdb24b76f839bf1d2a9d [weak]<br/>&#160; &#160;- MD5Sum:18b8b17eed23bbe38401be28fe21fe3d [weak]<br/>&#160; &#160;- Filesize:44078 [weak]<br/>&#160; Hashes of received file:<br/>&#160; &#160;- SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160;- SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160;- MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160;- Filesize:3523 [weak]<br/>&#160; Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>Fetched 91.6 kB in 2min 21s (647 B/s)&#160; &#160; &#160; &#160; &#160; &#160; &#160;<br/>E: Failed to fetch http://rwth-aachen-euro.archive.parrotsec.org/parrotsec/pool/main/libw/libwww-curl-perl/libwww-curl-perl_4.17-3_armhf.deb&#160; Hash Sum mismatch<br/>&#160; &#160;Hashes of expected file:<br/>&#160; &#160; - SHA256:36a0c3c2a7e540be6dbd0df74ae2cf541679cd9dfd6b1adebfee2693fbb309f1<br/>&#160; &#160; - SHA1:42a8aebc52c86345b84a797933c94a70b1841546 [weak]<br/>&#160; &#160; - MD5Sum:92e4db1737161276bf2a2c63d6b63b36 [weak]<br/>&#160; &#160; - Filesize:56000 [weak]<br/>&#160; &#160;Hashes of received file:<br/>&#160; &#160; - SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160; - SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160; - MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160; - Filesize:3523 [weak]<br/>&#160; &#160;Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>E: Failed to fetch http://rwth-aachen-euro.archive.parrotsec.org/parrotsec/pool/main/e/ed/ed_1.10-2.1_armhf.deb&#160; Hash Sum mismatch<br/>&#160; &#160;Hashes of expected file:<br/>&#160; &#160; - SHA256:5e40c1bc28c2f2b653d1966367aef50670a783c7ea7a6e64c29f6cd64511aaa8<br/>&#160; &#160; - SHA1:143df27af7a5d187eafaee50b1f237e86123e576 [weak]<br/>&#160; &#160; - MD5Sum:2674fcbde54db9ae447bea611fa859e9 [weak]<br/>&#160; &#160; - Filesize:52098 [weak]<br/>&#160; &#160;Hashes of received file:<br/>&#160; &#160; - SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160; - SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160; - MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160; - Filesize:3523 [weak]<br/>&#160; &#160;Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>E: Failed to fetch http://rwth-aachen-euro.archive.parrotsec.org/parrotsec/pool/main/libi/libio-interface-perl/libio-interface-perl_1.09-1+b2_armhf.deb&#160; Hash Sum mismatch<br/>&#160; &#160;Hashes of expected file:<br/>&#160; &#160; - SHA256:a3a77215cef79b99708255e0cf70300d442f944f8e8b053caa45ce0767380c94<br/>&#160; &#160; - SHA1:cbe8ad068377889d47fcd312480a6d18116b795b [weak]<br/>&#160; &#160; - MD5Sum:cd37cd1d72cbe96e192eee7756fa3d4f [weak]<br/>&#160; &#160; - Filesize:26454 [weak]<br/>&#160; &#160;Hashes of received file:<br/>&#160; &#160; - SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160; - SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160; - MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160; - Filesize:3523 [weak]<br/>&#160; &#160;Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>E: Failed to fetch http://rwth-aachen-euro.archive.parrotsec.org/parrotsec/pool/main/libf/libfilesys-df-perl/libfilesys-df-perl_0.92-6+b1_armhf.deb&#160; Hash Sum mismatch<br/>&#160; &#160;Hashes of expected file:<br/>&#160; &#160; - SHA256:21d26edb08f314faf33983ee0ef2ed93b186d3fb28701127597900ee916fd9f7<br/>&#160; &#160; - SHA1:fcde0ee83e5919de922de4b4b241b13927267630 [weak]<br/>&#160; &#160; - MD5Sum:21062854df8b0bc12bb5bac39734e0f3 [weak]<br/>&#160; &#160; - Filesize:12882 [weak]<br/>&#160; &#160;Hashes of received file:<br/>&#160; &#160; - SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160; - SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160; - MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160; - Filesize:3523 [weak]<br/>&#160; &#160;Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>E: Failed to fetch http://rwth-aachen-euro.archive.parrotsec.org/parrotsec/pool/main/libn/libnetaddr-ip-perl/libnetaddr-ip-perl_4.079+dfsg-1+b1_armhf.deb&#160; Hash Sum mismatch<br/>&#160; &#160;Hashes of expected file:<br/>&#160; &#160; - SHA256:cdd7307485a5efd91a6136204efe6d063c9f7a4dd83df1342bae9e8b9ec326e4<br/>&#160; &#160; - SHA1:a6e42bd55995185873182502e8278dece95a9a38 [weak]<br/>&#160; &#160; - MD5Sum:97df706c09cf8e480aa997792b0fbfc9 [weak]<br/>&#160; &#160; - Filesize:102512 [weak]<br/>&#160; &#160;Hashes of received file:<br/>&#160; &#160; - SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160; - SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160; - MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160; - Filesize:3523 [weak]<br/>&#160; &#160;Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>E: Failed to fetch http://rwth-aachen-euro.archive.parrotsec.org/parrotsec/pool/main/libf/libfile-copy-recursive-perl/libfile-copy-recursive-perl_0.38-1_all.deb&#160; Hash Sum mismatch<br/>&#160; &#160;Hashes of expected file:<br/>&#160; &#160; - SHA256:022eb490b0fbf721fa321725e158a040949479c09c2f9c910c19589a1e57bc8f<br/>&#160; &#160; - SHA1:c0ac443726800384d9b2d97c3575f0338a5fed95 [weak]<br/>&#160; &#160; - MD5Sum:6637082afadd2ce1536e0496da1c70ae [weak]<br/>&#160; &#160; - Filesize:20554 [weak]<br/>&#160; &#160;Hashes of received file:<br/>&#160; &#160; - SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160; - SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160; - MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160; - Filesize:3523 [weak]<br/>&#160; &#160;Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>E: Failed to fetch http://rwth-aachen-euro.archive.parrotsec.org/parrotsec/pool/main/u/update-inetd/update-inetd_4.43_all.deb&#160; Hash Sum mismatch<br/>&#160; &#160;Hashes of expected file:<br/>&#160; &#160; - SHA256:69954fa886ab62eb2fbca1add9e237a9b4e19d1c1e0b91b148f7dbf3695cf048<br/>&#160; &#160; - SHA1:f058444df5a6d2c36dabb4ffca6005cc0ca6d798 [weak]<br/>&#160; &#160; - MD5Sum:2609248fac6590aada4735eda4fb1b9b [weak]<br/>&#160; &#160; - Filesize:21760 [weak]<br/>&#160; &#160;Hashes of received file:<br/>&#160; &#160; - SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160; - SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160; - MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160; - Filesize:3523 [weak]<br/>&#160; &#160;Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>E: Failed to fetch http://rwth-aachen-euro.archive.parrotsec.org/parrotsec/pool/main/libs/libsys-syscall-perl/libsys-syscall-perl_0.25-6_armhf.deb&#160; Hash Sum mismatch<br/>&#160; &#160;Hashes of expected file:<br/>&#160; &#160; - SHA256:f59184196c53397d57ead3adece2b91df18bc1d9ca15503a76655e24939880e5<br/>&#160; &#160; - SHA1:0618776c33f4bff0108815538031f05b6631768b [weak]<br/>&#160; &#160; - MD5Sum:e66a1f0e52625dca6ed4ca2d8e90e5fc [weak]<br/>&#160; &#160; - Filesize:9892 [weak]<br/>&#160; &#160;Hashes of received file:<br/>&#160; &#160; - SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160; - SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160; - MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160; - Filesize:3523 [weak]<br/>&#160; &#160;Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>E: Failed to fetch http://rwth-aachen-euro.archive.parrotsec.org/parrotsec/pool/main/libi/libipc-shareable-perl/libipc-shareable-perl_0.61-1_all.deb&#160; Hash Sum mismatch<br/>&#160; &#160;Hashes of expected file:<br/>&#160; &#160; - SHA256:d85814500afce3221580d90057cbb97eb78cd4d73310f83bf3001a696a2b9382<br/>&#160; &#160; - SHA1:cf090123affe0ff0362912ca0498c952dae43b3d [weak]<br/>&#160; &#160; - MD5Sum:496d0f39eb261452170918a7c004995c [weak]<br/>&#160; &#160; - Filesize:35430 [weak]<br/>&#160; &#160;Hashes of received file:<br/>&#160; &#160; - SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160; - SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160; - MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160; - Filesize:3523 [weak]<br/>&#160; &#160;Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>E: Failed to fetch http://rwth-aachen-euro.archive.parrotsec.org/parrotsec/pool/main/a/apt-cacher/apt-cacher_1.7.13_all.deb&#160; Hash Sum mismatch<br/>&#160; &#160;Hashes of expected file:<br/>&#160; &#160; - SHA256:84e52728728fef80c73d10c0e914427619298b3708d36f59e7df34a59dd129ce<br/>&#160; &#160; - SHA1:e3184b1ee0824170d4f9e14cf4928e18d72e72b1 [weak]<br/>&#160; &#160; - MD5Sum:893bec4b85cd252677f004d3417cef72 [weak]<br/>&#160; &#160; - Filesize:102096 [weak]<br/>&#160; &#160;Hashes of received file:<br/>&#160; &#160; - SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160; - SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160; - MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160; - Filesize:3523 [weak]<br/>&#160; &#160;Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>E: Failed to fetch http://rwth-aachen-euro.archive.parrotsec.org/parrotsec/pool/main/libb/libberkeleydb-perl/libberkeleydb-perl_0.55-1+b2_armhf.deb&#160; Hash Sum mismatch<br/>&#160; &#160;Hashes of expected file:<br/>&#160; &#160; - SHA256:1535a989d666ccc2dbd7a292c61e970f5a794fb08157eaaf02c239e8d4f67891<br/>&#160; &#160; - SHA1:1e75dc4deebee82739544c67410f32e1b25f24af [weak]<br/>&#160; &#160; - MD5Sum:e138716c8be5aee7d9fafd8218a75094 [weak]<br/>&#160; &#160; - Filesize:110082 [weak]<br/>&#160; &#160;Hashes of received file:<br/>&#160; &#160; - SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160; - SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160; - MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160; - Filesize:3523 [weak]<br/>&#160; &#160;Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>E: Failed to fetch http://rwth-aachen-euro.archive.parrotsec.org/parrotsec/pool/main/libc/libcompress-raw-lzma-perl/libcompress-raw-lzma-perl_2.069-2_armhf.deb&#160; Hash Sum mismatch<br/>&#160; &#160;Hashes of expected file:<br/>&#160; &#160; - SHA256:cae36b899d5fa9b9f8451fdca32827150f783c8011e8fb7f86f9e365d73ba448<br/>&#160; &#160; - SHA1:1172a4fc33eff274599d393f56d8ca47a1b4cdb9 [weak]<br/>&#160; &#160; - MD5Sum:80f0f750a88fb0978369bf5efd49bbc6 [weak]<br/>&#160; &#160; - Filesize:31040 [weak]<br/>&#160; &#160;Hashes of received file:<br/>&#160; &#160; - SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160; - SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160; - MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160; - Filesize:3523 [weak]<br/>&#160; &#160;Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>E: Failed to fetch http://rwth-aachen-euro.archive.parrotsec.org/parrotsec/pool/main/libi/libio-compress-lzma-perl/libio-compress-lzma-perl_2.069-2_all.deb&#160; Hash Sum mismatch<br/>&#160; &#160;Hashes of expected file:<br/>&#160; &#160; - SHA256:77993f056cad5f0ee9766a4fad1f601d7301a6cb03d7133d9f4c0cabe22c0226<br/>&#160; &#160; - SHA1:8050bdb2ab981d761305fdb24b76f839bf1d2a9d [weak]<br/>&#160; &#160; - MD5Sum:18b8b17eed23bbe38401be28fe21fe3d [weak]<br/>&#160; &#160; - Filesize:44078 [weak]<br/>&#160; &#160;Hashes of received file:<br/>&#160; &#160; - SHA256:ed0044d73b89e97d58e6a18d3a1edecd3cb3a96442cb7c94a069e1adb28c977e<br/>&#160; &#160; - SHA1:9fb47388287184850be65fcc1c6401e81499f3ff [weak]<br/>&#160; &#160; - MD5Sum:f3f4341a0a22108e1f2bed30b29a8d69 [weak]<br/>&#160; &#160; - Filesize:3523 [weak]<br/>&#160; &#160;Last modification reported: Tue, 20 Sep 2016 21:59:25 +0000<br/>E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?</p><br/><p>Everything I seem to install seems to return a Filesize of 3523 as reported by apt and aswell all the hashes for the recieved files are the same no matter what i am downloading. This is a very weird error, does anyone have any ideas as to what could be wrong?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p869" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=869#p869">2017-04-10 18:57:13</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=3856">gnugr</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-02-28</span></dd>
+<dd><span>Posts: 31</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Clean install Apt-get install problems on Pi3 B</h3>
+<div class="postmsg">
+<p>Do as apt suggested, run &quot;apt update --fix-missing&quot;, then run again &quot;apt dist-upgrade -y&quot;. If still not fixed, &quot;dpkg --configure -a&quot; and &quot;apt -f install&quot;.</p>
+<p class="postedit"><em>Last edited by gnugr (2017-04-10 18:57:35)</em></p>
+</div>
+<div class="postsignature postmsg"><hr/><p>GPG FINGERPRINT: 868D EF24 37CC E9F5 C5DC&#160; 63B7 5E57 25A1 FB41 2219<br/>GPG KEY: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x868DEF2437CCE9F5C5DC63B75E5725A1FB412219" rel="nofollow">https://pgp.mit.edu/pks/lookup?op=vinde … A1FB412219</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1425" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=1425#p1425">2017-05-24 11:40:00</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=54">qr0f1l3R</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Ambassador</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/54.jpg?m=1495471116" width="60" height="58" alt=""/></dd>
+<dd><span>From: Germany</span></dd>
+<dd><span>Registered: 2017-02-15</span></dd>
+<dd><span>Posts: 182</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Clean install Apt-get install problems on Pi3 B</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>Champg wrote:</cite><blockquote><div><p>Unfortunatley everything you suggested there failed. That last command you suggested was interesting too I get a message saying:<br/>┌─[<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="c3b1acacb783b3a2b1b1acb7">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>]─[/home/parrot]<br/>└──╼ #apt install apt-cacher<br/>...<br/>...<br/>...<br/>...<br/>...<br/>E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?</p><br/><p>Everything I seem to install seems to return a Filesize of 3523 as reported by apt and aswell all the hashes for the recieved files are the same no matter what i am downloading. This is a very weird error, does anyone have any ideas as to what could be wrong?</p></div></blockquote></div><p>Next time pls poste the log at <a href="http://www.pastebin.com" rel="nofollow">www.pastebin.com</a> and post the link here.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Andre &quot;qr0f1l3R&quot; P. - Parrot Ambassador - Founder of the German community</p><p>GPG Fingerprint: 290A C689 2EB1 45F6 5E74 2C11 99B1 2DF0 E85A E4E6<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … F0E85AE4E6</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … F0E85AE4E6</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=4">General Questions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=258">Clean install Apt-get install problems on Pi3 B</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4" selected="selected">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=258&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div> </div></div>
+</div>
+</body>
+</html>

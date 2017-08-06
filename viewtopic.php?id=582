@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Kismet and Fern no longer locating APs / General Questions / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=582" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=582&amp;type=atom" title="Atom topic feed"/>
+ 
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div> </div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=4">General Questions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=582">Kismet and Fern no longer locating APs</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p2302" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=2302#p2302">2017-07-02 09:44:05</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9422">red2scratch</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-07-02</span></dd>
+<dd><span>Posts: 7</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Kismet and Fern no longer locating APs</h3>
+<div class="postmsg">
+<p>I am running Parrot off of a USB stick with encrypted persistence.&#160; My WiFi card is a qualcomm ath10k QC6174.&#160; When first running the USB and using Kismet, it was able to identify all the APs in the area.&#160; After upgrading using apt-get update and apt-get dist-upgrade (to Parrot 3.6), neither Kismet nor Fern are able to locate APs anymore.&#160; My regular wifi works fine (and can locate all APs within signal range).&#160; I have not been able to find anything online that could help me fix this.</p><p>Dmesg gives me the following output:</p><p>#dmesg |grep ath10k<br/>[&#160; &#160;26.994454] ath10k_pci 0000:06:00.0: pci irq msi oper_irq_mode 2 irq_mode 0 reset_mode 0<br/>[&#160; &#160;28.789382] ath10k_pci 0000:06:00.0: firmware: failed to load ath10k/pre-cal-pci-0000:06:00.0.bin (-2)<br/>[&#160; &#160;28.790277] ath10k_pci 0000:06:00.0: Direct firmware load for ath10k/pre-cal-pci-0000:06:00.0.bin failed with error -2<br/>[&#160; &#160;28.791176] ath10k_pci 0000:06:00.0: firmware: failed to load ath10k/cal-pci-0000:06:00.0.bin (-2)<br/>[&#160; &#160;28.792081] ath10k_pci 0000:06:00.0: Direct firmware load for ath10k/cal-pci-0000:06:00.0.bin failed with error -2<br/>[&#160; &#160;28.794430] ath10k_pci 0000:06:00.0: firmware: failed to load ath10k/QCA6174/hw3.0/firmware-5.bin (-2)<br/>[&#160; &#160;28.795358] ath10k_pci 0000:06:00.0: Direct firmware load for ath10k/QCA6174/hw3.0/firmware-5.bin failed with error -2<br/>[&#160; &#160;28.796423] ath10k_pci 0000:06:00.0: could not fetch firmware file &#039;ath10k/QCA6174/hw3.0/firmware-5.bin&#039;: -2<br/>[&#160; &#160;31.032176] ath10k_pci 0000:06:00.0: firmware: direct-loading firmware ath10k/QCA6174/hw3.0/firmware-4.bin<br/>[&#160; &#160;31.033132] ath10k_pci 0000:06:00.0: qca6174 hw3.2 target 0x05030000 chip_id 0x00340aff sub 1a56:1535<br/>[&#160; &#160;31.034069] ath10k_pci 0000:06:00.0: kconfig debug 0 debugfs 0 tracing 0 dfs 0 testmode 0<br/>[&#160; &#160;31.035525] ath10k_pci 0000:06:00.0: firmware ver WLAN.RM.2.0-00180-QCARMSWPZ-1 api 4 features wowlan,ignore-otp,no-4addr-pad crc32 75dee6c5<br/>[&#160; &#160;31.188653] ath10k_pci 0000:06:00.0: firmware: direct-loading firmware ath10k/QCA6174/hw3.0/board-2.bin<br/>[&#160; &#160;31.191332] ath10k_pci 0000:06:00.0: board_file api 2 bmi_id N/A crc32 19644295<br/>[&#160; &#160;33.319307] ath10k_pci 0000:06:00.0: htt-ver 3.26 wmi-op 4 htt-op 3 cal otp max-sta 32 raw 0 hwcrypto 1</p><p>Appreciate any assistance.&#160; This worked in the past but now it stopped.&#160; Thank you.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2304" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=2304#p2304">2017-07-03 11:23:51</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9422">red2scratch</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-07-02</span></dd>
+<dd><span>Posts: 7</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Kismet and Fern no longer locating APs</h3>
+<div class="postmsg">
+<p>To add to this, I did review the supported wifi cards page and noted that this is a different version of the card than what is listed as supported.&#160; Previous searching and I had found something about installing a &#039;compat&#039; package for cards using mac80211 module (which this does).&#160; However, I can&#039;t seem to find that recommendation anymore.&#160; Biggest frustration is that it did work, now it doesn&#039;t.</p><p>Is there any other data I can provide here that would be of assistance? At least just a clue on where to start as using web searches is bringing up nothing useful.</p><p>Note that the AP that I am trying to locate with the programs are mine, part of my test lab.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2318" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=2318#p2318">2017-07-03 21:56:47</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9422">red2scratch</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-07-02</span></dd>
+<dd><span>Posts: 7</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Kismet and Fern no longer locating APs</h3>
+<div class="postmsg">
+<p>Some additional detail here.&#160; If no one minds, will keep posting what I find until I can label as [SOLVED] in case others have the same issue.&#160; Though not related to Kismet or Fern directly, the Aircrack forum had the following link that discusses basically the same problem:</p><p>https://forum.aircrack-ng.org/index.php/topic,1521.0.html</p><p>Have not tried yet, but will test the parameters listed at the end of the thread and report on findings.&#160; I am guessing the change when I lost capability was either a firmware or driver upgrade when I went from 3.5 to 3.6.&#160; Though I just upgraded to 3.7 last night and need to try it at 3.7 as well.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=4">General Questions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=582">Kismet and Fern no longer locating APs</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4" selected="selected">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=582&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div> </div></div>
+</div>
+</body>
+</html>

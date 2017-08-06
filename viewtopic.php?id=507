@@ -1,0 +1,684 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Raspberry PI cannot run Minecraft Pi Edition / General Questions / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=507" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=507&amp;type=atom" title="Atom topic feed"/>
+ 
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div> </div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=4">General Questions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=507">Raspberry PI cannot run Minecraft Pi Edition</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p1937" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=1937#p1937">2017-06-06 18:47:58</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9140">Flop</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-03</span></dd>
+<dd><span>Posts: 31</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Raspberry PI cannot run Minecraft Pi Edition</h3>
+<div class="postmsg">
+<p>Hi,</p><p>I installed minecraft pi edition on my Raspberry PI 3 running Parrot OS. I followed these steps -&gt; <a href="http://www.raspberrypi-spy.co.uk/2013/10/how-to-setup-minecraft-on-the-raspberry-pi/" rel="nofollow">http://www.raspberrypi-spy.co.uk/2013/1 … pberry-pi/</a></p><p>Then when I type</p><div class="codebox"><pre><code>./minecraft-pi</code></pre></div><p>in the installation directory, I get this error:</p><div class="codebox"><pre><code>./minecraft-pi: error while loading shared libraries: libpng12.so.0: cannot open shared object file: No such file or directory</code></pre></div><p>I tried to install &quot;libpng&quot; with </p><div class="codebox"><pre><code>apt-get install libpng12-0</code></pre></div><p>But I get this:</p><div class="codebox"><pre><code>Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Package libpng12-0 is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+E: Package &#039;libpng12-0&#039; has no installation candidate</code></pre></div><p>Can anyone help me it&#039;s not very necessery but I want to play some games on my Raspberry PI.<br/>I know Parrot OS is not for playing, but maybe it&#039;s working. For raspian-jessie it&#039;s working.</p><p>Thank&#039;s for the replies.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1948" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=1948#p1948">2017-06-07 17:05:32</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9087">disrupt_the_flow</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-31</span></dd>
+<dd><span>Posts: 34</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Raspberry PI cannot run Minecraft Pi Edition</h3>
+<div class="postmsg">
+<p>II am not 100% sure but you could try sudo apt-get -f install,or sudo dpkg --configure -a and then sudo apt-get update and sudo apt-get upgrade.Lastly if these won&#039;t work&#160; you can download the libpng12-0 from.</p><p>http://packages.ubuntu.com/xenial/i386/libpng12-0/download for i386 architecture</p><p>and</p><p>http://packages.ubuntu.com/xenial/amd64/libpng12-0/download for 64-bit architecture.<br/>As for the links i am not sure they will work.But try.<br/>.</p>
+<p class="postedit"><em>Last edited by disrupt_the_flow (2017-06-07 17:08:49)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1950" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=1950#p1950">2017-06-07 17:37:16</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9140">Flop</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-03</span></dd>
+<dd><span>Posts: 31</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Raspberry PI cannot run Minecraft Pi Edition</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>disrupt_the_flow wrote:</cite><blockquote><div><p>II am not 100% sure but you could try sudo apt-get -f install,or sudo dpkg --configure -a and then sudo apt-get update and sudo apt-get upgrade.Lastly if these won&#039;t work&#160; you can download the libpng12-0 from.</p><p>http://packages.ubuntu.com/xenial/i386/libpng12-0/download for i386 architecture</p><p>and</p><p>http://packages.ubuntu.com/xenial/amd64/libpng12-0/download for 64-bit architecture.<br/>As for the links i am not sure they will work.But try.<br/>.</p></div></blockquote></div><p>Thank&#039;s for your reply but it didn&#039;t worked, in the terminal it says: &quot;package architecture (i386) does not match system (armhf)&quot;</p><p>I think it don&#039;t work to run minecraft on Raspberry PI (Parrot OS), but thank&#039;s for your reply.(:</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1951" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=1951#p1951">2017-06-07 17:57:55</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Raspberry PI cannot run Minecraft Pi Edition</h3>
+<div class="postmsg">
+<p>libpng12 is very old, try to see if there is a more recent version of minecraft that supports libpng16 instead</p><p>you should take it from the raspberry pi testing repository (the branch currently based on debian 9 instead of debian 8)</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1954" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=1954#p1954">2017-06-07 18:07:43</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9140">Flop</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-03</span></dd>
+<dd><span>Posts: 31</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Raspberry PI cannot run Minecraft Pi Edition</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><p>libpng12 is very old, try to see if there is a more recent version of minecraft that supports libpng16 instead</p><p>you should take it from the raspberry pi testing repository (the branch currently based on debian 9 instead of debian 8)</p></div></blockquote></div><p>OMG!!!!!!!!! The Founder of Parrot OS replied me OMG!!!!!!!!!!!!</p><p>Okay back to the topic^^</p><p>Where can I find the testing repository?? (Sorry I&#039;m new to Raspberry PI and Parrot OS)</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1959" class="blockpost roweven">
+<h2><span><span class="conr">#6</span> <a href="viewtopic.php?pid=1959#p1959">2017-06-07 18:25:50</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=54">qr0f1l3R</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Ambassador</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/54.jpg?m=1495471116" width="60" height="58" alt=""/></dd>
+<dd><span>From: Germany</span></dd>
+<dd><span>Registered: 2017-02-15</span></dd>
+<dd><span>Posts: 182</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Raspberry PI cannot run Minecraft Pi Edition</h3>
+<div class="postmsg">
+<p>Try this <a href="http://archive.raspbian.org/raspbian/dists/testing/" rel="nofollow">http://archive.raspbian.org/raspbian/dists/testing/</a></p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Andre &quot;qr0f1l3R&quot; P. - Parrot Ambassador - Founder of the German community</p><p>GPG Fingerprint: 290A C689 2EB1 45F6 5E74 2C11 99B1 2DF0 E85A E4E6<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … F0E85AE4E6</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … F0E85AE4E6</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1960" class="blockpost rowodd">
+<h2><span><span class="conr">#7</span> <a href="viewtopic.php?pid=1960#p1960">2017-06-07 18:38:47</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9140">Flop</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-03</span></dd>
+<dd><span>Posts: 31</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Raspberry PI cannot run Minecraft Pi Edition</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>qr0f1l3R wrote:</cite><blockquote><div><p>Try this <a href="http://archive.raspbian.org/raspbian/dists/testing/" rel="nofollow">http://archive.raspbian.org/raspbian/dists/testing/</a></p></div></blockquote></div><p>OMG.......The second Founder (I&#039;m from germany too (:)</p><p>Should I look in the sources.bin files?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1961" class="blockpost roweven">
+<h2><span><span class="conr">#8</span> <a href="viewtopic.php?pid=1961#p1961">2017-06-07 18:43:38</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=54">qr0f1l3R</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Ambassador</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/54.jpg?m=1495471116" width="60" height="58" alt=""/></dd>
+<dd><span>From: Germany</span></dd>
+<dd><span>Registered: 2017-02-15</span></dd>
+<dd><span>Posts: 182</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Raspberry PI cannot run Minecraft Pi Edition</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>Flop wrote:</cite><blockquote><div><div class="quotebox"><cite>qr0f1l3R wrote:</cite><blockquote><div><p>Try this <a href="http://archive.raspbian.org/raspbian/dists/testing/" rel="nofollow">http://archive.raspbian.org/raspbian/dists/testing/</a></p></div></blockquote></div><p>Should I look in the sources.bin files?</p></div></blockquote></div><p>Here </p><div class="quotebox"><blockquote><div><p>/etc/apt/sources.list</p></div></blockquote></div><p>and/or in the </p><div class="quotebox"><blockquote><div><p>/etc/apt/sources.list.d</p></div></blockquote></div><p>directly!</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Andre &quot;qr0f1l3R&quot; P. - Parrot Ambassador - Founder of the German community</p><p>GPG Fingerprint: 290A C689 2EB1 45F6 5E74 2C11 99B1 2DF0 E85A E4E6<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … F0E85AE4E6</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … F0E85AE4E6</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1962" class="blockpost rowodd">
+<h2><span><span class="conr">#9</span> <a href="viewtopic.php?pid=1962#p1962">2017-06-07 18:49:24</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9140">Flop</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-03</span></dd>
+<dd><span>Posts: 31</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Raspberry PI cannot run Minecraft Pi Edition</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>qr0f1l3R wrote:</cite><blockquote><div><div class="quotebox"><cite>Flop wrote:</cite><blockquote><div><div class="quotebox"><cite>qr0f1l3R wrote:</cite><blockquote><div><p>Try this <a href="http://archive.raspbian.org/raspbian/dists/testing/" rel="nofollow">http://archive.raspbian.org/raspbian/dists/testing/</a></p></div></blockquote></div><p>Should I look in the sources.bin files?</p></div></blockquote></div><p>Here </p><div class="quotebox"><blockquote><div><p>/etc/apt/sources.list</p></div></blockquote></div><p>and/or in the </p><div class="quotebox"><blockquote><div><p>/etc/apt/sources.list.d</p></div></blockquote></div><p>directly!</p></div></blockquote></div><p>Sorry that I don&#039;t understand you well...Do you mean in the raspian os?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1963" class="blockpost roweven">
+<h2><span><span class="conr">#10</span> <a href="viewtopic.php?pid=1963#p1963">2017-06-07 19:49:09</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=54">qr0f1l3R</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Ambassador</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/54.jpg?m=1495471116" width="60" height="58" alt=""/></dd>
+<dd><span>From: Germany</span></dd>
+<dd><span>Registered: 2017-02-15</span></dd>
+<dd><span>Posts: 182</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Raspberry PI cannot run Minecraft Pi Edition</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>Flop wrote:</cite><blockquote><div><p>Sorry that I don&#039;t understand you well...Do you mean in the raspian os?</p></div></blockquote></div><br/><p>Type </p><div class="quotebox"><blockquote><div><p>nano /etc/apt/sources.list</p></div></blockquote></div><p> and add this repo to your list</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Andre &quot;qr0f1l3R&quot; P. - Parrot Ambassador - Founder of the German community</p><p>GPG Fingerprint: 290A C689 2EB1 45F6 5E74 2C11 99B1 2DF0 E85A E4E6<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … F0E85AE4E6</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … F0E85AE4E6</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1965" class="blockpost rowodd">
+<h2><span><span class="conr">#11</span> <a href="viewtopic.php?pid=1965#p1965">2017-06-07 20:18:43</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9140">Flop</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-03</span></dd>
+<dd><span>Posts: 31</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Raspberry PI cannot run Minecraft Pi Edition</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>qr0f1l3R wrote:</cite><blockquote><div><div class="quotebox"><cite>Flop wrote:</cite><blockquote><div><p>Sorry that I don&#039;t understand you well...Do you mean in the raspian os?</p></div></blockquote></div><br/><p>Type </p><div class="quotebox"><blockquote><div><p>nano /etc/apt/sources.list</p></div></blockquote></div><p> and add this repo to your list</p></div></blockquote></div><p>Oooooh, now I know what you mean but will it not harm Parrot OS?</p><p>EDIT: I found this <a href="http://archive.raspberrypi.org/debian/pool/main/m/minecraft-pi/" rel="nofollow">http://archive.raspberrypi.org/debian/p … ecraft-pi/</a></p>
+<p class="postedit"><em>Last edited by Flop (2017-06-07 22:09:16)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1967" class="blockpost roweven">
+<h2><span><span class="conr">#12</span> <a href="viewtopic.php?pid=1967#p1967">2017-06-08 01:37:41</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Raspberry PI cannot run Minecraft Pi Edition</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>Flop wrote:</cite><blockquote><div><div class="quotebox"><cite>qr0f1l3R wrote:</cite><blockquote><div><p>Try this <a href="http://archive.raspbian.org/raspbian/dists/testing/" rel="nofollow">http://archive.raspbian.org/raspbian/dists/testing/</a></p></div></blockquote></div><p>OMG.......The second Founder (I&#039;m from germany too (:)</p></div></blockquote></div><p>founder?? woops, i gave him the wrong label lol, he is one of our ambassadors!</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1975" class="blockpost rowodd">
+<h2><span><span class="conr">#13</span> <a href="viewtopic.php?pid=1975#p1975">2017-06-08 05:07:04</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=54">qr0f1l3R</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Ambassador</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/54.jpg?m=1495471116" width="60" height="58" alt=""/></dd>
+<dd><span>From: Germany</span></dd>
+<dd><span>Registered: 2017-02-15</span></dd>
+<dd><span>Posts: 182</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Raspberry PI cannot run Minecraft Pi Edition</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><div class="quotebox"><cite>Flop wrote:</cite><blockquote><div><div class="quotebox"><cite>qr0f1l3R wrote:</cite><blockquote><div><p>Try this <a href="http://archive.raspbian.org/raspbian/dists/testing/" rel="nofollow">http://archive.raspbian.org/raspbian/dists/testing/</a></p></div></blockquote></div><p>OMG.......The second Founder (I&#039;m from germany too (:)</p></div></blockquote></div><p>founder?? woops, i gave him the wrong label lol, he is one of our ambassadors!</p></div></blockquote></div><p>Thats it :) The founder is only Palinuro<br/>If you have any problems or questions, write me on Telegram <a href="https://t.me/qr0f1l3RParrotAmbassador" rel="nofollow">https://t.me/qr0f1l3RParrotAmbassador</a></p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Andre &quot;qr0f1l3R&quot; P. - Parrot Ambassador - Founder of the German community</p><p>GPG Fingerprint: 290A C689 2EB1 45F6 5E74 2C11 99B1 2DF0 E85A E4E6<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … F0E85AE4E6</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … F0E85AE4E6</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1976" class="blockpost roweven">
+<h2><span><span class="conr">#14</span> <a href="viewtopic.php?pid=1976#p1976">2017-06-08 06:05:07</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9140">Flop</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-03</span></dd>
+<dd><span>Posts: 31</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Raspberry PI cannot run Minecraft Pi Edition</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>qr0f1l3R wrote:</cite><blockquote><div><div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><div class="quotebox"><cite>Flop wrote:</cite><blockquote><div><p>OMG.......The second Founder (I&#039;m from germany too (:)</p></div></blockquote></div><p>founder?? woops, i gave him the wrong label lol, he is one of our ambassadors!</p></div></blockquote></div><p>Thats it :) The founder is only Palinuro<br/>If you have any problems or questions, write me on Telegram <a href="https://t.me/qr0f1l3RParrotAmbassador" rel="nofollow">https://t.me/qr0f1l3RParrotAmbassador</a></p></div></blockquote></div><p>Oh...but he&#039;s one of Parrot Project.</p><p>hmm...Can we please go to my question again???:)</p><p>Okay,I thing if I copy the file to parrot os, it will harm the system, won&#039;t it?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1984" class="blockpost rowodd">
+<h2><span><span class="conr">#15</span> <a href="viewtopic.php?pid=1984#p1984">2017-06-08 09:46:38</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=54">qr0f1l3R</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Ambassador</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/54.jpg?m=1495471116" width="60" height="58" alt=""/></dd>
+<dd><span>From: Germany</span></dd>
+<dd><span>Registered: 2017-02-15</span></dd>
+<dd><span>Posts: 182</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Raspberry PI cannot run Minecraft Pi Edition</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>Flop wrote:</cite><blockquote><div><p>Okay,I thing if I copy the file to parrot os, it will harm the system, won&#039;t it?</p></div></blockquote></div><p>No. You only paste a additional repository.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Andre &quot;qr0f1l3R&quot; P. - Parrot Ambassador - Founder of the German community</p><p>GPG Fingerprint: 290A C689 2EB1 45F6 5E74 2C11 99B1 2DF0 E85A E4E6<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … F0E85AE4E6</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … F0E85AE4E6</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2021" class="blockpost roweven">
+<h2><span><span class="conr">#16</span> <a href="viewtopic.php?pid=2021#p2021">2017-06-10 17:56:41</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9140">Flop</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-03</span></dd>
+<dd><span>Posts: 31</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Raspberry PI cannot run Minecraft Pi Edition</h3>
+<div class="postmsg">
+<p>Hey,</p><p>Flop back (Parrot OS Noob)</p><p>Because it is hard to run minecraft Pi Edition, I followed this guide to run the full version of Minecraft (for example v.1.8):<br/><a href="https://www.raspberrypi.org/forums/view%20…%20p?t=137279" rel="nofollow">https://www.raspberrypi.org/forums/view … p?t=137279</a></p><p>It worked!(But after about 2 hours...)</p><p>I had to install Java SE Development Kit 8 to run it -&gt;<a href="http://www.oracle.com/technetwork/java/%20…%2033151.html" rel="nofollow">http://www.oracle.com/technetwork/java/ … 33151.html</a>(I downloaded &quot;Linux ARM 32 Hard Float ABI&quot;), this guide helped me -&gt;<a href="http://www.rpiblog.com/2014/03/installi%20…%20ry-pi.html" rel="nofollow">http://www.rpiblog.com/2014/03/installi … ry-pi.html</a></p><p>And now I can play minecraft PC version on The best Operation System(You should know it!).</p><p>Thank&#039;s to all who helped me on this post (Special Thank&#039;s to qr0f1l3R).&lt;3</p><p>-----------------------------------------------------------------------------</p><p>Philipp &quot;Flop&quot; S. - Parrot Noob - Founder of the Noob Questions</p><p>GPG Fingerprint: I don&#039;t know what that means<br/>GPG Info: I don&#039;t know what that means<br/>GPG Key: I don&#039;t know what that means</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2035" class="blockpost rowodd">
+<h2><span><span class="conr">#17</span> <a href="viewtopic.php?pid=2035#p2035">2017-06-11 14:24:45</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Raspberry PI cannot run Minecraft Pi Edition</h3>
+<div class="postmsg">
+<div class="quotebox"><blockquote><div><p>Philipp &quot;Flop&quot; S. - Parrot Noob - Founder of the Noob Questions</p><p>GPG Fingerprint: I don&#039;t know what that means<br/>GPG Info: I don&#039;t know what that means<br/>GPG Key: I don&#039;t know what that means</p></div></blockquote></div><p>^^^^ you are a fuckin genoius</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2039" class="blockpost roweven">
+<h2><span><span class="conr">#18</span> <a href="viewtopic.php?pid=2039#p2039">2017-06-11 14:28:08</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9140">Flop</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-03</span></dd>
+<dd><span>Posts: 31</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Raspberry PI cannot run Minecraft Pi Edition</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><div class="quotebox"><blockquote><div><p>Philipp &quot;Flop&quot; S. - Parrot Noob - Founder of the Noob Questions</p><p>GPG Fingerprint: I don&#039;t know what that means<br/>GPG Info: I don&#039;t know what that means<br/>GPG Key: I don&#039;t know what that means</p></div></blockquote></div><p>^^^^ you are a fuckin genoius</p></div></blockquote></div><p>XD</p><p>Maybe you can change my label to: Parrot Project Noob</p>
+<p class="postedit"><em>Last edited by Flop (2017-06-11 14:29:22)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=4">General Questions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=507">Raspberry PI cannot run Minecraft Pi Edition</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4" selected="selected">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=507&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div> </div></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,414 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Tor / General Questions / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=47" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=47&amp;type=atom" title="Atom topic feed"/>
+ 
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div> </div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=4">General Questions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=47">Tor</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p181" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=181#p181">2017-02-18 19:16:49</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=22">root</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/22.jpg?m=1486919315" width="60" height="100" alt=""/></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 17</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Tor</h3>
+<div class="postmsg">
+<p>Just wondering, I know Tor is installed by default on Parrot, but when attempting to run it the first time via Applications &gt; Internet &gt; Tor Browser ; it downloads the Tor browser bundle, then says &quot;Signature verification failed. You might be under attack, or there might just be a networking problem. Click Start try the download again.&quot; (Written verbatim)</p><p>I click Start, and the issue repeats itself. Now, I&#039;m sure I could uninstall by apt purge tor-* and then reinstall it from the website. But I&#039;d rather figure out why this isn&#039;t working by default.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>[img=Root]https://s16.postimg.org/huxodr83l/Untitled_1.png[/img]</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p182" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=182#p182">2017-02-18 19:19:37</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=14">Jeff</a></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd><span>From: USA</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 296</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Tor</h3>
+<div class="postmsg">
+<p>Normally this could be a server issue. but alot of people have this issue. i have a fix if your having issues.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>-Jeff Szydel </p><p>*Parrot Ambassador&#160; &#160;*Social Groups Manager&#160; &#160;*Helpdesk&#160; &#160;*Wiki Editor&#160; &#160; <br/>*Parrot Telegram Group Administrator&#160; &#160;*Parrot Community Administrator</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p184" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=184#p184">2017-02-18 19:24:34</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=22">root</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/22.jpg?m=1486919315" width="60" height="100" alt=""/></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 17</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Tor</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>Jeff wrote:</cite><blockquote><div><p>Normally this could be a server issue. but alot of people have this issue. i have a fix if your having issues.</p></div></blockquote></div><br/><p>Yes, I&#039;m having issues actually just running Tor from Parrot without alternatively installing it.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>[img=Root]https://s16.postimg.org/huxodr83l/Untitled_1.png[/img]</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p191" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=191#p191">2017-02-19 01:28:07</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Tor</h3>
+<div class="postmsg">
+<p>this is a bug of the torbrowser debian package that was recently opened in the debian bug tracking system</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p198" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=198#p198">2017-02-19 06:43:56</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=22">root</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/22.jpg?m=1486919315" width="60" height="100" alt=""/></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 17</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Tor</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><p>this is a bug of the torbrowser debian package that was recently opened in the debian bug tracking system</p></div></blockquote></div><br/><p>So for now, remove Tor and install it via the website?</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>[img=Root]https://s16.postimg.org/huxodr83l/Untitled_1.png[/img]</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p204" class="blockpost roweven">
+<h2><span><span class="conr">#6</span> <a href="viewtopic.php?pid=204#p204">2017-02-19 16:58:20</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Tor</h3>
+<div class="postmsg">
+<p>you don&#039;t have to remove tor, just remove torbrowser as tor works perfectly in parrot</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p208" class="blockpost rowodd">
+<h2><span><span class="conr">#7</span> <a href="viewtopic.php?pid=208#p208">2017-02-19 21:51:44</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=22">root</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/22.jpg?m=1486919315" width="60" height="100" alt=""/></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 17</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Tor</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><p>you don&#039;t have to remove tor, just remove torbrowser as tor works perfectly in parrot</p></div></blockquote></div><br/><p>Wait, so now I&#039;m a little confused. Tor and the browser aren&#039;t the same thing?&#160; &#160;How would you use Tor, without using its browser?</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>[img=Root]https://s16.postimg.org/huxodr83l/Untitled_1.png[/img]</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p209" class="blockpost roweven">
+<h2><span><span class="conr">#8</span> <a href="viewtopic.php?pid=209#p209">2017-02-19 23:51:48</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Tor</h3>
+<div class="postmsg">
+<p>no :)</p><p>tor is a daemon, a software server that you run in background, it contacts the tor network and start establishing anonymous circuits with other tor nodes, and then it offers local proxies that other apps in your system can use to surf through tor</p><br/><p>torborwser is a fork of firefox designed to work with tor and to use many custom settings and hardenization tricks to make your connection more secure and your privacy safer</p><br/><p>torbrowser-launcher is a debian package that includes a launcher, which is a software that dinamically tries to download the latest version of torbrowser, check its authenticity and integrity through digital signatures and then start it in an isolated enviroment</p><p>tor works</p><p>tor borwser works</p><p>the debian launcher for tor borwser does not</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p561" class="blockpost rowodd">
+<h2><span><span class="conr">#9</span> <a href="viewtopic.php?pid=561#p561">2017-03-12 12:15:32</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7167">piratecorsaire</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-03-12</span></dd>
+<dd><span>Posts: 6</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Tor</h3>
+<div class="postmsg">
+<p>hello ..<br/>By default Tor is installed on parrot OS but it is not active to start up. ...to see tape:<br/>Service Tor Status<br/>#sudo su #if &quot;sudo su&quot; dont work use:&quot;su&quot; for access to root <br/>┌-[<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="4f3d20203b0f3f2e3d3d203b">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>]-[~]<br/>└- #Service Tor Status<br/>● tor.Service - anonymizing overlay network for TCP (multi-instance<br/>Loaded: loaded (/lib/systemd/system/tor.Service; disabled; vendo<br/>Active: inactive (dead)</p><p>March 12 07:25:16 parrot systemd[1]: Starting anonymizing overlay do<br/>March 12 07:25:17 parrot systemd[1]: Started anonymizing net overlay<br/>March 12 08:24:20 parrot systemd[1]: Stopped anonymizing net overlay</p><p>Ctrl C<br/>┌-[<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="5a2835352e1a2a3b2828352e">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>]-[~]<br/>└--#</p><p>Tor is therefore inactive (dead):<br/>ACTIVE: inactive (dead)</p><p>if you start Firefox and you go to the home page by default: Https://search.frozenbox.org/pwn/<br/>you see that you are not use the Tor network and your IP has been detected .</p><p>It must therefore Starts Tor in manual mode ..Go to the</p><p>Applications menu--&gt;Anon Surf --&gt;Anonymous start mode<br/>for access to the Tor network .</p><p>If one day you forget to click on: Anonymous start mode and you open Firefox directly and you navigate on the internet ,you put your anonyma in games and you may Large (._.)</p><p>I thus proposes to you to make starts TOR to each startup of your Parrot OS PC...<br/>for this edit the file:<br/>/etc/rc.local<br/>#!/bin/sh<br/>#<br/># rc.local<br/>#<br/># This script is executed at the end of each multiuser runlevel.<br/># Make sure that the script will &quot;exit 0&quot; on success or any other<br/># value on error.<br/>#<br/># In order to enable or disable this script just change the executed$<br/># bits.<br/>#<br/># By default this script does nothing.<br/>#! /bin/sh<br/>PATH=/sbin:/usr/sbin:/bin:/usr/bin<br/>service tor start <br/>anonsurf start<br/>service polipo start&#160; # we will see why in the next stup..</p><p>exit 0</p><p>Ctrl O to exit<br/>if you add just:<br/>Service tor start<br/>it will not operate .</p><p>Tips<br/>If you want to add other service at start up Add your command:</p><p>for my service web i need to : <br/>service apache start<br/>service mysql&#160; start</p><p>Make TOR work with Polipo<br/>Polipo is installed on parrot By Default ...<br/>By against ,we will edit the configuration file:<br/>/etc/Polipo/config</p><p>┌-[<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="aad8c5c5deeadacbd8d8c5de">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>]-[/etc/Polipo]<br/>└--#Nano config</p><p>add the following lines:</p><p>proxyAddress = &quot;127.0.0.1&quot;<br/>proxyPort = 8118<br/>Ctrl O to save and exit</p><p>Firefox with Polipo<br/>go on the menu of firefox and click on:<br/>Edit --&gt;Preferences--&gt;Advanced<br/>then:<br/>network --&gt;Settings<br/>By default you see that: Automatic proxy configuration URL =file:///tor/onion.pac<br/>we will change this ..<br/>Click on:<br/>Manual proxy configuration<br/>and set:<br/>HTTP Proxy: 127.0.0.1 port:8118<br/>SSL Proxy: 127.0.0.1 port:8118<br/>FTP Proxy: 127.0.0.1 port:8118<br/>SOCKS host: 127.0.0.1Port:9050<br/>box SOCKS v5.</p><p>Click OK to close Firefox Settings.</p><p>Made Restart your PC and admire the result..</p><p>Tor work automatically .<br/>Tor works with Polipo <br/>Polipo works with Firefox</p><br/><p>friendly !!</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>il n&#039;y pas de plus poli qu&#039;un pirate ..</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=4">General Questions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=47">Tor</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4" selected="selected">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=47&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div> </div></div>
+</div>
+</body>
+</html>
