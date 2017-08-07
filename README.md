@@ -16,7 +16,7 @@ En dicho grupo, pregunta por el equipo de documentación y rápidamente te pondr
 ## Ya soy Contributor. Cómo funciona esto?
 
 #### Clona el repositorio (sólo la primera vez)
-<addr>git clone https://github.com/gesala/parrot_community_general
+`git clone https://github.com/gesala/parrot_community_general`
 #### Descarga las modificaciones del repositorio
 <addr>git pull
 #### Selecciona alguno de los topics no traducidos y muévelo a trabajando/XXXX
