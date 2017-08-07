@@ -15,23 +15,23 @@ En dicho grupo, pregunta por el equipo de documentación y rápidamente te pondr
 
 ## Ya soy Contributor. Cómo funciona esto?
 
-####Clona el repositorio (sólo la primera vez)
+#### Clona el repositorio (sólo la primera vez)
 git clone https://github.com/gesala/parrot_community_general
-####Descarga las modificaciones del repositorio
+#### Descarga las modificaciones del repositorio
 git pull
-####Selecciona alguno de los topics no traducidos y muévelo a trabajando/XXXX
+#### Selecciona alguno de los topics no traducidos y muévelo a trabajando/XXXX
 XXXX -> tu nombre de usuario 
 mv viewtopic.php\?id=1 trabajando/XXXX
-####Replica tu git local para que nadie elija el mismo documento
+#### Replica tu git local para que nadie elija el mismo documento
 git push
-####Si crees que el documento no aporta valor al proyecto muévelo a basura
+#### Si crees que el documento no aporta valor al proyecto muévelo a basura
 mv trabajando/XXXX/viewtopic.php\?id=1 basura
-####Si crees que tiene valor, modifícalo
+#### Si crees que tiene valor, modifícalo
 vi trabajando/XXXX/viewtopic.php\?id=1
-####una vez modificado, muévelo
+#### Una vez modificado, muévelo al sitio definitivo
 mv trabajando/XXXX/viewtopic.php\?id=1 traducidas
-####Sube al repositorio las modificaciones
+#### Sube al repositorio las modificaciones
 git push
-####Comienza de nuevo
+#### Comienza de nuevo
 Descarga de nuevo las modificaciones del repositorio
 git pull
