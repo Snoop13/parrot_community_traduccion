@@ -8,8 +8,8 @@ Este es tu sitio....
 ## Quiero ayudar!!! Qué debo hacer? 
 
 
-En primer lugar debes pasarte por el grupo de telegram https://t.me/joinchat/AAAAAECEF7201Jk3bOB5pA
-Presentate y pasa unos dias con nosotros para saber si estás agusto y te apetece formar parte de esta gran familia. (Advertencia: no querrás dejarlo ;-) )
+En primer lugar debes pasarte por el grupo de telegram https://t.me/joinchat/AAAAAECEF7201Jk3bOB5pA .
+Presentate y pasa unos dias con nosotros para saber si estás agusto y te apetece formar parte de esta gran familia. (Advertencia: no querrás dejarlo ;-) ).
 En dicho grupo, pregunta por el equipo de documentación y rápidamente te pondrán en contacto con alguno de los responsables de traducción y te darán las indicaciones adecuadas.
 
 
@@ -20,7 +20,7 @@ En dicho grupo, pregunta por el equipo de documentación y rápidamente te pondr
 #### Descarga las modificaciones del repositorio
 `git pull`
 #### Selecciona alguno de los topics no traducidos y muévelo a trabajando/XXXX
-XXXX -> tu nombre de usuario 
+XXXX -> tu nombre de usuario.
 `mv viewtopic.php\?id=1 trabajando/XXXX`
 #### Replica tu git local para que nadie elija el mismo documento
 `git push`
@@ -33,5 +33,5 @@ XXXX -> tu nombre de usuario
 #### Sube al repositorio las modificaciones
 `git push`
 #### Comienza de nuevo
-Descarga de nuevo las modificaciones del repositorio
+Descarga de nuevo las modificaciones del repositorio.
 `git pull`
