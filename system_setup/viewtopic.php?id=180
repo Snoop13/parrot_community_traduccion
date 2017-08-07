@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>parrot v3.5+parrot conky / System Setup and Customization / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=180" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=180&amp;type=atom" title="Atom topic feed"/>
+
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div></div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=6">System Setup and Customization</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=180">parrot v3.5+parrot conky</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p529" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=529#p529">2017-03-10 21:51:18</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7064">mrneilypops</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/7064.png?m=1489178117" width="50" height="50" alt/></dd>
+<dd><span>From: Luxembourg</span></dd>
+<dd><span>Registered: 2017-03-10</span></dd>
+<dd><span>Posts: 3</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>parrot v3.5+parrot conky</h3>
+<div class="postmsg">
+<p>I saw a lot of earlier parrot screenshots with a cool conky that is not present in v3.5<br/>I have tweaked the conky available on github<br/>... for anyone interested....</p><p>background yes<br/>update_interval 2<br/>total_run_times 0<br/>net_avg_samples 2<br/>override_utf8_locale yes<br/>double_buffer yes<br/>no_buffers yes<br/>text_buffer_size 512<br/>imlib_cache_size 512<br/>temperature_unit celsius<br/>own_window yes<br/>own_window_type desktop<br/>own_window_transparent yes<br/>own_window_hints undecorated,sticky,skip_taskbar,skip_pager<br/>border_inner_margin 0<br/>border_outer_margin 0<br/>minimum_size 248 720<br/>maximum_width 248<br/>alignment top_right<br/>gap_x 10<br/>gap_y 30<br/>draw_shades no<br/>draw_outline no<br/>draw_borders no<br/>draw_graph_borders no<br/>use_xft yes<br/>xftfont Future:size=4<br/>xftalpha 0.6<br/>default_color D4ECF4<br/>default_gauge_size 50 25<br/>uppercase no<br/>use_spacer right<br/>color0 white<br/>color1 orange<br/>color2 green<br/>if_up_strictness link<br/>lua_load /home/user/conky/rings.lua<br/>lua_draw_hook_pre main_rings<br/>TEXT<br/>${image /home/user/conky/parrot.png -p 0,0 -s 247x621}<br/>${voffset 12} ${goto 20} ${font Future:size=9}${color #008080}OS: GNU/${sysname}<br/>${voffset 1} ${goto 16} ${font Future:size=9}${color #008080}Distro: ${exec lsb_release -d | cut -f 2| tr &quot;[:upper:]&quot; &quot;[:lower:]&quot;}<br/>${voffset 1} ${goto 16} ${font Future:size=9}${color #008080}Kernel: ${kernel}<br/>${voffset 1} ${goto 16} ${font Future:size=9}${color #008080}Env: MATE 1.16.1<br/>${voffset 180} ${goto 15} ${font Future:size=10}${color #008080}RAM: ${font Future:size=9}${memmax}<br/>${voffset 0} ${goto 15} ${font Future:size=10}${color #008080}Used RAM: ${font Future:size=9}${memperc}% - ${font Future:size=9}${mem}<br/>${voffset 0} ${goto 15} ${font Future:size=10}${color #008080}Free RAM: ${font Future:size=9}${memfree}<br/>${voffset 0} ${goto 15} ${font Future:size=10}${color #009090}Procs/Threads: ${font Future:size=9}${processes} - ${threads}<br/>${voffset 67} ${goto 40} ${font Future:size=9}${color #008080}wifi<br/>${voffset -14} ${goto 111} ${font Future:size=9}${color #008080}up<br/>${voffset -14} ${goto 182} ${font Future:size=9}${color #008080}down<br/>${voffset 2} ${goto 12} ${font Future:size=9}${color #008080}UP:${voffset -10}${if_up wlan0}${upspeedgraph wlan0 30,180 008080 aa0000 0 -t -l}${endif}${if_up wlan1}${upspeedgraph wlan1 30,180 008080 aa0000 0 -t -l}${endif}${if_up eth0}${upspeedgraph eth0 30,180 008080 aa0000 0 -t -l}${endif}${if_up eth1}${upspeedgraph eth1 30,180 008080 aa0000 0 -t -l}${endif}<br/>${voffset 11} ${goto 12} ${font Future:size=9}${color #008080}DL:${voffset -10}${if_up wlan0}${downspeedgraph wlan0 30,180 008080 00aa00 0 -t -l}${endif}${if_up wlan1}${downspeedgraph wlan1 30,180 008080 00aa00 0 -t -l}${endif}${if_up eth0}${downspeedgraph eth0 30,180 008080 00aa00 0 -t -l}${endif}${if_up eth1}${downspeedgraph eth1 30,180 008080 00aa00 0 -t -l}${endif}<br/>${voffset 50} ${goto 51} ${font Future:size=10}${color #008080}/root<br/>${voffset -16} ${goto 155} ${font Future:size=10}${color #008080}/home<br/>${voffset 34} ${goto 30} ${font Future:size=11}${color #00a0a0}dmesg<br/>${voffset -6} ${goto 2} ${font mono:size=6}${color #30ff50}${execi 1 sudo dmesg -t | tail -20 | tac}</p><br/><p>pretty much the same conky config... but;</p><p>distro version was not displayed<br/>Env was out of date<br/>memory display was not correctly aligned<br/>&#039;signal strength&#039; changed to &#039;wifi&#039;<br/>network UP and DL were not correctly aligned<br/>dmesg would not print without elevated [sudo] privileges</p><p>Cool conky!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p534" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=534#p534">2017-03-11 00:43:52</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=14">Jeff</a></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd><span>From: USA</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 296</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: parrot v3.5+parrot conky</h3>
+<div class="postmsg">
+<p>Here is the Config I Wrote:</p><br/><p>background yes</p><p>double_buffer yes<br/>own_window yes<br/>own_window_type normal<br/>own_window_transparent yes<br/>own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager<br/>use_xft yes<br/>use_spacer yes<br/>#xftfont Termius:pixelsize=20<br/>draw_borders no<br/>draw_shades no<br/>alignment top_right<br/>minimum_size 150 1040<br/>TEXT</p><p>${font Arial:size=30}${color aqua}Parrot Security ${color aqua} 3.5</p><p>${voffset -160}<br/>${color DimGray} <br/>${font}<br/>${font Arial:bold:size=16}${color aqua}${hr 2}<br/>${font Arial:bold:size=16}${color aqua}SYSTEM ${color aqua} ${hr 2}<br/>${font Arial:bold:size=12}${color aqua}$sysname $kernel $alignr $machine<br/>Intel CORE i7 $alignr${freq_g cpu0}Ghz<br/>Uptime $alignr${uptime}<br/>File System $alignr${fs_type}</p><p>${font Arial:bold:size=16}${color aqua}PROCESSORS ${color aqua}${hr 2}<br/>${font Arial:bold:size=12}Core1 ${cpu cpu1}% ${cpubar cpu1}<br/>Core2 ${cpu cpu2}% ${cpubar cpu2}<br/>#Core3 ${cpu cpu3}% ${cpubar cpu3}<br/>#Core4 ${cpu cpu4}% ${cpubar cpu4}</p><p>${font Arial:bold:size=16}${color aqua}TEMPERATURES ${color aqua}${hr 2}<br/>${font Arial:bold:size=12}${color aqua}Temp1 Temp$alignr${hwmon temp 1}°C <br/>${color aqua}Temp3 Temp$alignr${hwmon temp 3}°C</p><p>${font Arial:bold:size=16}${color aqua}MEMORY ${color aqua}${hr 2}<br/>${font Arial:bold:size=12}${color aqua}MEM $alignc $mem / $memmax $alignr $memperc%<br/>$membar</p><br/><p>${font Arial:bold:size=16}${color aqua}TOP PROCESSES ${color aqua}${hr 2}<br/>${font Arial:bold:size=12}${color aqua}${font Arial:bold:size=12}${top_mem name 2}${alignr}${top mem 2} %<br/>${font Arial:bold:size=12}${top_mem name 3}${alignr}${top mem 3} %<br/>${font Arial:bold:size=12}${top_mem name 4}${alignr}${top mem 4} %<br/>${font Arial:bold:size=12}${top_mem name 5}${alignr}${top mem 5} %</p><p>${font Arial:bold:size=16}${color aqua}NETWORK ${color aqua}${hr 2}<br/>${font Arial:bold:size=12}${color aqua}IP on eth0 $alignr ${addr eth0}</p><p>Down $alignr ${downspeed eth0} kb/s<br/>Up $alignr ${upspeed eth0} kb/s</p><p>${font Arial:bold:size=12}${color aqua}Downloaded: $alignr ${totaldown eth0}<br/>Uploaded: $alignr ${totalup eth0}<br/>${color aqua}${downspeedgraph eth0 20,70 ff0000 0000ff}&#160; &#160;${color aqua}${upspeedgraph eth0 20,70 0000ff ff0000}</p><p>${font Arial:bold:size=12}${color aqua}IP on wlan0 $alignr ${addr wlan0}<br/>Down $alignr ${downspeed wlan0} kb/s<br/>Up $alignr ${upspeed wlan0} kb/s</p><p>${font Arial:bold:size=12}${color aqua}Downloaded: $alignr ${totaldown wlan0}<br/>Uploaded: $alignr ${totalup wlan0}<br/>${color aqua}${downspeedgraph wlan0 20,70 ff0000 0000ff}&#160; &#160;${color aqua}${upspeedgraph wlan0 20,70 0000ff ff0000}</p><p>${font Arial:bold:size=18} $user_names</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>-Jeff Szydel </p><p>*Parrot Ambassador&#160; &#160;*Social Groups Manager&#160; &#160;*Helpdesk&#160; &#160;*Wiki Editor&#160; &#160; <br/>*Parrot Telegram Group Administrator&#160; &#160;*Parrot Community Administrator</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p550" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=550#p550">2017-03-11 14:57:25</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7064">mrneilypops</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/7064.png?m=1489178117" width="50" height="50" alt/></dd>
+<dd><span>From: Luxembourg</span></dd>
+<dd><span>Registered: 2017-03-10</span></dd>
+<dd><span>Posts: 3</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: parrot v3.5+parrot conky</h3>
+<div class="postmsg">
+<p>I found an error in my parrot conky tweak of 2 extra spaces after TEXT. A corrected version is available here;<br/>https://www.dropbox.com/s/1rp9hf65771tiuy/conky.conf?dl=0</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p819" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=819#p819">2017-04-05 19:18:25</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7879">kmerrillsmith</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-04-04</span></dd>
+<dd><span>Posts: 2</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: parrot v3.5+parrot conky</h3>
+<div class="postmsg">
+<p>Can you post a screenshot so we can see what it looks like?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p828" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=828#p828">2017-04-06 22:55:14</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7784">Tj</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-03</span></dd>
+<dd><span>Posts: 6</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: parrot v3.5+parrot conky</h3>
+<div class="postmsg">
+<p>I&#039;d like to see a screenshot as well. </p><div class="quotebox"><cite>kmerrillsmith wrote:</cite><blockquote><div><p>Can you post a screenshot so we can see what it looks like?</p></div></blockquote></div>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=6">System Setup and Customization</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=180">parrot v3.5+parrot conky</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6" selected="selected">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=180&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div></div></div>
+</div>
+</body>
+</html>

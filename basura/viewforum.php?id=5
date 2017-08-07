@@ -1,0 +1,809 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Installation Process / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewforum.php?id=5" title="Page 1"/>
+<link rel="next" href="viewforum.php?id=5&amp;p=2" title="Page 2"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;fid=5&amp;type=atom" title="Atom forum feed"/>
+
+</head>
+<body>
+<div id="punviewforum" class="pun">
+<div class="top-box"><div></div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><strong><a href="viewforum.php?id=5">Installation Process</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong> <a href="viewforum.php?id=5&amp;p=2">2</a> <a rel="next" href="viewforum.php?id=5&amp;p=2">Next</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="vf" class="blocktable">
+<h2><span>Installation Process</span></h2>
+<div class="box">
+<div class="inbox">
+<table>
+<thead>
+<tr>
+<th class="tcl" scope="col">Topic</th>
+<th class="tc2" scope="col">Replies</th>
+<th class="tc3" scope="col">Views</th>
+<th class="tcr" scope="col">Last post</th>
+</tr>
+</thead>
+<tbody>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">1</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=744">Installion Header glitch.</a> <span class="byuser">by dankestmfdog</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">49</td>
+<td class="tcr"><a href="viewtopic.php?pid=2894#p2894">Today 12:48:22</a> <span class="byuser">by vzz1x2</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">2</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=736">Installation ERROR [FiXED]-Parrot Security 3.7 Full Edition - [64bit]</a> <span class="byuser">by ParaX0rmal</span>
+</div>
+</div>
+</td>
+<td class="tc2">0</td>
+<td class="tc3">29</td>
+<td class="tcr"><a href="viewtopic.php?pid=2854#p2854">Yesterday 03:21:40</a> <span class="byuser">by ParaX0rmal</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">3</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=726">esoteric math ?? the *.IMG file (7GB) is too long for 16GM SD Card?</a> <span class="byuser">by unacc0unt4bl3</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">45</td>
+<td class="tcr"><a href="viewtopic.php?pid=2824#p2824">2017-08-03 20:54:31</a> <span class="byuser">by vzz1x2</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">4</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=717">&quot;Gave up waiting for root file system device&quot; First boot</a> <span class="byuser">by 121v312</span>
+</div>
+</div>
+</td>
+<td class="tc2">3</td>
+<td class="tc3">82</td>
+<td class="tcr"><a href="viewtopic.php?pid=2811#p2811">2017-08-02 22:14:56</a> <span class="byuser">by 121v312</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">5</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=720">A TON of Problems</a> <span class="byuser">by UpTwoEpoch</span>
+</div>
+</div>
+</td>
+<td class="tc2">4</td>
+<td class="tc3">56</td>
+<td class="tcr"><a href="viewtopic.php?pid=2805#p2805">2017-08-02 12:02:59</a> <span class="byuser">by UpTwoEpoch</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">6</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=709">Keyboard and mouse not working</a> <span class="byuser">by Mrtoxic</span>
+</div>
+</div>
+</td>
+<td class="tc2">3</td>
+<td class="tc3">67</td>
+<td class="tcr"><a href="viewtopic.php?pid=2795#p2795">2017-08-01 23:19:45</a> <span class="byuser">by Paaltomo</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">7</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=632">Wi-Fi isn&#039;t working</a> <span class="byuser">by Dankertist</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">105</td>
+<td class="tcr"><a href="viewtopic.php?pid=2775#p2775">2017-08-01 06:35:00</a> <span class="byuser">by justin</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">8</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=696">[SOLVED] Mirror Troubles</a> <span class="byuser">by AllF1</span>
+</div>
+</div>
+</td>
+<td class="tc2">1</td>
+<td class="tc3">58</td>
+<td class="tcr"><a href="viewtopic.php?pid=2717#p2717">2017-07-29 14:01:58</a> <span class="byuser">by palinuro</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">9</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=691">Header Image Bug on 3.7 GTK Installers</a> <span class="byuser">by Paaltomo</span>
+</div>
+</div>
+</td>
+<td class="tc2">4</td>
+<td class="tc3">66</td>
+<td class="tcr"><a href="viewtopic.php?pid=2700#p2700">2017-07-28 23:07:23</a> <span class="byuser">by Paaltomo</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">10</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=686">[SOLVED] Can&#039;t even make a bootable USB</a> <span class="byuser">by Neronic</span>
+</div>
+</div>
+</td>
+<td class="tc2">3</td>
+<td class="tc3">103</td>
+<td class="tcr"><a href="viewtopic.php?pid=2693#p2693">2017-07-28 18:50:27</a> <span class="byuser">by vzz1x2</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">11</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=681">OS will not show up</a> <span class="byuser">by jaccieboi</span>
+</div>
+</div>
+</td>
+<td class="tc2">3</td>
+<td class="tc3">70</td>
+<td class="tcr"><a href="viewtopic.php?pid=2671#p2671">2017-07-26 22:22:47</a> <span class="byuser">by josegatica</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">12</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=368">[SOLVED] problems with Broadcom Limited BCM43142 wifi</a> <span class="byuser">by poquex</span>
+</div>
+</div>
+</td>
+<td class="tc2">3</td>
+<td class="tc3">264</td>
+<td class="tcr"><a href="viewtopic.php?pid=2645#p2645">2017-07-25 21:48:05</a> <span class="byuser">by toyoss</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">13</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=665">user/password not set</a> <span class="byuser">by Sm!ley</span>
+</div>
+</div>
+</td>
+<td class="tc2">0</td>
+<td class="tc3">52</td>
+<td class="tcr"><a href="viewtopic.php?pid=2620#p2620">2017-07-24 13:19:25</a> <span class="byuser">by Sm!ley</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">14</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=662">It is possible install Parrot in Shield Tablet K1?</a> <span class="byuser">by Xavi</span>
+</div>
+</div>
+</td>
+<td class="tc2">3</td>
+<td class="tc3">81</td>
+<td class="tcr"><a href="viewtopic.php?pid=2614#p2614">2017-07-23 22:32:31</a> <span class="byuser">by josegatica</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">15</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=656">[SOLVED] - Doesn&#039;t boot after installation</a> <span class="byuser">by trabucaire</span>
+</div>
+</div>
+</td>
+<td class="tc2">4</td>
+<td class="tc3">117</td>
+<td class="tcr"><a href="viewtopic.php?pid=2592#p2592">2017-07-22 23:37:44</a> <span class="byuser">by josegatica</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">16</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=640">No Grub Menu</a> <span class="byuser">by Ramsey10</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">83</td>
+<td class="tcr"><a href="viewtopic.php?pid=2567#p2567">2017-07-21 17:20:04</a> <span class="byuser">by actee</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">17</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=634">Installation not working</a> <span class="byuser">by Ramsey10</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">124</td>
+<td class="tcr"><a href="viewtopic.php?pid=2536#p2536">2017-07-17 14:53:06</a> <span class="byuser">by Ramsey10</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">18</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=625">Aborted Installation has left my hd useless</a> <span class="byuser">by nico</span>
+</div>
+</div>
+</td>
+<td class="tc2">1</td>
+<td class="tc3">77</td>
+<td class="tcr"><a href="viewtopic.php?pid=2519#p2519">2017-07-15 08:26:46</a> <span class="byuser">by timapple</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">19</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=615">[SOLVED] Installing onto XPS 13</a> <span class="byuser">by GER0NiM0</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">99</td>
+<td class="tcr"><a href="viewtopic.php?pid=2497#p2497">2017-07-13 16:01:11</a> <span class="byuser">by qr0f1l3R</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">20</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=610">Parrot Linux Not Installing anymore!!</a> <span class="byuser">by Ramsey10</span>
+</div>
+</div>
+</td>
+<td class="tc2">0</td>
+<td class="tc3">100</td>
+<td class="tcr"><a href="viewtopic.php?pid=2457#p2457">2017-07-10 20:48:16</a> <span class="byuser">by Ramsey10</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">21</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=222">Installing Parrot on Raspberry Pi 3 B</a> <span class="byuser">by ggrn</span>
+</div>
+</div>
+</td>
+<td class="tc2">9</td>
+<td class="tc3">1,634</td>
+<td class="tcr"><a href="viewtopic.php?pid=2398#p2398">2017-07-07 21:49:04</a> <span class="byuser">by PoshMagiC0de</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">22</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=588">system install fail</a> <span class="byuser">by Magicnate</span>
+</div>
+</div>
+</td>
+<td class="tc2">4</td>
+<td class="tc3">198</td>
+<td class="tcr"><a href="viewtopic.php?pid=2395#p2395">2017-07-07 19:14:37</a> <span class="byuser">by Magicnate</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">23</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=596">install parrot on lenova all in one</a> <span class="byuser">by rbrick49</span>
+</div>
+</div>
+</td>
+<td class="tc2">0</td>
+<td class="tc3">47</td>
+<td class="tcr"><a href="viewtopic.php?pid=2384#p2384">2017-07-07 12:41:13</a> <span class="byuser">by rbrick49</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">24</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=474">Parrot Security OS download keeps failing</a> <span class="byuser">by Dankertist</span>
+</div>
+</div>
+</td>
+<td class="tc2">6</td>
+<td class="tc3">447</td>
+<td class="tcr"><a href="viewtopic.php?pid=2181#p2181">2017-06-22 04:57:51</a> <span class="byuser">by Jeff</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">25</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=542">Persistence won&#039;t persist</a> <span class="byuser">by joshg469</span>
+</div>
+</div>
+</td>
+<td class="tc2">3</td>
+<td class="tc3">157</td>
+<td class="tcr"><a href="viewtopic.php?pid=2180#p2180">2017-06-22 04:50:22</a> <span class="byuser">by Jeff</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">26</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=511">Installation Failed (Windows 10 Dual boot/3.6 Full)</a> <span class="byuser">by netship</span>
+</div>
+</div>
+</td>
+<td class="tc2">8</td>
+<td class="tc3">471</td>
+<td class="tcr"><a href="viewtopic.php?pid=2162#p2162">2017-06-20 07:18:45</a> <span class="byuser">by VSGamer</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">27</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=463">Parrot OS and Pine64</a> <span class="byuser">by DruidKin</span>
+</div>
+</div>
+</td>
+<td class="tc2">4</td>
+<td class="tc3">487</td>
+<td class="tcr"><a href="viewtopic.php?pid=2032#p2032">2017-06-11 14:16:07</a> <span class="byuser">by palinuro</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">28</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=442">desktop widgets..</a> <span class="byuser">by salonatro420</span>
+</div>
+</div>
+</td>
+<td class="tc2">1</td>
+<td class="tc3">246</td>
+<td class="tcr"><a href="viewtopic.php?pid=1971#p1971">2017-06-08 03:35:30</a> <span class="byuser">by Jeff</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">29</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=504">Grub Installation Failed</a> <span class="byuser">by schrammbo</span>
+</div>
+</div>
+</td>
+<td class="tc2">11</td>
+<td class="tc3">574</td>
+<td class="tcr"><a href="viewtopic.php?pid=1969#p1969">2017-06-08 03:31:20</a> <span class="byuser">by Jeff</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">30</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=495">TP-LINK WN722N problem</a> <span class="byuser">by disrupt_the_flow</span>
+</div>
+</div>
+</td>
+<td class="tc2">23</td>
+<td class="tc3">458</td>
+<td class="tcr"><a href="viewtopic.php?pid=1921#p1921">2017-06-06 09:11:40</a> <span class="byuser">by disrupt_the_flow</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">31</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=372">How to change Lite Paarot into Air Parrot</a> <span class="byuser">by At0miclich</span>
+</div>
+</div>
+</td>
+<td class="tc2">1</td>
+<td class="tc3">123</td>
+<td class="tcr"><a href="viewtopic.php?pid=1856#p1856">2017-06-05 11:50:05</a> <span class="byuser">by xx4h</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">32</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=494">Lenovo Yoga 910-131KB - No Disk Drive was Detected</a> <span class="byuser">by inteledyne</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">142</td>
+<td class="tcr"><a href="viewtopic.php?pid=1823#p1823">2017-06-04 12:13:51</a> <span class="byuser">by vzz1x2</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">33</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=19">[-end kernel panic-] not syncing vfs:</a> <span class="byuser">by hkyq</span>
+</div>
+</div>
+</td>
+<td class="tc2">4</td>
+<td class="tc3">366</td>
+<td class="tcr"><a href="viewtopic.php?pid=1785#p1785">2017-06-02 15:53:02</a> <span class="byuser">by WillyNilly</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">34</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=475">Parrot wont start on Raspberry Pi 3 (Parrot 3.4)</a> <span class="byuser">by NIXO</span>
+</div>
+</div>
+</td>
+<td class="tc2">1</td>
+<td class="tc3">176</td>
+<td class="tcr"><a href="viewtopic.php?pid=1761#p1761">2017-06-02 02:53:54</a> <span class="byuser">by Consul</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">35</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=428">Hash check did not match</a> <span class="byuser">by ajknowhere</span>
+</div>
+</div>
+</td>
+<td class="tc2">4</td>
+<td class="tc3">262</td>
+<td class="tcr"><a href="viewtopic.php?pid=1704#p1704">2017-06-01 02:56:03</a> <span class="byuser">by Consul</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">36</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=446">install fails to make bootable system when device file name changes</a> <span class="byuser">by all-black</span>
+</div>
+</div>
+</td>
+<td class="tc2">4</td>
+<td class="tc3">289</td>
+<td class="tcr"><a href="viewtopic.php?pid=1690#p1690">2017-05-31 18:23:22</a> <span class="byuser">by all-black</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">37</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=455">Trying to install parrot 3.6 to dual boot with windows 10</a> <span class="byuser">by parrotnoob</span>
+</div>
+</div>
+</td>
+<td class="tc2">1</td>
+<td class="tc3">198</td>
+<td class="tcr"><a href="viewtopic.php?pid=1658#p1658">2017-05-30 17:37:09</a> <span class="byuser">by josegatica</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">38</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=443">Fix (initramfs): Usually when you install from USB</a> <span class="byuser">by iosifidis</span>
+</div>
+</div>
+</td>
+<td class="tc2">3</td>
+<td class="tc3">332</td>
+<td class="tcr"><a href="viewtopic.php?pid=1598#p1598">2017-05-29 19:50:04</a> <span class="byuser">by all-black</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">39</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=375">Parrotsec installation fails at 36%</a> <span class="byuser">by Toxcique</span>
+</div>
+</div>
+</td>
+<td class="tc2">11</td>
+<td class="tc3">787</td>
+<td class="tcr"><a href="viewtopic.php?pid=1473#p1473">2017-05-26 08:11:32</a> <span class="byuser">by sirru5h</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">40</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=389">Error when installing Laravel</a> <span class="byuser">by brianeli22</span>
+</div>
+</div>
+</td>
+<td class="tc2">3</td>
+<td class="tc3">151</td>
+<td class="tcr"><a href="viewtopic.php?pid=1468#p1468">2017-05-26 06:20:08</a> <span class="byuser">by brianeli22</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">41</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=376">TP-LINK WN722N error</a> <span class="byuser">by Motionless</span>
+</div>
+</div>
+</td>
+<td class="tc2">6</td>
+<td class="tc3">232</td>
+<td class="tcr"><a href="viewtopic.php?pid=1373#p1373">2017-05-22 16:22:37</a> <span class="byuser">by Motionless</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">42</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=377">error in armitage</a> <span class="byuser">by ayoub</span>
+</div>
+</div>
+</td>
+<td class="tc2">5</td>
+<td class="tc3">202</td>
+<td class="tcr"><a href="viewtopic.php?pid=1369#p1369">2017-05-22 15:50:38</a> <span class="byuser">by vzz1x2</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">43</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=367">how to fix this error</a> <span class="byuser">by ayoub</span>
+</div>
+</div>
+</td>
+<td class="tc2">6</td>
+<td class="tc3">587</td>
+<td class="tcr"><a href="viewtopic.php?pid=1363#p1363">2017-05-22 15:02:54</a> <span class="byuser">by CleanZombie</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">44</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=387">No GUI at all</a> <span class="byuser">by 7109node</span>
+</div>
+</div>
+</td>
+<td class="tc2">1</td>
+<td class="tc3">156</td>
+<td class="tcr"><a href="viewtopic.php?pid=1356#p1356">2017-05-22 12:49:50</a> <span class="byuser">by Motionless</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">45</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=373">Fresh full Parrot Installation painstainkingly slow</a> <span class="byuser">by medvedos</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">187</td>
+<td class="tcr"><a href="viewtopic.php?pid=1338#p1338">2017-05-21 21:39:25</a> <span class="byuser">by CleanZombie</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">46</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=261">stuck at grub</a> <span class="byuser">by dmnk00005</span>
+</div>
+</div>
+</td>
+<td class="tc2">4</td>
+<td class="tc3">313</td>
+<td class="tcr"><a href="viewtopic.php?pid=1240#p1240">2017-05-15 05:09:27</a> <span class="byuser">by Jeff</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">47</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=327">No Sound on internal Speaker, ASUS X441SA</a> <span class="byuser">by agus3salim</span>
+</div>
+</div>
+</td>
+<td class="tc2">6</td>
+<td class="tc3">352</td>
+<td class="tcr"><a href="viewtopic.php?pid=1227#p1227">2017-05-11 20:46:12</a> <span class="byuser">by PC_Mechanic</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">48</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=347">Can run parrot OS armhf on smartphone device or android tablet?</a> <span class="byuser">by otrousuario</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">1,063</td>
+<td class="tcr"><a href="viewtopic.php?pid=1222#p1222">2017-05-11 02:54:03</a> <span class="byuser">by otrousuario</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">49</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=271">WORKING CONKY CONFIGS ONLY - Post Them Here</a> <span class="byuser">by Jeff</span>
+</div>
+</div>
+</td>
+<td class="tc2">6</td>
+<td class="tc3">570</td>
+<td class="tcr"><a href="viewtopic.php?pid=1165#p1165">2017-05-06 15:17:43</a> <span class="byuser">by PC_Mechanic</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">50</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=311">Crear un usb persistente con encryptacion</a> <span class="byuser">by erberna</span>
+</div>
+</div>
+</td>
+<td class="tc2">3</td>
+<td class="tc3">212</td>
+<td class="tcr"><a href="viewtopic.php?pid=1118#p1118">2017-05-02 03:20:32</a> <span class="byuser">by ku1g0n</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="linksb">
+ <div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong> <a href="viewforum.php?id=5&amp;p=2">2</a> <a rel="next" href="viewforum.php?id=5&amp;p=2">Next</a></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><strong><a href="viewforum.php?id=5">Installation Process</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4">General Questions</option>
+<option value="5" selected="selected">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;fid=5&amp;type=atom">Atom forum feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div></div></div>
+</div>
+</body>
+</html>

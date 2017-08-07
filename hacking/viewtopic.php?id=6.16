@@ -1,0 +1,728 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Development of Parrot 3.5 / Development Discussions / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=6" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=6&amp;type=atom" title="Atom topic feed"/>
+
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div></div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=8">Development Discussions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=6">Development of Parrot 3.5</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p33" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=33#p33">2017-02-12 16:39:55</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=31">sheireen</a></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 1</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Development of Parrot 3.5</h3>
+<div class="postmsg">
+<p>Hello, i will start this topic here to let people discuss on what to do for the next release.<br/>The same topic was already discussed in our development mailing list, so let&#039;s start from what Palinuro have pointed out there</p><p><a href="http://lists.parrotsec.org/pipermail/parrot-devel/2017-February/000040.html" rel="nofollow">http://lists.parrotsec.org/pipermail/pa … 00040.html</a></p><br/><br/><br/><br/><div class="codebox"><pre class="vscroll"><code>UPDATES CURRENTLY DONE
+
+1)
+we have imported many many debian updates since parrot 3.4, many of them
+are security updates, others are general improvements.
+Debian is up to release its new stable release, so the debian testing
+branch is very stable and coherent now.
+
+
+2)
+we have updated many tools, most of them were imported from kali, others
+from debian (pkg-security team)
+
+
+3)
+parrot-skel, desktop-base and init-system-helpers were updated, all the
+other parrot packages and metapackages are going to be reviewed and
+updated in the next days
+
+
+TODO LIST
+
+1)
+finish the new linux 4.9.6-parrot0 kernel (it&#039;s ready, i&#039;m just waiting
+the build process to test it out)
+
+2)
+design and choose a new wallpaper
+
+3)
+further test the arm builds for raspberry pi and pine64
+
+4)
+create a team of betatesters for the next release
+
+5)
+test the alternate installation script to see if it is still capable of
+converting a debian 8 system into parrot
+https://github.com/ParrotSec/alternate-install/blob/master/parrot-install.sh
+
+6)
+rebuild the debian installer for the new kernel version
+
+7)
+re-package and update the following tools according to the dep14 and
+debhelper 10 standards:
+spiderfoot
+maligno
+pompem
+penmode
+angry ip scanner
+tdsog
+inurlbr
+chiron
+
+8)
+discover why kde, gnome and some other interfaces sometimes fail to
+install or to start
+
+9)
+create a community forum
+
+10)
+collect proposals and feedbacks from the community
+
+
+
+
+
+
+
+MISC REPLIES
+
+
+On 30/01/2017 08:40, Marco Alfano wrote:
+&gt; Hello to all. I&#039;m new here. I have a short to do list of few advice that
+&gt; we should do before next relase:
+&gt; 
+&gt; GUI:
+&gt; We should improve our GUI for make better experiences for users. I&#039;m
+&gt; already working on it. 
+&gt; Lorenzo want to continue to use MATE as default desktop environment. So
+&gt; we can improve it. 
+&gt; The only thing that I want to keep from now it&#039;s icon theme. Other stuff
+&gt; needs to be changed or improved. We should add a nice conky theme too.
+&gt; And find out why some desktop environment like xfce and kde broke system. 
+
+we can&#039;t release the new mate 1.18 in time for parrot 2.5, anyway i have
+fixed a bunch of imperfections with the latest parrot-skel update
+
+of course the fix is at dconf level, so you need to update your local
+dconf database with that on /etc/skel to see it (otherwise just set up a
+screensaver to fix the suspension bug)
+
+read line 119
+https://github.com/ParrotSec/parrot-skel/blob/master/dconf/db/local.d/parrot-skel
+
+
+&gt; 
+&gt; Pre-installed apps:
+&gt; We need to improve our pre-installed apps.
+&gt; Some software need to be removed (like emacs) and some needs to be
+&gt; installed I suggest :
+&gt; Toxic guilty client like qTox or uTox 
+&gt; Irssi irc client 
+&gt; Mail desktop client. 
+&gt; Telegram? Not really necessary but it&#039;s community first choice after
+&gt; Facebook, and more common for new users than irc. 
+
+emacs removed
+
+https://github.com/ParrotSec/parrot-build/commit/9ff0a6098102904ac487a9a7ef62fed27791dc16
+
+
+&gt; 
+&gt; Repo:
+&gt; I think we have to reorganize repo in categories, following parrot menu
+&gt; categories. So user from lite install, can install only required
+&gt; software for their needs. If I need for example only wifi crack suite, I
+&gt; can install it with macrocategory &quot;parrot-wifi&quot;, without downloading and
+&gt; install all other SW that probably don&#039;t need. Can offer a better user
+&gt; experience and package management!
+
+we already have something similar
+
+run
+apt search parrot-meta
+
+you&#039;ll find something similar
+
+parrot-meta-all/testing,testing,now 3.4+parrot0 all [installed,automatic]
+  Parrot Security - all packages
+
+parrot-meta-forensics/testing,testing,now 3.4+parrot0 all
+[installed,automatic]
+  Parrot Securiy forensic tools
+
+parrot-meta-full/testing,testing,now 3.4+parrot0 all [installed,automatic]
+  Parrot Security complete system
+
+parrot-meta-gpu/testing,testing,now 3.4+parrot0 all [installed,automatic]
+  Parrot Security GPU tools
+
+parrot-meta-pwtools/testing,testing,now 3.4+parrot0 all
+[installed,automatic]
+  Parrot Security password cracking tools
+
+parrot-meta-rfid/testing,testing,now 3.4+parrot0 all [installed,automatic]
+  Parrot Security RFID tools
+
+parrot-meta-sdr/testing,testing,now 3.4+parrot0 all [installed,automatic]
+  Parrot Security SDR tools
+
+parrot-meta-voip/testing,testing,now 3.4+parrot0 all [installed,automatic]
+  Parrot Security VoIP tools
+
+parrot-meta-web/testing,testing,now 3.4+parrot0 all [installed,automatic]
+  Parrot Security webapp assessment tools
+
+parrot-meta-wireless/testing,testing,now 3.4+parrot0 all
+[installed,automatic]
+  Parrot Security wireless tools
+
+
+as you can see we already have some metapackages to divide the tools in
+categories
+
+
+
+&gt; 
+&gt; Il 30 gen 2017 1:32 AM, &quot;Lorenzo Faletra&quot; &lt;palinuro at parrotsec.org
+&gt; &lt;mailto:palinuro at parrotsec.org&gt;&gt; ha scritto:
+&gt; 
+&gt;     hi, i&#039;m starti g this thread because we all have to talk and discuss
+&gt;     how we want to develop this new release and what we want to have (or
+&gt;     not to have) in it
+&gt; 
+&gt; 
+&gt;     for all the new members of the mailing list: don&#039;t be shy and feel
+&gt;     free to propose your ideas and ask us many many questions as no one
+&gt;     is going to bite you :)
+&gt; 
+&gt;     for all the core developers: we need to involve all the new
+&gt;     contributors in the development of this new release and we need to
+&gt;     use this mailing list for all the development discussions. let&#039;s
+&gt;     make our release process more transparent and open to contributions
+&gt; 
+&gt; 
+&gt; 
+&gt;     i can&#039;t propose my own list of things i yould personally see (or not
+&gt;     see) in the next release as i am in my exams period and i have a
+&gt;     very little time to dedicate to general discussions (all my time
+&gt;     dedicated to parrot is focused on security updates and servers
+&gt;     maintainance), but i&#039;ll propose a first roadmap as soon as possible,
+&gt;     let&#039;s do our best!
+&gt; 
+&gt; 
+&gt; 
+&gt; 
+&gt;     --
+&gt;     Lorenzo &quot;Palinuro&quot; Faletra
+&gt; 
+&gt;     Frozenbox Network
+&gt;     Parrot Security
+&gt; 
+&gt;     GPG ID: F4C6B9A4
+&gt;     GPG FINGERPRINT: B350 5059 3C2F 7656 40E6  DDDB 97CA A129 F4C6 B9A4
+&gt; 
+&gt;     GPG Info:
+&gt;     http://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4
+&gt;     &lt;http://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4&gt;
+&gt;     GPG Key:
+&gt;     http://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4
+&gt;     &lt;http://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4&gt;
+&gt;     _______________________________________________
+&gt;     Parrot-devel mailing list
+&gt;     Parrot-devel at lists.parrotsec.org
+&gt;     &lt;mailto:Parrot-devel at lists.parrotsec.org&gt;
+&gt;     http://lists.parrotsec.org/listinfo/parrot-devel
+&gt;     &lt;http://lists.parrotsec.org/listinfo/parrot-devel&gt;
+&gt; 
+&gt; 
+&gt; 
+&gt; 
+&gt; _______________________________________________
+&gt; Parrot-devel mailing list
+&gt; Parrot-devel at lists.parrotsec.org
+&gt; http://lists.parrotsec.org/listinfo/parrot-devel</code></pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p34" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=34#p34">2017-02-12 16:48:20</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.5</h3>
+<div class="postmsg">
+<p>great!</p><p>anyway, since that message we had zero progressions except for this forum as our new community portal, plus the standard upgrades i regularly import and test in our repository</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p43" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=43#p43">2017-02-12 18:52:45</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=14">Jeff</a></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd><span>From: USA</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 296</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.5</h3>
+<div class="postmsg">
+<p>This is great information. I appreciate you posting this with the updates !!!</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>-Jeff Szydel </p><p>*Parrot Ambassador&#160; &#160;*Social Groups Manager&#160; &#160;*Helpdesk&#160; &#160;*Wiki Editor&#160; &#160; <br/>*Parrot Telegram Group Administrator&#160; &#160;*Parrot Community Administrator</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p50" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=50#p50">2017-02-13 02:11:52</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=23">vzz1x2</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/23.png?m=1486864625" width="60" height="60" alt/></dd>
+<dd><span>From: Ireland</span></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 167</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.5</h3>
+<div class="postmsg">
+<p>Is there a place to see if someone already took ownership of any task? Or is just an answer on the mailing list?<br/>I could help with the following:</p><p>Test on Raspberry <br/>Betatestes of next release<br/>I can give it a try to the Debian Script. </p><p>I always wanted to learn more on packaging, so if you have some pacience withe me, I could get speed and help with that..</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><a href="/cdn-cgi/l/email-protection#a6c5cac7d3c2cfc9e6c2c7d2c7c5c9d488c5c9cb88c7d4"><span class="__cf_email__" data-cfemail="2447484551404d4b6440455045474b560a474b490a4556">[email&#160;protected]</span><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a><br/><a href="http://pgp.key-server.io/pks/lookup?op=get&amp;search=0x8266F5857EC82A4C" rel="nofollow">PGP Key</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p55" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=55#p55">2017-02-13 20:28:39</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.5</h3>
+<div class="postmsg">
+<p>there is no &quot;ownership&quot; if more people want to help with hte same task they are welcome</p><br/><br/><p>to help testing the raspberry pi images you have to wait francesco bonanno (mibofra) to release the new images, ask for more information in the IoT section of this forum</p><p>to test the new release the answer is the same, wait for the release, we will probably make a &quot;call for testers&quot;, so stay tuned</p><br/><p>for the debian script you can start trying even right now as most (if not all) of the core packages were already modified for the new release</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p92" class="blockpost roweven">
+<h2><span><span class="conr">#6</span> <a href="viewtopic.php?pid=92#p92">2017-02-15 19:37:30</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.5</h3>
+<div class="postmsg">
+<p>once the system is installed you can use synaptic package manager to access the full list of all the packages in our repository</p><p>we also have some metapackages to install all the packages at once, as for example parrot-tools or parrot-tools-full</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p142" class="blockpost rowodd">
+<h2><span><span class="conr">#7</span> <a href="viewtopic.php?pid=142#p142">2017-02-17 10:25:33</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.5</h3>
+<div class="postmsg">
+<p>list of tools that need to be updated:</p><p>cuckoo<br/>fern-wifi-cracker<br/>sparta<br/>metasploit-framework</p><br/><p>list of tools that need to be tested/fixed:</p><p>spiderfoot (2.8)</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1042" class="blockpost roweven">
+<h2><span><span class="conr">#8</span> <a href="viewtopic.php?pid=1042#p1042">2017-04-25 16:59:48</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8348">Newbie</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-14</span></dd>
+<dd><span>Posts: 11</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.5</h3>
+<div class="postmsg">
+<p>&gt;&gt; Some software need to be removed (like emacs) <br/>&gt; emacs removed</p><p>What was the problem with emacs?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1052" class="blockpost rowodd">
+<h2><span><span class="conr">#9</span> <a href="viewtopic.php?pid=1052#p1052">2017-04-26 14:05:19</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.5</h3>
+<div class="postmsg">
+<p>emacs was not removed from the distro and it is still available in our software archive, we have just decided to not include it by default as part of our pre-installed softwares</p><p>the reason? it requires more than 100MB of software core and dependencies, and storage space is very precious on our ISO files</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1231" class="blockpost roweven">
+<h2><span><span class="conr">#10</span> <a href="viewtopic.php?pid=1231#p1231">2017-05-12 14:25:57</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=47">$!thum;</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-02-13</span></dd>
+<dd><span>Posts: 24</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.5</h3>
+<div class="postmsg">
+<p>Replace vlc with mpv and add clementine.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1286" class="blockpost rowodd">
+<h2><span><span class="conr">#11</span> <a href="viewtopic.php?pid=1286#p1286">2017-05-18 23:18:25</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8517">Averagedaymare</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/8517.jpg?m=1495143371" width="60" height="60" alt/></dd>
+<dd><span>From: Backstroking Through Daymares</span></dd>
+<dd><span>Registered: 2017-04-22</span></dd>
+<dd><span>Posts: 4</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.5</h3>
+<div class="postmsg">
+<p>Very glad to see that another update is upon us :) happy to see the tasty tools getting updated...nom nom, nom</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Welcome to the Instrinsic Happy Hour</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2168" class="blockpost roweven">
+<h2><span><span class="conr">#12</span> <a href="viewtopic.php?pid=2168#p2168">2017-06-20 10:43:10</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9315">acidgen</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-19</span></dd>
+<dd><span>Posts: 10</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.5</h3>
+<div class="postmsg">
+<div class="quotebox"><blockquote><div><p>&gt; Pre-installed apps:<br/>&gt; We need to improve our pre-installed apps.<br/>&gt; Some software need to be removed (like emacs) and some needs to be<br/>&gt; installed I suggest :<br/>&gt; Toxic guilty client like qTox or uTox <br/>&gt; Irssi irc client <br/>&gt; Mail desktop client. <br/>&gt; Telegram? Not really necessary but it&#039;s community first choice after<br/>&gt; Facebook, and more common for new users than irc.</p></div></blockquote></div><p>Why? is this a Desktop Replacement or a Security Distro?<br/>Have them in the repo, not the default install IMO. Its supposed to be fast and nimble,<br/>as well as clean as possible after install.</p><p>Regards,<br/>Acidgen</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=8">Development Discussions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=6">Development of Parrot 3.5</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8" selected="selected">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=6&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div></div></div>
+</div>
+<script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+</html>

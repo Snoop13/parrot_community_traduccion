@@ -1,0 +1,368 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Firewall strategy for ParrotSec / System Setup and Customization / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=343" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=343&amp;type=atom" title="Atom topic feed"/>
+
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div></div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=6">System Setup and Customization</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=343">Firewall strategy for ParrotSec</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p1184" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=1184#p1184">2017-05-08 12:39:25</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8757">p.meyeri</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-05-08</span></dd>
+<dd><span>Posts: 1</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Firewall strategy for ParrotSec</h3>
+<div class="postmsg">
+<p>What is the assumed strategy with no firewarll installed by default?&#160; No information in the community or documentation returns for the search term firewall (other than a port forward question about a router).&#160; What I am asking is perhaps irrelevant for the usage of PrrotSec, but what I would like to know is what is recommended to install - assuming one might want something there.&#160; I see there is firewall builder, and penetration testers - I could easily be missing something obvious, but I ask your help.&#160; &#160;As a recent Debian based distro, perhaps similar to Stretch, I might expect to see firewalld, and iptables there for those more familiar with it.&#160; &#160;</p><p>I have ParrotSec as the host OS for VMWare Workstation, and would like to configure a firewall to isolate my Workstation&#039;s VMs.&#160; That is the question.&#160; <br/>I like the idea having a modern kernel and hardware support, with the distro already having tools to assess serval host network(s) I connect to.&#160; Thanks! </p><p>p.meyeri</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1185" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=1185#p1185">2017-05-08 13:44:59</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Firewall strategy for ParrotSec</h3>
+<div class="postmsg">
+<p>hi, if you want to do very complex and customized setups you can use iptables or ip through the command line</p><p>ufw is a nice automated firewall solution that simplifies the use of iptables</p><p>gufw is a graphical interface to ufw and it should be pre-installed in parrot</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1192" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=1192#p1192">2017-05-08 15:27:58</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=23">vzz1x2</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/23.png?m=1486864625" width="60" height="60" alt/></dd>
+<dd><span>From: Ireland</span></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 167</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Firewall strategy for ParrotSec</h3>
+<div class="postmsg">
+<p>Yeap.. ufw is the easiest choice..</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><a href="/cdn-cgi/l/email-protection#c5a6a9a4b0a1acaa85a1a4b1a4a6aab7eba6aaa8eba4b7"><span class="__cf_email__" data-cfemail="f7949b9682939e98b793968396949885d994989ad99685">[email&#160;protected]</span><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a><br/><a href="http://pgp.key-server.io/pks/lookup?op=get&amp;search=0x8266F5857EC82A4C" rel="nofollow">PGP Key</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1552" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=1552#p1552">2017-05-29 06:33:21</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9027">XavierDrexlan</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-29</span></dd>
+<dd><span>Posts: 6</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Firewall strategy for ParrotSec</h3>
+<div class="postmsg">
+<p>Hey All, <br/>I scripted some bash lines up to help with some basic Fire-walling Strategies. <br/>Although the script is quite basic, it remains highly functional.</p><p>Feel free to edit it as necessary to your own needs:<br/>================Copy &amp; Paste to your editor of choice===========================<br/> #!/usr/bin/env bash<br/>function ufwStatus_check(){<br/>&#160; &#160; clear <br/>&#160; &#160; echo -e &#039;[+] Uncomplicated Firewall Status Check...\n\n&#039; &amp;&amp; sleep .0999<br/>&#160; &#160; sudo ufw status<br/>&#160; &#160; echo -e &#039;[+] Uncomplicated Firewall status check complete..\n\n\n&#039; &amp;&amp; sleep .0999<br/>}<br/>function ufwRST_default(){<br/>&#160; &#160; echo -e &#039;[+] Uncomplicated Firewall reset to default and enable logging...\n\n&#039; &amp;&amp; sleep .0999<br/>&#160; &#160; sudo ufw reset &amp;&amp; sudo ufw default deny <br/>&#160; &#160; sudo ufw logging on<br/>&#160; &#160; echo -e &#039;[+] Uncomplicated Firewall default reset complete...\n\n&#039; &amp;&amp; sleep .0999<br/>&#160; &#160; echo -e &#039;[+] Uncomplicated Firewall logging has been enabled.\n\n&#039; &amp;&amp; sleep .0999<br/>&#160; &#160; }<br/>function ufwSSH_allow(){<br/>&#160; &#160; echo -e &#039;[+] Uncomplicated Firewall securing and allowing ssh...\n&#039; &amp;&amp; sleep .0999<br/>&#160; &#160; sudo ufw allow ssh/tcp<br/>&#160; &#160; echo -e &#039;[+] Uncomplicated Firewall SSH traffic has been allowed.\n\n&#039; &amp;&amp; sleep .0999<br/>&#160; &#160; <br/>&#160; &#160; }<br/>function ufwHTTP_allow(){<br/>&#160; &#160; echo -e &#039;[+] Uncomplicated Firewall securly allowing http\n&#039; &amp;&amp; sleep .0999<br/>&#160; &#160; sudo ufw allow http/tcp<br/>&#160; &#160; echo -e &#039;[+] Uncomplicated Firewall HTTP traffic has been allowed.\n\n&#039; &amp;&amp; sleep .0999<br/>&#160; &#160; }<br/>function ufwHTTPS_allow(){<br/>&#160; &#160; echo -e &#039;[+] Uncomplicated Firewall securly allowing https\n&#039; &amp;&amp; sleep .0999<br/>&#160; &#160; sudo ufw allow https/tcp<br/>&#160; &#160; echo -e &#039;[+] Uncomplicated Firewall HTTPS traffic has been allowed.\n\n&#039; &amp;&amp; sleep .0999<br/>} <br/>function main(){<br/>&#160; &#160; ufwStatus_check<br/>&#160; &#160; ufwRST_default<br/>&#160; &#160; ufwSSH_allow<br/>&#160; &#160; ufwHTTP_allow<br/>&#160; &#160; ufwHTTPS_allow<br/>&#160; &#160; }</p><p>main<br/>================Copy Paste End=====================================<br/>If you have suggestions for improving this please do not hesitate to Contact me.<br/>Stay Blessed, Always!!!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1576" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=1576#p1576">2017-05-29 13:52:57</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9027">XavierDrexlan</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-29</span></dd>
+<dd><span>Posts: 6</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Firewall strategy for ParrotSec</h3>
+<div class="postmsg">
+<p>Hey All,<br/>Just patched a few forgotten items to the ufwscript. but At the present moment it still remains pretty flexible. <br/>After a couple of runs from the first script, you can somewhat tell that there is a slight lag in your applications and their responses to some webpages.<br/>I the realised that by denying everything at the start, I forgot to enable the rules for Dns to go out and then come back in. Hopefully you too may notice some changes in your browsers to.&#160; </p><p>Cheers&#160; <br/>Y&#039;all Stay Blessed!</p><div class="codebox"><pre class="vscroll"><code>#!/usr/bin/env bash
+function ufwStatus_check(){
+	clear 
+	echo -e &#039;[+] Uncomplicated Firewall Status Check...\n\n&#039; &amp;&amp; sleep .0999
+	sudo ufw status
+	echo -e &#039;[+] Uncomplicated Firewall status check complete..\n\n\n&#039; &amp;&amp; sleep .0999
+	sleep 5 &amp;&amp; clear
+}
+function ufwRST_default(){
+	echo -e &#039;[+] Uncomplicated Firewall reset to default and enable logging...\n\n&#039; &amp;&amp; sleep .0999
+	sudo ufw reset &amp;&amp; sudo ufw default deny 
+	sudo ufw logging on
+	echo -e &#039;[+] Uncomplicated Firewall default reset complete...\n\n&#039; &amp;&amp; sleep .0999
+	echo -e &#039;[+] Uncomplicated Firewall logging has been enabled.\n\n&#039; &amp;&amp; sleep .0999
+	sleep 5 &amp;&amp; clear
+	}
+function ufwSSH_allow(){
+	echo -e &#039;[+] Uncomplicated Firewall securing and allowing ssh...\n&#039; &amp;&amp; sleep .0999
+	sudo ufw allow ssh/tcp
+	echo -e &#039;[+] Uncomplicated Firewall SSH traffic has been allowed.\n\n&#039; &amp;&amp; sleep .0999
+	sleep 5 &amp;&amp; clear
+	}
+function ufwDNS_allow(){
+	echo -e &#039;[+] Uncomplicated Firewall DNS traffic has been allowed.\n\n&#039; &amp;&amp; sleep .0999
+	sudo ufw allow out to any port 53
+	sudo ufw allow in on wlan0 from any to any port 53 proto udp
+	sudo ufw allow in on lo from any to any port 53 proto udp
+	echo -e &#039;[+] Uncomplicated Firewall DNS traffic has been allowed.\n\n&#039; &amp;&amp; sleep .0999
+	sleep 5 &amp;&amp; clear
+}
+function ufwHTTP_allow(){
+	echo -e &#039;[+] Uncomplicated Firewall securly allowing http\n&#039; &amp;&amp; sleep .0999
+	sudo ufw allow in on wlan0 from any to any port 80 proto tcp
+	sudo ufw allow in on lo from any to any port 80 proto tcp
+	echo -e &#039;[+] Uncomplicated Firewall HTTP traffic has been allowed.\n\n&#039; &amp;&amp; sleep .0999
+	sleep 5 &amp;&amp; clear
+	}
+
+function ufwHTTPS_allow(){
+	echo -e &#039;[+] Uncomplicated Firewall securly allowing https\n&#039; &amp;&amp; sleep .0999
+	sudo ufw allow https/tcp
+	echo -e &#039;[+] Uncomplicated Firewall HTTPS traffic has been allowed.\n\n&#039; &amp;&amp; sleep .0999
+	sleep 5 &amp;&amp; clear
+} 
+function main(){
+	ufwStatus_check
+	ufwRST_default
+	ufwSSH_allow
+	ufwDNS_allow
+	ufwHTTP_allow
+	ufwHTTPS_allow
+	}
+
+main</code></pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2152" class="blockpost roweven">
+<h2><span><span class="conr">#6</span> <a href="viewtopic.php?pid=2152#p2152">2017-06-19 12:12:47</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9315">acidgen</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-19</span></dd>
+<dd><span>Posts: 10</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Firewall strategy for ParrotSec</h3>
+<div class="postmsg">
+<p>Hi</p><p>This as far as I Know is a pen testing distribution. There IS a firewall. Its not enabled. <br/>Why?</p><p>When working at a client, I would like to be able to spawn a couple of listeners, or set up multiple<br/>instances of a web server.&#160; Also I want to be able to e.g respond to LLMN / NBT requests, or act as a DNS.<br/>If I had a set up firewall running, I don&#039;t want that to be the &#039;point of failure&#039;.</p><p>Even if I had a firewall, it would be so clumsy, and the rules would differ like crazy.</p><p>With that said, yes. If you are using this on an external network (Internet), ufw works. Just set the rules to DROP and <br/>you should be golden. If you find it hard there&#039;s probably some scripts or UI interfaces out there that allows you to easily<br/>Enable / Disable firewall.</p><p>Cheers<br/>Acidgen</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=6">System Setup and Customization</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=343">Firewall strategy for ParrotSec</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6" selected="selected">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=343&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div></div></div>
+</div>
+<script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+</html>

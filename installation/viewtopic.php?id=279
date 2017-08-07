@@ -1,0 +1,343 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>wrong keyboard and time / Installation Process / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=279" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=279&amp;type=atom" title="Atom topic feed"/>
+
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div></div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=5">Installation Process</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=279">wrong keyboard and time</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p918" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=918#p918">2017-04-14 20:23:13</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8348">Newbie</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-14</span></dd>
+<dd><span>Posts: 11</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>wrong keyboard and time</h3>
+<div class="postmsg">
+<p>I&#039;m new to Linux and Parrot Security OS was the choice for my first Linux distro.</p><p>I can install and boot the OS, but the keyboard and time settings are wrong. </p><p>I&#039;m German, and the notebook is a Lenovo Thinkpad E470 with a German QWERTZ keyboard. <br/>So I choose in the installation Language: German, Location: Germany, and Keyboard Layout: German, <br/>but after installing, the keyboard works as QWERTY and also some symbols are wrong. </p><p>The default time settings are also wrong and I can change them easily in the MATE menu, but after another login the time settings are the same wrong default settings.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p927" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=927#p927">2017-04-14 21:56:05</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: wrong keyboard and time</h3>
+<div class="postmsg">
+<p>in the lightdm login screen you can change the language from the top right menus and the keyboard can be easily adjusted from the keyboard settings</p><p>i&#039;ll double-check if this behavior happens on other installations</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p930" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=930#p930">2017-04-14 22:58:50</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8117">umsongb</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-09</span></dd>
+<dd><span>Posts: 25</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: wrong keyboard and time</h3>
+<div class="postmsg">
+<p>Greetings,</p><p>I&#039;m not sure how much this will help, but ever since I started using Raspberry Pi, I just do the following three commands as soon as I boot in for the first time.</p><div class="codebox"><pre><code>sudo dpkg-reconfigure tzdata
+sudo dpkg-reconfigure locales
+sudo dpkg-reconfigure keyboard-configuration</code></pre></div><p>I never had problems with time zone, locales and keyboard problem once going thru those three commands.&#160; I am informed correctly, those three commands should be pretty universal. =)&#160; If I&#039;m wrong, correction would be appreciated.</p><p>Peace.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p933" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=933#p933">2017-04-14 23:59:13</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8348">Newbie</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-14</span></dd>
+<dd><span>Posts: 11</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: wrong keyboard and time</h3>
+<div class="postmsg">
+<p>@palinuro: Thank You Very Much! It looks like the keyboard is working correctly now! My only concern now regarding the keyboard is the choosen keyboard modell in the keyboard settings. It&#039;s a random one and definitly not the correct. Is that a problem? I really can&#039;t find the right one. </p><p>Now there is only the problem with the wrong time. It shows the correct time-zone (Europe-Berlin), but the default time is 8hours wrong. I can change it in the time settings, but after a new login the wrong default settings are set again -.-</p><p>@umsongb: I&#039;m a Linux Newbie. I know what sudo and dpkg is, but I really have almost no experience with the terminal. For this options I need more experience or a good tutorial.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p935" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=935#p935">2017-04-15 00:22:02</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8117">umsongb</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-09</span></dd>
+<dd><span>Posts: 25</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: wrong keyboard and time</h3>
+<div class="postmsg">
+<p>No Problem. =) I&#039;m a newbie too.&#160; I guess the interface could be difficult.&#160; I&#039;m sure other members will be able to provide more detailed and convenient solution to ur problem.</p><p>Peace. =)</p><div class="quotebox"><cite>Newbie wrote:</cite><blockquote><div><p>@palinuro: Thank You Very Much! It looks like the keyboard is working correctly now! My only concern now regarding the keyboard is the choosen keyboard modell in the keyboard settings. It&#039;s a random one and definitly not the correct. Is that a problem? I really can&#039;t find the right one. </p><p>Now there is only the problem with the wrong time. It shows the correct time-zone (Europe-Berlin), but the default time is 8hours wrong. I can change it in the time settings, but after a new login the wrong default settings are set again -.-</p><p>@umsongb: I&#039;m a Linux Newbie. I know what sudo and dpkg is, but I really have almost no experience with the terminal. For this options I need more experience or a good tutorial.</p></div></blockquote></div>
+<p class="postedit"><em>Last edited by umsongb (2017-04-15 00:22:48)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p988" class="blockpost roweven">
+<h2><span><span class="conr">#6</span> <a href="viewtopic.php?pid=988#p988">2017-04-19 16:19:42</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8117">umsongb</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-09</span></dd>
+<dd><span>Posts: 25</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: wrong keyboard and time</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>Newbie wrote:</cite><blockquote><div><p>I&#039;m new to Linux and Parrot Security OS was the choice for my first Linux distro.</p><p>I can install and boot the OS, but the keyboard and time settings are wrong. </p><p>I&#039;m German, and the notebook is a Lenovo Thinkpad E470 with a German QWERTZ keyboard. <br/>So I choose in the installation Language: German, Location: Germany, and Keyboard Layout: German, <br/>but after installing, the keyboard works as QWERTY and also some symbols are wrong. </p><p>The default time settings are also wrong and I can change them easily in the MATE menu, but after another login the time settings are the same wrong default settings.</p></div></blockquote></div><p>Greetings,</p><p>After my installation yesterday, I noticed my clock was showing different time like u, but after executing the CMDs I suggested earlier a message about UTC popped up.&#160; After some digging, I noticed my system was reporting that UTC time is set and my local time also based on UTC.&#160; From terminal try running &#039;ntp start&#039; then reboot.&#160; </p><p>I don&#039;t know if u have solved this, but seems like I stumbled upon a little shortcut.&#160; From what I understand, the problem ur facing is due to a mixup between system clock and UTC time setup.</p><p>So I ran the following from a terminal and then rebooted.&#160; After logging in, the clock was back to normal</p><div class="codebox"><pre><code>utp start</code></pre></div><p>Sorry about earlier suggestions.&#160; Like I said, I&#039;m also a newbie.&#160; Hope u this could help u in anyway. =)</p><p>Peace.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1022" class="blockpost rowodd">
+<h2><span><span class="conr">#7</span> <a href="viewtopic.php?pid=1022#p1022">2017-04-24 10:09:02</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8348">Newbie</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-14</span></dd>
+<dd><span>Posts: 11</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: wrong keyboard and time</h3>
+<div class="postmsg">
+<p>@umsongb: Thank your very much for all your effort. My earlier problems don&#039;t exist anymore and I really don&#039;t know why, but that&#039;s OK for me :) A few days ago I reinstalled parrot security and the time-settings were already correct after installation. Keyboard works fine for me, but I&#039;m unsure if all the special buttons (for example F1-F12) are recognized correctly. Any idea how to test it?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=5">Installation Process</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=279">wrong keyboard and time</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4">General Questions</option>
+<option value="5" selected="selected">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=279&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div></div></div>
+</div>
+</body>
+</html>

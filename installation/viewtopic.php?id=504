@@ -1,0 +1,490 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Grub Installation Failed / Installation Process / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=504" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=504&amp;type=atom" title="Atom topic feed"/>
+
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div></div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=5">Installation Process</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=504">Grub Installation Failed</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p1889" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=1889#p1889">2017-06-05 15:27:55</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9161">schrammbo</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-05</span></dd>
+<dd><span>Posts: 8</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Grub Installation Failed</h3>
+<div class="postmsg">
+<p>I am installing Parrot Security 3.6 on Virtual box and I have been unsuccessful installing it due to failure of grub.&#160; I have tried numerous combinations and cannot get grub to install via virtualbox.</p><p>I did a search of the forum and appear to be the only one experiencing this issue, or am not searching using the correct search term, either way this is all I have to go on.</p><br/><br/><p><span class="postimg"><img src="https://s18.postimg.org/rms1ct6r9/Capture.png" alt="Capture.png"/></span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1897" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=1897#p1897">2017-06-05 16:55:36</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9150">xx4h</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-04</span></dd>
+<dd><span>Posts: 39</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Grub Installation Failed</h3>
+<div class="postmsg">
+<p>The image you attached is very tiny. Any chance to get a bigger version?<br/>Or at least the text which is shown there?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1899" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=1899#p1899">2017-06-05 19:55:39</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9161">schrammbo</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-05</span></dd>
+<dd><span>Posts: 8</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Grub Installation Failed</h3>
+<div class="postmsg">
+<p>If someone can tell me how to get an image posted to this site that actually works I would be more than happy to post it.&#160; Apparently they give you the option to post images to the site but then your not allowed to put up images because it includes the url tag and I don&#039;t have access to post urls.</p><p>So until I can figure that out I am stuck in this loop.</p><p>Basically the image was simply the installer telling me it could not install Grub and I could continue but if I did so the system would be unbootable.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1906" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=1906#p1906">2017-06-05 20:20:22</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=23">vzz1x2</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/23.png?m=1486864625" width="60" height="60" alt/></dd>
+<dd><span>From: Ireland</span></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 167</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Grub Installation Failed</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>schrammbo wrote:</cite><blockquote><div><p>If someone can tell me how to get an image posted to this site that actually works I would be more than happy to post it.&#160; Apparently they give you the option to post images to the site but then your not allowed to put up images because it includes the url tag and I don&#039;t have access to post urls.</p><p>So until I can figure that out I am stuck in this loop.</p><p>Basically the image was simply the installer telling me it could not install Grub and I could continue but if I did so the system would be unbootable.</p></div></blockquote></div><p>The image posting is working fine for me..&#160; Just be sure to choose not to resize the image..</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><a href="/cdn-cgi/l/email-protection#4f2c232e3a2b26200f2b2e3b2e2c203d612c2022612e3d"><span class="__cf_email__" data-cfemail="dcbfb0bda9b8b5b39cb8bda8bdbfb3aef2bfb3b1f2bdae">[email&#160;protected]</span><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a><br/><a href="http://pgp.key-server.io/pks/lookup?op=get&amp;search=0x8266F5857EC82A4C" rel="nofollow">PGP Key</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1910" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=1910#p1910">2017-06-05 21:19:08</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9161">schrammbo</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-05</span></dd>
+<dd><span>Posts: 8</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Grub Installation Failed</h3>
+<div class="postmsg">
+<p>That is the option I chose.</p><p>Maybe it is because I have a new account or something? </p><p>Whenever I try to post using the &quot;add image to post&quot; it adds some stuff surrounded by URL and then IMG which is my image but fails to post because it says I am not allowed to post URLs&#160; If I remove the URL then you get the IMG above shrunk down. </p><p>The composition window shows URL tag as off and Smilies off but I can&#039;t figure out how to turn them on.&#160; I suspect if the URL tag was on then it would let me post my image.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1911" class="blockpost roweven">
+<h2><span><span class="conr">#6</span> <a href="viewtopic.php?pid=1911#p1911">2017-06-05 21:28:25</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9161">schrammbo</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-05</span></dd>
+<dd><span>Posts: 8</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Grub Installation Failed</h3>
+<div class="postmsg">
+<p>I cannot add bold text or create lists or anything. If I try to create bold text I get the following message.</p><p>The following errors need to be corrected before the message can be posted:<br/>You are not allowed to post link</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1914" class="blockpost rowodd">
+<h2><span><span class="conr">#7</span> <a href="viewtopic.php?pid=1914#p1914">2017-06-06 00:23:28</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=23">vzz1x2</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/23.png?m=1486864625" width="60" height="60" alt/></dd>
+<dd><span>From: Ireland</span></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 167</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Grub Installation Failed</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>schrammbo wrote:</cite><blockquote><div><p>I cannot add bold text or create lists or anything. If I try to create bold text I get the following message.</p><p>The following errors need to be corrected before the message can be posted:<br/>You are not allowed to post link</p></div></blockquote></div><p>Confirm your email, maybe that will unlock things for you.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><a href="/cdn-cgi/l/email-protection#ccafa0adb9a8a5a38ca8adb8adafa3bee2afa3a1e2adbe"><span class="__cf_email__" data-cfemail="7417181501101d1b3410150015171b065a171b195a1506">[email&#160;protected]</span><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a><br/><a href="http://pgp.key-server.io/pks/lookup?op=get&amp;search=0x8266F5857EC82A4C" rel="nofollow">PGP Key</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1926" class="blockpost roweven">
+<h2><span><span class="conr">#8</span> <a href="viewtopic.php?pid=1926#p1926">2017-06-06 12:04:18</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9161">schrammbo</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-05</span></dd>
+<dd><span>Posts: 8</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Grub Installation Failed</h3>
+<div class="postmsg">
+<p>Well it says I am an unconfirmed member yet I had to login in order to activate the account. The only email I received said:</p><p>Login at hxxps[:]//community.parrotsec.org/login.php to activate the account.</p><p>I logged in with the username and password and here I am.&#160; So I suspect something did not click on the backend.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1927" class="blockpost rowodd">
+<h2><span><span class="conr">#9</span> <a href="viewtopic.php?pid=1927#p1927">2017-06-06 12:06:23</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9161">schrammbo</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-05</span></dd>
+<dd><span>Posts: 8</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Grub Installation Failed</h3>
+<div class="postmsg">
+<p>This morning however, it appears that things are working and other stuff is turned off that was previously disabled.</p><p><a href="https://postimg.org/image/8aoimwleh/" rel="nofollow"><span class="postimg"><img src="https://s12.postimg.org/8aoimwleh/Capture.png" alt="Capture.png"/></span></a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1928" class="blockpost roweven">
+<h2><span><span class="conr">#10</span> <a href="viewtopic.php?pid=1928#p1928">2017-06-06 12:27:29</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=54">qr0f1l3R</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Ambassador</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/54.jpg?m=1495471116" width="60" height="58" alt/></dd>
+<dd><span>From: Germany</span></dd>
+<dd><span>Registered: 2017-02-15</span></dd>
+<dd><span>Posts: 183</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Grub Installation Failed</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>schrammbo wrote:</cite><blockquote><div><p>This morning however, it appears that things are working and other stuff is turned off that was previously disabled.</p><p><a href="https://postimg.org/image/8aoimwleh/" rel="nofollow">https://s12.postimg.org/8aoimwleh/Capture.png</a></p></div></blockquote></div><p>First try to repair it</p><div class="quotebox"><blockquote><div><p>sudo apt-get purge grub-* os-prober # grub-gfxpayload-lists</p></div></blockquote></div>
+</div>
+<div class="postsignature postmsg"><hr/><p>Andre &quot;qr0f1l3R&quot; P. - Parrot Ambassador - Founder of the German community</p><p>GPG Fingerprint: 290A C689 2EB1 45F6 5E74 2C11 99B1 2DF0 E85A E4E6<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … F0E85AE4E6</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … F0E85AE4E6</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1964" class="blockpost rowodd">
+<h2><span><span class="conr">#11</span> <a href="viewtopic.php?pid=1964#p1964">2017-06-07 20:00:38</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9161">schrammbo</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-05</span></dd>
+<dd><span>Posts: 8</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Grub Installation Failed</h3>
+<div class="postmsg">
+<p>I attempted to run the command however, this does not work because I do not have an OS with Grub installed so there is nothing to purge.</p><p>I cannot get the OS to install.&#160; If I continue with the installation the system does not boot since there is no bootloader and I cannot seem to get a working version of grub installed even if I have an OS on the disk.</p><br/><p><a href="https://postimg.org/image/6xr2nw0kx/" rel="nofollow"><span class="postimg"><img src="https://s24.postimg.org/6xr2nw0kx/grub1.png" alt="grub1.png"/></span></a></p><p><a href="https://postimg.org/image/n8ehrd1lh/" rel="nofollow"><span class="postimg"><img src="https://s18.postimg.org/n8ehrd1lh/grub2.png" alt="grub2.png"/></span></a></p><p><a href="https://postimg.org/image/hb5iwsgj5/" rel="nofollow"><span class="postimg"><img src="https://s16.postimg.org/hb5iwsgj5/grub3.png" alt="grub3.png"/></span></a></p><p><a href="https://postimg.org/image/3twjfa4lx/" rel="nofollow"><span class="postimg"><img src="https://s2.postimg.org/3twjfa4lx/grub4.png" alt="grub4.png"/></span></a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1969" class="blockpost roweven">
+<h2><span><span class="conr">#12</span> <a href="viewtopic.php?pid=1969#p1969">2017-06-08 03:31:20</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=14">Jeff</a></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd><span>From: USA</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 296</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Grub Installation Failed</h3>
+<div class="postmsg">
+<p>I have seen your pictures and there is something that your doing wrong.&#160; your more than welcome to email me directly and i will help you fix your problem.&#160; &#160;<br/>email me directly at <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="1f757a79795f6f7e6d6d706b6c7a7c31706d78">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>&#160; and if you want to you can message me on telelgram https://t.me/JeffParrotSecurityAmbassador</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>-Jeff Szydel </p><p>*Parrot Ambassador&#160; &#160;*Social Groups Manager&#160; &#160;*Helpdesk&#160; &#160;*Wiki Editor&#160; &#160; <br/>*Parrot Telegram Group Administrator&#160; &#160;*Parrot Community Administrator</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=5">Installation Process</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=504">Grub Installation Failed</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4">General Questions</option>
+<option value="5" selected="selected">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=504&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div></div></div>
+</div>
+<script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+</html>

@@ -1,0 +1,436 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>w3af no se ejecuta / Spanish Community / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=529" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=529&amp;type=atom" title="Atom topic feed"/>
+
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div></div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=25">Spanish Community</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=529">w3af no se ejecuta</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p2059" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=2059#p2059">2017-06-13 00:52:48</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9257">cristoldo</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-06-13</span></dd>
+<dd><span>Posts: 4</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>w3af no se ejecuta</h3>
+<div class="postmsg">
+<p>Buenas hay alguna solucion ya que al darle arranque no pasa nada ni grafico, ni por terminal.<br/>por terminal me sale esto.</p><br/><br/><p>sudo w3af update<br/>Your python installation needs the following packages:<br/>&#160; &#160; pyPdf </p><p>On debian based systems:<br/>&#160; &#160; sudo apt-get install python-pypdf </p><p>Additional information:<br/>&#160; &#160; Your version of scapy (unknown.version) is not compatible with w3af. Please install scapy version &gt;= 2.0 .</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2066" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=2066#p2066">2017-06-13 08:56:31</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=23">vzz1x2</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/23.png?m=1486864625" width="60" height="60" alt/></dd>
+<dd><span>From: Ireland</span></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 167</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: w3af no se ejecuta</h3>
+<div class="postmsg">
+<p>probaste installar el python-pypdf como te dice ahi?</p><p>sudo apt-get install python-pypdf</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><a href="/cdn-cgi/l/email-protection#7e1d121f0b1a17113e1a1f0a1f1d110c501d1113501f0c"><span class="__cf_email__" data-cfemail="8deee1ecf8e9e4e2cde9ecf9eceee2ffa3eee2e0a3ecff">[email&#160;protected]</span><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a><br/><a href="http://pgp.key-server.io/pks/lookup?op=get&amp;search=0x8266F5857EC82A4C" rel="nofollow">PGP Key</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2086" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=2086#p2086">2017-06-14 23:20:57</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9257">cristoldo</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-06-13</span></dd>
+<dd><span>Posts: 4</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: w3af no se ejecuta</h3>
+<div class="postmsg">
+<p>hola vzz1x2 gracias por responder.<br/>Si, intente hacer lo que me dice y me sale esto.</p><br/><p>$sudo apt-get install python-pypdf<br/>[sudo] password for cris: <br/>Leyendo lista de paquetes... Hecho<br/>Creando árbol de dependencias&#160; &#160; &#160; &#160;<br/>Leyendo la información de estado... Hecho<br/>El paquete python-pypdf no está disponible, pero algún otro paquete hace referencia<br/>a él. Esto puede significar que el paquete falta, está obsoleto o sólo se<br/>encuentra disponible desde alguna otra fuente</p><p>E: El paquete «python-pypdf» no tiene un candidato para la instalación</p><p>Busque el paquete en Synaptic y no esta, instale Pypdf2 y no pasa nada.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2087" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=2087#p2087">2017-06-14 23:27:25</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7692">josegatica</a></strong></dt>
+<dd class="usertitle"><strong>ParrotSec Ambassador - Debian Contributor</strong></dd>
+<dd><span>From: Valdivia, Chile</span></dd>
+<dd><span>Registered: 2017-03-31</span></dd>
+<dd><span>Posts: 156</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://www.josegatica.cl" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: w3af no se ejecuta</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>cristoldo wrote:</cite><blockquote><div><p>hola vzz1x2 gracias por responder.<br/>Si, intente hacer lo que me dice y me sale esto.</p><br/><p>$sudo apt-get install python-pypdf<br/>[sudo] password for cris: <br/>Leyendo lista de paquetes... Hecho<br/>Creando árbol de dependencias&#160; &#160; &#160; &#160;<br/>Leyendo la información de estado... Hecho<br/>El paquete python-pypdf no está disponible, pero algún otro paquete hace referencia<br/>a él. Esto puede significar que el paquete falta, está obsoleto o sólo se<br/>encuentra disponible desde alguna otra fuente</p><p>E: El paquete «python-pypdf» no tiene un candidato para la instalación</p><p>Busque el paquete en Synaptic y no esta, instale Pypdf2 y no pasa nada.</p></div></blockquote></div><br/><p>¿Te parece buscar &quot;python-pypdf debian&quot;? Haz la búsqueda en google por si está el archivo .deb<br/>Pueba la búsqueda, intenta de nuevo la descarga y cuéntame cualquier cosa.</p><p>Saludos</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>José Gatica A.</p><p>ParrotSec Ambassador<br/><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="7913160a1c1e180d101a183909180b0b160d0a1c1a57160b1e">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></p><p>www.josegatica.cl</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2088" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=2088#p2088">2017-06-15 00:58:39</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9257">cristoldo</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-06-13</span></dd>
+<dd><span>Posts: 4</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: w3af no se ejecuta</h3>
+<div class="postmsg">
+<p>Hola josegatica, gracias por tu respuesta.<br/>Te comento que encontre el paquete e intente instalarlo y me arroja esto.</p><br/><p>┌─[✗]─[<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="81e2f3e8f2c1f1e0f3f3eef5">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>]─[~/Downloads]<br/>└──╼ $pip install python-pypdf_1.13-1_all.deb<br/>Collecting python-pypdf_1.13-1_all.deb<br/>&#160; Could not find a version that satisfies the requirement python-pypdf_1.13-1_all.deb (from versions: )<br/>No matching distribution found for python-pypdf_1.13-1_all.deb</p><br/><p>estuve buscando otras versiones y no encuentro ninguna por ahora.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2089" class="blockpost roweven">
+<h2><span><span class="conr">#6</span> <a href="viewtopic.php?pid=2089#p2089">2017-06-15 01:06:44</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7692">josegatica</a></strong></dt>
+<dd class="usertitle"><strong>ParrotSec Ambassador - Debian Contributor</strong></dd>
+<dd><span>From: Valdivia, Chile</span></dd>
+<dd><span>Registered: 2017-03-31</span></dd>
+<dd><span>Posts: 156</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://www.josegatica.cl" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: w3af no se ejecuta</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>cristoldo wrote:</cite><blockquote><div><p>Hola josegatica, gracias por tu respuesta.<br/>Te comento que encontre el paquete e intente instalarlo y me arroja esto.</p><br/><p>┌─[✗]─[<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="204352495360504152524f54">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>]─[~/Downloads]<br/>└──╼ $pip install python-pypdf_1.13-1_all.deb<br/>Collecting python-pypdf_1.13-1_all.deb<br/>&#160; Could not find a version that satisfies the requirement python-pypdf_1.13-1_all.deb (from versions: )<br/>No matching distribution found for python-pypdf_1.13-1_all.deb</p><br/><p>estuve buscando otras versiones y no encuentro ninguna por ahora.</p></div></blockquote></div><p>prueba con&#160; ==&gt;&#160; &#160; &#160; &#160; sudo dpkg -i python-pypdf_1.13-1_all.deb</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>José Gatica A.</p><p>ParrotSec Ambassador<br/><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="8ae0e5f9efedebfee3e9ebcafaebf8f8e5fef9efe9a4e5f8ed">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></p><p>www.josegatica.cl</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2098" class="blockpost rowodd">
+<h2><span><span class="conr">#7</span> <a href="viewtopic.php?pid=2098#p2098">2017-06-15 07:20:37</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9278">gesala</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-14</span></dd>
+<dd><span>Posts: 8</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: w3af no se ejecuta</h3>
+<div class="postmsg">
+<p>https://community.parrotsec.org/viewtopic.php?id=419<br/>Parece ser que ya no esta en los repos :-(<br/>Saludetes!!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2099" class="blockpost roweven">
+<h2><span><span class="conr">#8</span> <a href="viewtopic.php?pid=2099#p2099">2017-06-15 08:55:39</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=23">vzz1x2</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/23.png?m=1486864625" width="60" height="60" alt/></dd>
+<dd><span>From: Ireland</span></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 167</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: w3af no se ejecuta</h3>
+<div class="postmsg">
+<p>instalalo con pip si te hace falta..</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><a href="/cdn-cgi/l/email-protection#b8dbd4d9cddcd1d7f8dcd9ccd9dbd7ca96dbd7d596d9ca"><span class="__cf_email__" data-cfemail="1c7f707d697875735c787d687d7f736e327f7371327d6e">[email&#160;protected]</span><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a><br/><a href="http://pgp.key-server.io/pks/lookup?op=get&amp;search=0x8266F5857EC82A4C" rel="nofollow">PGP Key</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2114" class="blockpost rowodd">
+<h2><span><span class="conr">#9</span> <a href="viewtopic.php?pid=2114#p2114">2017-06-16 23:13:53</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9257">cristoldo</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-06-13</span></dd>
+<dd><span>Posts: 4</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: w3af no se ejecuta</h3>
+<div class="postmsg">
+<p>hola gente al probar como me sugirio&#160; josegatica me sale esto</p><br/><p>┌─[✗]─[<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="4d2e3f243e0d3d2c3f3f2239">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>]─[~/Downloads]<br/>└──╼ $sudo dpkg -i python-pypdf_1.13-2_all.deb<br/>Seleccionando el paquete python-pypdf previamente no seleccionado.<br/>(Leyendo la base de datos ... 428867 ficheros o directorios instalados actualmente.)<br/>Preparando para desempaquetar python-pypdf_1.13-2_all.deb ...<br/>Desempaquetando python-pypdf (1:1.13-2) ...<br/>dpkg: problemas de dependencias impiden la configuración de python-pypdf:<br/> python-pypdf depende de python-support (&gt;= 0.90.0); sin embargo:<br/>&#160; El paquete `python-support&#039; no está instalado.</p><p>dpkg: error al procesar el paquete python-pypdf (--install):<br/> problemas de dependencias - se deja sin configurar<br/>Se encontraron errores al procesar:<br/> python-pypdf</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2117" class="blockpost roweven">
+<h2><span><span class="conr">#10</span> <a href="viewtopic.php?pid=2117#p2117">2017-06-17 00:06:51</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7692">josegatica</a></strong></dt>
+<dd class="usertitle"><strong>ParrotSec Ambassador - Debian Contributor</strong></dd>
+<dd><span>From: Valdivia, Chile</span></dd>
+<dd><span>Registered: 2017-03-31</span></dd>
+<dd><span>Posts: 156</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://www.josegatica.cl" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: w3af no se ejecuta</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>cristoldo wrote:</cite><blockquote><div><p>hola gente al probar como me sugirio&#160; josegatica me sale esto</p><br/><p>┌─[✗]─[<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="6b081902182b1b0a1919041f">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>]─[~/Downloads]<br/>└──╼ $sudo dpkg -i python-pypdf_1.13-2_all.deb<br/>Seleccionando el paquete python-pypdf previamente no seleccionado.<br/>(Leyendo la base de datos ... 428867 ficheros o directorios instalados actualmente.)<br/>Preparando para desempaquetar python-pypdf_1.13-2_all.deb ...<br/>Desempaquetando python-pypdf (1:1.13-2) ...<br/>dpkg: problemas de dependencias impiden la configuración de python-pypdf:<br/> python-pypdf depende de python-support (&gt;= 0.90.0); sin embargo:<br/>&#160; El paquete `python-support&#039; no está instalado.</p><p>dpkg: error al procesar el paquete python-pypdf (--install):<br/> problemas de dependencias - se deja sin configurar<br/>Se encontraron errores al procesar:<br/> python-pypdf</p></div></blockquote></div><br/><p>Ahora escribe&#160; &#160; &#160;sudo apt-get -f install</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>José Gatica A.</p><p>ParrotSec Ambassador<br/><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="73191c00161412071a101233031201011c070016105d1c0114">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></p><p>www.josegatica.cl</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=25">Spanish Community</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=529">w3af no se ejecuta</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+ <option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25" selected="selected">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=529&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div></div></div>
+</div>
+<script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+</html>

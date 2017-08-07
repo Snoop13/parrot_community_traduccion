@@ -1,0 +1,741 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>TUTORIAL: Login screen with slim / System Setup and Customization / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=415" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=415&amp;type=atom" title="Atom topic feed"/>
+
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div></div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=6">System Setup and Customization</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=415">TUTORIAL: Login screen with slim</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p1456" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=1456#p1456">2017-05-25 20:56:33</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=26">dmknght</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 16</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>TUTORIAL: Login screen with slim</h3>
+<div class="postmsg">
+<p>#Install #mod #login<br/>1. Why slim? Why not ligthdm, or something else?<br/>I am not a pro-guy, so I can not tell you about technology of these application. I can not edit source code or optimize lightdm too, and slim give me everything I need: simple configuration, no dialog box, and it is on repo. So, here we go!</p><p>2. What do you need to do?<br/>a) First of all, install slim</p><div class="codebox"><pre><code>sudo apt install slim</code></pre></div><p>Installation should ask you the default Desktop Manager, choose slim instead of lightdm<br/>b)<br/>*) Download my theme. Links:</p><div class="codebox"><pre><code> https://drive.google.com/file/d/0B5V6NPBa8YBSdnpQLXlPRjB2SEU/view </code></pre></div><p>Mirror link:</p><div class="codebox"><pre><code> https://mega.nz/#!KUhiESTR!3jjaDc-GoN_dxtfwUyk1hmohm7I5uEOVYIUhmzZrd0k </code></pre></div><p>*) Install my theme: put my folder in </p><div class="codebox"><pre><code>/usr/share/slim/themes/</code></pre></div><p>*) Edit </p><div class="codebox"><pre><code>/etc/slim.conf </code></pre></div><p>Find ‘current_theme’ and set the theme name (name of the folder - no need full path)<br/>ex: </p><div class="codebox"><pre><code>current_theme	&lt;my_slim&gt;</code></pre></div><p>I am very sorry. My tutorial was not very clear for newbie. Theme&#039;s name is folder&#039;s name in </p><div class="codebox"><pre><code> /usr/share/slim/themes/ </code></pre></div><p> and you have to change &lt;my_slim&gt; to theme&#039;s name (folder&#039;s name)<br/>c) What do you need to know?<br/>*) Slim configration file at /etc/slim.conf → you need to edit this file to choose your theme<br/>*) Slim theme folder at /usr/share/slim/themes/ → My theme should be stored here<br/>*) Slim theme configuration /usr/share/slim/themes/&lt;theme_name&gt;/slim.theme → customize your theme<br/>*) Theme background and dialog box in image format (png)in the same folder<br/>*) Slim wiki, read everything about slim at </p><div class="codebox"><pre><code>https://wiki.archlinux.org/index.php/SLiM</code></pre></div><p>3. Optional install slimlock and use slim as your screensaver<br/>*) Download slimlock source code at </p><div class="codebox"><pre><code>https://github.com/joelburget/slimlock</code></pre></div><p>*) Install lib: </p><div class="codebox"><pre><code>sudo apt install libimlib2-dev libxft-dev libpam0g-dev</code></pre></div><p>*) Install slimlock (Read README for more information)<br/>*) After installing successful, go to your control center → keyboard shortcut → add → command ‘/usr/share/slimlock’ and set hotkey (example: ctr + alt + l)<br/>*) Should I remove lightdm and mate-screensaver? I can not sure, but I still remove them.<br/>4. Because of some reasons, I use parrot background as theme background, but you can still choose your own background, nsa background is in the folder too<br/><a href="https://postimg.org/image/ddgosbgyb/" rel="nofollow"><span class="postimg"><img src="https://s21.postimg.org/ddgosbgyb/Screenshot_at_2017-05-25_13-55-12.png" alt="Screenshot_at_2017-05-25_13-55-12.png"/></span></a></p>
+<p class="postedit"><em>Last edited by dmknght (2017-05-27 16:48:33)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1458" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=1458#p1458">2017-05-25 21:02:33</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=54">qr0f1l3R</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Ambassador</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/54.jpg?m=1495471116" width="60" height="58" alt/></dd>
+<dd><span>From: Germany</span></dd>
+<dd><span>Registered: 2017-02-15</span></dd>
+<dd><span>Posts: 183</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Login screen with slim</h3>
+<div class="postmsg">
+<p>Thanks mate! I will test it!</p>
+ </div>
+<div class="postsignature postmsg"><hr/><p>Andre &quot;qr0f1l3R&quot; P. - Parrot Ambassador - Founder of the German community</p><p>GPG Fingerprint: 290A C689 2EB1 45F6 5E74 2C11 99B1 2DF0 E85A E4E6<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … F0E85AE4E6</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … F0E85AE4E6</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1467" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=1467#p1467">2017-05-26 03:32:08</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7692">josegatica</a></strong></dt>
+<dd class="usertitle"><strong>ParrotSec Ambassador - Debian Contributor</strong></dd>
+<dd><span>From: Valdivia, Chile</span></dd>
+<dd><span>Registered: 2017-03-31</span></dd>
+<dd><span>Posts: 156</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://www.josegatica.cl" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Login screen with slim</h3>
+<div class="postmsg">
+<p>Cool, tested and I like it. thanks for share</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>José Gatica A.</p><p>ParrotSec Ambassador<br/><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="4923263a2c2e283d202a280939283b3b263d3a2c2a67263b2e">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></p><p>www.josegatica.cl</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1483" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=1483#p1483">2017-05-26 20:41:34</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8906">brianeli22</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>From: Surabaya, Indonesia</span></dd>
+<dd><span>Registered: 2017-05-20</span></dd>
+<dd><span>Posts: 9</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://www.rungkut-cyber.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Login screen with slim</h3>
+<div class="postmsg">
+<p>My OS was error when I installing Slim, cannot login with my user, but when I login with ROOT user it worked, but some app and driver not working. Can you help me how to fix that?</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Rgkt22</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1484" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=1484#p1484">2017-05-26 21:10:38</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7692">josegatica</a></strong></dt>
+<dd class="usertitle"><strong>ParrotSec Ambassador - Debian Contributor</strong></dd>
+<dd><span>From: Valdivia, Chile</span></dd>
+<dd><span>Registered: 2017-03-31</span></dd>
+<dd><span>Posts: 156</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://www.josegatica.cl" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Login screen with slim</h3>
+<div class="postmsg">
+ <div class="quotebox"><cite>brianeli22 wrote:</cite><blockquote><div><p>My OS was error when I installing Slim, cannot login with my user, but when I login with ROOT user it worked, but some app and driver not working. Can you help me how to fix that?</p></div></blockquote></div><p>your system shouldn&#039;t show any error. Did you read all the post? or just copied and pasted commands.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>José Gatica A.</p><p>ParrotSec Ambassador<br/><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="0963667a6c6e687d606a684979687b7b667d7a6c6a27667b6e">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></p><p>www.josegatica.cl</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1485" class="blockpost roweven">
+<h2><span><span class="conr">#6</span> <a href="viewtopic.php?pid=1485#p1485">2017-05-26 22:52:22</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8906">brianeli22</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>From: Surabaya, Indonesia</span></dd>
+<dd><span>Registered: 2017-05-20</span></dd>
+<dd><span>Posts: 9</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://www.rungkut-cyber.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Login screen with slim</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>josegatica wrote:</cite><blockquote><div><div class="quotebox"><cite>brianeli22 wrote:</cite><blockquote><div><p>My OS was error when I installing Slim, cannot login with my user, but when I login with ROOT user it worked, but some app and driver not working. Can you help me how to fix that?</p></div></blockquote></div><p>your system shouldn&#039;t show any error. Did you read all the post? or just copied and pasted commands.</p></div></blockquote></div><p>&quot;Failed to execute login command&quot; when I login with default user. And when I try to login with root. Its works. <br/>I try to find how to fix it, I will post new thread to sharing with other who got same problem :)</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Rgkt22</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1486" class="blockpost rowodd">
+<h2><span><span class="conr">#7</span> <a href="viewtopic.php?pid=1486#p1486">2017-05-26 23:12:47</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7692">josegatica</a></strong></dt>
+<dd class="usertitle"><strong>ParrotSec Ambassador - Debian Contributor</strong></dd>
+<dd><span>From: Valdivia, Chile</span></dd>
+<dd><span>Registered: 2017-03-31</span></dd>
+<dd><span>Posts: 156</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://www.josegatica.cl" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Login screen with slim</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>brianeli22 wrote:</cite><blockquote><div><div class="quotebox"><cite>josegatica wrote:</cite><blockquote><div><div class="quotebox"><cite>brianeli22 wrote:</cite><blockquote><div><p>My OS was error when I installing Slim, cannot login with my user, but when I login with ROOT user it worked, but some app and driver not working. Can you help me how to fix that?</p></div></blockquote></div><p>your system shouldn&#039;t show any error. Did you read all the post? or just copied and pasted commands.</p></div></blockquote></div><p>&quot;Failed to execute login command&quot; when I login with default user. And when I try to login with root. Its works. <br/>I try to find how to fix it, I will post new thread to sharing with other who got same problem :)</p></div></blockquote></div><br/><p>What did you put here?<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; current_theme&#160; &#160;&#160; &#160;my_slim</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>José Gatica A.</p><p>ParrotSec Ambassador<br/><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="f79d9884929096839e9496b7879685859883849294d9988590">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></p><p>www.josegatica.cl</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1490" class="blockpost roweven">
+<h2><span><span class="conr">#8</span> <a href="viewtopic.php?pid=1490#p1490">2017-05-27 03:41:25</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8518">leon007</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-22</span></dd>
+<dd><span>Posts: 22</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Login screen with slim</h3>
+<div class="postmsg">
+<p>tested. working. awesome!! my thanks and admiration!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1506" class="blockpost rowodd">
+<h2><span><span class="conr">#9</span> <a href="viewtopic.php?pid=1506#p1506">2017-05-27 16:53:59</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=26">dmknght</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 16</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Login screen with slim</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>brianeli22 wrote:</cite><blockquote><div><div class="quotebox"><cite>josegatica wrote:</cite><blockquote><div><div class="quotebox"><cite>brianeli22 wrote:</cite><blockquote><div><p>My OS was error when I installing Slim, cannot login with my user, but when I login with ROOT user it worked, but some app and driver not working. Can you help me how to fix that?</p></div></blockquote></div><p>your system shouldn&#039;t show any error. Did you read all the post? or just copied and pasted commands.</p></div></blockquote></div><p>&quot;Failed to execute login command&quot; when I login with default user. And when I try to login with root. Its works. <br/>I try to find how to fix it, I will post new thread to sharing with other who got same problem :)</p></div></blockquote></div><p>You did not post all of steps that you did, so there is many reason that i can think about:<br/>1) Your OS version?<br/>2) Have you installed slim in the right way?<br/>3) Have you named them right? A wrong name can crash your Desktop Manager<br/>4) If log in as root work, maybe your system set wrong permission? With loggin as root user, applications and drivers can not work right, many functions are disabled<br/>5) Have you installed any desktop environment, or desktop management that can disable slim?<br/>6) Have you removed any keyring, or anything that can make authentication work wrong?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1510" class="blockpost roweven">
+<h2><span><span class="conr">#10</span> <a href="viewtopic.php?pid=1510#p1510">2017-05-27 18:01:31</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8906">brianeli22</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>From: Surabaya, Indonesia</span></dd>
+<dd><span>Registered: 2017-05-20</span></dd>
+<dd><span>Posts: 9</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://www.rungkut-cyber.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Login screen with slim</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>josegatica wrote:</cite><blockquote><div><div class="quotebox"><cite>brianeli22 wrote:</cite><blockquote><div><div class="quotebox"><cite>josegatica wrote:</cite><blockquote><div><p>your system shouldn&#039;t show any error. Did you read all the post? or just copied and pasted commands.</p></div></blockquote></div><p>&quot;Failed to execute login command&quot; when I login with default user. And when I try to login with root. Its works. <br/>I try to find how to fix it, I will post new thread to sharing with other who got same problem :)</p></div></blockquote></div><br/><p>What did you put here?<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; current_theme&#160; &#160;&#160; &#160;my_slim</p></div></blockquote></div><p>Yes bro, I already put the current_theme on my slim folder. I will find the error and try to fix this. :)</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Rgkt22</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1512" class="blockpost rowodd">
+<h2><span><span class="conr">#11</span> <a href="viewtopic.php?pid=1512#p1512">2017-05-27 18:03:35</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7692">josegatica</a></strong></dt>
+<dd class="usertitle"><strong>ParrotSec Ambassador - Debian Contributor</strong></dd>
+<dd><span>From: Valdivia, Chile</span></dd>
+<dd><span>Registered: 2017-03-31</span></dd>
+<dd><span>Posts: 156</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://www.josegatica.cl" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Login screen with slim</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>brianeli22 wrote:</cite><blockquote><div><div class="quotebox"><cite>josegatica wrote:</cite><blockquote><div><div class="quotebox"><cite>brianeli22 wrote:</cite><blockquote><div><p>&quot;Failed to execute login command&quot; when I login with default user. And when I try to login with root. Its works. <br/>I try to find how to fix it, I will post new thread to sharing with other who got same problem :)</p></div></blockquote></div><br/><p>What did you put here?<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; current_theme&#160; &#160;&#160; &#160;my_slim</p></div></blockquote></div><p>Yes bro, I already put the current_theme on my slim folder. I will find the error and try to fix this. :)</p></div></blockquote></div><p>That&#039;s cool brother&#160; :)</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>José Gatica A.</p><p>ParrotSec Ambassador<br/><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="ee84819d8b898f9a878d8fae9e8f9c9c819a9d8b8dc0819c89">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></p><p>www.josegatica.cl</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1513" class="blockpost roweven">
+<h2><span><span class="conr">#12</span> <a href="viewtopic.php?pid=1513#p1513">2017-05-27 18:06:42</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8906">brianeli22</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>From: Surabaya, Indonesia</span></dd>
+<dd><span>Registered: 2017-05-20</span></dd>
+<dd><span>Posts: 9</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://www.rungkut-cyber.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Login screen with slim</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>dmknght wrote:</cite><blockquote><div><div class="quotebox"><cite>brianeli22 wrote:</cite><blockquote><div><div class="quotebox"><cite>josegatica wrote:</cite><blockquote><div><p>your system shouldn&#039;t show any error. Did you read all the post? or just copied and pasted commands.</p></div></blockquote></div><p>&quot;Failed to execute login command&quot; when I login with default user. And when I try to login with root. Its works. <br/>I try to find how to fix it, I will post new thread to sharing with other who got same problem :)</p></div></blockquote></div><p>You did not post all of steps that you did, so there is many reason that i can think about:<br/>1) Your OS version?<br/>2) Have you installed slim in the right way?<br/>3) Have you named them right? A wrong name can crash your Desktop Manager<br/>4) If log in as root work, maybe your system set wrong permission? With loggin as root user, applications and drivers can not work right, many functions are disabled<br/>5) Have you installed any desktop environment, or desktop management that can disable slim?<br/>6) Have you removed any keyring, or anything that can make authentication work wrong?</p></div></blockquote></div><p>1) My OS version is 3.6.<br/>2) Yes bro<br/>3) Yes named slim on theme folder<br/>4) That&#039;s what I&#039;m experiencing now, and I&#039;m trying to find my fault when install SLIM<br/>5) No I don&#039;t have any desktop enviroment, just install slim<br/>6) I don&#039;t remove any keyring, And I will find the error ASAP then Posting here where is my fault</p><p>Thanks for your help, I appreciate it :) Keep sharing with other Parrot User :)</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Rgkt22</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1541" class="blockpost rowodd">
+<h2><span><span class="conr">#13</span> <a href="viewtopic.php?pid=1541#p1541">2017-05-28 23:51:33</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9025">Spyros</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-28</span></dd>
+<dd><span>Posts: 5</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Login screen with slim</h3>
+<div class="postmsg">
+<p>Tried and works fine, thanks. <br/>I do have a question anyway, before I used lightdm as login manager also I use 3 monitors on my setup and with lightdm the login screen use to showed on the middle one or where I moved my mouse cursor, instead with slim the login screen is fixed (doesnt follow mouse movement) and take place on hole 3 monitors which in first its pretty ugly and the most serious problem is that the login panel lands between the first-second monitors and its hard to read what I&#039;m typing. Do you know how i can solve that ?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1551" class="blockpost roweven">
+<h2><span><span class="conr">#14</span> <a href="viewtopic.php?pid=1551#p1551">2017-05-29 05:19:34</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=54">qr0f1l3R</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Ambassador</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/54.jpg?m=1495471116" width="60" height="58" alt/></dd>
+<dd><span>From: Germany</span></dd>
+<dd><span>Registered: 2017-02-15</span></dd>
+<dd><span>Posts: 183</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Login screen with slim</h3>
+<div class="postmsg">
+<p>Now I tryed it. Its fantastic. Thanks again for share! =)</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Andre &quot;qr0f1l3R&quot; P. - Parrot Ambassador - Founder of the German community</p><p>GPG Fingerprint: 290A C689 2EB1 45F6 5E74 2C11 99B1 2DF0 E85A E4E6<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … F0E85AE4E6</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … F0E85AE4E6</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1557" class="blockpost rowodd">
+<h2><span><span class="conr">#15</span> <a href="viewtopic.php?pid=1557#p1557">2017-05-29 07:29:20</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=26">dmknght</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 16</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Login screen with slim</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>Spyros wrote:</cite><blockquote><div><p>Tried and works fine, thanks. <br/>I do have a question anyway, before I used lightdm as login manager also I use 3 monitors on my setup and with lightdm the login screen use to showed on the middle one or where I moved my mouse cursor, instead with slim the login screen is fixed (doesnt follow mouse movement) and take place on hole 3 monitors which in first its pretty ugly and the most serious problem is that the login panel lands between the first-second monitors and its hard to read what I&#039;m typing. Do you know how i can solve that ?</p></div></blockquote></div><p>Well! I guess there is only way to fix that: edit source code. But Everything i can do is edit the configure and make the theme, sadly :D .Anyway i gonna try some keyword on google and hope it help :D<br/>P/s: Luckily, there is a topic about your problem before, and here is the method:<br/>I was just facing that problem and solved it by editing the input_panel_x value to &quot;(screen1Width/2)/screen12Width*100&quot; only. It works perfectly (archlinux-simplyblack-theme).</p><div class="codebox"><pre><code> https://bbs.archlinux.org/viewtopic.php?id=77907 </code></pre></div><p>I think it is about screen resolution</p>
+<p class="postedit"><em>Last edited by dmknght (2017-05-29 07:32:31)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1574" class="blockpost roweven">
+<h2><span><span class="conr">#16</span> <a href="viewtopic.php?pid=1574#p1574">2017-05-29 13:37:01</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9025">Spyros</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-28</span></dd>
+<dd><span>Posts: 5</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Login screen with slim</h3>
+<div class="postmsg">
+ <div class="quotebox"><cite>dmknght wrote:</cite><blockquote><div><div class="quotebox"><cite>Spyros wrote:</cite><blockquote><div><p>Tried and works fine, thanks. <br/>I do have a question anyway, before I used lightdm as login manager also I use 3 monitors on my setup and with lightdm the login screen use to showed on the middle one or where I moved my mouse cursor, instead with slim the login screen is fixed (doesnt follow mouse movement) and take place on hole 3 monitors which in first its pretty ugly and the most serious problem is that the login panel lands between the first-second monitors and its hard to read what I&#039;m typing. Do you know how i can solve that ?</p></div></blockquote></div><p>Well! I guess there is only way to fix that: edit source code. But Everything i can do is edit the configure and make the theme, sadly :D .Anyway i gonna try some keyword on google and hope it help :D<br/>P/s: Luckily, there is a topic about your problem before, and here is the method:<br/>I was just facing that problem and solved it by editing the input_panel_x value to &quot;(screen1Width/2)/screen12Width*100&quot; only. It works perfectly (archlinux-simplyblack-theme).</p><div class="codebox"><pre><code> https://bbs.archlinux.org/viewtopic.php?id=77907 </code></pre></div><p>I think it is about screen resolution</p></div></blockquote></div><br/><p>Thanks for the fast reply , My thoughts was also editing the conf file , but I didn&#039;t want to mess things up until i was 100% sure ;)</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1577" class="blockpost rowodd">
+<h2><span><span class="conr">#17</span> <a href="viewtopic.php?pid=1577#p1577">2017-05-29 14:40:02</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9025">Spyros</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-28</span></dd>
+<dd><span>Posts: 5</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Login screen with slim</h3>
+<div class="postmsg">
+<p>I tried and work in some way, anyway that only effects the panel and not the background also. The Background is still stretched on the 3 monitors , i tried to change the background style but did not work.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1586" class="blockpost roweven">
+<h2><span><span class="conr">#18</span> <a href="viewtopic.php?pid=1586#p1586">2017-05-29 17:00:10</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=54">qr0f1l3R</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Ambassador</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/54.jpg?m=1495471116" width="60" height="58" alt/></dd>
+<dd><span>From: Germany</span></dd>
+<dd><span>Registered: 2017-02-15</span></dd>
+<dd><span>Posts: 183</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Login screen with slim</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>Spyros wrote:</cite><blockquote><div><p>I tried and work in some way, anyway that only effects the panel and not the background also. The Background is still stretched on the 3 monitors , i tried to change the background style but did not work.</p></div></blockquote></div><p>Look in your /usr/share/slim/themes/*templatename*/slim.theme</p><p>There is a line: background_style<br/>In these example line 20</p><p>Exchange stretch with center ... or what ever position you want :)</p><p> 19 # valid values: stretch, tile<br/> 20 background_style&#160; &#160; &#160; &#160; stretch<br/> 21 background_color&#160; &#160; &#160; &#160; #08eaea</p>
+<p class="postedit"><em>Last edited by qr0f1l3R (2017-05-29 17:00:25)</em></p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Andre &quot;qr0f1l3R&quot; P. - Parrot Ambassador - Founder of the German community</p><p>GPG Fingerprint: 290A C689 2EB1 45F6 5E74 2C11 99B1 2DF0 E85A E4E6<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … F0E85AE4E6</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … F0E85AE4E6</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1602" class="blockpost rowodd">
+<h2><span><span class="conr">#19</span> <a href="viewtopic.php?pid=1602#p1602">2017-05-29 21:53:25</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9025">Spyros</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-28</span></dd>
+<dd><span>Posts: 5</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Login screen with slim</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>qr0f1l3R wrote:</cite><blockquote><div><div class="quotebox"><cite>Spyros wrote:</cite><blockquote><div><p>I tried and work in some way, anyway that only effects the panel and not the background also. The Background is still stretched on the 3 monitors , i tried to change the background style but did not work.</p></div></blockquote></div><p>Look in your /usr/share/slim/themes/*templatename*/slim.theme</p><p>There is a line: background_style<br/>In these example line 20</p><p>Exchange stretch with center ... or what ever position you want :)</p><p> 19 # valid values: stretch, tile<br/> 20 background_style&#160; &#160; &#160; &#160; stretch<br/> 21 background_color&#160; &#160; &#160; &#160; #08eaea</p></div></blockquote></div><br/><p>I Should mention that before , what you are saying is something which i already tried but did not work also.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1607" class="blockpost roweven">
+<h2><span><span class="conr">#20</span> <a href="viewtopic.php?pid=1607#p1607">2017-05-29 22:35:28</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9025">Spyros</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-28</span></dd>
+<dd><span>Posts: 5</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Login screen with slim</h3>
+<div class="postmsg">
+<p>Ok, i just figure out other way to make tha background fix my monitors. <br/>What I did just in case if someone faces the same problem, I set to all my monitors as background the image I wanted as login background, after that I take a screenshot of all my monitors. The screenshot looks similar to this <br/><span class="postimg"><img src="https://s20.postimg.org/qxzp9oegd/background.png" alt="background.png"/></span></p><p>And set this one as login background. <br/>That was all and everything fits well now</p>
+<p class="postedit"><em>Last edited by Spyros (2017-05-29 22:39:35)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=6">System Setup and Customization</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=415">TUTORIAL: Login screen with slim</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6" selected="selected">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=415&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div></div></div>
+</div>
+</body>
+</html>

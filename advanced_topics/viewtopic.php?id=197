@@ -1,0 +1,464 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Can&#039;t get Parrot to boot into Live / Advanced Topics / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=197" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=197&amp;type=atom" title="Atom topic feed"/>
+
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div></div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=7">Advanced Topics</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=197">Can&#039;t get Parrot to boot into Live</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p580" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=580#p580">2017-03-16 03:56:12</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7298">HatterTheMadd</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/7298.png?m=1489633440" width="60" height="60" alt/></dd>
+<dd><span>Registered: 2017-03-16</span></dd>
+<dd><span>Posts: 6</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Can&#039;t get Parrot to boot into Live</h3>
+<div class="postmsg">
+<p>Well that&#039;s not 100% true. It might be booting in but I can&#039;t see it.. As soon as I select &#039;Live&#039; it puts my monitor(s) into sleep mode, which to me suggests it&#039;s a graphics driver issue. I&#039;ve tried creating a custom ISO with the nvidia-driver package installed and it still doesn&#039;t work. Any suggestions would be very much appreciated..<br/>Side Note:<br/>It does however, boot into Forensic mode w/o nvidia/amd graphics.<br/>Error:<br/><span class="postimg"><img src="https://i.imgur.com/XsuQHnQ.gif" alt="XsuQHnQ.gif"/></span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p595" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=595#p595">2017-03-17 01:25:31</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7259">zoodayz</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-03-14</span></dd>
+<dd><span>Posts: 4</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Can&#039;t get Parrot to boot into Live</h3>
+<div class="postmsg">
+<p>Can you pass acpi=off to the boot parameter?</p><p>Zoodayz</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p596" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=596#p596">2017-03-17 02:14:26</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7298">HatterTheMadd</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/7298.png?m=1489633440" width="60" height="60" alt/></dd>
+<dd><span>Registered: 2017-03-16</span></dd>
+<dd><span>Posts: 6</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Can&#039;t get Parrot to boot into Live</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>zoodayz wrote:</cite><blockquote><div><p>Can you pass acpi=off to the boot parameter?</p><p>Zoodayz</p></div></blockquote></div><p>Ok that worked.. Now it can&#039;t find the file system... Are you kidding me.. </p><p><span class="postimg"><img src="https://s14.postimg.org/yldgunfc1/IMG_20170316_184619.jpg" alt="IMG_20170316_184619.jpg"/></span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p597" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=597#p597">2017-03-17 03:08:25</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=14">Jeff</a></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd><span>From: USA</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 296</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Can&#039;t get Parrot to boot into Live</h3>
+<div class="postmsg">
+<p>Use Rosa Software to Burn the ISO to USB and reinstall&#160; </p><p>http://wiki.rosalab.ru/en/index.php/ROSA_Installation</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>-Jeff Szydel </p><p>*Parrot Ambassador&#160; &#160;*Social Groups Manager&#160; &#160;*Helpdesk&#160; &#160;*Wiki Editor&#160; &#160; <br/>*Parrot Telegram Group Administrator&#160; &#160;*Parrot Community Administrator</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p598" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=598#p598">2017-03-17 03:53:53</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7298">HatterTheMadd</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/7298.png?m=1489633440" width="60" height="60" alt/></dd>
+<dd><span>Registered: 2017-03-16</span></dd>
+<dd><span>Posts: 6</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Can&#039;t get Parrot to boot into Live</h3>
+<div class="postmsg">
+<p>Ok. That worked. I&#039;m in! Now what was that original problem? I still can&#039;t boot to it without adding &quot;acpi=off&quot; to the boot parameter...<br/><span class="postimg"><img src="https://i.imgur.com/vyB4BMu.png" alt="vyB4BMu.png"/></span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p599" class="blockpost roweven">
+<h2><span><span class="conr">#6</span> <a href="viewtopic.php?pid=599#p599">2017-03-17 04:26:43</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=14">Jeff</a></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd><span>From: USA</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 296</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Can&#039;t get Parrot to boot into Live</h3>
+<div class="postmsg">
+<p>This is live? This is not something i have seen.&#160; Something is still messed up.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>-Jeff Szydel </p><p>*Parrot Ambassador&#160; &#160;*Social Groups Manager&#160; &#160;*Helpdesk&#160; &#160;*Wiki Editor&#160; &#160; <br/>*Parrot Telegram Group Administrator&#160; &#160;*Parrot Community Administrator</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p600" class="blockpost rowodd">
+<h2><span><span class="conr">#7</span> <a href="viewtopic.php?pid=600#p600">2017-03-17 04:30:03</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7298">HatterTheMadd</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/7298.png?m=1489633440" width="60" height="60" alt/></dd>
+<dd><span>Registered: 2017-03-16</span></dd>
+<dd><span>Posts: 6</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Can&#039;t get Parrot to boot into Live</h3>
+<div class="postmsg">
+<p>Yes this is live.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p601" class="blockpost roweven">
+<h2><span><span class="conr">#8</span> <a href="viewtopic.php?pid=601#p601">2017-03-17 04:33:23</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7298">HatterTheMadd</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/7298.png?m=1489633440" width="60" height="60" alt/></dd>
+<dd><span>Registered: 2017-03-16</span></dd>
+<dd><span>Posts: 6</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Can&#039;t get Parrot to boot into Live</h3>
+<div class="postmsg">
+<p>I&#039;m installing it on a USB now..</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p602" class="blockpost rowodd">
+<h2><span><span class="conr">#9</span> <a href="viewtopic.php?pid=602#p602">2017-03-17 05:08:03</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=14">Jeff</a></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd><span>From: USA</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 296</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Can&#039;t get Parrot to boot into Live</h3>
+<div class="postmsg">
+<p>Install it on the Hard&#160; Drive.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>-Jeff Szydel </p><p>*Parrot Ambassador&#160; &#160;*Social Groups Manager&#160; &#160;*Helpdesk&#160; &#160;*Wiki Editor&#160; &#160; <br/>*Parrot Telegram Group Administrator&#160; &#160;*Parrot Community Administrator</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p603" class="blockpost roweven">
+<h2><span><span class="conr">#10</span> <a href="viewtopic.php?pid=603#p603">2017-03-17 05:39:02</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7298">HatterTheMadd</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/7298.png?m=1489633440" width="60" height="60" alt/></dd>
+<dd><span>Registered: 2017-03-16</span></dd>
+<dd><span>Posts: 6</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Can&#039;t get Parrot to boot into Live</h3>
+<div class="postmsg">
+<p>On a SSD has already been accomplished. For what I&#039;m doing here, I need it to either be installed on a USB or live boot into it. The usb is 498gb give or take a couple mb. So size shouldn&#039;t be a problem.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p613" class="blockpost rowodd">
+<h2><span><span class="conr">#11</span> <a href="viewtopic.php?pid=613#p613">2017-03-17 18:06:09</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7259">zoodayz</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-03-14</span></dd>
+<dd><span>Posts: 4</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Can&#039;t get Parrot to boot into Live</h3>
+<div class="postmsg">
+<p>Not that this helps much...&#160; But some monitors report the wrong or out of bound parameters.&#160; It has been that way for a &quot;long&quot; time now. Maybe hardware or a bug.&#160; I just did a quick duckduckgo and found this page see if it helps&#160; https://01.org/linux-acpi/documentation/debug-how-isolate-linux-acpi-issues</p><p>#Zoodayz</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=7">Advanced Topics</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=197">Can&#039;t get Parrot to boot into Live</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7" selected="selected">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=197&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div></div></div>
+</div>
+</body>
+</html>

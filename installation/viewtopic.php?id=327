@@ -1,0 +1,346 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>No Sound on internal Speaker, ASUS X441SA / Installation Process / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=327" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=327&amp;type=atom" title="Atom topic feed"/>
+
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div></div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=5">Installation Process</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=327">No Sound on internal Speaker, ASUS X441SA</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p1128" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=1128#p1128">2017-05-03 20:11:21</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8693">agus3salim</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>From: Jakarta</span></dd>
+<dd><span>Registered: 2017-05-03</span></dd>
+<dd><span>Posts: 3</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>No Sound on internal Speaker, ASUS X441SA</h3>
+<div class="postmsg">
+<p>Dear All..</p><p>I&#039;m newbie in linux. i have a problem with my sound devices (sound card?) internal speaker didn&#039;t work, but itis ok if i&#039;m using head phone.<br/>my laptop is Asus X441S, now im using Linux parrot 4.9.0-parrot13-amd64</p><p>try to search in google..<br/>i found this http://www.spinics.net/lists/alsa-devel/msg60446.html</p><p>ASUS X441SA and X441UV laptops with ALC3236 (ALC223) codec require<br/>the known fixup (ALC269_FIXUP_HEADSET_MIC) and a different pin value on<br/>pin 0x19 to make the headset mic work.</p><p>To make the speaker work, it requires an EAPD verb fixup.</p><p>Signed-off-by: Chris Chiu &lt;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="73101b1a06330b0b0b0b0b0b0b0b0b0b0b0b">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>&gt;<br/>Signed-off-by: Daniel Drake &lt;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="a0c4d2c1cbc5e0d8d8d8d8d8d8d8d8d8d8d8d8">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>&gt;<br/>---<br/> sound/pci/hda/patch_realtek.c | 24 ++++++++++++++++++++++++<br/> 1 file changed, 24 insertions(+)</p><p>diff --git a/sound/pci/hda/patch_realtek.c b/sound/pci/hda/patch_realtek.c<br/>index 101b14f..1158d2a 100644<br/>--- a/sound/pci/hda/patch_realtek.c<br/>+++ b/sound/pci/hda/patch_realtek.c<br/>@@ -4874,6 +4874,8 @@ enum {<br/> &#160; &#160; ALC221_FIXUP_HP_MIC_NO_PRESENCE,<br/> &#160; &#160; ALC256_FIXUP_ASUS_HEADSET_MODE,<br/> &#160; &#160; ALC256_FIXUP_ASUS_MIC,<br/>+&#160; &#160; ALC233_FIXUP_ASUS_MIC_NO_PRESENCE,<br/>+&#160; &#160; ALC233_FIXUP_EAPD_COEF_AND_MIC_NO_PRESENCE,<br/> };</p><p> static const struct hda_fixup alc269_fixups[] = {<br/>@@ -5594,6 +5596,26 @@ static const struct hda_fixup alc269_fixups[] = {<br/> &#160; &#160; &#160; &#160; .chained = true,<br/> &#160; &#160; &#160; &#160; .chain_id = ALC256_FIXUP_ASUS_HEADSET_MODE<br/> &#160; &#160; },<br/>+&#160; &#160; [ALC233_FIXUP_ASUS_MIC_NO_PRESENCE] = {<br/>+&#160; &#160; &#160; &#160; .type = HDA_FIXUP_PINS,<br/>+&#160; &#160; &#160; &#160; .v.pins = (const struct hda_pintbl[]) {<br/>+&#160; &#160; &#160; &#160; &#160; &#160; { 0x19, 0x01a1913c }, /* use as headset mic, without its own jack detect */<br/>+&#160; &#160; &#160; &#160; &#160; &#160; { }<br/>+&#160; &#160; &#160; &#160; },<br/>+&#160; &#160; &#160; &#160; .chained = true,<br/>+&#160; &#160; &#160; &#160; .chain_id = ALC269_FIXUP_HEADSET_MIC<br/>+&#160; &#160; },<br/>+&#160; &#160; [ALC233_FIXUP_EAPD_COEF_AND_MIC_NO_PRESENCE] = {<br/>+&#160; &#160; &#160; &#160; .type = HDA_FIXUP_VERBS,<br/>+&#160; &#160; &#160; &#160; .v.verbs = (const struct hda_verb[]) {<br/>+&#160; &#160; &#160; &#160; &#160; &#160; /* Enables internal speaker */<br/>+&#160; &#160; &#160; &#160; &#160; &#160; {0x20, AC_VERB_SET_COEF_INDEX, 0x40},<br/>+&#160; &#160; &#160; &#160; &#160; &#160; {0x20, AC_VERB_SET_PROC_COEF, 0x8800},<br/>+&#160; &#160; &#160; &#160; &#160; &#160; {}<br/>+&#160; &#160; &#160; &#160; },<br/>+&#160; &#160; &#160; &#160; .chained = true,<br/>+&#160; &#160; &#160; &#160; .chain_id = ALC233_FIXUP_ASUS_MIC_NO_PRESENCE<br/>+&#160; &#160; },<br/> };</p><p> static const struct snd_pci_quirk alc269_fixup_tbl[] = {<br/>@@ -5723,6 +5745,8 @@ static const struct snd_pci_quirk alc269_fixup_tbl[] = {<br/> &#160; &#160; SND_PCI_QUIRK(0x1043, 0x1bbd, &quot;ASUS Z550MA&quot;, ALC255_FIXUP_ASUS_MIC_NO_PRESENCE),<br/> &#160; &#160; SND_PCI_QUIRK(0x1043, 0x10d0, &quot;ASUS X540LA/X540LJ&quot;, ALC255_FIXUP_ASUS_MIC_NO_PRESENCE),<br/> &#160; &#160; SND_PCI_QUIRK(0x1043, 0x11c0, &quot;ASUS X556UR&quot;, ALC255_FIXUP_ASUS_MIC_NO_PRESENCE),<br/>+&#160; &#160; SND_PCI_QUIRK(0x1043, 0x1290, &quot;ASUS X441SA&quot;, ALC233_FIXUP_EAPD_COEF_AND_MIC_NO_PRESENCE),<br/>+&#160; &#160; SND_PCI_QUIRK(0x1043, 0x12a0, &quot;ASUS X441UV&quot;, ALC233_FIXUP_EAPD_COEF_AND_MIC_NO_PRESENCE),<br/> &#160; &#160; SND_PCI_QUIRK(0x1043, 0x1ccd, &quot;ASUS X555UB&quot;, ALC256_FIXUP_ASUS_MIC),<br/> &#160; &#160; SND_PCI_QUIRK(0x1043, 0x831a, &quot;ASUS P901&quot;, ALC269_FIXUP_STEREO_DMIC),<br/> &#160; &#160; SND_PCI_QUIRK(0x1043, 0x834a, &quot;ASUS S101&quot;, ALC269_FIXUP_STEREO_DMIC),<br/>-- <br/>2.9.3</p><br/><p>Another Search:<br/>try command in terminal<br/>wget http://www.alsa-project.org/alsa-info.sh -O alsa-info.sh &amp;&amp; bash alsa-info.sh</p><p>and i have this txt file</p><p>upload=true&amp;script=true&amp;cardinfo=<br/>!!################################<br/>!!ALSA Information Script v 0.4.64<br/>!!################################</p><p>!!Script ran on: Wed May&#160; 3 05:29:28 UTC 2017</p><br/><p>!!Linux Distribution<br/>!!------------------</p><p>ID_LIKE=debian</p><br/><p>!!DMI Information<br/>!!---------------</p><p>Manufacturer:&#160; &#160; &#160; ASUSTeK COMPUTER INC.<br/>Product Name:&#160; &#160; &#160; X441SA<br/>Product Version:&#160; &#160;1.0&#160; &#160; &#160; &#160;<br/>Firmware Version:&#160; X441SA.300<br/>Board Vendor:&#160; &#160; &#160; ASUSTeK COMPUTER INC.<br/>Board Name:&#160; &#160; &#160; &#160; X441SA</p><br/><p>!!ACPI Device Status Information<br/>!!---------------</p><p>/sys/bus/acpi/devices/80860F14:00/status &#160; &#160;&#160; 15<br/>/sys/bus/acpi/devices/808622C1:03/status &#160; &#160;&#160; 15<br/>/sys/bus/acpi/devices/ATK3001:00/status &#160; &#160;&#160; 15<br/>/sys/bus/acpi/devices/ATK4002:00/status &#160; &#160;&#160; 15<br/>/sys/bus/acpi/devices/ELAN1200:00/status &#160; &#160;&#160; 15<br/>/sys/bus/acpi/devices/INT33FF:00/status &#160; &#160;&#160; 15<br/>/sys/bus/acpi/devices/INT33FF:01/status &#160; &#160;&#160; 15<br/>/sys/bus/acpi/devices/INT33FF:02/status &#160; &#160;&#160; 15<br/>/sys/bus/acpi/devices/INT33FF:03/status &#160; &#160;&#160; 15<br/>/sys/bus/acpi/devices/INT3400:00/status &#160; &#160;&#160; 15<br/>/sys/bus/acpi/devices/INTL9C60:01/status &#160; &#160;&#160; 15<br/>/sys/bus/acpi/devices/LNXPOWER:01/status &#160; &#160;&#160; 15<br/>/sys/bus/acpi/devices/LNXPOWER:02/status &#160; &#160;&#160; 2<br/>/sys/bus/acpi/devices/LNXPOWER:03/status &#160; &#160;&#160; 2<br/>/sys/bus/acpi/devices/LNXPOWER:04/status &#160; &#160;&#160; 2<br/>/sys/bus/acpi/devices/MSFT0101:00/status &#160; &#160;&#160; 15<br/>/sys/bus/acpi/devices/PNP0C0A:00/status &#160; &#160;&#160; 31<br/>/sys/bus/acpi/devices/PNP0C0C:00/status &#160; &#160;&#160; 15<br/>/sys/bus/acpi/devices/PNP0C0F:00/status &#160; &#160;&#160; 9<br/>/sys/bus/acpi/devices/PNP0C0F:01/status &#160; &#160;&#160; 9<br/>/sys/bus/acpi/devices/PNP0C0F:02/status &#160; &#160;&#160; 9<br/>/sys/bus/acpi/devices/PNP0C0F:03/status &#160; &#160;&#160; 9<br/>/sys/bus/acpi/devices/PNP0C0F:04/status &#160; &#160;&#160; 9<br/>/sys/bus/acpi/devices/PNP0C0F:05/status &#160; &#160;&#160; 9<br/>/sys/bus/acpi/devices/PNP0C0F:06/status &#160; &#160;&#160; 9<br/>/sys/bus/acpi/devices/PNP0C0F:07/status &#160; &#160;&#160; 9<br/>/sys/bus/acpi/devices/device:10/status &#160; &#160;&#160; 15<br/>/sys/bus/acpi/devices/device:11/status &#160; &#160;&#160; 15<br/>/sys/bus/acpi/devices/device:3c/status &#160; &#160;&#160; 15</p><br/><p>!!Kernel Information<br/>!!------------------</p><p>Kernel release:&#160; &#160; 4.9.0-parrot13-amd64<br/>Operating System:&#160; GNU/Linux<br/>Architecture:&#160; &#160; &#160; x86_64<br/>Processor:&#160; &#160; &#160; &#160; &#160;unknown<br/>SMP Enabled:&#160; &#160; &#160; &#160;Yes</p><br/><p>!!ALSA Version<br/>!!------------</p><p>Driver version:&#160; &#160; &#160;k4.9.0-parrot13-amd64<br/>Library version:&#160; &#160; <br/>Utilities version:&#160; 1.1.3</p><br/><p>!!Loaded ALSA modules<br/>!!-------------------</p><p>snd_hda_intel</p><br/><p>!!Sound Servers on this system<br/>!!----------------------------</p><p>Pulseaudio:<br/>&#160; &#160; &#160; Installed - Yes (/usr/bin/pulseaudio)<br/>&#160; &#160; &#160; Running - Yes</p><br/><p>!!Soundcards recognised by ALSA<br/>!!-----------------------------</p><p> 0 [PCH&#160; &#160; &#160; &#160; &#160; &#160; ]: HDA-Intel - HDA Intel PCH<br/>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; HDA Intel PCH at 0x81410000 irq 311</p><br/><p>!!PCI Soundcards installed in the system<br/>!!--------------------------------------</p><p>00:1b.0 Audio device: Intel Corporation Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series High Definition Audio Controller (rev 35)</p><br/><p>!!Advanced information - PCI Vendor/Device/Subsystem ID&#039;s<br/>!!-------------------------------------------------------</p><p>00:1b.0 0403: 8086:2284 (rev 35)<br/>&#160; &#160; Subsystem: 1043:1290</p><br/><p>!!Modprobe options (Sound related)<br/>!!--------------------------------</p><p>snd_pcsp: index=-2<br/>snd_usb_audio: index=-2<br/>snd_atiixp_modem: index=-2<br/>snd_intel8x0m: index=-2<br/>snd_via82xx_modem: index=-2</p><br/><p>!!Loaded sound module options<br/>!!---------------------------</p><p>!!Module: snd_hda_intel<br/>&#160; &#160; align_buffer_size : -1<br/>&#160; &#160; bdl_pos_adj : -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1<br/>&#160; &#160; beep_mode : Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y<br/>&#160; &#160; enable : Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y<br/>&#160; &#160; enable_msi : -1<br/>&#160; &#160; id : (null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null)<br/>&#160; &#160; index : -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1<br/>&#160; &#160; jackpoll_ms : 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0<br/>&#160; &#160; model : (null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null)<br/>&#160; &#160; patch : (null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null)<br/>&#160; &#160; position_fix : -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1<br/>&#160; &#160; power_save : 0<br/>&#160; &#160; power_save_controller : Y<br/>&#160; &#160; probe_mask : -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1<br/>&#160; &#160; probe_only : 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0<br/>&#160; &#160; single_cmd : N<br/>&#160; &#160; snoop : -1</p><br/><p>!!HDA-Intel Codec information<br/>!!---------------------------<br/>--startcollapse--</p><p>Codec: Realtek ALC3236<br/>Address: 0<br/>AFG Function Id: 0x1 (unsol 1)<br/>Vendor Id: 0x10ec0233<br/>Subsystem Id: 0x10431290<br/>Revision Id: 0x100003<br/>No Modem Function Group found<br/>Default PCM:<br/>&#160; &#160; rates [0x560]: 44100 48000 96000 192000<br/>&#160; &#160; bits [0xe]: 16 20 24<br/>&#160; &#160; formats [0x1]: PCM<br/>Default Amp-In caps: N/A<br/>Default Amp-Out caps: N/A<br/>State of AFG node 0x01:<br/>&#160; Power states:&#160; D0 D1 D2 D3 CLKSTOP EPSS<br/>&#160; Power: setting=D0, actual=D0<br/>GPIO: io=3, o=0, i=0, unsolicited=1, wake=0<br/>&#160; IO[0]: enable=0, dir=0, wake=0, sticky=0, data=0, unsol=0<br/>&#160; IO[1]: enable=0, dir=0, wake=0, sticky=0, data=0, unsol=0<br/>&#160; IO[2]: enable=0, dir=0, wake=0, sticky=0, data=0, unsol=0<br/>Node 0x02 [Audio Output] wcaps 0x41d: Stereo Amp-Out<br/>&#160; Control: name=&quot;Headphone Playback Volume&quot;, index=0, device=0<br/>&#160; &#160; ControlAmp: chs=3, dir=Out, idx=0, ofs=0<br/>&#160; Device: name=&quot;ALC3236 Analog&quot;, type=&quot;Audio&quot;, device=0<br/>&#160; Amp-Out caps: ofs=0x57, nsteps=0x57, stepsize=0x02, mute=0<br/>&#160; Amp-Out vals:&#160; [0x00 0x00]<br/>&#160; Converter: stream=0, channel=0<br/>&#160; PCM:<br/>&#160; &#160; rates [0x560]: 44100 48000 96000 192000<br/>&#160; &#160; bits [0xe]: 16 20 24<br/>&#160; &#160; formats [0x1]: PCM<br/>&#160; Power states:&#160; D0 D1 D2 D3 EPSS<br/>&#160; Power: setting=D3, actual=D3<br/>Node 0x03 [Audio Output] wcaps 0x41d: Stereo Amp-Out<br/>&#160; Control: name=&quot;Speaker Playback Volume&quot;, index=0, device=0<br/>&#160; &#160; ControlAmp: chs=3, dir=Out, idx=0, ofs=0<br/>&#160; Amp-Out caps: ofs=0x57, nsteps=0x57, stepsize=0x02, mute=0<br/>&#160; Amp-Out vals:&#160; [0x54 0x54]<br/>&#160; Converter: stream=0, channel=0<br/>&#160; PCM:<br/>&#160; &#160; rates [0x560]: 44100 48000 96000 192000<br/>&#160; &#160; bits [0xe]: 16 20 24<br/>&#160; &#160; formats [0x1]: PCM<br/>&#160; Power states:&#160; D0 D1 D2 D3 EPSS<br/>&#160; Power: setting=D3, actual=D3<br/>Node 0x04 [Vendor Defined Widget] wcaps 0xf00000: Mono<br/>Node 0x05 [Vendor Defined Widget] wcaps 0xf00000: Mono<br/>Node 0x06 [Audio Output] wcaps 0x611: Stereo Digital<br/>&#160; Converter: stream=0, channel=0<br/>&#160; Digital:<br/>&#160; Digital category: 0x0<br/>&#160; IEC Coding Type: 0x0<br/>&#160; PCM:<br/>&#160; &#160; rates [0x5e0]: 44100 48000 88200 96000 192000<br/>&#160; &#160; bits [0xe]: 16 20 24<br/>&#160; &#160; formats [0x1]: PCM<br/>&#160; Power states:&#160; D0 D1 D2 D3 EPSS<br/>&#160; Power: setting=D3, actual=D3<br/>Node 0x07 [Vendor Defined Widget] wcaps 0xf00000: Mono<br/>Node 0x08 [Audio Input] wcaps 0x10051b: Stereo Amp-In<br/>&#160; Control: name=&quot;Capture Volume&quot;, index=0, device=0<br/>&#160; &#160; ControlAmp: chs=3, dir=In, idx=0, ofs=0<br/>&#160; Control: name=&quot;Capture Switch&quot;, index=0, device=0<br/>&#160; &#160; ControlAmp: chs=3, dir=In, idx=0, ofs=0<br/>&#160; Device: name=&quot;ALC3236 Analog&quot;, type=&quot;Audio&quot;, device=0<br/>&#160; Amp-In caps: ofs=0x17, nsteps=0x3f, stepsize=0x02, mute=1<br/>&#160; Amp-In vals:&#160; [0x3f 0x3f]<br/>&#160; Converter: stream=0, channel=0<br/>&#160; SDI-Select: 0<br/>&#160; PCM:<br/>&#160; &#160; rates [0x560]: 44100 48000 96000 192000<br/>&#160; &#160; bits [0xe]: 16 20 24<br/>&#160; &#160; formats [0x1]: PCM<br/>&#160; Power states:&#160; D0 D1 D2 D3 EPSS<br/>&#160; Power: setting=D3, actual=D3<br/>&#160; Connection: 1<br/>&#160; &#160; &#160;0x23<br/>Node 0x09 [Audio Input] wcaps 0x10051b: Stereo Amp-In<br/>&#160; Amp-In caps: ofs=0x17, nsteps=0x3f, stepsize=0x02, mute=1<br/>&#160; Amp-In vals:&#160; [0x97 0x97]<br/>&#160; Converter: stream=0, channel=0<br/>&#160; SDI-Select: 0<br/>&#160; PCM:<br/>&#160; &#160; rates [0x560]: 44100 48000 96000 192000<br/>&#160; &#160; bits [0xe]: 16 20 24<br/>&#160; &#160; formats [0x1]: PCM<br/>&#160; Power states:&#160; D0 D1 D2 D3 EPSS<br/>&#160; Power: setting=D3, actual=D3<br/>&#160; Connection: 1<br/>&#160; &#160; &#160;0x22<br/>Node 0x0a [Vendor Defined Widget] wcaps 0xf00000: Mono<br/>Node 0x0b [Audio Mixer] wcaps 0x20010b: Stereo Amp-In<br/>&#160; Control: name=&quot;Mic Playback Volume&quot;, index=0, device=0<br/>&#160; &#160; ControlAmp: chs=3, dir=In, idx=2, ofs=0<br/>&#160; Control: name=&quot;Mic Playback Switch&quot;, index=0, device=0<br/>&#160; &#160; ControlAmp: chs=3, dir=In, idx=2, ofs=0<br/>&#160; Amp-In caps: ofs=0x17, nsteps=0x1f, stepsize=0x05, mute=1<br/>&#160; Amp-In vals:&#160; [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80]<br/>&#160; Connection: 5<br/>&#160; &#160; &#160;0x18 0x19 0x1a 0x1b 0x1d<br/>Node 0x0c [Audio Mixer] wcaps 0x20010b: Stereo Amp-In<br/>&#160; Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1<br/>&#160; Amp-In vals:&#160; [0x00 0x00] [0x80 0x80]<br/>&#160; Connection: 2<br/>&#160; &#160; &#160;0x02 0x0b<br/>Node 0x0d [Audio Mixer] wcaps 0x20010b: Stereo Amp-In<br/>&#160; Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1<br/>&#160; Amp-In vals:&#160; [0x00 0x00] [0x80 0x80]<br/>&#160; Connection: 2<br/>&#160; &#160; &#160;0x03 0x0b<br/>Node 0x0e [Vendor Defined Widget] wcaps 0xf00000: Mono<br/>Node 0x0f [Audio Mixer] wcaps 0x20010a: Mono Amp-In<br/>&#160; Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1<br/>&#160; Amp-In vals:&#160; [0x00 0x00]<br/>&#160; Connection: 1<br/>&#160; &#160; &#160;0x0d<br/>Node 0x10 [Vendor Defined Widget] wcaps 0xf00000: Mono<br/>Node 0x11 [Audio Input] wcaps 0x10051b: Stereo Amp-In<br/>&#160; Amp-In caps: ofs=0x17, nsteps=0x3f, stepsize=0x02, mute=1<br/>&#160; Amp-In vals:&#160; [0x97 0x97]<br/>&#160; Converter: stream=0, channel=0<br/>&#160; SDI-Select: 0<br/>&#160; PCM:<br/>&#160; &#160; rates [0x560]: 44100 48000 96000 192000<br/>&#160; &#160; bits [0xe]: 16 20 24<br/>&#160; &#160; formats [0x1]: PCM<br/>&#160; Power states:&#160; D0 D1 D2 D3 EPSS<br/>&#160; Power: setting=D3, actual=D3<br/>&#160; Connection: 1<br/>&#160; &#160; &#160;0x12<br/>Node 0x12 [Pin Complex] wcaps 0x40040b: Stereo Amp-In<br/>&#160; Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=0x2f, mute=0<br/>&#160; Amp-In vals:&#160; [0x00 0x00]<br/>&#160; Pincap 0x00000020: IN<br/>&#160; Pin Default 0x40000000: [N/A] Line Out at Ext N/A<br/>&#160; &#160; Conn = Unknown, Color = Unknown<br/>&#160; &#160; DefAssociation = 0x0, Sequence = 0x0<br/>&#160; Pin-ctls: 0x00:<br/>&#160; Power states:&#160; D0 D1 D2 D3 EPSS<br/>&#160; Power: setting=D3, actual=D3<br/>Node 0x13 [Vendor Defined Widget] wcaps 0xf00000: Mono<br/>Node 0x14 [Pin Complex] wcaps 0x40058d: Stereo Amp-Out<br/>&#160; Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1<br/>&#160; Amp-Out vals:&#160; [0x80 0x80]<br/>&#160; Pincap 0x00010014: OUT EAPD Detect<br/>&#160; EAPD 0x2: EAPD<br/>&#160; Pin Default 0x411111f0: [N/A] Speaker at Ext Rear<br/>&#160; &#160; Conn = 1/8, Color = Black<br/>&#160; &#160; DefAssociation = 0xf, Sequence = 0x0<br/>&#160; &#160; Misc = NO_PRESENCE<br/>&#160; Pin-ctls: 0x00:<br/>&#160; Unsolicited: tag=00, enabled=0<br/>&#160; Power states:&#160; D0 D1 D2 D3 EPSS<br/>&#160; Power: setting=D3, actual=D3<br/>&#160; Connection: 1<br/>&#160; &#160; &#160;0x0c<br/>Node 0x15 [Vendor Defined Widget] wcaps 0xf00000: Mono<br/>Node 0x16 [Vendor Defined Widget] wcaps 0xf00000: Mono<br/>Node 0x17 [Pin Complex] wcaps 0x40050c: Mono Amp-Out<br/>&#160; Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1<br/>&#160; Amp-Out vals:&#160; [0x80]<br/>&#160; Pincap 0x00000010: OUT<br/>&#160; Pin Default 0x411111f0: [N/A] Speaker at Ext Rear<br/>&#160; &#160; Conn = 1/8, Color = Black<br/>&#160; &#160; DefAssociation = 0xf, Sequence = 0x0<br/>&#160; &#160; Misc = NO_PRESENCE<br/>&#160; Pin-ctls: 0x00:<br/>&#160; Power states:&#160; D0 D1 D2 D3 EPSS<br/>&#160; Power: setting=D3, actual=D3<br/>&#160; Connection: 1<br/>&#160; &#160; &#160;0x0f<br/>Node 0x18 [Pin Complex] wcaps 0x40048b: Stereo Amp-In<br/>&#160; Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=0x2f, mute=0<br/>&#160; Amp-In vals:&#160; [0x00 0x00]<br/>&#160; Pincap 0x00003724: IN Detect<br/>&#160; &#160; Vref caps: HIZ 50 GRD 80 100<br/>&#160; Pin Default 0x411111f0: [N/A] Speaker at Ext Rear<br/>&#160; &#160; Conn = 1/8, Color = Black<br/>&#160; &#160; DefAssociation = 0xf, Sequence = 0x0<br/>&#160; &#160; Misc = NO_PRESENCE<br/>&#160; Pin-ctls: 0x20: IN VREF_HIZ<br/>&#160; Unsolicited: tag=00, enabled=0<br/>&#160; Power states:&#160; D0 D1 D2 D3 EPSS<br/>&#160; Power: setting=D3, actual=D3<br/>Node 0x19 [Pin Complex] wcaps 0x40048b: Stereo Amp-In<br/>&#160; Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=0x2f, mute=0<br/>&#160; Amp-In vals:&#160; [0x00 0x00]<br/>&#160; Pincap 0x00003724: IN Detect<br/>&#160; &#160; Vref caps: HIZ 50 GRD 80 100<br/>&#160; Pin Default 0x411111f0: [N/A] Speaker at Ext Rear<br/>&#160; &#160; Conn = 1/8, Color = Black<br/>&#160; &#160; DefAssociation = 0xf, Sequence = 0x0<br/>&#160; &#160; Misc = NO_PRESENCE<br/>&#160; Pin-ctls: 0x20: IN VREF_HIZ<br/>&#160; Unsolicited: tag=00, enabled=0<br/>&#160; Power states:&#160; D0 D1 D2 D3 EPSS<br/>&#160; Power: setting=D3, actual=D3<br/>Node 0x1a [Pin Complex] wcaps 0x40048b: Stereo Amp-In<br/>&#160; Control: name=&quot;Mic Boost Volume&quot;, index=0, device=0<br/>&#160; &#160; ControlAmp: chs=3, dir=In, idx=0, ofs=0<br/>&#160; Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=0x2f, mute=0<br/>&#160; Amp-In vals:&#160; [0x02 0x02]<br/>&#160; Pincap 0x00003724: IN Detect<br/>&#160; &#160; Vref caps: HIZ 50 GRD 80 100<br/>&#160; Pin Default 0x90a70130: [Fixed] Mic at Int N/A<br/>&#160; &#160; Conn = Analog, Color = Unknown<br/>&#160; &#160; DefAssociation = 0x3, Sequence = 0x0<br/>&#160; &#160; Misc = NO_PRESENCE<br/>&#160; Pin-ctls: 0x24: IN VREF_80<br/>&#160; Unsolicited: tag=00, enabled=0<br/>&#160; Power states:&#160; D0 D1 D2 D3 EPSS<br/>&#160; Power: setting=D0, actual=D0<br/>Node 0x1b [Pin Complex] wcaps 0x40058f: Stereo Amp-In Amp-Out<br/>&#160; Control: name=&quot;Speaker Playback Switch&quot;, index=0, device=0<br/>&#160; &#160; ControlAmp: chs=3, dir=Out, idx=0, ofs=0<br/>&#160; Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=0x2f, mute=0<br/>&#160; Amp-In vals:&#160; [0x00 0x00]<br/>&#160; Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1<br/>&#160; Amp-Out vals:&#160; [0x00 0x00]<br/>&#160; Pincap 0x0001373c: IN OUT HP EAPD Detect<br/>&#160; &#160; Vref caps: HIZ 50 GRD 80 100<br/>&#160; EAPD 0x2: EAPD<br/>&#160; Pin Default 0x90170110: [Fixed] Speaker at Int N/A<br/>&#160; &#160; Conn = Analog, Color = Unknown<br/>&#160; &#160; DefAssociation = 0x1, Sequence = 0x0<br/>&#160; &#160; Misc = NO_PRESENCE<br/>&#160; Pin-ctls: 0x40: OUT VREF_HIZ<br/>&#160; Unsolicited: tag=00, enabled=0<br/>&#160; Power states:&#160; D0 D1 D2 D3 EPSS<br/>&#160; Power: setting=D3, actual=D3<br/>&#160; Connection: 2<br/>&#160; &#160; &#160;0x0c 0x0d*<br/>Node 0x1c [Vendor Defined Widget] wcaps 0xf00000: Mono<br/>Node 0x1d [Pin Complex] wcaps 0x400400: Mono<br/>&#160; Pincap 0x00000020: IN<br/>&#160; Pin Default 0x40489a6d: [N/A] SPDIF Out at Ext N/A<br/>&#160; &#160; Conn = DIN, Color = Pink<br/>&#160; &#160; DefAssociation = 0x6, Sequence = 0xd<br/>&#160; Pin-ctls: 0x20: IN<br/>&#160; Power states:&#160; D0 D1 D2 D3 EPSS<br/>&#160; Power: setting=D3, actual=D3<br/>Node 0x1e [Pin Complex] wcaps 0x400781: Stereo Digital<br/>&#160; Pincap 0x00000014: OUT Detect<br/>&#160; Pin Default 0x411111f0: [N/A] Speaker at Ext Rear<br/>&#160; &#160; Conn = 1/8, Color = Black<br/>&#160; &#160; DefAssociation = 0xf, Sequence = 0x0<br/>&#160; &#160; Misc = NO_PRESENCE<br/>&#160; Pin-ctls: 0x40: OUT<br/>&#160; Unsolicited: tag=00, enabled=0<br/>&#160; Power states:&#160; D0 D1 D2 D3 EPSS<br/>&#160; Power: setting=D3, actual=D3<br/>&#160; Connection: 1<br/>&#160; &#160; &#160;0x06<br/>Node 0x1f [Vendor Defined Widget] wcaps 0xf00000: Mono<br/>Node 0x20 [Vendor Defined Widget] wcaps 0xf00040: Mono<br/>&#160; Processing caps: benign=0, ncoeff=73<br/>Node 0x21 [Pin Complex] wcaps 0x40058d: Stereo Amp-Out<br/>&#160; Control: name=&quot;Headphone Playback Switch&quot;, index=0, device=0<br/>&#160; &#160; ControlAmp: chs=3, dir=Out, idx=0, ofs=0<br/>&#160; Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1<br/>&#160; Amp-Out vals:&#160; [0x80 0x80]<br/>&#160; Pincap 0x0001001c: OUT HP EAPD Detect<br/>&#160; EAPD 0x2: EAPD<br/>&#160; Pin Default 0x03211020: [Jack] HP Out at Ext Left<br/>&#160; &#160; Conn = 1/8, Color = Black<br/>&#160; &#160; DefAssociation = 0x2, Sequence = 0x0<br/>&#160; Pin-ctls: 0xc0: OUT HP<br/>&#160; Unsolicited: tag=01, enabled=1<br/>&#160; Power states:&#160; D0 D1 D2 D3 EPSS<br/>&#160; Power: setting=D3, actual=D3<br/>&#160; Connection: 2<br/>&#160; &#160; &#160;0x0c* 0x0d<br/>Node 0x22 [Audio Mixer] wcaps 0x20010b: Stereo Amp-In<br/>&#160; Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1<br/>&#160; Amp-In vals:&#160; [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80]<br/>&#160; Connection: 6<br/>&#160; &#160; &#160;0x18 0x19 0x1a 0x1b 0x1d 0x0b<br/>Node 0x23 [Audio Mixer] wcaps 0x20010b: Stereo Amp-In<br/>&#160; Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1<br/>&#160; Amp-In vals:&#160; [0x80 0x80] [0x80 0x80] [0x00 0x00] [0x80 0x80] [0x80 0x80] [0x80 0x80]<br/>&#160; Connection: 6<br/>&#160; &#160; &#160;0x18 0x19 0x1a 0x1b 0x1d 0x0b<br/>Codec: Intel Braswell HDMI<br/>Address: 2<br/>AFG Function Id: 0x1 (unsol 0)<br/>Vendor Id: 0x80862883<br/>Subsystem Id: 0x80860101<br/>Revision Id: 0x100000<br/>No Modem Function Group found<br/>Default PCM:<br/>&#160; &#160; rates [0x0]:<br/>&#160; &#160; bits [0x0]:<br/>&#160; &#160; formats [0x0]:<br/>Default Amp-In caps: N/A<br/>Default Amp-Out caps: N/A<br/>State of AFG node 0x01:<br/>&#160; Power states:&#160; D0 D3<br/>&#160; Power: setting=D0, actual=D0<br/>GPIO: io=0, o=0, i=0, unsolicited=0, wake=0<br/>Node 0x02 [Audio Output] wcaps 0x6611: 8-Channels Digital<br/>&#160; Converter: stream=0, channel=0<br/>&#160; Digital: Enabled<br/>&#160; Digital category: 0x0<br/>&#160; IEC Coding Type: 0x0<br/>&#160; PCM:<br/>&#160; &#160; rates [0x7f0]: 32000 44100 48000 88200 96000 176400 192000<br/>&#160; &#160; bits [0x1e]: 16 20 24 32<br/>&#160; &#160; formats [0x5]: PCM AC3<br/>&#160; Power states:&#160; D0 D3<br/>&#160; Power: setting=D0, actual=D0<br/>Node 0x03 [Audio Output] wcaps 0x6611: 8-Channels Digital<br/>&#160; Converter: stream=0, channel=0<br/>&#160; Digital: Enabled<br/>&#160; Digital category: 0x0<br/>&#160; IEC Coding Type: 0x0<br/>&#160; PCM:<br/>&#160; &#160; rates [0x7f0]: 32000 44100 48000 88200 96000 176400 192000<br/>&#160; &#160; bits [0x1e]: 16 20 24 32<br/>&#160; &#160; formats [0x5]: PCM AC3<br/>&#160; Power states:&#160; D0 D3<br/>&#160; Power: setting=D0, actual=D0<br/>Node 0x04 [Audio Output] wcaps 0x6611: 8-Channels Digital<br/>&#160; Converter: stream=0, channel=0<br/>&#160; Digital: Enabled<br/>&#160; Digital category: 0x0<br/>&#160; IEC Coding Type: 0x0<br/>&#160; PCM:<br/>&#160; &#160; rates [0x7f0]: 32000 44100 48000 88200 96000 176400 192000<br/>&#160; &#160; bits [0x1e]: 16 20 24 32<br/>&#160; &#160; formats [0x5]: PCM AC3<br/>&#160; Power states:&#160; D0 D3<br/>&#160; Power: setting=D0, actual=D0<br/>Node 0x05 [Pin Complex] wcaps 0x40778d: 8-Channels Digital Amp-Out CP<br/>&#160; Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1<br/>&#160; Amp-Out vals:&#160; [0x00 0x80]<br/>&#160; Pincap 0x09000094: OUT Detect HBR HDMI DP<br/>&#160; Pin Default 0x58560010: [N/A] Digital Out at Int HDMI<br/>&#160; &#160; Conn = Digital, Color = Unknown<br/>&#160; &#160; DefAssociation = 0x1, Sequence = 0x0<br/>&#160; Pin-ctls: 0x40: OUT<br/>&#160; Unsolicited: tag=00, enabled=0<br/>&#160; Power states:&#160; D0 D3<br/>&#160; Power: setting=D0, actual=D0<br/>&#160; Connection: 3<br/>&#160; &#160; &#160;0x02 0x03* 0x04<br/>Node 0x06 [Pin Complex] wcaps 0x40778d: 8-Channels Digital Amp-Out CP<br/>&#160; Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1<br/>&#160; Amp-Out vals:&#160; [0x00 0x80]<br/>&#160; Pincap 0x09000094: OUT Detect HBR HDMI DP<br/>&#160; Pin Default 0x58560020: [N/A] Digital Out at Int HDMI<br/>&#160; &#160; Conn = Digital, Color = Unknown<br/>&#160; &#160; DefAssociation = 0x2, Sequence = 0x0<br/>&#160; Pin-ctls: 0x40: OUT<br/>&#160; Unsolicited: tag=00, enabled=0<br/>&#160; Power states:&#160; D0 D3<br/>&#160; Power: setting=D0, actual=D0<br/>&#160; Connection: 3<br/>&#160; &#160; &#160;0x02 0x03* 0x04<br/>Node 0x07 [Pin Complex] wcaps 0x40778d: 8-Channels Digital Amp-Out CP<br/>&#160; Control: name=&quot;IEC958 Playback Con Mask&quot;, index=0, device=0<br/>&#160; Control: name=&quot;IEC958 Playback Pro Mask&quot;, index=0, device=0<br/>&#160; Control: name=&quot;IEC958 Playback Default&quot;, index=0, device=0<br/>&#160; Control: name=&quot;IEC958 Playback Switch&quot;, index=0, device=0<br/>&#160; Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1<br/>&#160; Amp-Out vals:&#160; [0x00 0x00]<br/>&#160; Pincap 0x09000094: OUT Detect HBR HDMI DP<br/>&#160; Pin Default 0x18560030: [Jack] Digital Out at Int HDMI<br/>&#160; &#160; Conn = Digital, Color = Unknown<br/>&#160; &#160; DefAssociation = 0x3, Sequence = 0x0<br/>&#160; Pin-ctls: 0x40: OUT<br/>&#160; Unsolicited: tag=00, enabled=0<br/>&#160; Power states:&#160; D0 D3<br/>&#160; Power: setting=D0, actual=D0<br/>&#160; Connection: 3<br/>&#160; &#160; &#160;0x02* 0x03 0x04<br/>Node 0x08 [Vendor Defined Widget] wcaps 0xf00000: Mono<br/>--endcollapse--</p><br/><p>!!ALSA Device nodes<br/>!!-----------------</p><p>crw-rw----+ 1 root audio 116,&#160; 2 May&#160; 2 23:15 /dev/snd/controlC0<br/>crw-rw----+ 1 root audio 116,&#160; 6 May&#160; 2 23:15 /dev/snd/hwC0D0<br/>crw-rw----+ 1 root audio 116,&#160; 7 May&#160; 2 23:15 /dev/snd/hwC0D2<br/>crw-rw----+ 1 root audio 116,&#160; 4 May&#160; 2 23:16 /dev/snd/pcmC0D0c<br/>crw-rw----+ 1 root audio 116,&#160; 3 May&#160; 2 23:16 /dev/snd/pcmC0D0p<br/>crw-rw----+ 1 root audio 116,&#160; 5 May&#160; 2 23:16 /dev/snd/pcmC0D3p<br/>crw-rw----+ 1 root audio 116,&#160; 1 May&#160; 2 23:15 /dev/snd/seq<br/>crw-rw----+ 1 root audio 116, 33 May&#160; 2 23:15 /dev/snd/timer</p><p>/dev/snd/by-path:<br/>total 0<br/>drwxr-xr-x 2 root root&#160; 60 May&#160; 2 23:15 .<br/>drwxr-xr-x 3 root root 220 May&#160; 2 23:15 ..<br/>lrwxrwxrwx 1 root root&#160; 12 May&#160; 2 23:15 pci-0000:00:1b.0 -&gt; ../controlC0</p><br/><p>!!Aplay/Arecord output<br/>!!--------------------</p><p>APLAY</p><p>**** List of PLAYBACK Hardware Devices ****<br/>card 0: PCH [HDA Intel PCH], device 0: ALC3236 Analog [ALC3236 Analog]<br/>&#160; Subdevices: 1/1<br/>&#160; Subdevice #0: subdevice #0<br/>card 0: PCH [HDA Intel PCH], device 3: HDMI 0 [HDMI 0]<br/>&#160; Subdevices: 1/1<br/>&#160; Subdevice #0: subdevice #0</p><p>ARECORD</p><p>**** List of CAPTURE Hardware Devices ****<br/>card 0: PCH [HDA Intel PCH], device 0: ALC3236 Analog [ALC3236 Analog]<br/>&#160; Subdevices: 1/1<br/>&#160; Subdevice #0: subdevice #0</p><p>!!Amixer output<br/>!!-------------</p><p>!!-------Mixer controls for card 0 [PCH]</p><p>Card hw:0 &#039;PCH&#039;/&#039;HDA Intel PCH at 0x81410000 irq 311&#039;<br/>&#160; Mixer name&#160; &#160; : &#039;Realtek ALC3236&#039;<br/>&#160; Components&#160; &#160; : &#039;HDA:10ec0233,10431290,00100003 HDA:80862883,80860101,00100000&#039;<br/>&#160; Controls&#160; &#160; &#160; : 26<br/>&#160; Simple ctrls&#160; : 10<br/>Simple mixer control &#039;Master&#039;,0<br/>&#160; Capabilities: pvolume pvolume-joined pswitch pswitch-joined<br/>&#160; Playback channels: Mono<br/>&#160; Limits: Playback 0 - 87<br/>&#160; Mono: Playback 84 [97%] [-2.25dB] [on]<br/>Simple mixer control &#039;Headphone&#039;,0<br/>&#160; Capabilities: pvolume pswitch<br/>&#160; Playback channels: Front Left - Front Right<br/>&#160; Limits: Playback 0 - 87<br/>&#160; Mono:<br/>&#160; Front Left: Playback 0 [0%] [-65.25dB] [off]<br/>&#160; Front Right: Playback 0 [0%] [-65.25dB] [off]<br/>Simple mixer control &#039;Speaker&#039;,0<br/>&#160; Capabilities: pvolume pswitch<br/>&#160; Playback channels: Front Left - Front Right<br/>&#160; Limits: Playback 0 - 87<br/>&#160; Mono:<br/>&#160; Front Left: Playback 87 [100%] [0.00dB] [on]<br/>&#160; Front Right: Playback 87 [100%] [0.00dB] [on]<br/>Simple mixer control &#039;PCM&#039;,0<br/>&#160; Capabilities: pvolume<br/>&#160; Playback channels: Front Left - Front Right<br/>&#160; Limits: Playback 0 - 255<br/>&#160; Mono:<br/>&#160; Front Left: Playback 255 [100%] [0.00dB]<br/>&#160; Front Right: Playback 255 [100%] [0.00dB]<br/>Simple mixer control &#039;Mic&#039;,0<br/>&#160; Capabilities: pvolume pswitch<br/>&#160; Playback channels: Front Left - Front Right<br/>&#160; Limits: Playback 0 - 31<br/>&#160; Mono:<br/>&#160; Front Left: Playback 0 [0%] [-34.50dB] [off]<br/>&#160; Front Right: Playback 0 [0%] [-34.50dB] [off]<br/>Simple mixer control &#039;Mic Boost&#039;,0<br/>&#160; Capabilities: volume<br/>&#160; Playback channels: Front Left - Front Right<br/>&#160; Capture channels: Front Left - Front Right<br/>&#160; Limits: 0 - 3<br/>&#160; Front Left: 2 [67%] [24.00dB]<br/>&#160; Front Right: 2 [67%] [24.00dB]<br/>Simple mixer control &#039;IEC958&#039;,0<br/>&#160; Capabilities: pswitch pswitch-joined<br/>&#160; Playback channels: Mono<br/>&#160; Mono: Playback [on]<br/>Simple mixer control &#039;Capture&#039;,0<br/>&#160; Capabilities: cvolume cswitch<br/>&#160; Capture channels: Front Left - Front Right<br/>&#160; Limits: Capture 0 - 63<br/>&#160; Front Left: Capture 63 [100%] [30.00dB] [on]<br/>&#160; Front Right: Capture 63 [100%] [30.00dB] [on]<br/>Simple mixer control &#039;Auto-Mute Mode&#039;,0<br/>&#160; Capabilities: enum<br/>&#160; Items: &#039;Disabled&#039; &#039;Enabled&#039;<br/>&#160; Item0: &#039;Enabled&#039;<br/>Simple mixer control &#039;Loopback Mixing&#039;,0<br/>&#160; Capabilities: enum<br/>&#160; Items: &#039;Disabled&#039; &#039;Enabled&#039;<br/>&#160; Item0: &#039;Disabled&#039;</p><br/><p>!!Alsactl output<br/>!!--------------</p><p>--startcollapse--<br/>state.PCH {<br/>&#160; &#160; control.1 {<br/>&#160; &#160; &#160; &#160; iface MIXER<br/>&#160; &#160; &#160; &#160; name &#039;Headphone Playback Volume&#039;<br/>&#160; &#160; &#160; &#160; value.0 0<br/>&#160; &#160; &#160; &#160; value.1 0<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access &#039;read write&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; type INTEGER<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 2<br/>&#160; &#160; &#160; &#160; &#160; &#160; range &#039;0 - 87&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbmin -6525<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbmax 0<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbvalue.0 -6525<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbvalue.1 -6525<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.2 {<br/>&#160; &#160; &#160; &#160; iface MIXER<br/>&#160; &#160; &#160; &#160; name &#039;Headphone Playback Switch&#039;<br/>&#160; &#160; &#160; &#160; value.0 false<br/>&#160; &#160; &#160; &#160; value.1 false<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access &#039;read write&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; type BOOLEAN<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 2<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.3 {<br/>&#160; &#160; &#160; &#160; iface MIXER<br/>&#160; &#160; &#160; &#160; name &#039;Speaker Playback Volume&#039;<br/>&#160; &#160; &#160; &#160; value.0 87<br/>&#160; &#160; &#160; &#160; value.1 87<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access &#039;read write&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; type INTEGER<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 2<br/>&#160; &#160; &#160; &#160; &#160; &#160; range &#039;0 - 87&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbmin -6525<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbmax 0<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbvalue.0 0<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbvalue.1 0<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.4 {<br/>&#160; &#160; &#160; &#160; iface MIXER<br/>&#160; &#160; &#160; &#160; name &#039;Speaker Playback Switch&#039;<br/>&#160; &#160; &#160; &#160; value.0 true<br/>&#160; &#160; &#160; &#160; value.1 true<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access &#039;read write&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; type BOOLEAN<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 2<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.5 {<br/>&#160; &#160; &#160; &#160; iface MIXER<br/>&#160; &#160; &#160; &#160; name &#039;Loopback Mixing&#039;<br/>&#160; &#160; &#160; &#160; value Disabled<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access &#039;read write&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; type ENUMERATED<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 1<br/>&#160; &#160; &#160; &#160; &#160; &#160; item.0 Disabled<br/>&#160; &#160; &#160; &#160; &#160; &#160; item.1 Enabled<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.6 {<br/>&#160; &#160; &#160; &#160; iface MIXER<br/>&#160; &#160; &#160; &#160; name &#039;Mic Playback Volume&#039;<br/>&#160; &#160; &#160; &#160; value.0 0<br/>&#160; &#160; &#160; &#160; value.1 0<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access &#039;read write&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; type INTEGER<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 2<br/>&#160; &#160; &#160; &#160; &#160; &#160; range &#039;0 - 31&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbmin -3450<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbmax 1200<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbvalue.0 -3450<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbvalue.1 -3450<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.7 {<br/>&#160; &#160; &#160; &#160; iface MIXER<br/>&#160; &#160; &#160; &#160; name &#039;Mic Playback Switch&#039;<br/>&#160; &#160; &#160; &#160; value.0 false<br/>&#160; &#160; &#160; &#160; value.1 false<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access &#039;read write&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; type BOOLEAN<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 2<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.8 {<br/>&#160; &#160; &#160; &#160; iface MIXER<br/>&#160; &#160; &#160; &#160; name &#039;Auto-Mute Mode&#039;<br/>&#160; &#160; &#160; &#160; value Enabled<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access &#039;read write&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; type ENUMERATED<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 1<br/>&#160; &#160; &#160; &#160; &#160; &#160; item.0 Disabled<br/>&#160; &#160; &#160; &#160; &#160; &#160; item.1 Enabled<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.9 {<br/>&#160; &#160; &#160; &#160; iface MIXER<br/>&#160; &#160; &#160; &#160; name &#039;Capture Volume&#039;<br/>&#160; &#160; &#160; &#160; value.0 63<br/>&#160; &#160; &#160; &#160; value.1 63<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access &#039;read write&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; type INTEGER<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 2<br/>&#160; &#160; &#160; &#160; &#160; &#160; range &#039;0 - 63&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbmin -1725<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbmax 3000<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbvalue.0 3000<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbvalue.1 3000<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.10 {<br/>&#160; &#160; &#160; &#160; iface MIXER<br/>&#160; &#160; &#160; &#160; name &#039;Capture Switch&#039;<br/>&#160; &#160; &#160; &#160; value.0 true<br/>&#160; &#160; &#160; &#160; value.1 true<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access &#039;read write&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; type BOOLEAN<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 2<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.11 {<br/>&#160; &#160; &#160; &#160; iface MIXER<br/>&#160; &#160; &#160; &#160; name &#039;Mic Boost Volume&#039;<br/>&#160; &#160; &#160; &#160; value.0 2<br/>&#160; &#160; &#160; &#160; value.1 2<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access &#039;read write&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; type INTEGER<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 2<br/>&#160; &#160; &#160; &#160; &#160; &#160; range &#039;0 - 3&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbmin 0<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbmax 3600<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbvalue.0 2400<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbvalue.1 2400<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.12 {<br/>&#160; &#160; &#160; &#160; iface MIXER<br/>&#160; &#160; &#160; &#160; name &#039;Master Playback Volume&#039;<br/>&#160; &#160; &#160; &#160; value 84<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access &#039;read write&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; type INTEGER<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 1<br/>&#160; &#160; &#160; &#160; &#160; &#160; range &#039;0 - 87&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbmin -6525<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbmax 0<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbvalue.0 -225<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.13 {<br/>&#160; &#160; &#160; &#160; iface MIXER<br/>&#160; &#160; &#160; &#160; name &#039;Master Playback Switch&#039;<br/>&#160; &#160; &#160; &#160; value true<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access &#039;read write&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; type BOOLEAN<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 1<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.14 {<br/>&#160; &#160; &#160; &#160; iface CARD<br/>&#160; &#160; &#160; &#160; name &#039;Mic Phantom Jack&#039;<br/>&#160; &#160; &#160; &#160; value true<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access read<br/>&#160; &#160; &#160; &#160; &#160; &#160; type BOOLEAN<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 1<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.15 {<br/>&#160; &#160; &#160; &#160; iface CARD<br/>&#160; &#160; &#160; &#160; name &#039;Headphone Jack&#039;<br/>&#160; &#160; &#160; &#160; value false<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access read<br/>&#160; &#160; &#160; &#160; &#160; &#160; type BOOLEAN<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 1<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.16 {<br/>&#160; &#160; &#160; &#160; iface CARD<br/>&#160; &#160; &#160; &#160; name &#039;Speaker Phantom Jack&#039;<br/>&#160; &#160; &#160; &#160; value true<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access read<br/>&#160; &#160; &#160; &#160; &#160; &#160; type BOOLEAN<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 1<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.17 {<br/>&#160; &#160; &#160; &#160; iface PCM<br/>&#160; &#160; &#160; &#160; name &#039;Playback Channel Map&#039;<br/>&#160; &#160; &#160; &#160; value.0 0<br/>&#160; &#160; &#160; &#160; value.1 0<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access read<br/>&#160; &#160; &#160; &#160; &#160; &#160; type INTEGER<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 2<br/>&#160; &#160; &#160; &#160; &#160; &#160; range &#039;0 - 36&#039;<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.18 {<br/>&#160; &#160; &#160; &#160; iface PCM<br/>&#160; &#160; &#160; &#160; name &#039;Capture Channel Map&#039;<br/>&#160; &#160; &#160; &#160; value.0 0<br/>&#160; &#160; &#160; &#160; value.1 0<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access read<br/>&#160; &#160; &#160; &#160; &#160; &#160; type INTEGER<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 2<br/>&#160; &#160; &#160; &#160; &#160; &#160; range &#039;0 - 36&#039;<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.19 {<br/>&#160; &#160; &#160; &#160; iface CARD<br/>&#160; &#160; &#160; &#160; name &#039;HDMI/DP,pcm=3 Jack&#039;<br/>&#160; &#160; &#160; &#160; value false<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access read<br/>&#160; &#160; &#160; &#160; &#160; &#160; type BOOLEAN<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 1<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.20 {<br/>&#160; &#160; &#160; &#160; iface MIXER<br/>&#160; &#160; &#160; &#160; name &#039;IEC958 Playback Con Mask&#039;<br/>&#160; &#160; &#160; &#160; value &#039;0fff000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&#039;<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access read<br/>&#160; &#160; &#160; &#160; &#160; &#160; type IEC958<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 1<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.21 {<br/>&#160; &#160; &#160; &#160; iface MIXER<br/>&#160; &#160; &#160; &#160; name &#039;IEC958 Playback Pro Mask&#039;<br/>&#160; &#160; &#160; &#160; value &#039;0f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&#039;<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access read<br/>&#160; &#160; &#160; &#160; &#160; &#160; type IEC958<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 1<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.22 {<br/>&#160; &#160; &#160; &#160; iface MIXER<br/>&#160; &#160; &#160; &#160; name &#039;IEC958 Playback Default&#039;<br/>&#160; &#160; &#160; &#160; value &#039;0400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&#039;<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access &#039;read write&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; type IEC958<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 1<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.23 {<br/>&#160; &#160; &#160; &#160; iface MIXER<br/>&#160; &#160; &#160; &#160; name &#039;IEC958 Playback Switch&#039;<br/>&#160; &#160; &#160; &#160; value true<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access &#039;read write&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; type BOOLEAN<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 1<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.24 {<br/>&#160; &#160; &#160; &#160; iface PCM<br/>&#160; &#160; &#160; &#160; device 3<br/>&#160; &#160; &#160; &#160; name ELD<br/>&#160; &#160; &#160; &#160; value &#039;&#039;<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access &#039;read volatile&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; type BYTES<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 0<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.25 {<br/>&#160; &#160; &#160; &#160; iface PCM<br/>&#160; &#160; &#160; &#160; device 3<br/>&#160; &#160; &#160; &#160; name &#039;Playback Channel Map&#039;<br/>&#160; &#160; &#160; &#160; value.0 0<br/>&#160; &#160; &#160; &#160; value.1 0<br/>&#160; &#160; &#160; &#160; value.2 0<br/>&#160; &#160; &#160; &#160; value.3 0<br/>&#160; &#160; &#160; &#160; value.4 0<br/>&#160; &#160; &#160; &#160; value.5 0<br/>&#160; &#160; &#160; &#160; value.6 0<br/>&#160; &#160; &#160; &#160; value.7 0<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access &#039;read write&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; type INTEGER<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 8<br/>&#160; &#160; &#160; &#160; &#160; &#160; range &#039;0 - 36&#039;<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>&#160; &#160; control.26 {<br/>&#160; &#160; &#160; &#160; iface MIXER<br/>&#160; &#160; &#160; &#160; name &#039;PCM Playback Volume&#039;<br/>&#160; &#160; &#160; &#160; value.0 255<br/>&#160; &#160; &#160; &#160; value.1 255<br/>&#160; &#160; &#160; &#160; comment {<br/>&#160; &#160; &#160; &#160; &#160; &#160; access &#039;read write user&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; type INTEGER<br/>&#160; &#160; &#160; &#160; &#160; &#160; count 2<br/>&#160; &#160; &#160; &#160; &#160; &#160; range &#039;0 - 255&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; tlv &#039;0000000100000008ffffec1400000014&#039;<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbmin -5100<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbmax 0<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbvalue.0 0<br/>&#160; &#160; &#160; &#160; &#160; &#160; dbvalue.1 0<br/>&#160; &#160; &#160; &#160; }<br/>&#160; &#160; }<br/>}<br/>--endcollapse--</p><br/><p>!!All Loaded Modules<br/>!!------------------</p><p>Module<br/>rfcomm<br/>ctr<br/>ccm<br/>ebtable_filter<br/>ebtables<br/>ip6table_filter<br/>ip6_tables<br/>iptable_filter<br/>cmac<br/>bnep<br/>nfnetlink_queue<br/>nfnetlink_log<br/>nfnetlink<br/>cpufreq_userspace<br/>cpufreq_conservative<br/>cpufreq_powersave<br/>binfmt_misc<br/>nls_cp437<br/>vfat<br/>fat<br/>snd_hda_codec_hdmi<br/>uvcvideo<br/>videobuf2_vmalloc<br/>videobuf2_memops<br/>videobuf2_v4l2<br/>snd_hda_codec_realtek<br/>snd_hda_codec_generic<br/>videobuf2_core<br/>videodev<br/>media<br/>ath3k<br/>btusb<br/>btrtl<br/>btbcm<br/>joydev<br/>intel_rapl<br/>intel_powerclamp<br/>arc4<br/>btintel<br/>bluetooth<br/>ath9k<br/>asus_nb_wmi<br/>ath9k_common<br/>asus_wmi<br/>ath9k_hw<br/>sparse_keymap<br/>ath<br/>mac80211<br/>cfg80211<br/>rfkill<br/>iTCO_wdt<br/>iTCO_vendor_support<br/>coretemp<br/>kvm_intel<br/>evdev<br/>serio_raw<br/>pcspkr<br/>kvm<br/>irqbypass<br/>intel_cstate<br/>efi_pstore<br/>hid_multitouch<br/>sg<br/>efivars<br/>wmi<br/>snd_intel_sst_acpi<br/>snd_intel_sst_core<br/>snd_soc_sst_mfld_platform<br/>snd_soc_sst_match<br/>snd_soc_core<br/>i915<br/>drm_kms_helper<br/>battery<br/>video<br/>dw_dmac<br/>dw_dmac_core<br/>ac<br/>tpm_crb<br/>snd_compress<br/>snd_hda_intel<br/>int3400_thermal<br/>processor_thermal_device<br/>int3403_thermal<br/>int340x_thermal_zone<br/>acpi_thermal_rel<br/>button<br/>snd_hda_codec<br/>snd_hda_core<br/>snd_hwdep<br/>snd_pcm<br/>snd_timer<br/>asus_wireless<br/>shpchp<br/>lpc_ich<br/>mfd_core<br/>drm<br/>i2c_algo_bit<br/>intel_soc_dts_iosf<br/>snd<br/>soundcore<br/>tpm_tis<br/>tpm_tis_core<br/>tpm<br/>efivarfs<br/>ip_tables<br/>x_tables<br/>autofs4<br/>btrfs<br/>xor<br/>raid6_pq<br/>ext4<br/>crc16<br/>jbd2<br/>crc32c_generic<br/>fscrypto<br/>ecb<br/>mbcache<br/>nls_ascii<br/>sr_mod<br/>sd_mod<br/>cdrom<br/>crct10dif_pclmul<br/>crc32_pclmul<br/>crc32c_intel<br/>ghash_clmulni_intel<br/>aesni_intel<br/>aes_x86_64<br/>lrw<br/>gf128mul<br/>glue_helper<br/>ablk_helper<br/>cryptd<br/>i2c_hid<br/>hid<br/>i2c_i801<br/>i2c_smbus<br/>r8169<br/>mii<br/>ahci<br/>libahci<br/>libata<br/>scsi_mod<br/>xhci_pci<br/>xhci_hcd<br/>usbcore<br/>usb_common<br/>thermal<br/>fjes<br/>i2c_designware_platform<br/>i2c_designware_core<br/>sdhci_acpi<br/>sdhci<br/>mmc_core<br/>fan</p><br/><p>!!Sysfs Files<br/>!!-----------</p><p>/sys/class/sound/hwC0D0/init_pin_configs:<br/>0x12 0x40000000<br/>0x14 0x411111f0<br/>0x17 0x411111f0<br/>0x18 0x411111f0<br/>0x19 0x411111f0<br/>0x1a 0x90a70130<br/>0x1b 0x90170110<br/>0x1d 0x40489a6d<br/>0x1e 0x411111f0<br/>0x21 0x03211020</p><p>/sys/class/sound/hwC0D0/driver_pin_configs:</p><p>/sys/class/sound/hwC0D0/user_pin_configs:</p><p>/sys/class/sound/hwC0D0/init_verbs:</p><p>/sys/class/sound/hwC0D0/hints:</p><p>/sys/class/sound/hwC0D2/init_pin_configs:<br/>0x05 0x58560010<br/>0x06 0x58560020<br/>0x07 0x18560030</p><p>/sys/class/sound/hwC0D2/driver_pin_configs:</p><p>/sys/class/sound/hwC0D2/user_pin_configs:</p><p>/sys/class/sound/hwC0D2/init_verbs:</p><p>/sys/class/sound/hwC0D2/hints:</p><br/><p>!!ALSA/HDA dmesg<br/>!!--------------</p><br/><p>Please Help me..<br/>Try install Another Distro Linux still Have same problem..</p><p>Thanks</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1157" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=1157#p1157">2017-05-06 11:38:13</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: No Sound on internal Speaker, ASUS X441SA</h3>
+<div class="postmsg">
+<p>why not a pastebin?</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1166" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=1166#p1166">2017-05-06 15:51:47</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8643">PC_Mechanic</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-29</span></dd>
+<dd><span>Posts: 10</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: No Sound on internal Speaker, ASUS X441SA</h3>
+<div class="postmsg">
+<p>Open a Terminal</p><p>Type alsamixer and press enter</p><p>Check to see if anything is muted</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1167" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=1167#p1167">2017-05-06 19:05:21</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=14">Jeff</a></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd><span>From: USA</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 296</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: No Sound on internal Speaker, ASUS X441SA</h3>
+<div class="postmsg">
+<p>omg yes !!! </p><div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><p>why not a pastebin?</p></div></blockquote></div>
+</div>
+<div class="postsignature postmsg"><hr/><p>-Jeff Szydel </p><p>*Parrot Ambassador&#160; &#160;*Social Groups Manager&#160; &#160;*Helpdesk&#160; &#160;*Wiki Editor&#160; &#160; <br/>*Parrot Telegram Group Administrator&#160; &#160;*Parrot Community Administrator</p></div>
+</div>
+ </div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1176" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=1176#p1176">2017-05-07 06:05:20</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8693">agus3salim</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>From: Jakarta</span></dd>
+<dd><span>Registered: 2017-05-03</span></dd>
+<dd><span>Posts: 3</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: No Sound on internal Speaker, ASUS X441SA</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>PC_Mechanic wrote:</cite><blockquote><div><p>Open a Terminal</p><p>Type alsamixer and press enter</p><p>Check to see if anything is muted</p></div></blockquote></div>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1177" class="blockpost roweven">
+<h2><span><span class="conr">#6</span> <a href="viewtopic.php?pid=1177#p1177">2017-05-07 06:35:30</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8693">agus3salim</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>From: Jakarta</span></dd>
+<dd><span>Registered: 2017-05-03</span></dd>
+<dd><span>Posts: 3</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: No Sound on internal Speaker, ASUS X441SA</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><p>why not a pastebin?</p></div></blockquote></div><p>https://pastebin.com/Jw4jbUWd</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1227" class="blockpost rowodd">
+<h2><span><span class="conr">#7</span> <a href="viewtopic.php?pid=1227#p1227">2017-05-11 20:46:12</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8643">PC_Mechanic</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-29</span></dd>
+<dd><span>Posts: 10</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: No Sound on internal Speaker, ASUS X441SA</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>agus3salim wrote:</cite><blockquote><div><div class="quotebox"><cite>PC_Mechanic wrote:</cite><blockquote><div><p>Open a Terminal</p><p>Type alsamixer and press enter</p><p>Check to see if anything is muted</p></div></blockquote></div></div></blockquote></div><p>Am i missing something here - I can only see a quote of what i originally posted but no reply ?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=5">Installation Process</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=327">No Sound on internal Speaker, ASUS X441SA</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4">General Questions</option>
+<option value="5" selected="selected">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=327&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div></div></div>
+</div>
+</body>
+</html>

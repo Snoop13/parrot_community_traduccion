@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>[TUTORIAL] Grub Customization... / System Setup and Customization / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=629" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=629&amp;type=atom" title="Atom topic feed"/>
+
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div></div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=6">System Setup and Customization</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=629">[TUTORIAL] Grub Customization...</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p2518" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=2518#p2518">2017-07-15 04:03:12</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9545">FenrirTheinsomniac</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/9545.jpg?m=1500081577" width="60" height="56" alt/></dd>
+<dd><span>Registered: 2017-07-15</span></dd>
+<dd><span>Posts: 2</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>[TUTORIAL] Grub Customization...</h3>
+<div class="postmsg">
+<p>GRUB2 Configuration Basics</p><p>GRUB2 doesn&#039;t use a menu.lst file. Instead, its main configuration file is /boot/grub/grub.cfg, it is recommended that you shouldn&#039;t edit this file by hand as the file is just for GRUB2&#039;S own usage. It&#039;s automatically created by running the update-grub command as root -- in other words, by running sudo upate-grub </p><p>Your own GRUB settings are stored in the /etc/default/grub file. Edit this file to change GRUB2&#039;S settings. Scripts are also located in the /etc/grub.d/ directory. </p><p>When you run the update-grub command, GRUB automatically combines the settings from the /etc/default/grub file, the scripts from the /etc/grub.d/directory, and everything else, creating a /boot/grub/grub.cfg file that&#039;s read at boot.</p><p>In other words, to customize your GRUB2 settings, you&#039;ll have to edit the /etc/default/grub file (i prefer to use nano here, or kate if you got it) and then run the sudo update-grub command.</p><p>Edit the GRUB Configuration File</p><p>Open the /etc/default/grub file for editing in a standard text editor. If you want to use a graphical text editor, open a terminal an run the following command:</p><p>gksu gedit /etc/default/grub</p><p>For an easy to use terminal based editor --Nano (i recommend for most config file edits) use the following command. You can use any text editor you like, of course including good old vi editor</p><p>sudo nano /etc/default/grub</p><p>The /etc/default/grub file is short and should be easy to edit. As with any other configuration file, you need to edit the options to your desired state and then change the file. If any of the options below doesn&#039;t already appear in the file, add it on a new line. If it does, edit the existing line instead of adding a duplicate one.</p><p>Choose the Default OS: Change the GRUB_DEFAULT= line. By default, GRUB_DEFAULT=0 uses the first entry as the default ---- change the number to 1 to use the second entry, 2 to use the third entry, or so on. You could also use GRUB_DEFAULT=SAVED and GRUB would automatically boot the last operating system you chose each time you boot. You can also specify a label in quotes. For example, if you had an operating system named Windows 7 (loader) in your os list you could use GRUB_DEFAULT=&quot;Windows 7 (loader)&quot;</p><p>Save a Default Operating System: If you choose GRUB_DEFAULT=saved, you also need to add a GRUB_SAVEDEFAULT=true line ---- otherwise it won&#039;t work.</p><p>Choose Whether GRUB is Hidden: With only one operating system installed, parrot defaults GRUB to automatically boot to the default OS with the GRUB_HIDDEN_TIMEOUT=0 option. This option specifies GRUB will be hidden and it will automatically boot to the default OS after 0 seconds -immediately, in other words. You can still access the menu by holding shift as your comp boots. To set a higher timeout, use something like GRUB_HIDDEN_TIMEOUT=5, GRUB will display an empty screen or splash screen for five seconds, during which you can press any key to view the menu. To prevent GRUB from being automatically hidden, comment the line out --- just add a # before it so that it reads #GRUB_HIDDEN_TIMEOUT=0</p><p>Control GRUB&#039;s Menu Timeout: If GRUB isn&#039;t automatically hidden, you&#039;ll see the menu each time your computer boots. GRUB will automatically boot the default operating system after a period of time, usually ten seconds. During that time, you can choose another OS or leave it be to automatically boot. To change the timeout period, edit the GRUB_TIMEOUT=10 line and enter any number of seconds you like. (Remember, this is only used if GRUB isn&#039;t hidden.) To prevent GRUB from booting automatically and always wait for you to choose an OS, change the line to GRUB_TIMEOUT=-1</p><p>Choose a Background Image: The GRUB_BACKGROUND line controls whether a background image is used --- by default, GRUB uses a white-on-black monochrome look. You can add a line like GRUB_BACKGROUND=&quot;/home/user/Pictures/background.png&quot; to specify an image file GRUB will use.</p><p>The image file must meet various specifications. GRUB supports jpg/jpeg images, but these are limited to 256 colors --- so you probally wont want to use a jpg image. Instead, you&#039;ll probally want to use a png image that can have any number of colors. You could also use a TGA image file.</p><p>Make Your Changes Take Effect</p><p>To have yor changes take effect, simply save the text file --- File &gt; Save in Gedit or Ctrl + O and then enter to save the file in nano --- and then run the sudo update-grub command. Your changes will become part of the grub.cfg file and will be used each time you boot your compy.</p><p>These aren’t all of GRUB’s settings, but they are some of the most commonly changed. Other settings can be customized in the /etc/default/grub file, or by editing the scripts in the /etc/grub.d directory.</p><p>If you don’t want to edit the files by hand, you may be able to find graphical tools for customizing GRUB2 in your Linux distribution’s software repositories. The above method should work even on Linux distros where such tools aren’t easily available, or if you just have command-line access and want to do it by hand.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Ar Scáth a chéile a mhaireann na daoine-Séamus Heaney<br/>(People live in each other&#039;s shadows)</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2712" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=2712#p2712">2017-07-29 04:12:49</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8721">Gavaudan</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-05</span></dd>
+<dd><span>Posts: 21</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [TUTORIAL] Grub Customization...</h3>
+<div class="postmsg">
+<p>Much obliged, I&#039;ve often wondered how to change or add a picture to the grub background in particular.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=6">System Setup and Customization</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=629">[TUTORIAL] Grub Customization...</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6" selected="selected">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=629&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div></div></div>
+</div>
+</body>
+</html>

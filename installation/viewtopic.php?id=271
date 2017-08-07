@@ -1,0 +1,650 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>WORKING CONKY CONFIGS ONLY - Post Them Here / Installation Process / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=271" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=271&amp;type=atom" title="Atom topic feed"/>
+
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div></div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=5">Installation Process</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=271">WORKING CONKY CONFIGS ONLY - Post Them Here</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p879" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=879#p879">2017-04-11 20:58:47</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=14">Jeff</a></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd><span>From: USA</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 296</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>WORKING CONKY CONFIGS ONLY - Post Them Here</h3>
+<div class="postmsg">
+<p>Post Working Conky Configs Here</p><br/><br/><p>***&#160; Any Config files that do not work will be deleted.&#160; I will be personally testing every configuration***</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>-Jeff Szydel </p><p>*Parrot Ambassador&#160; &#160;*Social Groups Manager&#160; &#160;*Helpdesk&#160; &#160;*Wiki Editor&#160; &#160; <br/>*Parrot Telegram Group Administrator&#160; &#160;*Parrot Community Administrator</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p911" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=911#p911">2017-04-13 22:38:06</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8117">umsongb</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-09</span></dd>
+<dd><span>Posts: 25</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: WORKING CONKY CONFIGS ONLY - Post Them Here</h3>
+<div class="postmsg">
+<p><a href="https://postimg.org/image/eqf7bbwi7/" rel="nofollow"><span class="postimg"><img src="https://s27.postimg.org/eqf7bbwi7/Screenshot_at_2017-04-13_14-04-14.png" alt="Screenshot_at_2017-04-13_14-04-14.png"/></span></a></p><p>I&#039;m not sure how to share a physical file thru BB so I&#039;ll just paste my rc file underneath.&#160; Sorry. =/&#160; There is an easy typo for ur entertainment =)<br/>---start below---</p><div class="codebox"><pre class="vscroll"><code>conky.config = {
+color2 = &#039;d70751&#039;, -- Debian Red
+color2 = &#039;FF6C2F&#039;, -- Orange
+
+--set to = true if you want Conky to be forked in the background
+background = true,
+
+own_window = true,
+own_window_type = &#039;desktop&#039;,
+own_window_transparent = false,
+own_window_hints = &#039;undecorated,below,sticky,skip_taskbar,skip_pager&#039;,
+own_window_argb_visual = true,
+own_window_argb_value = 0,
+out_to_console = false,
+use_xft = true,
+--font = &#039;DejaVu Sans Mono:size=10:antialias=true&#039;,
+font = &#039;NanumGothicCoding:size=10:antialias=true&#039;,
+update_interval = 1,
+
+--Create own window instead of using desktop (required in nautilus)
+own_window = true,
+
+--Use double buffering (reduces flicker, may not work for everyone)
+double_buffer = true,
+maximum_width = 320,
+
+draw_shades = false,
+
+--Draw outlines?
+draw_outline = false,
+
+--Draw borders around text
+draw_borders = false,
+
+--Stippled borders?
+stippled_borders = 1,
+
+--border width
+border_width = 20,
+
+--Default colors and also border colors
+default_color = &#039;lightgrey&#039;,
+default_shade_color = &#039;white&#039;,
+default_outline_color = &#039;white&#039;,
+
+--Text alignment, other possible values are commented
+alignment = &#039;top_left&#039;,
+
+--Gap between borders of screen and text
+gap_x = 20,
+gap_y = 50,
+
+--Add spaces to keep things from moving about?  This only affects certain objects.
+use_spacer = &#039;left&#039;,
+
+--Subtract file system buffers from used memory?
+no_buffers = true,
+
+--set to = true if you want all text to be in uppercase
+uppercase = false,
+
+default_bar_width = 140,
+default_bar_height = 6
+
+}
+
+conky.text = [[
+$sysname ${color2}$kernel$color ${alignr}${color2}$user_names$color@$nodename
+${color2}$tztime$color ${alignr} Uptime: $uptime
+${alignr} Load: $loadavg
+
+${color2}$stippled_hr$color
+
+${alignc}Current IP: ${execi 300 curl http://icanhazip.com}
+
+wlan0: ${addr wlan0} ${alignr}UP: ${upspeed eth0}  DN: ${downspeed eth0}
+
+${color2}$stippled_hr$color
+
+${alignc}Intel Celeron N3050 @ ${freq_g} GHz
+
+1 ${color2}${cpubar cpu1 6,130}$color $alignr 2 ${color2}${cpubar cpu2 6,130}$color $alignr 
+${color black}${cpugraph 35,320 000000 FF6C2F}${color white}   
+
+RAM      ${color2}${membar 5,140}$color ${alignr}$mem/$memmax
+SWP      ${color2}${swapbar 5,140}$color ${alignr}$swap/$swapmax
+
+/        ${color2}${fs_bar 5,140 /}$color ${alignr}${fs_used /}/${fs_size /}
+/home    ${color2}${fs_bar 5,140 /home}$color ${alignr}${fs_used /home}/${fs_size /home}
+
+${color2}$stippled_hr$color
+
+${alignc}$processes Processes $running_processes Running
+
+By CPU Usage          MEM  CPU% ${alignr}User
+ ${color2}${top name 1} ${top mem_res 1}${top cpu 1} $alignr${top user 1}$color
+ ${top name 2} ${top mem_res 2}${top cpu 2} $alignr ${top user 2}
+ ${top name 3} ${top mem_res 3}${top cpu 3} $alignr ${top user 3}
+ ${top name 4} ${top mem_res 4}${top cpu 4} $alignr ${top user 4}
+
+By MEM Usage          MEM  CPU% ${alignr}User
+ ${color2}${top_mem name 1} ${top_mem mem_res 1}${top_mem cpu 1} $alignr ${top_mem user 1}$color
+ ${top_mem name 2} ${top_mem mem_res 2}${top_mem cpu 2} $alignr ${top_mem user 2}
+ ${top_mem name 3} ${top_mem mem_res 3}${top_mem cpu 3} $alignr ${top_mem user 3}
+ ${top_mem name 4} ${top_mem mem_res 4}${top_mem cpu 4} $alignr ${top_mem user 4}
+ ${top_mem name 5} ${top_mem mem_res 5}${top_mem cpu 5} $alignr ${top_mem user 5}
+
+]]</code></pre></div><p>---ends above---</p>
+<p class="postedit"><em>Last edited by palinuro (2017-04-14 21:47:38)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p923" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=923#p923">2017-04-14 21:48:09</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: WORKING CONKY CONFIGS ONLY - Post Them Here</h3>
+<div class="postmsg">
+<p>hi jeff, use the [ code ] [/ code ] tags next time :)</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p929" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=929#p929">2017-04-14 22:52:03</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8117">umsongb</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-09</span></dd>
+<dd><span>Posts: 25</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: WORKING CONKY CONFIGS ONLY - Post Them Here</h3>
+<div class="postmsg">
+<p>Ah.. Thank u sir.&#160; U even edited my post =)&#160; Learning new stuff everyday.</p><div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><p>hi jeff, use the [ code ] [/ code ] tags next time :)</p></div></blockquote></div>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p937" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=937#p937">2017-04-15 03:52:25</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=14">Jeff</a></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd><span>From: USA</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 296</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: WORKING CONKY CONFIGS ONLY - Post Them Here</h3>
+<div class="postmsg">
+<p>lol </p><div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><p>hi jeff, use the [ code ] [/ code ] tags next time :)</p></div></blockquote></div>
+</div>
+<div class="postsignature postmsg"><hr/><p>-Jeff Szydel </p><p>*Parrot Ambassador&#160; &#160;*Social Groups Manager&#160; &#160;*Helpdesk&#160; &#160;*Wiki Editor&#160; &#160; <br/>*Parrot Telegram Group Administrator&#160; &#160;*Parrot Community Administrator</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p946" class="blockpost roweven">
+<h2><span><span class="conr">#6</span> <a href="viewtopic.php?pid=946#p946">2017-04-16 00:37:46</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8117">umsongb</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-09</span></dd>
+<dd><span>Posts: 25</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: WORKING CONKY CONFIGS ONLY - Post Them Here</h3>
+<div class="postmsg">
+<p><a href="https://postimg.org/image/baxyu56dj/" rel="nofollow"><span class="postimg"><img src="https://s7.postimg.org/baxyu56dj/conky2.png" alt="conky2.png"/></span></a><br/>Greetings.&#160; Hope everyone is enjoying a beautiful spring weekend. =)&#160; Since my last upload of Conky, I&#039;ve fiddled around with the setting file while trying to clean some codes; I&#039;ve shamelessly copied a decent file I have found on the net.&#160; For whoever came up with the original, thank u.</p><p>change log (v.2)<br/>1. changed style of date and time display<br/>2. added additional fields for Network portion<br/>3. added &#039;workspace&#039; info (not shown on screenshot)</p><p>Peace.</p><div class="codebox"><pre class="vscroll"><code>conky.config = {
+color1 = &#039;d70751&#039;, -- Debian Red
+color2 = &#039;FF6C2F&#039;, -- Orange
+color3 = &#039;Tan1&#039;,
+
+--set to = true if you want Conky to be forked in the background
+background = true,
+
+own_window = true,
+own_window_type = &#039;desktop&#039;,
+own_window_transparent = false,
+own_window_hints = &#039;undecorated,below,sticky,skip_taskbar,skip_pager&#039;,
+own_window_argb_visual = true,
+own_window_argb_value = 0,
+out_to_console = false,
+use_xft = true,
+--font = &#039;DejaVu Sans Mono:size=10:antialias=true&#039;,
+font = &#039;NanumGothicCoding:size=10:antialias=true&#039;,
+update_interval = 1,
+
+--Create own window instead of using desktop (required in nautilus)
+own_window = true,
+
+--Use double buffering (reduces flicker, may not work for everyone)
+double_buffer = true,
+maximum_width = 320,
+
+draw_shades = false,
+
+--Draw outlines?
+draw_outline = false,
+
+--Draw borders around text
+draw_borders = false,
+
+--Stippled borders?
+stippled_borders = 1,
+
+--border width
+border_width = 20,
+
+--Default colors and also border colors
+default_color = &#039;lightgrey&#039;,
+default_shade_color = &#039;white&#039;,
+default_outline_color = &#039;white&#039;,
+
+--Text alignment, other possible values are commented
+alignment = &#039;top_left&#039;,
+
+--Gap between borders of screen and text
+gap_x = 20,
+gap_y = 50,
+
+--Add spaces to keep things from moving about?  This only affects certain objects.
+use_spacer = &#039;left&#039;,
+
+--Subtract file system buffers from used memory?
+no_buffers = true,
+
+--set to = true if you want all text to be in uppercase
+uppercase = false,
+
+default_bar_width = 140,
+default_bar_height = 6
+
+}
+
+conky.text = [[
+${font NanumSquare:size=15:style=bold}${color3}${time %H:%M}$color$font ${alignc}       ${execi 300 date +&quot;%B %d, %Y&quot;} ${alignr}${color3}${time %A}$color
+$sysname ${color3}$kernel$color ${alignr}Uptime:$uptime_short
+${color3}$user_names$color @ $nodename ${alignr}Load:$loadavg
+Desktop ${color3}${desktop}$color of ${desktop_number}
+
+${color3}$stippled_hr$color
+
+EXT.IP:${color3}${execi 300 curl http://icanhazip.com}$color ${alignr}NTWK ID
+INT.IP:${addr wlan0} ${alignr}${color3}${wireless_essid}$color
+MAC:${wireless_ap wlan0} ${alignr}${wireless_link_bar 5, 30 wlan0}${color3}${wireless_link_qual_perc wlan0}%$color
+UP:${color3}${upspeed wlan0}/s$color      ${alignr}${color3}${downspeed wlan0}/s$color :DN
+${color black}${upspeedgraph wlan0 20, 140 000000 FF6C2F}$color ${color black}$alignr${downspeedgraph wlan0 20, 140 000000 FF6C2F}$color
+${color3}$stippled_hr$color
+
+${alignc}Intel Celeron N3050 @ ${color3}${freq_g} GHz$color ${alignr}Temp: ${color3}$acpitemp C$color
+
+1 ${color3}${cpubar cpu1 6,130}$color $alignr 2 ${color3}${cpubar cpu2 6,130}$color 
+$alignc${color black}${cpugraph 35,320 000000 FF6C2F}$color   
+RAM      ${color3}${membar 5,140}$color ${alignr}$mem/$memmax
+SWP      ${color3}${swapbar 5,140}$color ${alignr}$swap/$swapmax
+
+/        ${color3}${fs_bar 5,140 /}$color ${alignr}${fs_used /}/${fs_size /}
+/home    ${color3}${fs_bar 5,140 /home}$color ${alignr}${fs_used /home}/${fs_size /home}
+
+${color3}$stippled_hr$color
+
+${alignc}$processes Processes $running_processes Running
+
+By CPU Usage          MEM  CPU% ${alignr}User
+ ${color3}${top name 1} ${top mem_res 1}${top cpu 1} $alignr${top user 1}$color
+ ${top name 2} ${top mem_res 2}${top cpu 2} $alignr ${top user 2}
+ ${top name 3} ${top mem_res 2}${top cpu 3} $alignr ${top user 3}
+ ${top name 4} ${top mem_res 2}${top cpu 4} $alignr ${top user 4}
+
+By MEM Usage          MEM  CPU% ${alignr}User
+ ${color3}${top_mem name 1} ${top_mem mem_res 1}${top_mem cpu 1} $alignr ${top_mem user 1}$color
+ ${top_mem name 2} ${top_mem mem_res 2}${top_mem cpu 2} $alignr ${top_mem user 2}
+ ${top_mem name 3} ${top_mem mem_res 3}${top_mem cpu 3} $alignr ${top_mem user 3}
+ ${top_mem name 4} ${top_mem mem_res 4}${top_mem cpu 4} $alignr ${top_mem user 4}
+
+By I/O Usage          MEM  CPU% ${alignr}User
+ ${color3}${top_io name 1} ${top_io mem_res 1}${top_io cpu 1} $alignr ${top_io user 1}$color
+ ${top_io name 2} ${top_io mem_res 2}${top_io cpu 2} $alignr ${top_io user 2}
+]]</code></pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1165" class="blockpost rowodd">
+<h2><span><span class="conr">#7</span> <a href="viewtopic.php?pid=1165#p1165">2017-05-06 15:17:43</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8643">PC_Mechanic</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-29</span></dd>
+<dd><span>Posts: 10</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: WORKING CONKY CONFIGS ONLY - Post Them Here</h3>
+<div class="postmsg">
+<p>Here&#039;s mine</p><p><span class="postimg"><img src="https://s3.postimg.org/o10gvmxof/Screenshot_at_2017-05-06_15-07-56.png" alt="Screenshot_at_2017-05-06_15-07-56.png"/></span></p><div class="codebox"><pre class="vscroll"><code>conky.config = {
+
+background = true,
+use_xft = true,
+xftalpha = 0.9,
+font = &#039;DejaVu Sans Mono:size=8:antialias=true&#039;,
+update_interval = 3.0,
+total_run_times = 0,
+own_window = true,
+own_window_type = &#039;desktop&#039;,
+own_window_transparent = true,
+own_window_hints = &#039;undecorated,below,sticky,skip_taskbar,skip_pager&#039;,
+double_buffer = true,
+maximum_width = 220,
+draw_shades = true,
+draw_outline = false,
+draw_borders = false,
+draw_graph_borders = true,
+default_color = white,
+default_shade_color = black,
+default_outline_color = green,
+alignment = &#039;top_left&#039;,
+gap_x = 1124,
+gap_y = 35,
+use_spacer = &#039;left&#039;,
+no_buffers = true,
+uppercase = false,
+cpu_avg_samples = 2,
+override_utf8_locale = false,
+uppercase = true,
+ 
+}
+
+conky.text = [[
+TEXT
+${color white}SYSTEM ${hr 1}${color}
+
+Hostname: $alignr$nodename
+Kernel: $alignr$kernel
+Uptime: $alignr$uptime
+Temp: ${alignr}${acpitemp}C
+
+CPU: ${alignr}${freq} MHz
+Processes: ${alignr}$processes ($running_processes running)
+Load: ${alignr}$loadavg
+
+CPU1 ${alignr}${cpu cpu1}%
+${cpubar 4 cpu1}
+CPU2 ${alignr}${cpu cpu2}%
+${cpubar 4 cpu2}
+CPU3 ${alignr}${cpu cpu3}%
+${cpubar 4 cpu3}
+CPu4 ${alignr}${cpu cpu4}%
+${cpubar 4 cpu4}
+
+
+Ram ${alignr}$mem / $memmax ($memperc%)
+${membar 4}
+swap ${alignr}$swap / $swapmax ($swapperc%)
+${swapbar 4}
+
+Highest CPU $alignr CPU% MEM%
+${top name 1}$alignr${top cpu 1}${top mem 1}
+${top name 2}$alignr${top cpu 2}${top mem 2}
+${top name 3}$alignr${top cpu 3}${top mem 3}
+
+Highest MEM $alignr CPU% MEM%
+${top_mem name 1}$alignr${top_mem cpu 1}${top_mem mem 1}
+${top_mem name 2}$alignr${top_mem cpu 2}${top_mem mem 2}
+${top_mem name 3}$alignr${top_mem cpu 3}${top_mem mem 3}
+
+${color white}Filesystem ${hr 1}${color}
+
+Root: ${alignr}${fs_free /} / ${fs_size /}
+${fs_bar 4 /}
+Home: ${alignr}${fs_free /home} / ${fs_size /home}
+${fs_bar 4 /home}
+HDD0: ${alignr}${fs_free /media/patrick/Expansion Drive} / ${fs_size /media/patrick/Expansion Drive}
+${fs_bar 4 /media/patrick/Expansion Drive}
+
+${color white}NETWORK ${hr 1}${color}
+
+Down ${downspeed wlan0} k/s ${alignr}Up ${upspeed wlan0} k/s
+${downspeedgraph wlan0 25,107} ${alignr}${upspeedgraph wlan0 25,107}
+Total ${totaldown wlan0} ${alignr}Total ${totalup wlan0}
+]]</code></pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=5">Installation Process</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=271">WORKING CONKY CONFIGS ONLY - Post Them Here</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4">General Questions</option>
+<option value="5" selected="selected">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=271&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div></div></div>
+</div>
+</body>
+</html>

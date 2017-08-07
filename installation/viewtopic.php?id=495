@@ -1,0 +1,820 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>TP-LINK WN722N problem / Installation Process / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=495" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=495&amp;type=atom" title="Atom topic feed"/>
+
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div></div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=5">Installation Process</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=495">TP-LINK WN722N problem</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p1826" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=1826#p1826">2017-06-04 13:26:28</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9087">disrupt_the_flow</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-31</span></dd>
+<dd><span>Posts: 34</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<p>So i asked before.I&#039;ll ask again.When i plug the WN722N in i see nothing.The LED doesn&#039;t light up.Won&#039;t show up in lsusb and other commands.It is not broken as it works on the same PC in Windows 7 perfectly(dual boot).Maybe i should install an older kernel?Maybe something is wrong with the mobo?<br/>Any ideas?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1829" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=1829#p1829">2017-06-04 14:18:54</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9150">xx4h</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-04</span></dd>
+<dd><span>Posts: 39</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<p>What does dmesg show? Check when it&#039;s unplugged and then after you plugged it in again.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1832" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=1832#p1832">2017-06-04 16:36:51</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9087">disrupt_the_flow</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-31</span></dd>
+<dd><span>Posts: 34</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>xx4h wrote:</cite><blockquote><div><p>What does dmesg show? Check when it&#039;s unplugged and then after you plugged it in again.</p></div></blockquote></div><p>You mean just dmesg or dmesg | grep -e wlan -e ath9k?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1838" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=1838#p1838">2017-06-04 19:11:49</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9150">xx4h</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-04</span></dd>
+<dd><span>Posts: 39</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<p>as i don&#039;t know where the problem is, i would check for time related output in dmesg.<br/>if you get some &quot;errors&quot; reported about wlan and/or the specific driver which should be<br/>used, then this should pretty much the issue itself.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1858" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=1858#p1858">2017-06-05 12:47:52</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9087">disrupt_the_flow</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-31</span></dd>
+<dd><span>Posts: 34</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>xx4h wrote:</cite><blockquote><div><p>as i don&#039;t know where the problem is, i would check for time related output in dmesg.<br/>if you get some &quot;errors&quot; reported about wlan and/or the specific driver which should be<br/>used, then this should pretty much the issue itself.</p></div></blockquote></div><p>The problem is that it won&#039;t get recognized.So i think it&#039;s a mobo/Linux issue.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1859" class="blockpost roweven">
+<h2><span><span class="conr">#6</span> <a href="viewtopic.php?pid=1859#p1859">2017-06-05 12:52:29</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9150">xx4h</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-04</span></dd>
+<dd><span>Posts: 39</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<p>You don&#039;t see any reaction in dmesg when you plug it in?</p><div class="codebox"><pre><code>tail -f /var/log/kern.log</code></pre></div><p>And then plugin the device.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1861" class="blockpost rowodd">
+<h2><span><span class="conr">#7</span> <a href="viewtopic.php?pid=1861#p1861">2017-06-05 13:31:44</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9087">disrupt_the_flow</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-31</span></dd>
+<dd><span>Posts: 34</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>xx4h wrote:</cite><blockquote><div><p>You don&#039;t see any reaction in dmesg when you plug it in?</p><div class="codebox"><pre><code>tail -f /var/log/kern.log</code></pre></div><p>And then plugin the device.</p></div></blockquote></div><p>Lokks like there is a reaction.But still i think it&#039;s the mobo.Or i just have to run an older kernel.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1862" class="blockpost roweven">
+<h2><span><span class="conr">#8</span> <a href="viewtopic.php?pid=1862#p1862">2017-06-05 13:45:26</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9150">xx4h</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-04</span></dd>
+<dd><span>Posts: 39</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<p>if you don&#039;t want to post the output, i just can guess :&gt;</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1866" class="blockpost rowodd">
+<h2><span><span class="conr">#9</span> <a href="viewtopic.php?pid=1866#p1866">2017-06-05 14:02:02</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9087">disrupt_the_flow</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-31</span></dd>
+<dd><span>Posts: 34</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>xx4h wrote:</cite><blockquote><div><p>if you don&#039;t want to post the output, i just can guess :&gt;</p></div></blockquote></div><p>──╼ #tail -f /var/log/kern.log<br/>Jun&#160; 5 14:13:30 parrot kernel: [&#160; &#160;72.908378] userif-3: sent link down event.<br/>Jun&#160; 5 14:13:30 parrot kernel: [&#160; &#160;72.908381] userif-3: sent link up event.<br/>Jun&#160; 5 14:13:30 parrot kernel: [&#160; &#160;72.938407] /dev/vmnet: open called by PID 1552 (vmnet-netifup)<br/>Jun&#160; 5 14:13:30 parrot kernel: [&#160; &#160;72.938421] /dev/vmnet: port on hub 8 successfully opened<br/>Jun&#160; 5 14:13:31 parrot kernel: [&#160; &#160;73.987350] /dev/vmnet: open called by PID 1558 (vmnet-dhcpd)<br/>Jun&#160; 5 14:13:31 parrot kernel: [&#160; &#160;73.987368] /dev/vmnet: port on hub 8 successfully opened<br/>Jun&#160; 5 14:14:29 parrot kernel: [&#160; 132.003603] Bluetooth: BNEP (Ethernet Emulation) ver 1.3<br/>Jun&#160; 5 14:14:29 parrot kernel: [&#160; 132.003606] Bluetooth: BNEP filters: protocol multicast<br/>Jun&#160; 5 14:14:29 parrot kernel: [&#160; 132.003612] Bluetooth: BNEP socket layer initialized<br/>Jun&#160; 5 15:29:01 parrot kernel: [ 4603.855604] usb 4-3: USB disconnect, device number 2<br/>Jun&#160; 5 15:29:38 parrot kernel: [ 4640.938743] usb 4-3: new high-speed USB device number 3 using ehci-pci<br/>Jun&#160; 5 15:29:38 parrot kernel: [ 4641.079552] usb 4-3: New USB device found, idVendor=2357, idProduct=010c<br/>Jun&#160; 5 15:29:38 parrot kernel: [ 4641.079555] usb 4-3: New USB device strings: Mfr=1, Product=2, SerialNumber=3<br/>Jun&#160; 5 15:29:38 parrot kernel: [ 4641.079557] usb 4-3: Product: 802.11n NIC<br/>Jun&#160; 5 15:29:38 parrot kernel: [ 4641.079559] usb 4-3: Manufacturer: Realtek<br/>Jun&#160; 5 15:29:38 parrot kernel: [ 4641.079560] usb 4-3: SerialNumber: 00E04C0001</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1868" class="blockpost roweven">
+<h2><span><span class="conr">#10</span> <a href="viewtopic.php?pid=1868#p1868">2017-06-05 14:07:10</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9150">xx4h</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-04</span></dd>
+<dd><span>Posts: 39</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<p>To me this looks very good in the first place. Now do:</p><div class="codebox"><pre><code>rfkill list</code></pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1870" class="blockpost rowodd">
+<h2><span><span class="conr">#11</span> <a href="viewtopic.php?pid=1870#p1870">2017-06-05 14:12:40</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9087">disrupt_the_flow</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-31</span></dd>
+<dd><span>Posts: 34</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>xx4h wrote:</cite><blockquote><div><p>To me this looks very good in the first place. Now do:</p><div class="codebox"><pre><code>rfkill list</code></pre></div></div></blockquote></div><p>Did.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1871" class="blockpost roweven">
+<h2><span><span class="conr">#12</span> <a href="viewtopic.php?pid=1871#p1871">2017-06-05 14:13:52</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9150">xx4h</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-04</span></dd>
+<dd><span>Posts: 39</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<p>as you didn&#039;t send the output, i think there wasn&#039;t any, right?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1872" class="blockpost rowodd">
+<h2><span><span class="conr">#13</span> <a href="viewtopic.php?pid=1872#p1872">2017-06-05 14:14:28</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9087">disrupt_the_flow</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-31</span></dd>
+<dd><span>Posts: 34</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>xx4h wrote:</cite><blockquote><div><p>as you didn&#039;t send the output, i think there wasn&#039;t any, right?</p></div></blockquote></div><p>No.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1874" class="blockpost roweven">
+<h2><span><span class="conr">#14</span> <a href="viewtopic.php?pid=1874#p1874">2017-06-05 14:23:57</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9150">xx4h</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-04</span></dd>
+<dd><span>Posts: 39</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<p>ok. so then:</p><div class="codebox"><pre><code>lsmod | grep ath9k_htc</code></pre></div><p>if you don&#039;t get any output:</p><div class="codebox"><pre><code>modprobe ath9k_htc</code></pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1877" class="blockpost rowodd">
+<h2><span><span class="conr">#15</span> <a href="viewtopic.php?pid=1877#p1877">2017-06-05 14:38:12</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9087">disrupt_the_flow</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-31</span></dd>
+<dd><span>Posts: 34</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>xx4h wrote:</cite><blockquote><div><p>ok. so then:</p><div class="codebox"><pre><code>lsmod | grep ath9k_htc</code></pre></div><p>if you don&#039;t get any output:</p><div class="codebox"><pre><code>modprobe ath9k_htc</code></pre></div></div></blockquote></div><p>Here<br/>┌─[<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="7d0f1212093d0d1c0f0f1209">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>]─[/home/parrot]<br/>└──╼ #lsmod | grep ath9k_htc<br/>┌─[✗]─[<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="3a4855554e7a4a5b4848554e">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>]─[/home/parrot]<br/>└──╼ #modprobe ath9k_htc<br/>┌─[<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="e5978a8a91a5958497978a91">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>]─[/home/parrot]<br/>└──╼ #lsmod | grep ath9k_htc<br/>ath9k_htc&#160; &#160; &#160; &#160; &#160; &#160; &#160; 65536&#160; 0<br/>ath9k_common&#160; &#160; &#160; &#160; &#160; &#160;32768&#160; 1 ath9k_htc<br/>ath9k_hw&#160; &#160; &#160; &#160; &#160; &#160; &#160; 446464&#160; 2 ath9k_htc,ath9k_common<br/>ath&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; 32768&#160; 3 ath9k_htc,ath9k_hw,ath9k_common<br/>mac80211&#160; &#160; &#160; &#160; &#160; &#160; &#160; 671744&#160; 1 ath9k_htc<br/>cfg80211&#160; &#160; &#160; &#160; &#160; &#160; &#160; 589824&#160; 4 ath9k_htc,mac80211,ath,ath9k_common<br/>usbcore&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;249856&#160; 9 ath9k_htc,usbhid,ehci_hcd,ohci_pci,xhci_pci,ohci_hcd,xhci_hcd,ehci_pci</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1878" class="blockpost roweven">
+<h2><span><span class="conr">#16</span> <a href="viewtopic.php?pid=1878#p1878">2017-06-05 14:40:21</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9150">xx4h</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-04</span></dd>
+<dd><span>Posts: 39</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<p>ok, do you now see something in</p><div class="codebox"><pre><code>lsusb</code></pre></div><p>maybe replug the stick.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1880" class="blockpost rowodd">
+<h2><span><span class="conr">#17</span> <a href="viewtopic.php?pid=1880#p1880">2017-06-05 14:43:56</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9087">disrupt_the_flow</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-31</span></dd>
+<dd><span>Posts: 34</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<p>Nothing.And i replugged it in.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1881" class="blockpost roweven">
+<h2><span><span class="conr">#18</span> <a href="viewtopic.php?pid=1881#p1881">2017-06-05 14:49:44</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9150">xx4h</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-04</span></dd>
+<dd><span>Posts: 39</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<p>Hmm. Maybe it does need ath9k itself too:</p><div class="codebox"><pre><code>modprobe ath9k</code></pre></div><p>then plugin again.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1882" class="blockpost rowodd">
+<h2><span><span class="conr">#19</span> <a href="viewtopic.php?pid=1882#p1882">2017-06-05 14:51:45</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9087">disrupt_the_flow</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-31</span></dd>
+<dd><span>Posts: 34</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>xx4h wrote:</cite><blockquote><div><p>Hmm. Maybe it does need ath9k itself too:</p><div class="codebox"><pre><code>modprobe ath9k</code></pre></div><p>then plugin again.</p></div></blockquote></div><p>Nothing.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1883" class="blockpost roweven">
+<h2><span><span class="conr">#20</span> <a href="viewtopic.php?pid=1883#p1883">2017-06-05 14:57:33</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9150">xx4h</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-04</span></dd>
+<dd><span>Posts: 39</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<p>seems just not to use it, lets try to give him a hint:</p><div class="codebox"><pre><code>echo &quot;2357 010c&quot; | tee /sys/bus/usb/drivers/ath9k_htc/new_id</code></pre></div><p>plugin again. maybe watch kern.log while plugin.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1884" class="blockpost rowodd">
+<h2><span><span class="conr">#21</span> <a href="viewtopic.php?pid=1884#p1884">2017-06-05 15:05:34</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9087">disrupt_the_flow</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-31</span></dd>
+<dd><span>Posts: 34</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>xx4h wrote:</cite><blockquote><div><p>seems just not to use it, lets try to give him a hint:</p><div class="codebox"><pre><code>echo &quot;2357 010c&quot; | tee /sys/bus/usb/drivers/ath9k_htc/new_id</code></pre></div><p>plugin again. maybe watch kern.log while plugin.</p></div></blockquote></div><p>othing.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1888" class="blockpost roweven">
+<h2><span><span class="conr">#22</span> <a href="viewtopic.php?pid=1888#p1888">2017-06-05 15:26:10</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9150">xx4h</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-06-04</span></dd>
+<dd><span>Posts: 39</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<p>ok. you got a TP-LINK WN722N v2. And i could have seen that, as your kern.log shows<br/>Realtek instead of Atheros. I&#039;m sorry.</p><p>First let&#039;s unload ath9k:</p><div class="codebox"><pre><code>rmmod ath9k
+rmmod ath9k_htc</code></pre></div><p>now we try with the r8188eu</p><div class="codebox"><pre><code>modprobe r8188eu</code></pre></div><p>try to plugin again. if it&#039;s not working:</p><div class="codebox"><pre><code>echo &quot;2357 010c&quot; | tee /sys/bus/usb/drivers/r8188eu/new_id</code></pre></div><p>then plugin again.</p><p>If this doesn&#039;t work either, try to find the driver for linux on tp-link driver download page.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1907" class="blockpost rowodd">
+<h2><span><span class="conr">#23</span> <a href="viewtopic.php?pid=1907#p1907">2017-06-05 20:23:30</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=23">vzz1x2</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/23.png?m=1486864625" width="60" height="60" alt/></dd>
+<dd><span>From: Ireland</span></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 167</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>xx4h wrote:</cite><blockquote><div><p>ok. you got a TP-LINK WN722N v2. And i could have seen that, as your kern.log shows<br/>Realtek instead of Atheros. I&#039;m sorry.</p><p>First let&#039;s unload ath9k:</p><div class="codebox"><pre><code>rmmod ath9k
+rmmod ath9k_htc</code></pre></div><p>now we try with the r8188eu</p><div class="codebox"><pre><code>modprobe r8188eu</code></pre></div><p>try to plugin again. if it&#039;s not working:</p><div class="codebox"><pre><code>echo &quot;2357 010c&quot; | tee /sys/bus/usb/drivers/r8188eu/new_id</code></pre></div><p>then plugin again.</p><p>If this doesn&#039;t work either, try to find the driver for linux on tp-link driver download page.</p></div></blockquote></div><p>Lot of people buying that stick thinking they are getting an atheros..</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><a href="/cdn-cgi/l/email-protection#86e5eae7f3e2efe9c6e2e7f2e7e5e9f4a8e5e9eba8e7f4"><span class="__cf_email__" data-cfemail="aecdc2cfdbcac7c1eecacfdacfcdc1dc80cdc1c380cfdc">[email&#160;protected]</span><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a><br/><a href="http://pgp.key-server.io/pks/lookup?op=get&amp;search=0x8266F5857EC82A4C" rel="nofollow">PGP Key</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1921" class="blockpost roweven">
+<h2><span><span class="conr">#24</span> <a href="viewtopic.php?pid=1921#p1921">2017-06-06 09:11:40</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9087">disrupt_the_flow</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-31</span></dd>
+<dd><span>Posts: 34</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TP-LINK WN722N problem</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>xx4h wrote:</cite><blockquote><div><p>ok. you got a TP-LINK WN722N v2. And i could have seen that, as your kern.log shows<br/>Realtek instead of Atheros. I&#039;m sorry.</p><p>First let&#039;s unload ath9k:</p><div class="codebox"><pre><code>rmmod ath9k
+rmmod ath9k_htc</code></pre></div><p>now we try with the r8188eu</p><div class="codebox"><pre><code>modprobe r8188eu</code></pre></div><p>try to plugin again. if it&#039;s not working:</p><div class="codebox"><pre><code>echo &quot;2357 010c&quot; | tee /sys/bus/usb/drivers/r8188eu/new_id</code></pre></div><p>then plugin again.</p><p>If this doesn&#039;t work either, try to find the driver for linux on tp-link driver download page.</p></div></blockquote></div><p>I t seems like it works ror a few secongs when i plug it in.The LED lights up and also i can see it in iwconfig and ifconfig.But still won&#039;t work.</p><p>EDIT: It now works.You helped me with telling me about the Realtek thing and also the echo command.With that command it worked for a bit,seconds.But it seemed like i had to build the rtl8188eu firmware which i found on github.Thanks for your time and help.I really appreciate it.</p><br/><br/><p>But it still doesn&#039;t sshow up in lsusb</p>
+<p class="postedit"><em>Last edited by disrupt_the_flow (2017-06-06 19:40:23)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=5">Installation Process</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=495">TP-LINK WN722N problem</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4">General Questions</option>
+<option value="5" selected="selected">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=495&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div></div></div>
+</div>
+<script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+</html>

@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>A TON of Problems / Installation Process / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=720" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=720&amp;type=atom" title="Atom topic feed"/>
+
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div></div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=5">Installation Process</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=720">A TON of Problems</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p2801" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=2801#p2801">2017-08-02 11:11:24</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9792">UpTwoEpoch</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-08-02</span></dd>
+<dd><span>Posts: 3</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>A TON of Problems</h3>
+<div class="postmsg">
+<p>So... I&#039;m having a lot of problems with the installation of Parrot. My first problem is the suggested flashing software (ROSA Image Writer), it doesn&#039;t work, it begins flashing the OS onto my USB and then for SOME REASON creates a second partition on the drive and also says &quot;Failed to write to the device: The storage control block address is invalid.&quot; The next problem is when I use a different flashing software (In this case it&#039;s UnetBootin) it flashes properly and I&#039;m able to load into live mode but more problems arise. One of these problems is (lets call this problem &quot;2A&quot;) the fact that when I&#039;m in the boot loader (I think it&#039;s called that) trying to install the OS and go through the process it comes up with something about needing to use a CD, I AIN&#039;T USING A CD I DON&#039;T HAVE ONE AND NONE OF MY DEVICES HAVE A DISK BAY... anyway... the next couple problems are; when in live mode I can&#039;t connect to a network ethernet or wireless unless i go into the console and use &quot;nmtui.&quot; Next and final problem is when I try to install Parrot in live mode the same problem in 2A occurs. Please help in anyway possible. </p><p>P.S: If anything seemed confusing please say so and I can go into further detail or simplify it.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2802" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=2802#p2802">2017-08-02 11:16:07</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=23">vzz1x2</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/23.png?m=1486864625" width="60" height="60" alt/></dd>
+<dd><span>From: Ireland</span></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 167</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: A TON of Problems</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>UpTwoEpoch wrote:</cite><blockquote><div><p>So... I&#039;m having a lot of problems with the installation of Parrot. My first problem is the suggested flashing software (ROSA Image Writer), it doesn&#039;t work, it begins flashing the OS onto my USB and then for SOME REASON creates a second partition on the drive and also says &quot;Failed to write to the device: The storage control block address is invalid.&quot; The next problem is when I use a different flashing software (In this case it&#039;s UnetBootin) it flashes properly and I&#039;m able to load into live mode but more problems arise. One of these problems is (lets call this problem &quot;2A&quot;) the fact that when I&#039;m in the boot loader (I think it&#039;s called that) trying to install the OS and go through the process it comes up with something about needing to use a CD, I AIN&#039;T USING A CD I DON&#039;T HAVE ONE AND NONE OF MY DEVICES HAVE A DISK BAY... anyway... the next couple problems are; when in live mode I can&#039;t connect to a network ethernet or wireless unless i go into the console and use &quot;nmtui.&quot; Next and final problem is when I try to install Parrot in live mode the same problem in 2A occurs. Please help in anyway possible. </p><p>P.S: If anything seemed confusing please say so and I can go into further detail or simplify it.</p></div></blockquote></div><p>Im asuming that you are trying to do it from windows<br/>The reason for asking the CD is because you didnt use Rosa.. <br/>check what partitions are currently on your USB, and remove them leaving only one primary.&#160; If you are in Windows, you can use partdisk.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><a href="/cdn-cgi/l/email-protection#7b18171a0e1f12143b1f1a0f1a18140955181416551a09"><span class="__cf_email__" data-cfemail="53303f3226373a3c1337322732303c217d303c3e7d3221">[email&#160;protected]</span><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a><br/><a href="http://pgp.key-server.io/pks/lookup?op=get&amp;search=0x8266F5857EC82A4C" rel="nofollow">PGP Key</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2803" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=2803#p2803">2017-08-02 11:24:26</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9792">UpTwoEpoch</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-08-02</span></dd>
+<dd><span>Posts: 3</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: A TON of Problems</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>vzz1x2 wrote:</cite><blockquote><div><p>Im asuming that you are trying to do it from windows<br/>The reason for asking the CD is because you didnt use Rosa.. <br/>check what partitions are currently on your USB, and remove them leaving only one primary.&#160; If you are in Windows, you can use partdisk.</p></div></blockquote></div><p>I tried to delete the second useless partition but I was not successful. I went into Disk Manager to try and remove it but it only formatted it even though I clicked &quot;Delete volume&quot;</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2804" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=2804#p2804">2017-08-02 12:02:35</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9719">Paaltomo</a></strong></dt>
+<dd class="usertitle"><strong>Moderator</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/9719.jpg?m=1501259887" width="60" height="60" alt/></dd>
+<dd><span>Registered: 2017-07-28</span></dd>
+<dd><span>Posts: 33</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: A TON of Problems</h3>
+<div class="postmsg">
+<p>Try using Rosa to clear the USB device first, as per their documentation found <a href="http://wiki.rosalab.com/en/index.php/ROSA_ImageWriter#How_to_.C2.ABrestore.C2.BB_flash_disks_after_writing.3F" rel="nofollow">here</a>.</p><p>Edit: then use the same tool to create the bootable USB, This is a recommendation for Parrot as indicated <a href="https://mirrordirector.archive.parrotsec.org/parrot/misc/image-writer/" rel="nofollow">here</a> - where you can download the program if needed.</p>
+<p class="postedit"><em>Last edited by Paaltomo (2017-08-02 12:05:16)</em></p>
+</div>
+<div class="postsignature postmsg"><hr/><p>&#039;&#039;It depends on what the meaning of the words &#039;is&#039; is.&#039;&#039; - Bill Clinton</p><p>Star sign: cancer</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><strong>Online</strong></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2805" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=2805#p2805">2017-08-02 12:02:59</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9792">UpTwoEpoch</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-08-02</span></dd>
+<dd><span>Posts: 3</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: A TON of Problems</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>UpTwoEpoch wrote:</cite><blockquote><div><p>I tried to delete the second useless partition but I was not successful. I went into Disk Manager to try and remove it but it only formatted it even though I clicked &quot;Delete volume&quot;</p></div></blockquote></div><p>EDIT: Fixed the partition problem.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+ <div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=5">Installation Process</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=720">A TON of Problems</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4">General Questions</option>
+<option value="5" selected="selected">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=720&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div></div></div>
+</div>
+<script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+</html>

@@ -1,0 +1,580 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>TUTORIAL: Customize your terminal with ASCII art. / System Setup and Customization / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=471" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=471&amp;type=atom" title="Atom topic feed"/>
+
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div></div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=6">System Setup and Customization</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=471">TUTORIAL: Customize your terminal with ASCII art.</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p1711" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=1711#p1711">2017-06-01 03:27:10</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8954">h4te</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-05-23</span></dd>
+<dd><span>Posts: 4</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>TUTORIAL: Customize your terminal with ASCII art.</h3>
+<div class="postmsg">
+<p>Hi, you can just customize your terminal in a few steps.</p><p>Step 1: Open your terminal and type:</p><div class="codebox"><pre><code> sudo nano ~/.bashrc </code></pre></div><p>Step 2: Scroll down in the last line under &quot;fi&quot;</p><div class="codebox"><pre><code> # this, if it&#039;s already enabled in /etc/bash.bashrc and /etc/profile
+# sources /etc/bash.bashrc).
+if ! shopt -oq posix; then
+  if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
+  elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+  fi
+fi
+
+   &lt;---- here. </code></pre></div><p>Step 3: At the beginning of each line type:</p><div class="codebox"><pre><code> echo &quot; what i want to write &quot; </code></pre></div><p>This command must be written for each line that we will use.</p><p>Example: </p><div class="codebox"><pre><code>echo &quot;    ██████╗  █████╗ ██████╗ ██████╗  ██████╗ ████████╗     ██████╗ ███████╗ &quot;
+echo &quot;    ██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔═══██╗╚══██╔══╝    ██╔═══██╗██╔════╝ &quot;
+echo &quot;    ██████╔╝███████║██████╔╝██████╔╝██║   ██║   ██║       ██║   ██║███████╗ &quot;
+echo &quot;    ██╔═══╝ ██╔══██║██╔══██╗██╔══██╗██║   ██║   ██║       ██║   ██║╚════██║ &quot;
+echo &quot;    ██║     ██║  ██║██║  ██║██║  ██║╚██████╔╝   ██║       ╚██████╔╝███████║ &quot;
+echo &quot;    ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝    ╚═╝        ╚═════╝ ╚══════╝ &quot;  </code></pre></div><p>In the terminal, this will appear: </p><div class="codebox"><pre><code>     ██████╗  █████╗ ██████╗ ██████╗  ██████╗ ████████╗     ██████╗ ███████╗ 
+    ██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔═══██╗╚══██╔══╝    ██╔═══██╗██╔════╝ 
+    ██████╔╝███████║██████╔╝██████╔╝██║   ██║   ██║       ██║   ██║███████╗ 
+    ██╔═══╝ ██╔══██║██╔══██╗██╔══██╗██║   ██║   ██║       ██║   ██║╚════██║ 
+    ██║     ██║  ██║██║  ██║██║  ██║╚██████╔╝   ██║       ╚██████╔╝███████║ 
+    ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝    ╚═╝        ╚═════╝ ╚══════╝ 
+┌─[<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="44362b2b3004342536362b30">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>]─[/home/h4te]
+└──╼ #   </code></pre></div><br/><p>Once done, you can save it with ctrl + O.</p><p>Hope it was helpful, have fun!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1712" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=1712#p1712">2017-06-01 03:34:59</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8954">h4te</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-05-23</span></dd>
+<dd><span>Posts: 4</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Customize your terminal with ASCII art.</h3>
+<div class="postmsg">
+<div class="codebox"><pre><code> sudo nano ~/.bashrc </code></pre></div><p>sorry ;)</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1715" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=1715#p1715">2017-06-01 05:08:32</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=54">qr0f1l3R</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Ambassador</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/54.jpg?m=1495471116" width="60" height="58" alt/></dd>
+<dd><span>From: Germany</span></dd>
+<dd><span>Registered: 2017-02-15</span></dd>
+<dd><span>Posts: 183</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Customize your terminal with ASCII art.</h3>
+<div class="postmsg">
+<p>It tested it and it works great. Thank you so much, mate! Good job!</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Andre &quot;qr0f1l3R&quot; P. - Parrot Ambassador - Founder of the German community</p><p>GPG Fingerprint: 290A C689 2EB1 45F6 5E74 2C11 99B1 2DF0 E85A E4E6<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … F0E85AE4E6</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … F0E85AE4E6</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1721" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=1721#p1721">2017-06-01 09:21:06</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=54">qr0f1l3R</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Ambassador</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/54.jpg?m=1495471116" width="60" height="58" alt/></dd>
+<dd><span>From: Germany</span></dd>
+<dd><span>Registered: 2017-02-15</span></dd>
+<dd><span>Posts: 183</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Customize your terminal with ASCII art.</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>h4te wrote:</cite><blockquote><div><div class="codebox"><pre><code> sudo nano ~/.bashrc </code></pre></div><p>sorry ;)</p></div></blockquote></div><p>Pls change it in your manual above :D</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Andre &quot;qr0f1l3R&quot; P. - Parrot Ambassador - Founder of the German community</p><p>GPG Fingerprint: 290A C689 2EB1 45F6 5E74 2C11 99B1 2DF0 E85A E4E6<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … F0E85AE4E6</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … F0E85AE4E6</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1724" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=1724#p1724">2017-06-01 10:02:13</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=54">qr0f1l3R</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Ambassador</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/54.jpg?m=1495471116" width="60" height="58" alt/></dd>
+<dd><span>From: Germany</span></dd>
+<dd><span>Registered: 2017-02-15</span></dd>
+<dd><span>Posts: 183</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Customize your terminal with ASCII art.</h3>
+<div class="postmsg">
+<p>This is my one :D<br/><a href="https://postimg.org/image/pr7s1f3bj/" rel="nofollow"><span class="postimg"><img src="https://s3.postimg.org/pr7s1f3bj/Bildschirmfoto_zu_2017-06-01_11-00-32.png" alt="Bildschirmfoto_zu_2017-06-01_11-00-32.png"/></span></a><br/>Click to resize!</p>
+<p class="postedit"><em>Last edited by qr0f1l3R (2017-06-01 10:02:33)</em></p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Andre &quot;qr0f1l3R&quot; P. - Parrot Ambassador - Founder of the German community</p><p>GPG Fingerprint: 290A C689 2EB1 45F6 5E74 2C11 99B1 2DF0 E85A E4E6<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … F0E85AE4E6</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … F0E85AE4E6</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1764" class="blockpost roweven">
+<h2><span><span class="conr">#6</span> <a href="viewtopic.php?pid=1764#p1764">2017-06-02 03:49:16</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8954">h4te</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-05-23</span></dd>
+<dd><span>Posts: 4</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Customize your terminal with ASCII art.</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>qr0f1l3R wrote:</cite><blockquote><div><p>It tested it and it works great. Thank you so much, mate! Good job!</p></div></blockquote></div><p>It was a pleasure :]</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1802" class="blockpost rowodd">
+<h2><span><span class="conr">#7</span> <a href="viewtopic.php?pid=1802#p1802">2017-06-03 10:28:30</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8725">CleanZombie</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-06</span></dd>
+<dd><span>Posts: 35</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Customize your terminal with ASCII art.</h3>
+<div class="postmsg">
+<p>here is my terminal lol</p><p><a href="https://postimg.org/image/u26l9nyl5/" rel="nofollow"><span class="postimg"><img src="https://s4.postimg.org/u26l9nyl5/Screenshot.png" alt="Screenshot.png"/></span></a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+ </div>
+</div>
+</div>
+<div id="p1824" class="blockpost roweven">
+<h2><span><span class="conr">#8</span> <a href="viewtopic.php?pid=1824#p1824">2017-06-04 12:15:31</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=23">vzz1x2</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/23.png?m=1486864625" width="60" height="60" alt/></dd>
+<dd><span>From: Ireland</span></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 167</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Customize your terminal with ASCII art.</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>CleanZombie wrote:</cite><blockquote><div><p>here is my terminal lol</p><p><a href="https://postimg.org/image/u26l9nyl5/" rel="nofollow">https://s4.postimg.org/u26l9nyl5/Screenshot.png</a></p></div></blockquote></div><p>Nice one!</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><a href="/cdn-cgi/l/email-protection#1a79767b6f7e73755a7e7b6e7b79756834797577347b68"><span class="__cf_email__" data-cfemail="7f1c131e0a1b16103f1b1e0b1e1c100d511c1012511e0d">[email&#160;protected]</span><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a><br/><a href="http://pgp.key-server.io/pks/lookup?op=get&amp;search=0x8266F5857EC82A4C" rel="nofollow">PGP Key</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1833" class="blockpost rowodd">
+<h2><span><span class="conr">#9</span> <a href="viewtopic.php?pid=1833#p1833">2017-06-04 16:41:21</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8725">CleanZombie</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-06</span></dd>
+<dd><span>Posts: 35</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Customize your terminal with ASCII art.</h3>
+<div class="postmsg">
+<p>Thanks lol, any idea how to customise more things? I would love some more tuts!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1915" class="blockpost roweven">
+<h2><span><span class="conr">#10</span> <a href="viewtopic.php?pid=1915#p1915">2017-06-06 03:46:55</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8518">leon007</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-22</span></dd>
+<dd><span>Posts: 22</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Customize your terminal with ASCII art.</h3>
+<div class="postmsg">
+<p>impressive. thank you</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1918" class="blockpost rowodd">
+<h2><span><span class="conr">#11</span> <a href="viewtopic.php?pid=1918#p1918">2017-06-06 05:12:04</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=54">qr0f1l3R</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Ambassador</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/54.jpg?m=1495471116" width="60" height="58" alt/></dd>
+<dd><span>From: Germany</span></dd>
+<dd><span>Registered: 2017-02-15</span></dd>
+<dd><span>Posts: 183</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Customize your terminal with ASCII art.</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>CleanZombie wrote:</cite><blockquote><div><p>Thanks lol, any idea how to customise more things? I would love some more tuts!</p></div></blockquote></div><p>What do you want to customize? ;)</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Andre &quot;qr0f1l3R&quot; P. - Parrot Ambassador - Founder of the German community</p><p>GPG Fingerprint: 290A C689 2EB1 45F6 5E74 2C11 99B1 2DF0 E85A E4E6<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … F0E85AE4E6</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … F0E85AE4E6</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1930" class="blockpost roweven">
+<h2><span><span class="conr">#12</span> <a href="viewtopic.php?pid=1930#p1930">2017-06-06 14:33:57</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8725">CleanZombie</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-06</span></dd>
+<dd><span>Posts: 35</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Customize your terminal with ASCII art.</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>qr0f1l3R wrote:</cite><blockquote><div><div class="quotebox"><cite>CleanZombie wrote:</cite><blockquote><div><p>Thanks lol, any idea how to customise more things? I would love some more tuts!</p></div></blockquote></div><p>What do you want to customize? ;)</p></div></blockquote></div><p>Everything lol, but seriously anything you know how to manipulate or customise would really be worth sharing so that myself and others can learn a thing or two lol.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1935" class="blockpost rowodd">
+<h2><span><span class="conr">#13</span> <a href="viewtopic.php?pid=1935#p1935">2017-06-06 15:00:58</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=54">qr0f1l3R</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Ambassador</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/54.jpg?m=1495471116" width="60" height="58" alt/></dd>
+<dd><span>From: Germany</span></dd>
+<dd><span>Registered: 2017-02-15</span></dd>
+<dd><span>Posts: 183</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Customize your terminal with ASCII art.</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>CleanZombie wrote:</cite><blockquote><div><p>Everything lol, but seriously anything you know how to manipulate or customise would really be worth sharing so that myself and others can learn a thing or two lol.</p></div></blockquote></div><p>Maybe you could google for some customize methods - test it, tell us ;-)</p>
+<p class="postedit"><em>Last edited by qr0f1l3R (2017-06-06 15:09:18)</em></p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Andre &quot;qr0f1l3R&quot; P. - Parrot Ambassador - Founder of the German community</p><p>GPG Fingerprint: 290A C689 2EB1 45F6 5E74 2C11 99B1 2DF0 E85A E4E6<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … F0E85AE4E6</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … F0E85AE4E6</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1943" class="blockpost roweven">
+<h2><span><span class="conr">#14</span> <a href="viewtopic.php?pid=1943#p1943">2017-06-06 23:15:57</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8725">CleanZombie</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-06</span></dd>
+<dd><span>Posts: 35</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: TUTORIAL: Customize your terminal with ASCII art.</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>qr0f1l3R wrote:</cite><blockquote><div><div class="quotebox"><cite>CleanZombie wrote:</cite><blockquote><div><p>Everything lol, but seriously anything you know how to manipulate or customise would really be worth sharing so that myself and others can learn a thing or two lol.</p></div></blockquote></div><p>Maybe you could google for some customize methods - test it, tell us ;-)</p></div></blockquote></div><br/><p>Maybe when I have more time to but working two jobs at the moment mornings and evenings which is shattering lol</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=6">System Setup and Customization</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=471">TUTORIAL: Customize your terminal with ASCII art.</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6" selected="selected">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+ <option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=471&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div></div></div>
+</div>
+<script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+</html>

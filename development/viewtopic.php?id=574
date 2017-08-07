@@ -1,0 +1,921 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Development of Parrot 3.7 / Development Discussions / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=574" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=574&amp;type=atom" title="Atom topic feed"/>
+
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div></div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=8">Development Discussions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=574">Development of Parrot 3.7</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p2257" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=2257#p2257">2017-06-29 19:49:31</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Development of Parrot 3.7</h3>
+<div class="postmsg">
+<p>Parrot 3.7 is ready and we can build a new version</p><p>does anyone have some suggestions for us before the release?</p><p>what day is better for you to release it?</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2258" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=2258#p2258">2017-06-29 19:57:09</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7692">josegatica</a></strong></dt>
+<dd class="usertitle"><strong>ParrotSec Ambassador - Debian Contributor</strong></dd>
+<dd><span>From: Valdivia, Chile</span></dd>
+<dd><span>Registered: 2017-03-31</span></dd>
+<dd><span>Posts: 156</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://www.josegatica.cl" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<p>do you wanna release 3.7 ASAP? or wait one month is a possibility?</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>José Gatica A.</p><p>ParrotSec Ambassador<br/><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="0c66637f696b6d78656f6d4c7c6d7e7e63787f696f22637e6b">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></p><p>www.josegatica.cl</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><strong>Online</strong></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2262" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=2262#p2262">2017-06-30 00:03:02</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=47">$!thum;</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-02-13</span></dd>
+<dd><span>Posts: 24</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<p>[¤] Replace vlc with mpv</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2263" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=2263#p2263">2017-06-30 00:08:38</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7692">josegatica</a></strong></dt>
+<dd class="usertitle"><strong>ParrotSec Ambassador - Debian Contributor</strong></dd>
+<dd><span>From: Valdivia, Chile</span></dd>
+<dd><span>Registered: 2017-03-31</span></dd>
+<dd><span>Posts: 156</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://www.josegatica.cl" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<p>Why don&#039;t you include libreoffice by default?</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>José Gatica A.</p><p>ParrotSec Ambassador<br/><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="3d57524e585a5c49545e5c7d4d5c4f4f52494e585e13524f5a">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></p><p>www.josegatica.cl</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><strong>Online</strong></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2264" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=2264#p2264">2017-06-30 00:26:10</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=47">$!thum;</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-02-13</span></dd>
+<dd><span>Posts: 24</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>josegatica wrote:</cite><blockquote><div><p>Why don&#039;t you include libreoffice by default?</p></div></blockquote></div><p>As I dont use parrot sec for my office&#039;s works</p>
+<p class="postedit"><em>Last edited by $!thum; (2017-06-30 00:29:26)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2265" class="blockpost roweven">
+<h2><span><span class="conr">#6</span> <a href="viewtopic.php?pid=2265#p2265">2017-06-30 00:47:05</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7692">josegatica</a></strong></dt>
+<dd class="usertitle"><strong>ParrotSec Ambassador - Debian Contributor</strong></dd>
+<dd><span>From: Valdivia, Chile</span></dd>
+<dd><span>Registered: 2017-03-31</span></dd>
+<dd><span>Posts: 156</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://www.josegatica.cl" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>$!thum; wrote:</cite><blockquote><div><div class="quotebox"><cite>josegatica wrote:</cite><blockquote><div><p>Why don&#039;t you include libreoffice by default?</p></div></blockquote></div><p>As I dont use parrot sec for my office&#039;s works</p></div></blockquote></div><p>But AbiWord is included.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>José Gatica A.</p><p>ParrotSec Ambassador<br/><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="ff95908c9a989e8b969c9ebf8f9e8d8d908b8c9a9cd1908d98">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></p><p>www.josegatica.cl</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><strong>Online</strong></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2266" class="blockpost rowodd">
+<h2><span><span class="conr">#7</span> <a href="viewtopic.php?pid=2266#p2266">2017-06-30 02:30:18</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=47">$!thum;</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-02-13</span></dd>
+<dd><span>Posts: 24</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>josegatica wrote:</cite><blockquote><div><div class="quotebox"><cite>$!thum; wrote:</cite><blockquote><div><div class="quotebox"><cite>josegatica wrote:</cite><blockquote><div><p>Why don&#039;t you include libreoffice by default?</p></div></blockquote></div><p>As I dont use parrot sec for my office&#039;s works</p></div></blockquote></div><p>But AbiWord is included.</p></div></blockquote></div><p>Yp.. AbiWord == writer Bt AbiWord != liberoffice</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2278" class="blockpost roweven">
+<h2><span><span class="conr">#8</span> <a href="viewtopic.php?pid=2278#p2278">2017-06-30 19:59:37</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<p>&gt; do you wanna release 3.7 ASAP? or wait one month is a possibility?</p><p>yes, everything is ready, i could start the build project even tomorrow, i&#039;m just asking what you guys would like to see in the next release</p><br/><p>&gt; Replace vlc with mpv</p><p>absolutely not, vlc is one of the most powerful players we have, but it is not a bad idea to include mpv too, we should only decide how and why</p><br/><p>&gt; Why don&#039;t you include libreoffice by default?</p><p>we have removed it because parrot 3.2 or 3.4 was very very heavy due to many old libraries, ad we decided to remove libreoffice, emacs and some other tools to save space. but now we are ready to re-consider everything, and yes, i&#039;ll be happy to add libreoffice again on the full edition</p><br/><p>&gt; As I dont use parrot sec for my office&#039;s works</p><p>abiword is a nice editor, but it is buggy on some machines, and yes, pentesters need to open documents, write reports and do other things where libreoffice would be very helpful</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2282" class="blockpost rowodd">
+<h2><span><span class="conr">#9</span> <a href="viewtopic.php?pid=2282#p2282">2017-06-30 21:02:45</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7692">josegatica</a></strong></dt>
+<dd class="usertitle"><strong>ParrotSec Ambassador - Debian Contributor</strong></dd>
+<dd><span>From: Valdivia, Chile</span></dd>
+<dd><span>Registered: 2017-03-31</span></dd>
+<dd><span>Posts: 156</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://www.josegatica.cl" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><p>&gt; do you wanna release 3.7 ASAP? or wait one month is a possibility?</p><p>yes, everything is ready, i could start the build project even tomorrow, i&#039;m just asking what you guys would like to see in the next release</p><br/><p>&gt; Replace vlc with mpv</p><p>absolutely not, vlc is one of the most powerful players we have, but it is not a bad idea to include mpv too, we should only decide how and why</p><br/><p>&gt; Why don&#039;t you include libreoffice by default?</p><p>we have removed it because parrot 3.2 or 3.4 was very very heavy due to many old libraries, ad we decided to remove libreoffice, emacs and some other tools to save space. but now we are ready to re-consider everything, and yes, i&#039;ll be happy to add libreoffice again on the full edition</p><br/><p>&gt; As I dont use parrot sec for my office&#039;s works</p><p>abiword is a nice editor, but it is buggy on some machines, and yes, pentesters need to open documents, write reports and do other things where libreoffice would be very helpful</p></div></blockquote></div><p>Awesome Lorenzo. I agree with ev&#039;ry answer, specially about libreoffice and pentesting reports.<br/>Regards</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>José Gatica A.</p><p>ParrotSec Ambassador<br/><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="204a4f534547415449434160504152524f545345430e4f5247">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></p><p>www.josegatica.cl</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><strong>Online</strong></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2289" class="blockpost roweven">
+<h2><span><span class="conr">#10</span> <a href="viewtopic.php?pid=2289#p2289">2017-06-30 23:53:19</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=47">$!thum;</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-02-13</span></dd>
+<dd><span>Posts: 24</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><p>...<br/>&gt;Replace vlc with mpv<br/>...</p></div></blockquote></div><p>&gt;Why u should replace vlc with mpv :<br/>&#160; &#160; [¤] vlc player subs can hack pc (<a href="http://blog.checkpoint.com/2017/05/23/hacked-in-translation" rel="nofollow">http://blog.checkpoint.com/2017/05/23/h … ranslation</a>)<br/>&#160; &#160;[¤] vlc doent support for unicode subs<br/>&#160; &#160;[¤] vlc doent support for keyboard shortcuts (arrow keys)</p>
+<p class="postedit"><em>Last edited by $!thum; (2017-06-30 23:59:34)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2321" class="blockpost rowodd">
+<h2><span><span class="conr">#11</span> <a href="viewtopic.php?pid=2321#p2321">2017-07-04 08:35:48</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8946">azrielle</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-05-22</span></dd>
+<dd><span>Posts: 2</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<p>How about a quick install option for WPS Office?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2337" class="blockpost roweven">
+<h2><span><span class="conr">#12</span> <a href="viewtopic.php?pid=2337#p2337">2017-07-05 16:17:07</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>$!thum; wrote:</cite><blockquote><div><div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><p>...<br/>&gt;Replace vlc with mpv<br/>...</p></div></blockquote></div><p>&gt;Why u should replace vlc with mpv :<br/>&#160; &#160; [¤] vlc player subs can hack pc (<a href="http://blog.checkpoint.com/2017/05/23/hacked-in-translation" rel="nofollow">http://blog.checkpoint.com/2017/05/23/h … ranslation</a>)<br/>&#160; &#160;[¤] vlc doent support for unicode subs<br/>&#160; &#160;[¤] vlc doent support for keyboard shortcuts (arrow keys)</p></div></blockquote></div><br/><p>1) the subtitles bug was fixed weeks ago and we have patched it immediately. old vlc versions were vulnerable because of the normal bugs that occur in the life of such a complex software and it was not caused by a wrong design of vlc.</p><p>2) i have vlc opened in front of me right now, and i am watching at the subtitles settings, and in particular in the dropdown menu where you can manually select the default subtitles encoding, and i see a lot of formats, including utf8 and utf16.... are you sure you are running the latest parrot release and not an old windows xp with a very old version of vlc?</p><p>3) one thing that i love about vlc on parrot is that to change music with the multimedia hotkeys is a very awesome feature. if it does not work on your computer, then the problem is with how the linux kernel mapped your keyboard, and it has nothing to do with vlc as it supports keyboard shortcuts</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2338" class="blockpost rowodd">
+<h2><span><span class="conr">#13</span> <a href="viewtopic.php?pid=2338#p2338">2017-07-05 16:21:22</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>azrielle wrote:</cite><blockquote><div><p>How about a quick install option for WPS Office?</p></div></blockquote></div><p>we don&#039;t want to support such kind of proprietary software</p><p>wps office is a nice way to convince people that they can use linux without loosing their microsoft documents, but it is useful only with those morons who have too many prejudices against libreoffice because they once have tried a beta of openoffice back in 2009</p><br/><p>but wps office is a proprietary software which does not release neither their source code nor the necessary files to autonomously package it</p><p>it is also hardlinked to some old libraries no longer supported by modern distributions and we have no way to recompile it against the new ones, and because they don&#039;t want to recompile their commercial product for modern distributions, i will not work to make their product usable, not for free at least</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2339" class="blockpost roweven">
+<h2><span><span class="conr">#14</span> <a href="viewtopic.php?pid=2339#p2339">2017-07-05 16:25:30</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<p>anyways, let&#039;s summarize the discussion</p><p>no complains about system internals (and everything seems to work perfectly on my side too)</p><p>i will integrate mpv along side vlc as i have seen that to have both aboard requires just 11,2MB of storage</p><p>i will put back libreoffice</p><p>i will probably remove arduino ide (who needs it can easily install it from our repo, no need to have it in the live images)</p><p>i will not integrate the new calamares installer yet as it is still experimental and still crashes in some steps</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2343" class="blockpost rowodd">
+<h2><span><span class="conr">#15</span> <a href="viewtopic.php?pid=2343#p2343">2017-07-05 16:48:24</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=7692">josegatica</a></strong></dt>
+<dd class="usertitle"><strong>ParrotSec Ambassador - Debian Contributor</strong></dd>
+<dd><span>From: Valdivia, Chile</span></dd>
+<dd><span>Registered: 2017-03-31</span></dd>
+<dd><span>Posts: 156</span></dd>
+<dd class="usercontacts"><span class="website"><a href="http://www.josegatica.cl" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><p>anyways, let&#039;s summarize the discussion</p><p>no complains about system internals (and everything seems to work perfectly on my side too)</p><p>i will integrate mpv along side vlc as i have seen that to have both aboard requires just 11,2MB of storage</p><p>i will put back libreoffice</p><p>i will probably remove arduino ide (who needs it can easily install it from our repo, no need to have it in the live images)</p><p>i will not integrate the new calamares installer yet as it is still experimental and still crashes in some steps</p></div></blockquote></div><p>cool bro. I agree</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>José Gatica A.</p><p>ParrotSec Ambassador<br/><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="95fffae6f0f2f4e1fcf6f4d5e5f4e7e7fae1e6f0f6bbfae7f2">[email&#160;protected]</a><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></p><p>www.josegatica.cl</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><strong>Online</strong></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2355" class="blockpost roweven">
+<h2><span><span class="conr">#16</span> <a href="viewtopic.php?pid=2355#p2355">2017-07-06 09:32:22</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=54">qr0f1l3R</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Ambassador</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/54.jpg?m=1495471116" width="60" height="58" alt/></dd>
+<dd><span>From: Germany</span></dd>
+<dd><span>Registered: 2017-02-15</span></dd>
+<dd><span>Posts: 183</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>josegatica wrote:</cite><blockquote><div><p>Why don&#039;t you include libreoffice by default?</p></div></blockquote></div><p>I am happy that it isn&#039;t pre installed. It makes the iso too fat :D</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Andre &quot;qr0f1l3R&quot; P. - Parrot Ambassador - Founder of the German community</p><p>GPG Fingerprint: 290A C689 2EB1 45F6 5E74 2C11 99B1 2DF0 E85A E4E6<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … F0E85AE4E6</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … F0E85AE4E6</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2365" class="blockpost rowodd">
+<h2><span><span class="conr">#17</span> <a href="viewtopic.php?pid=2365#p2365">2017-07-06 16:30:33</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=47">$!thum;</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-02-13</span></dd>
+<dd><span>Posts: 24</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><p>anyways, let&#039;s summarize the discussion</p><p>no complains about system internals (and everything seems to work perfectly on my side too)</p><p>i will integrate mpv along side vlc as i have seen that to have both aboard requires just 11,2MB of storage</p><p>i will put back libreoffice</p><p>i will probably remove arduino ide (who needs it can easily install it from our repo, no need to have it in the live images)</p><p>i will not integrate the new calamares installer yet as it is still experimental and still crashes in some steps</p></div></blockquote></div><p>Thank you sri for integrate mpv.</p>
+<p class="postedit"><em>Last edited by $!thum; (2017-07-06 16:45:15)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2382" class="blockpost roweven">
+<h2><span><span class="conr">#18</span> <a href="viewtopic.php?pid=2382#p2382">2017-07-07 06:49:22</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9439">rbrick49</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>From: Thailand</span></dd>
+<dd><span>Registered: 2017-07-04</span></dd>
+<dd><span>Posts: 27</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<p>calamares is still buggy on some distros I have tested I think what is used on parrot os works quite well</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Linux User #621932</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2393" class="blockpost rowodd">
+<h2><span><span class="conr">#19</span> <a href="viewtopic.php?pid=2393#p2393">2017-07-07 17:35:48</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9472">N3V0N</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-07-07</span></dd>
+<dd><span>Posts: 4</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<p>Add this script to the live cd&#160; : https://github.com/N3V0N/GYGB<br/>It will enable users to quickly repair their grub in an event of Windows hijacking it :p<br/>The name is : Get Your Grub Back</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2419" class="blockpost roweven">
+<h2><span><span class="conr">#20</span> <a href="viewtopic.php?pid=2419#p2419">2017-07-09 13:39:20</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>N3V0N wrote:</cite><blockquote><div><p>Add this script to the live cd&#160; : <a href="https://github.com/N3V0N/GYGB" rel="nofollow">https://github.com/N3V0N/GYGB</a><br/>It will enable users to quickly repair their grub in an event of Windows hijacking it :p<br/>The name is : Get Your Grub Back</p></div></blockquote></div><br/><p>i can&#039;t integrate it if the software is not packaged in a dsc source package</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2420" class="blockpost rowodd">
+<h2><span><span class="conr">#21</span> <a href="viewtopic.php?pid=2420#p2420">2017-07-09 13:40:14</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>qr0f1l3R wrote:</cite><blockquote><div><div class="quotebox"><cite>josegatica wrote:</cite><blockquote><div><p>Why don&#039;t you include libreoffice by default?</p></div></blockquote></div><p>I am happy that it isn&#039;t pre installed. It makes the iso too fat :D</p></div></blockquote></div><br/><p>you know what? parrot 3.7 with libreoffice is smaller than parrot 3.6 without it :)</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2425" class="blockpost roweven">
+<h2><span><span class="conr">#22</span> <a href="viewtopic.php?pid=2425#p2425">2017-07-09 14:36:26</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9472">N3V0N</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-07-07</span></dd>
+<dd><span>Posts: 4</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><div class="quotebox"><cite>N3V0N wrote:</cite><blockquote><div><p>Add this script to the live cd <br/>It will enable users to quickly repair their grub in an event of Windows hijacking it :p<br/>The name is : Get Your Grub Back</p></div></blockquote></div><br/><p>i can&#039;t integrate it if the software is not packaged in a dsc source package</p></div></blockquote></div><p>Sorry but how can I package a standalone file to a .dsc file. (I can&#039;t find anything on the internet)</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2430" class="blockpost rowodd">
+<h2><span><span class="conr">#23</span> <a href="viewtopic.php?pid=2430#p2430">2017-07-09 15:33:23</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>N3V0N wrote:</cite><blockquote><div><div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><div class="quotebox"><cite>N3V0N wrote:</cite><blockquote><div><p>Add this script to the live cd <br/>It will enable users to quickly repair their grub in an event of Windows hijacking it :p<br/>The name is : Get Your Grub Back</p></div></blockquote></div><br/><p>i can&#039;t integrate it if the software is not packaged in a dsc source package</p></div></blockquote></div><p>Sorry but how can I package a standalone file to a .dsc file. (I can&#039;t find anything on the internet)</p></div></blockquote></div><br/><p>this is an example of source package that just places some files in the system tree</p><p><a href="https://dev.parrotsec.org/parrot/airgeddon" rel="nofollow">https://dev.parrotsec.org/parrot/airgeddon</a></p><p>from a source folder organized in this way it is pretty simple to generate a dsc package to pass to our build platform</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2431" class="blockpost roweven">
+<h2><span><span class="conr">#24</span> <a href="viewtopic.php?pid=2431#p2431">2017-07-09 16:20:12</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9472">N3V0N</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-07-07</span></dd>
+<dd><span>Posts: 4</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><div class="quotebox"><cite>N3V0N wrote:</cite><blockquote><div><div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><br/><p>i can&#039;t integrate it if the software is not packaged in a dsc source package</p></div></blockquote></div><p>Sorry but how can I package a standalone file to a .dsc file. (I can&#039;t find anything on the internet)</p></div></blockquote></div><br/><p>this is an example of source package that just places some files in the system tree</p><br/><p>from a source folder organized in this way it is pretty simple to generate a dsc package to pass to our build platform</p></div></blockquote></div><p>I have a *.deb file if that will work, else I am trying to make a *.dsc file.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2435" class="blockpost rowodd">
+<h2><span><span class="conr">#25</span> <a href="viewtopic.php?pid=2435#p2435">2017-07-09 17:28:24</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9472">N3V0N</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-07-07</span></dd>
+<dd><span>Posts: 4</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>N3V0N wrote:</cite><blockquote><div><div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><div class="quotebox"><cite>N3V0N wrote:</cite><blockquote><div><p>Sorry but how can I package a standalone file to a .dsc file. (I can&#039;t find anything on the internet)</p></div></blockquote></div><br/><p>this is an example of source package that just places some files in the system tree</p><br/><p>from a source folder organized in this way it is pretty simple to generate a dsc package to pass to our build platform</p></div></blockquote></div><p>I have a *.deb file if that will work, else I am trying to make a *.dsc file.</p></div></blockquote></div><p>Check the github page again, I think I have added every file possible :p you will find both *.dsc and *.deb.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p2441" class="blockpost roweven">
+<h2><span><span class="conr">#26</span> <a href="viewtopic.php?pid=2441#p2441">2017-07-09 17:50:33</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=54">qr0f1l3R</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Ambassador</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/54.jpg?m=1495471116" width="60" height="58" alt/></dd>
+<dd><span>From: Germany</span></dd>
+<dd><span>Registered: 2017-02-15</span></dd>
+<dd><span>Posts: 183</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Development of Parrot 3.7</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>palinuro wrote:</cite><blockquote><div><div class="quotebox"><cite>qr0f1l3R wrote:</cite><blockquote><div><div class="quotebox"><cite>josegatica wrote:</cite><blockquote><div><p>Why don&#039;t you include libreoffice by default?</p></div></blockquote></div><p>I am happy that it isn&#039;t pre installed. It makes the iso too fat :D</p></div></blockquote></div><br/><p>you know what? parrot 3.7 with libreoffice is smaller than parrot 3.6 without it :)</p></div></blockquote></div><p>Whaaat? How you did that? Oh boy, good job !!1! :-D</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Andre &quot;qr0f1l3R&quot; P. - Parrot Ambassador - Founder of the German community</p><p>GPG Fingerprint: 290A C689 2EB1 45F6 5E74 2C11 99B1 2DF0 E85A E4E6<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … F0E85AE4E6</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x99B12DF0E85AE4E6" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … F0E85AE4E6</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=8">Development Discussions</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=574">Development of Parrot 3.7</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8" selected="selected">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=574&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div></div></div>
+</div>
+</body>
+</html>

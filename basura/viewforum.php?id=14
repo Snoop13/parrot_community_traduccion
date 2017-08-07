@@ -1,0 +1,405 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Hacking Board / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewforum.php?id=14" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;fid=14&amp;type=atom" title="Atom forum feed"/>
+
+</head>
+<body>
+<div id="punviewforum" class="pun">
+<div class="top-box"><div></div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><strong><a href="viewforum.php?id=14">Hacking Board</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="vf" class="blocktable">
+<h2><span>Hacking Board</span></h2>
+<div class="box">
+<div class="inbox">
+<table>
+<thead>
+<tr>
+<th class="tcl" scope="col">Topic</th>
+<th class="tc2" scope="col">Replies</th>
+<th class="tc3" scope="col">Views</th>
+<th class="tcr" scope="col">Last post</th>
+</tr>
+</thead>
+<tbody>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">1</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=734">A collection of awesome penetration testing resources.</a> <span class="byuser">by justin</span>
+</div>
+</div>
+</td>
+<td class="tc2">3</td>
+<td class="tc3">94</td>
+<td class="tcr"><a href="viewtopic.php?pid=2844#p2844">2017-08-05 12:17:32</a> <span class="byuser">by Paaltomo</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">2</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=285">Wpa2 handshake capture</a> <span class="byuser">by TecSupport</span>
+</div>
+</div>
+</td>
+<td class="tc2">6</td>
+<td class="tc3">659</td>
+<td class="tcr"><a href="viewtopic.php?pid=2807#p2807">2017-08-02 14:25:46</a> <span class="byuser">by justin</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">3</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=602">need help intalling veil-evasion</a> <span class="byuser">by Astro</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">143</td>
+<td class="tcr"><a href="viewtopic.php?pid=2642#p2642">2017-07-25 14:54:41</a> <span class="byuser">by dmknght</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">4</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=671">fud any .exe program and get meterpreter session !</a> <span class="byuser">by montassar00</span>
+</div>
+</div>
+</td>
+<td class="tc2">0</td>
+<td class="tc3">71</td>
+<td class="tcr"><a href="viewtopic.php?pid=2636#p2636">2017-07-25 02:10:32</a> <span class="byuser">by montassar00</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">5</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=352">Lets get to the real thing, MITM</a> <span class="byuser">by Rebian</span>
+</div>
+</div>
+</td>
+<td class="tc2">4</td>
+<td class="tc3">521</td>
+<td class="tcr"><a href="viewtopic.php?pid=2604#p2604">2017-07-23 16:56:08</a> <span class="byuser">by iDontExist</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">6</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=575">Add Enernalblue_Doblepulsar exploit to metasploit-framework on Parrot</a> <span class="byuser">by Xc0d3</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">242</td>
+<td class="tcr"><a href="viewtopic.php?pid=2557#p2557">2017-07-20 04:48:59</a> <span class="byuser">by zie</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">7</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=515">Python Script Issue From a Member</a> <span class="byuser">by Jeff</span>
+</div>
+</div>
+</td>
+<td class="tc2">4</td>
+<td class="tc3">254</td>
+<td class="tcr"><a href="viewtopic.php?pid=2535#p2535">2017-07-17 12:15:46</a> <span class="byuser">by actee</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">8</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=568">[FIXED] Bash script for pings sweep</a> <span class="byuser">by DeadDave</span>
+</div>
+</div>
+</td>
+<td class="tc2">5</td>
+<td class="tc3">192</td>
+<td class="tcr"><a href="viewtopic.php?pid=2516#p2516">2017-07-14 21:13:47</a> <span class="byuser">by DeadDave</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">9</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=357">openvas-start not working (need to setup every time)</a> <span class="byuser">by Exekias</span>
+</div>
+</div>
+</td>
+<td class="tc2">9</td>
+<td class="tc3">1,284</td>
+<td class="tcr"><a href="viewtopic.php?pid=2195#p2195">2017-06-23 15:11:10</a> <span class="byuser">by dmknght</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">10</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=508">Parrot Tools Not Running</a> <span class="byuser">by Syedmohammadsheesali</span>
+</div>
+</div>
+ </td>
+<td class="tc2">3</td>
+<td class="tc3">246</td>
+<td class="tcr"><a href="viewtopic.php?pid=2131#p2131">2017-06-18 05:02:45</a> <span class="byuser">by Badboy</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">11</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=500">Msfvenom APK not running on victims&#039;s device</a> <span class="byuser">by Syedmohammadsheesali</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">156</td>
+<td class="tcr"><a href="viewtopic.php?pid=2120#p2120">2017-06-17 17:51:26</a> <span class="byuser">by Syedmohammadsheesali</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">12</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=102">wordlist</a> <span class="byuser">by Rebian</span>
+</div>
+</div>
+</td>
+<td class="tc2">13</td>
+<td class="tc3">1,778</td>
+<td class="tcr"><a href="viewtopic.php?pid=1936#p1936">2017-06-06 15:17:46</a> <span class="byuser">by qr0f1l3R</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">13</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=349">slowloris</a> <span class="byuser">by re3htem</span>
+</div>
+</div>
+</td>
+<td class="tc2">4</td>
+<td class="tc3">310</td>
+<td class="tcr"><a href="viewtopic.php?pid=1763#p1763">2017-06-02 03:06:29</a> <span class="byuser">by dmknght</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">14</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=355">Aireplay-ng injection not working</a> <span class="byuser">by colobolo</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">225</td>
+<td class="tcr"><a href="viewtopic.php?pid=1394#p1394">2017-05-23 17:10:24</a> <span class="byuser">by Motionless</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">15</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=242">Guides - ParrotOS Tools</a> <span class="byuser">by bsetford</span>
+</div>
+</div>
+</td>
+<td class="tc2">4</td>
+<td class="tc3">1,060</td>
+<td class="tcr"><a href="viewtopic.php?pid=1280#p1280">2017-05-18 14:24:34</a> <span class="byuser">by josegatica</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">16</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=310">need of documentation</a> <span class="byuser">by knr</span>
+</div>
+</div>
+</td>
+<td class="tc2">1</td>
+<td class="tc3">244</td>
+<td class="tcr"><a href="viewtopic.php?pid=1065#p1065">2017-04-27 19:04:21</a> <span class="byuser">by palinuro</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">17</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=245">Ghostphisher is not opening...</a> <span class="byuser">by shurid</span>
+</div>
+</div>
+</td>
+<td class="tc2">2</td>
+<td class="tc3">272</td>
+<td class="tcr"><a href="viewtopic.php?pid=798#p798">2017-04-05 12:15:39</a> <span class="byuser">by palinuro</span></td>
+</tr>
+<tr class="roweven">
+<td class="tcl">
+<div class="icon"><div class="nosize">18</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=11">handshake interception issues with wifite</a> <span class="byuser">by $!thum;</span>
+</div>
+</div>
+</td>
+<td class="tc2">11</td>
+<td class="tc3">1,104</td>
+<td class="tcr"><a href="viewtopic.php?pid=502#p502">2017-03-07 13:24:41</a> <span class="byuser">by $!thum;</span></td>
+</tr>
+<tr class="rowodd">
+<td class="tcl">
+<div class="icon"><div class="nosize">19</div></div>
+<div class="tclcon">
+<div>
+<a href="viewtopic.php?id=5">Mimikatz to ParrotOS</a> <span class="byuser">by llSureShotll</span>
+</div>
+</div>
+</td>
+<td class="tc2">3</td>
+<td class="tc3">568</td>
+<td class="tcr"><a href="viewtopic.php?pid=39#p39">2017-02-12 17:23:03</a> <span class="byuser">by palinuro</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="linksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><strong><a href="viewforum.php?id=14">Hacking Board</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14" selected="selected">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;fid=14&amp;type=atom">Atom forum feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div></div></div>
+</div>
+</body>
+</html>

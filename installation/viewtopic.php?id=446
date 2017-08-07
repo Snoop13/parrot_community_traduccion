@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>install fails to make bootable system when device file name changes / Installation Process / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=446" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=446&amp;type=atom" title="Atom topic feed"/>
+
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div></div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=5">Installation Process</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=446">install fails to make bootable system when device file name changes</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p1599" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=1599#p1599">2017-05-29 19:52:07</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9031">all-black</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-29</span></dd>
+<dd><span>Posts: 7</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>install fails to make bootable system when device file name changes</h3>
+<div class="postmsg">
+<p>I&#039;ve gone through it a second time and the same thing happens.&#160; I am updating this post with additional information.</p><p>The install process:</p><p>1. burned the install image to a USB<br/>2. booted from the USB, got the up front menu and chose to install.&#160; <br/>3. installed to device /dev/sdc&#160; &#160;the install usb was /dev/sdb<br/>4. upon reboot without the install USB plugged in, boot finds grub, but grub fails to find the image.&#160; Grub complains that /dev/sdc2 did not exist.&#160; Indeed this is correct as without the install USB, what was /dev/sdc is now /dev/sdb.</p><p>Specifically here is the boot message:</p><p>&#160; Giving up waiting for root file system device. Common Problems:<br/>&#160; -Boot args (cat /proc/comndline)<br/>&#160; &#160; -check rootdelay (did the system wait long enough?)<br/>&#160; &#160; -missing modules ( can&#039;t find /proc modules; ls /dev)<br/>&#160; &#160;ALERT! /dev/sdc2 does not exist.&#160; Dropping to shell!<br/>&#160; &#160;Busybox v1.22.2 (Debian 1:1.22:019+b3)<br/>&#160; &#160;Enter help for list of commands<br/>&#160; &#160;(intrafs)<br/>&#160; &#160;<br/>Tried to repair this by running the install USB as a live system.&#160; The new system is again on /dev/sdc, and then doing the following:</p><p>&#160; #mount -t proc proc /mnt/proc<br/>&#160; #mount -t sysfs sys /mnt/sys<br/>&#160; #mount -o bind /dev /mnt/dev<br/>&#160; #mount -t devpts pts /mnt/dev/pts/<br/>&#160; #chroot /mnt</p><p>&#160; #grub-install --directory=/boot/grub/x86_64-efi/ --efi-directory /sys/firmware/efi<br/>&#160; &#160; &#160;Installing for x86_64-efi platform<br/>&#160; &#160; &#160;grub-install: error: unknown filesystem.</p><p>alright try this instead:</p><p>&#160; #mount /dev/sdc2 /boot/efi<br/>&#160; #chrroot /mnt<br/>&#160; #grub-install --target=x86_64-efi/&#160; &#160;--removable&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; <br/>&#160; &#160; &#160;Installing for x86_64-efi platform.<br/>&#160; &#160; &#160;Installation finished. No error reported.</p><p>the new system looked better but still didn&#039;t boot, as noted in the next post.</p><p>(note the site,&#160; https://wiki.manjaro.org/index.php/Restore_the_GRUB_Bootloader)</p>
+<p class="postedit"><em>Last edited by all-black (2017-06-06 20:25:56)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1644" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=1644#p1644">2017-05-30 10:34:28</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9031">all-black</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-29</span></dd>
+<dd><span>Posts: 7</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: install fails to make bootable system when device file name changes</h3>
+<div class="postmsg">
+<p>Alright, after an all night session I had to reboot myself, apologize for the delay.</p><p>after the steps in the prior post the new system booted, which is good,&#160; but only into emergency mode, which is bad.&#160; At least I was able to log in.&#160; &#160; Upon logging in ran update, dist-upgrade.&#160; No change.&#160; Reinstalled grub, no change. </p><p>Note, upon install the new Parrot Linux was installed to /dev/sdc.&#160; &#160;However, after removing the install USB,&#160; Linux started calling the new system device,&#160; /dev/sdb.&#160; You know how it takes them in order.&#160; The UUID is still correct of course.&#160; So this is what I get upon booting the new system:</p><p>&#160; [DEPENDENCY] errors:,<br/>&#160; &#160; Dependency Failed for:&#160; ...&#160; &#160;/boot/efi, ...&#160; Local File System, ... dev-sdb1.device,&#160; ... Mark the need to relabel after boot, file system check /dev/disk/by-uid-..</p><p>This was accompanied by &quot;Timed out waiting for device dev-sdb1.device, etc.</p><p>Then&#160; it decided to hang for a minute and 30 seconds while rotating through three:<br/>&#160; &#160;A start job is running for dev-disk-by, dev-sdb1.device, and network managert</p><p>also got some errors that might be driver related rather than boot related:<br/>&#160; ath10k.pci firmware failed to load<br/>&#160; acpi PNP0A08:00:&#160; _OSC.failed (AE_ERROR); dsabling ASPMtem</p><p>The fstab entries are correct, and based on uuids.&#160; &#160; The /dev/disk/by-uuid/&#160; links are correct.&#160; &#160;mount shows correct mounts /dev/sdb1 for swap&#160; /dev/sdb2 for boot/efi&#160; &#160;and /dev/sdb3 for the system.&#160; The system is working, although it is in &#039;emergency mode&#039; according to the boot messages.</p>
+<p class="postedit"><em>Last edited by all-black (2017-06-02 08:34:51)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1652" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=1652#p1652">2017-05-30 13:45:07</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=14">Jeff</a></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd><span>From: USA</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 296</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: install fails to make bootable system when device file name changes</h3>
+<div class="postmsg">
+<p>https://docs.parrotsec.org/doku.php/how-to-create-a-live-boot-device</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>-Jeff Szydel </p><p>*Parrot Ambassador&#160; &#160;*Social Groups Manager&#160; &#160;*Helpdesk&#160; &#160;*Wiki Editor&#160; &#160; <br/>*Parrot Telegram Group Administrator&#160; &#160;*Parrot Community Administrator</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1653" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=1653#p1653">2017-05-30 13:47:25</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=14">Jeff</a></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd><span>From: USA</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 296</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: install fails to make bootable system when device file name changes</h3>
+<div class="postmsg">
+<p>Burn the ISO to USB with Rosa imager- http://mit-usa.archive.parrotsec.org/parrot/misc/image-writer/index.html</p><p>Clean ALL partitions and reinstall.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>-Jeff Szydel </p><p>*Parrot Ambassador&#160; &#160;*Social Groups Manager&#160; &#160;*Helpdesk&#160; &#160;*Wiki Editor&#160; &#160; <br/>*Parrot Telegram Group Administrator&#160; &#160;*Parrot Community Administrator</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1690" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=1690#p1690">2017-05-31 18:23:22</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=9031">all-black</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-05-29</span></dd>
+<dd><span>Posts: 7</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: install fails to make bootable system when device file name changes</h3>
+<div class="postmsg">
+<p>This has nothing to do with writing the install iso image. That part works fine.&#160; It is the install itself that messes up.&#160; The installer is somehow hard coding the device file name.&#160; &#160;I.e. /dev/sdc.&#160; &#160;When booting without the install device plugged in, the Parrot image moves to /dev/sdb and then will not boot.</p><p>Unless this is fixed, or there is a patch, Parrot is not an option for installations where the device file name for the boot image can change.&#160; I don&#039;t don&#039;t know what the patch is, I tried a few things as noted above, but they did not work.&#160; The screen, and my day, just remain *all-black*.</p>
+<p class="postedit"><em>Last edited by all-black (2017-06-06 20:20:21)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=5">Installation Process</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=446">install fails to make bootable system when device file name changes</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4">General Questions</option>
+<option value="5" selected="selected">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=446&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div></div></div>
+</div>
+</body>
+</html>

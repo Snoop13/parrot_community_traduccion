@@ -1,0 +1,433 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>error de instalacion / Installation Process / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=272" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=272&amp;type=atom" title="Atom topic feed"/>
+
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div></div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=5">Installation Process</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=272">error de instalacion</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p880" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=880#p880">2017-04-12 09:14:05</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8297">gabriel201</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-12</span></dd>
+<dd><span>Posts: 6</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>error de instalacion</h3>
+<div class="postmsg">
+<p>Spanish im from Uruguay.</p><p>Hola creadores de parrot les comento que estoy teniendo problemas al instalar parrot en mi notebook asus x502c.<br/>Utilice el quemador de archivos ISO ROSA para quemarlo en memoria usb.<br/>El problema es cuando va la instalación del sistema llega a la mitad de la barra y falla la instalación del sistema.<br/>Desde hace varios días vengo insistiendo y probando varias instalaciones y no encuentro solución. ayuda por favor</p><p>------------------------------------------------------------------------------------------------------------------------</p><p>Hello parrot creators I comment that I am having problems installing parrot on my asus x502c notebook.<br/>Use the ISO ROSA file burner to burn it to usb memory.<br/>The problem is when the system installation goes to the middle of the bar and the system installation fails.<br/>For several days I have been insisting and testing various installations and I can not find a solution. please help</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p884" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=884#p884">2017-04-12 10:54:29</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=23">vzz1x2</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/23.png?m=1486864625" width="60" height="60" alt/></dd>
+<dd><span>From: Ireland</span></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 167</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: error de instalacion</h3>
+<div class="postmsg">
+<p>Verifica que la imagen se haya bajado correctamente:<br/>https://www.parrotsec.org/signed-hashes.txt</p><p>luego quema con ROSA el USB y probalo en otro puerto si sigue teniendo problemas.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><a href="/cdn-cgi/l/email-protection#f89b94998d9c9197b89c998c999b978ad69b9795d6998a"><span class="__cf_email__" data-cfemail="50333c312534393f1034312431333f227e333f3d7e3122">[email&#160;protected]</span><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a><br/><a href="http://pgp.key-server.io/pks/lookup?op=get&amp;search=0x8266F5857EC82A4C" rel="nofollow">PGP Key</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p889" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=889#p889">2017-04-12 17:04:12</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8297">gabriel201</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-12</span></dd>
+<dd><span>Posts: 6</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: error de instalacion</h3>
+<div class="postmsg">
+<p>Te comento amigo que sigo teniendo problema de instalación pero probé instala la versión anterior 3.4.1 y me instala sin ningún problema. <br/>El problema es cuando intento instalar la nueva versión 3.5full me falla el paso de instalación de sistema.<br/>Teniendo instalada la versión 3.4.1 instalada en el disco se puede actualizar a la ultima versión del sistema 3.5? los pasos de instalación?<br/>---------------------------------------------------------------------------------------------------------------------------<br/>I told you friend that I still have installation problem but I tried installing the previous version 3.4.1 and it installs me with no problem.<br/>The problem is when I try to install the new version 3.5full the system installation step fails me.<br/>Having installed the version 3.4.1 installed in the disk can be updated to the last version of the system 3.5? The installation steps?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p892" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=892#p892">2017-04-12 18:40:18</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=14">Jeff</a></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd><span>From: USA</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 296</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: error de instalacion</h3>
+<div class="postmsg">
+<p>It is a kernel issue. i am positive boot recovery mode and choose the old kernel on 3.5 and tell me if it boots.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>-Jeff Szydel </p><p>*Parrot Ambassador&#160; &#160;*Social Groups Manager&#160; &#160;*Helpdesk&#160; &#160;*Wiki Editor&#160; &#160; <br/>*Parrot Telegram Group Administrator&#160; &#160;*Parrot Community Administrator</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p894" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=894#p894">2017-04-12 21:53:00</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8297">gabriel201</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-12</span></dd>
+<dd><span>Posts: 6</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: error de instalacion</h3>
+<div class="postmsg">
+<p>Hola Jeff me podrías enseñar como instalarlo con esa opción que usted me dice?<br/>Estoy teniendo problemas al instalarlo agradezco me des instrucciones para poder solucionar ya que adoro su sistema operativo parrot pero es muy malo no poderlo usar.<br/>Tengo otra consulta cuando lo dejo en USB y ingreso al sistema lo actualizo y va bien desde el usb pero al reiniciar el sistema las actualizaciones no se guardan y cuando ejecuto en consola nuevamente sudo apt-get update me dice que otra vez hay cosas para descargar. Estando en modo live (USB) no se guardan las actualizaciones y el sistema no logro pasarlo a español siempre me queda en ingles. Agradezco me enseñe como poder solucionar esto urgente. Un saludo cordial desde Uruguay.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p895" class="blockpost roweven">
+<h2><span><span class="conr">#6</span> <a href="viewtopic.php?pid=895#p895">2017-04-12 21:59:43</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8297">gabriel201</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-12</span></dd>
+<dd><span>Posts: 6</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: error de instalacion</h3>
+<div class="postmsg">
+<p>La versión 3.4.1 la instalo sin problemas pero la 3.5 no me funciona al instalarlo. Mi pregunta es ? la versión 3.4.1 sigue recibiendo actualizaciones?&#160; por que tendré que usar la 3.4.1</p><br/><p>-------------------------------------------------------------------------------------------------------------------</p><br/><p>The version 3.4.1 installed without problems but the 3.5 does not work when I install it. My question is ? Is version 3.4.1 still receiving updates? Why should I use 3.4.1</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p898" class="blockpost rowodd">
+<h2><span><span class="conr">#7</span> <a href="viewtopic.php?pid=898#p898">2017-04-13 05:19:06</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8297">gabriel201</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-12</span></dd>
+<dd><span>Posts: 6</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: error de instalacion</h3>
+<div class="postmsg">
+<p>Este es el error.</p><p><span class="postimg"><img src="https://s12.postimg.org/kqlozr8g9/IMG_2041.jpg" alt="IMG_2041.jpg"/></span></p><p><span class="postimg"><img src="https://s4.postimg.org/lgih3yc55/IMG_2043.jpg" alt="IMG_2043.jpg"/></span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p899" class="blockpost roweven">
+<h2><span><span class="conr">#8</span> <a href="viewtopic.php?pid=899#p899">2017-04-13 05:41:00</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=14">Jeff</a></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd><span>From: USA</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 296</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: error de instalacion</h3>
+<div class="postmsg">
+<p>well i have a hard time seeing the images, but 3.5 is the newest and you should install it. if you cant, i guess message me directly and will help you figure out the problem. you can contact me at:&#160; @JeffParrotSecurityAmbassador (https://t.me/JeffParrotSecurityAmbassador)</p><p>if you install telegram on your phone, just message me there</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>-Jeff Szydel </p><p>*Parrot Ambassador&#160; &#160;*Social Groups Manager&#160; &#160;*Helpdesk&#160; &#160;*Wiki Editor&#160; &#160; <br/>*Parrot Telegram Group Administrator&#160; &#160;*Parrot Community Administrator</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p902" class="blockpost rowodd">
+<h2><span><span class="conr">#9</span> <a href="viewtopic.php?pid=902#p902">2017-04-13 11:07:41</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=23">vzz1x2</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/23.png?m=1486864625" width="60" height="60" alt/></dd>
+<dd><span>From: Ireland</span></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 167</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: error de instalacion</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>gabriel201 wrote:</cite><blockquote><div><p>Hola Jeff me podrías enseñar como instalarlo con esa opción que usted me dice?<br/>Estoy teniendo problemas al instalarlo agradezco me des instrucciones para poder solucionar ya que adoro su sistema operativo parrot pero es muy malo no poderlo usar.<br/>Tengo otra consulta cuando lo dejo en USB y ingreso al sistema lo actualizo y va bien desde el usb pero al reiniciar el sistema las actualizaciones no se guardan y cuando ejecuto en consola nuevamente sudo apt-get update me dice que otra vez hay cosas para descargar. Estando en modo live (USB) no se guardan las actualizaciones y el sistema no logro pasarlo a español siempre me queda en ingles. Agradezco me enseñe como poder solucionar esto urgente. Un saludo cordial desde Uruguay.</p></div></blockquote></div><br/><p>Lo que dice Jeff es que te fijes si el 3.5 bootea con el kernel viejo, pero ya me decis que estas en modo live y va bien, asi que asumo que si esta funcionando. <br/>Estando en modo live, toda la informacion se pierde cuando reinicias, el USB vuelve a estado cero. Para que guarde los cambios tenes que generar otra particion en el USB y usar la opcion de persistance. </p><p>Lo que podes probar es instalar el 3.4 y una vez hecho eso, ejecutar:</p><p>sudo apt-get update &amp;&amp; sudo apt-get dist-upgrade</p><p>Eso te deberia llevar el sistema operativo a la 3.5. avisanos si despues de eso tenes inconvenientes. </p><p>Saludos.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p><a href="/cdn-cgi/l/email-protection#67040b0612030e0827030613060408154904080a490615"><span class="__cf_email__" data-cfemail="f0939c918594999fb094918491939f82de939f9dde9182">[email&#160;protected]</span><script data-cfhash="f9e31" type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a><br/><a href="http://pgp.key-server.io/pks/lookup?op=get&amp;search=0x8266F5857EC82A4C" rel="nofollow">PGP Key</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p906" class="blockpost roweven">
+<h2><span><span class="conr">#10</span> <a href="viewtopic.php?pid=906#p906">2017-04-13 17:59:00</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8297">gabriel201</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-12</span></dd>
+<dd><span>Posts: 6</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: error de instalacion</h3>
+<div class="postmsg">
+<p>Bueno despues de un arduo trabajo y con la ayuda de Jeff y Jose pude solucionar el problema. Resulta que el nuevo kernel me estaba dando problemas con la instalacion. Por lo que la unica opcion fue la que dices&#160; tu vzz1x2 instale la verdion anterior y luego ejecutando los comandos sudo apt-get update &amp;&amp; sudo apt-get dist-upgrade se me instalo todo sin ningun problemas. Hasta el nuevo kernel 4.9 y no me da nada ningun error.<br/>Me gustaria saber por que ese kernel da ese problema al momento de instalar.<br/>Muchas gracias a todos!!!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=5">Installation Process</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=272">error de instalacion</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4">General Questions</option>
+<option value="5" selected="selected">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=272&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div></div></div>
+</div>
+<script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+</html>

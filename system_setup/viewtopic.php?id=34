@@ -1,0 +1,635 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Anonsuft not working / System Setup and Customization / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=34" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=34&amp;type=atom" title="Atom topic feed"/>
+
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div></div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=6">System Setup and Customization</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=34">Anonsuft not working</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p153" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=153#p153">2017-02-17 19:36:56</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=134">thnkyle</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-02-17</span></dd>
+<dd><span>Posts: 1</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Anonsuft not working</h3>
+<div class="postmsg">
+<p>Hello,</p><p>Great work on Parrot. I am really enjoying it and have most things I need working. I am hoping to do more work and will probably figure it out but been having issues with Anonsurf. It starts up, Tor is running but as soon as it does, no network traffic works... Can&#039;t resolve anything, can&#039;t connect. </p><p>I&#039;ll be working on it over the weekend. Let me know if anyone has got it working and has any tips/tricks to try.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p156" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=156#p156">2017-02-17 22:42:23</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=22">root</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/22.jpg?m=1486919315" width="60" height="100" alt/></dd>
+<dd><span>Registered: 2017-02-12</span></dd>
+<dd><span>Posts: 17</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Anonsuft not working</h3>
+<div class="postmsg">
+<p>From what I&#039;ve heard, make sure the system clock is set to the correct time. If it&#039;s not, it may have issues connection to the Tor network and the rest of it then on; with anonsurf running.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>[img=Root]https://s16.postimg.org/huxodr83l/Untitled_1.png[/img]</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p259" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=259#p259">2017-02-22 16:31:05</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=14">Jeff</a></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd><span>From: USA</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 296</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Anonsuft not working</h3>
+<div class="postmsg">
+<p>Anonsurf can be run from the Menu.&#160; &#160;if not installed sudo apt-get install anonsurf</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>-Jeff Szydel </p><p>*Parrot Ambassador&#160; &#160;*Social Groups Manager&#160; &#160;*Helpdesk&#160; &#160;*Wiki Editor&#160; &#160; <br/>*Parrot Telegram Group Administrator&#160; &#160;*Parrot Community Administrator</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p853" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=853#p853">2017-04-09 03:48:54</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8127">oggabogg</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-04-09</span></dd>
+<dd><span>Posts: 2</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Anonsuft not working</h3>
+<div class="postmsg">
+<p>I am getting this error message running it from the menu, and it is installed.<br/>Failed to start resolvconf.service Unit: resolvconf.service not found<br/>what causes this?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p855" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=855#p855">2017-04-09 03:53:51</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=14">Jeff</a></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd><span>From: USA</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 296</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Anonsuft not working</h3>
+<div class="postmsg">
+<p>upgrade? sudo apt-get update &amp;&amp; sudo apt-get dist-upgrade</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>-Jeff Szydel </p><p>*Parrot Ambassador&#160; &#160;*Social Groups Manager&#160; &#160;*Helpdesk&#160; &#160;*Wiki Editor&#160; &#160; <br/>*Parrot Telegram Group Administrator&#160; &#160;*Parrot Community Administrator</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p860" class="blockpost roweven">
+<h2><span><span class="conr">#6</span> <a href="viewtopic.php?pid=860#p860">2017-04-09 14:23:42</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8127">oggabogg</a></strong></dt>
+<dd class="usertitle"><strong>Unconfirmed Member</strong></dd>
+<dd><span>Registered: 2017-04-09</span></dd>
+<dd><span>Posts: 2</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Anonsuft not working</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>Jeff wrote:</cite><blockquote><div><p>upgrade? sudo apt-get update &amp;&amp; sudo apt-get dist-upgrade</p></div></blockquote></div><p>Thx for swift responce.</p><p>I have allready done that, unfortunately still have the problem. Tried to update again but problem remains. Any other thoughts?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p881" class="blockpost rowodd">
+<h2><span><span class="conr">#7</span> <a href="viewtopic.php?pid=881#p881">2017-04-12 09:14:27</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8117">umsongb</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-09</span></dd>
+<dd><span>Posts: 25</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Anonsuft not working</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>oggabogg wrote:</cite><blockquote><div><p>I am getting this error message running it from the menu, and it is installed.<br/>Failed to start resolvconf.service Unit: resolvconf.service not found<br/>what causes this?</p></div></blockquote></div><p>Greetings.</p><p>I&#039;m not an advanced user myself, but after searching &quot;linux resolveconf&quot; on the net, I&#039;ve found out that it might be related to DHCP server.</p><p>Assuming it is related to DHCP server and Parrot derived from Debian, I then search &quot;debian apt dhcp&quot;.&#160; From that I was able to see Debian used a package &#039;isc-dhcp-...&#039; in relation to DHCP.</p><p>So I opened up Synaptic and searched &quot;dhcp&quot; and looked for anything that has &#039;isc-dhcp-..&#039; in description. After going thru the result, I came to the conclusion that Parrot installs necessary client related packages, but daemon isn&#039;t installed by default.</p><p><strong>Q: Hoping all my assumption is correct up to this point, my question is &quot;is DHCP server required to Start/use the Anon Mode properly&quot;? </strong></p><p>The way I look at it...&#160; if the answer is &quot;Yes&quot;, I&#039;ll have to install the server, If &quot;No&quot;, why change it when it works?&#160; Your review and comments would be appreciated.</p><p>Cheers,</p><p>JC</p><p>FYI: I&#039;ve used the Full version, burned by <strong>Etcher</strong> (sorry not Rosa) and clean installed on the right-out-of-box netbook.</p>
+<p class="postedit"><em>Last edited by umsongb (2017-04-13 17:39:39)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p949" class="blockpost roweven">
+<h2><span><span class="conr">#8</span> <a href="viewtopic.php?pid=949#p949">2017-04-16 08:36:58</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8387">Spectre</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/8387.jpg?m=1492327663" width="60" height="60" alt/></dd>
+<dd><span>Registered: 2017-04-16</span></dd>
+<dd><span>Posts: 3</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Anonsuft not working</h3>
+<div class="postmsg">
+<p>I had the same issue and looked everywhere I could to find an answer. What actually ended up fixing it was a re-install and then full update/upgrade. As well as installing anonsurf. Either someone updated anonsurf/Parrot (thanks) or something was not installed correctly. Either way Parrot is easy to install/reinstall etc.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p955" class="blockpost rowodd">
+<h2><span><span class="conr">#9</span> <a href="viewtopic.php?pid=955#p955">2017-04-17 07:33:54</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8117">umsongb</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-09</span></dd>
+<dd><span>Posts: 25</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Anonsuft not working</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>Spectre wrote:</cite><blockquote><div><p>I had the same issue and looked everywhere I could to find an answer. What actually ended up fixing it was a re-install and then full update/upgrade. As well as installing anonsurf. Either someone updated anonsurf/Parrot (thanks) or something was not installed correctly. Either way Parrot is easy to install/reinstall etc.</p></div></blockquote></div><p>Thank u for ur reply. =)&#160; &#160;I am guessing it is partially due to some installation glitch, but I hope to find out <strong>whether DHCP server is required to properly run annonsurf</strong>.&#160; Would u happen to know anything related to this?</p><p>If it&#039;s not an absolute requirement for proper use of annonsurf, I&#039;d rather leave it as it is and work on the issue when I am ready to do another clean install to practice.</p><p>Once again, thank u for ur input, and I hope someone could provide further insight regarding my question.</p><p>Peace.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p956" class="blockpost roweven">
+<h2><span><span class="conr">#10</span> <a href="viewtopic.php?pid=956#p956">2017-04-17 13:07:20</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8412">st2ph81</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-17</span></dd>
+<dd><span>Posts: 7</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Anonsuft not working</h3>
+<div class="postmsg">
+<p>i have a problem too<br/>in terminal i have</p><p>anonsurf help<br/>i2p not found</p><p>anonsurf status<br/>i2p not found </p><p>in the menu parrot it&#039;s same<br/>when i type anonsurf start or stop i2p start or stop i have a windows (terminal) open &amp; close immediatly</p><p>pls help sorry for my english</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p959" class="blockpost rowodd">
+<h2><span><span class="conr">#11</span> <a href="viewtopic.php?pid=959#p959">2017-04-17 19:12:57</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8412">st2ph81</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-17</span></dd>
+<dd><span>Posts: 7</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Anonsuft not working</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>st2ph81 wrote:</cite><blockquote><div><p>i have a problem too<br/>in terminal i have</p><p>anonsurf help<br/>i2p not found</p><p>anonsurf status<br/>i2p not found </p><p>in the menu parrot it&#039;s same<br/>when i type anonsurf start or stop i2p start or stop i have a windows (terminal) open &amp; close immediatly</p><p>pls help sorry for my english</p></div></blockquote></div><p>in <br/>/etc/resolv.conf they are nothing nada</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p960" class="blockpost roweven">
+<h2><span><span class="conr">#12</span> <a href="viewtopic.php?pid=960#p960">2017-04-17 20:06:22</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8412">st2ph81</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-17</span></dd>
+<dd><span>Posts: 7</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Anonsuft not working</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>st2ph81 wrote:</cite><blockquote><div><div class="quotebox"><cite>st2ph81 wrote:</cite><blockquote><div><p>i have a problem too<br/>in terminal i have</p><p>anonsurf help<br/>i2p not found</p><p>anonsurf status<br/>i2p not found </p><p>in the menu parrot it&#039;s same<br/>when i type anonsurf start or stop i2p start or stop i have a windows (terminal) open &amp; close immediatly</p><p>pls help sorry for my english</p></div></blockquote></div><p>in <br/>/etc/resolv.conf they are nothing nada</p></div></blockquote></div><p>https://s22.postimg.org/6rm3gfvup/output1.gif</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p961" class="blockpost rowodd">
+<h2><span><span class="conr">#13</span> <a href="viewtopic.php?pid=961#p961">2017-04-18 01:06:52</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8387">Spectre</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd class="postavatar"><img src="https://community.parrotsec.org/img/avatars/8387.jpg?m=1492327663" width="60" height="60" alt/></dd>
+<dd><span>Registered: 2017-04-16</span></dd>
+<dd><span>Posts: 3</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Anonsuft not working</h3>
+<div class="postmsg">
+<p>I&#039;ll have to&#160; look and see what changed.&#160; It still came up with the resolv.conf error but I was able to visit onion and clear sites via the browser. I didn&#039;t change any settings and my network showed tor working. I&#039;ll try and figure it out tonight.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p963" class="blockpost roweven">
+<h2><span><span class="conr">#14</span> <a href="viewtopic.php?pid=963#p963">2017-04-18 05:41:13</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=14">Jeff</a></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd><span>From: USA</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 296</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Anonsuft not working</h3>
+<div class="postmsg">
+<p>Well after carefully watching your video, i see number no internet, 2 i see your logged on as a root account and not standard. It seems your system is broken,&#160; Parrot BTW works with a Standard account.&#160; But you have other problems going on.</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>-Jeff Szydel </p><p>*Parrot Ambassador&#160; &#160;*Social Groups Manager&#160; &#160;*Helpdesk&#160; &#160;*Wiki Editor&#160; &#160; <br/>*Parrot Telegram Group Administrator&#160; &#160;*Parrot Community Administrator</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p968" class="blockpost rowodd">
+<h2><span><span class="conr">#15</span> <a href="viewtopic.php?pid=968#p968">2017-04-18 18:19:12</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8412">st2ph81</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-17</span></dd>
+<dd><span>Posts: 7</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Anonsuft not working</h3>
+<div class="postmsg">
+<p>PROBLEM SOLVED for the moment anonsurf WORK<br/>i have take the ISO of parrot &amp; extract it</p><p>mnt &quot;filesystem.squashfs&quot;</p><p>search &amp; replaceit : </p><p>/etc/resolvconf<br/>/etc/anonsurf/onion.pac<br/>/etc/anonsurf/torrc<br/>/etc/resolvconf/resolv.conf.d <br/>/usr/bin/proxy<br/>/usr/bin/anon<br/>/usr/bin/anonsurf</p><p>All work for me</p><p>anonsurf<br/>i2p<br/>change ip<br/>=D<br/><a href="https://postimg.org/image/49f7hh6id/" rel="nofollow"><span class="postimg"><img src="https://s2.postimg.org/49f7hh6id/output.gif" alt="output.gif"/></span></a></p>
+<p class="postedit"><em>Last edited by st2ph81 (2017-04-18 20:18:25)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1075" class="blockpost roweven">
+<h2><span><span class="conr">#16</span> <a href="viewtopic.php?pid=1075#p1075">2017-04-28 14:33:52</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8518">leon007</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-22</span></dd>
+<dd><span>Posts: 22</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Anonsuft not working</h3>
+<div class="postmsg">
+<p>Gentlemen and ladies.... I also have this &quot;Failed to start resolvconf.service Unit: resolvconf.service not found&quot; but after a few seconds, it goes through and Im connected to anonsurf. I checked with the browser, using the website ipchicken.com and I have confirmed that I am using tor. checked also using terminal and it is tor node. strange about that error</p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1146" class="blockpost rowodd">
+<h2><span><span class="conr">#17</span> <a href="viewtopic.php?pid=1146#p1146">2017-05-06 11:07:29</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: Anonsuft not working</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>oggabogg wrote:</cite><blockquote><div><p>I am getting this error message running it from the menu, and it is installed.<br/>Failed to start resolvconf.service Unit: resolvconf.service not found<br/>what causes this?</p></div></blockquote></div><br/><p>anonsurf tries to shut down some services that might cause some conflicts with our tor confguration, but if these services were not found, anonsurf just go further with the next steps</p><br/><p>if you have some connectivity problems with anonsurf, the error messages that you have noticed have nothing to do with your problem (which is probably caused by the tor network)</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=6">System Setup and Customization</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=34">Anonsuft not working</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4">General Questions</option>
+<option value="5">Installation Process</option>
+<option value="6" selected="selected">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=34&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div></div></div>
+</div>
+</body>
+</html>

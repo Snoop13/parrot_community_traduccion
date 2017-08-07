@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>[Solved] Anonsurf problem depending on Installation procedure / Installation Process / Parrot Community</title>
+<script type="text/javascript" src="https://mod.postimage.org/fluxbb.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style/Black_Blue.css"/>
+<link rel="canonical" href="viewtopic.php?id=290" title="Page 1"/>
+<link rel="alternate" type="application/atom+xml" href="extern.php?action=feed&amp;tid=290&amp;type=atom" title="Atom topic feed"/>
+
+</head>
+<body>
+<div id="punviewtopic" class="pun">
+<div class="top-box"><div></div></div>
+<div class="punwrap">
+<div id="brdheader" class="block">
+<div id="brdtitle" class="inbox">
+<h1><a href="index.php">Parrot Community</a></h1>
+<div id="brddesc"><p><span>Community portal of the Parrot Project.</span></p></div>
+</div>
+<div id="brdmenu" class="inbox">
+<ul>
+<li id="navextra1"><a href="https://www.parrotsec.org">Parrot Project</a></li>
+<li id="navindex" class="isactive"><a href="index.php">Index</a></li>
+<li id="navrules"><a href="misc.php?action=rules">Rules</a></li>
+<li id="navsearch"><a href="search.php">Search</a></li>
+<li id="navextra4"><a href="https://docs.parrotsec.org/community">Community</a></li>
+<li id="navextra3"><a href="https://docs.parrotsec.org">Documentation</a></li>
+<li id="navextra2"><a href="https://blog.parrotsec.org">Blog</a></li>
+<li id="navregister"><a href="register.php">Register</a></li>
+<li id="navlogin"><a href="login.php">Login</a></li>
+</ul>
+</div>
+<div id="brdwelcome" class="inbox">
+<p class="conl">You are not logged in.</p>
+<ul class="conr">
+<li><span>Topics: <a href="search.php?action=show_recent" title="Find topics with recent posts.">Active</a> | <a href="search.php?action=show_unanswered" title="Find topics with no replies.">Unanswered</a></span></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="announce" class="block">
+<div class="hd"><h2><span>Announcement</span></h2></div>
+<div class="box">
+<div id="announce-block" class="inbox">
+<div class="usercontent">Welcome Aboard Pirate!
+<br>
+<br>
+<b><a href="https://patreon.com/parrot" target="_blank">Support us on Patreon</a></b> and contribute to our project!
+<br>
+<br>
+HappyHacking!</div>
+</div>
+</div>
+</div>
+<div id="brdmain">
+<div class="linkst">
+<div class="inbox crumbsplus">
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=5">Installation Process</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=290">[Solved] Anonsurf problem depending on Installation procedure</a></strong></li>
+</ul>
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+<div id="p970" class="blockpost rowodd firstpost blockpost1">
+<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=970#p970">2017-04-18 22:15:18</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8117">umsongb</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-09</span></dd>
+<dd><span>Posts: 25</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>[Solved] Anonsurf problem depending on Installation procedure</h3>
+<div class="postmsg">
+<p>Greetings.</p><p>So, I did a fresh install of Parrot 3.5 Full over my existing Parrot 3.5 Full using same image and same Etcher, but changed installation process.</p><p>Install 1: Boot into Live session and <strong>start installation within the Live session</strong><br/>Install 2: Boot <strong>straight into GTK Installer</strong><br/>Install 3: Boot <strong>straight into CLI Installer</strong></p><p>All 3 installations were updated and upgraded using <strong>&#039;apt update&#039;, &#039;apt upgrade&#039; and &#039;apt dist-upgrade&#039;</strong>; did the same thing with &#039;apt-get&#039; just to be on the safe side.</p><p>These r the things I have found that works differently with &#039;anonsurf&#039; between three installations</p><p>Install 1: might have had &#039;resolve.conf&#039; error, but anonsurf worked fine (both GUI and CLI)<br/>Install 2: Nope. (both GUI and CLI)<br/>Install 3: Same as Install 1</p><p>With Install 1 &amp; 3, the anonsurf script produces error stated in post #8 of <a href="https://community.parrotsec.org/viewtopic.php?id=34" rel="nofollow">https://community.parrotsec.org/viewtopic.php?id=34</a></p><p>With Install 2, a terminal window briefly pop-ups but disappears immediately, and I&#039;m attaching the error msg I get from CLI. Same result under both &#039;root&#039; and &#039;jc&#039;.&#160; &quot;anonsurf start&quot; returned same result.</p><p><a href="https://postimg.org/image/k0waifobb/" rel="nofollow"><span class="postimg"><img src="https://s7.postimg.org/k0waifobb/Screenshot_at_2017-04-18_13-42-24.png" alt="Screenshot_at_2017-04-18_13-42-24.png"/></span></a></p><p>Synaptic reports i2p package is installed, as it is indicated in the screenshot, and I am guessing there might be some other dependency installation issue deriving from different installation process/script?</p><p>If this problem is indeed occurring due to using different installation procedure, shouldn&#039;t we assume other packages might produce similar result, and when that is a possibility it wouldn&#039;t be fair to say &#039;u didn&#039;t install Parrot properly, perform upgrade&#039; to other users asking about errors.</p><p>Ur valuable insight / feedbacks would b greatly appreciated.</p><p>Peace.</p>
+<p class="postedit"><em>Last edited by umsongb (2017-05-05 00:57:35)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p977" class="blockpost roweven">
+<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=977#p977">2017-04-19 04:27:03</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=14">Jeff</a></strong></dt>
+<dd class="usertitle"><strong>Administrator</strong></dd>
+<dd><span>From: USA</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 296</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [Solved] Anonsurf problem depending on Installation procedure</h3>
+<div class="postmsg">
+<p>I had issues with mine not opening and functioning.&#160; I have a fix if you need it contact me on Facebook or inbox me directly</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>-Jeff Szydel </p><p>*Parrot Ambassador&#160; &#160;*Social Groups Manager&#160; &#160;*Helpdesk&#160; &#160;*Wiki Editor&#160; &#160; <br/>*Parrot Telegram Group Administrator&#160; &#160;*Parrot Community Administrator</p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p989" class="blockpost rowodd">
+<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=989#p989">2017-04-19 17:47:27</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8117">umsongb</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-09</span></dd>
+<dd><span>Posts: 25</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [Solved] Anonsurf problem depending on Installation procedure</h3>
+<div class="postmsg">
+<div class="quotebox"><cite>Jeff wrote:</cite><blockquote><div><p>I had issues with mine not opening and functioning.&#160; I have a fix if you need it contact me on Facebook or inbox me directly</p></div></blockquote></div><p><strong>Would it b possible to post ur answer here?</strong>&#160; Seems like there r couple of Q&#039;s w/ similar issues, and I would like to have a solution described here for my record keeping. =) </p><p>I was able to trace the problem back to <strong>line 138</strong> of <strong>/usr/bin/anonsurf</strong> where it tries to execute</p><div class="codebox"><pre><code>service resolvconf start </code></pre></div><p>I am at Installation 3. So <strong>anonsurf</strong> is being executed but I am keep getting the <strong>resolvconf.service error</strong>.&#160; Please refer to the attached screenshot.<br/><a href="https://postimg.org/image/xda2uhi2v/" rel="nofollow"><span class="postimg"><img src="https://s7.postimg.org/xda2uhi2v/Screenshot_at_2017-04-19_16-21-12.png" alt="Screenshot_at_2017-04-19_16-21-12.png"/></span></a></p><p>Peace.</p>
+<p class="postedit"><em>Last edited by umsongb (2017-04-20 00:32:03)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p996" class="blockpost roweven">
+<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=996#p996">2017-04-21 04:36:00</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=8117">umsongb</a></strong></dt>
+<dd class="usertitle"><strong>Community Member</strong></dd>
+<dd><span>Registered: 2017-04-09</span></dd>
+<dd><span>Posts: 25</span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [Solved] Anonsurf problem depending on Installation procedure</h3>
+<div class="postmsg">
+<p>So far these are what I was able to gather and i&#039;m leaving this for my own personal record because I know I will forget this someday.</p><p>Based on multiple screenshots, the following error code (Parrot 3.5 full install via 1 &amp; 3) is normal and does not affect anonsurf</p><div class="codebox"><pre><code>Failed to start resolvconf.service Unit: resolvconf.service not found</code></pre></div><p>For problem related to installation 2 appears to have two solution at the moment.</p><p>1. edit the script in /usr/bin/anonsurf&#160; There is a line that starts with &quot;dep&quot; which is a variable, change i2p to &quot;i2prouter&quot; and it will work again (from FB)<br/>2. <a href="https://community.parrotsec.org/viewtopic.php?id=34" rel="nofollow">https://community.parrotsec.org/viewtopic.php?id=34</a></p><p>Too bad nobody can confirm or theorize why I am getting differenct result from <strong>anonsurf</strong> shows different result.&#160; I guess for those who have issues described in Installation 2 please let us know if u used GTK, CLI or Live Installer?</p><p>Hope this could be solved for good.</p>
+<p class="postedit"><em>Last edited by umsongb (2017-04-21 15:17:12)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="p1030" class="blockpost rowodd">
+<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=1030#p1030">2017-04-25 02:08:47</a></span></h2>
+<div class="box">
+<div class="inbox">
+<div class="postbody">
+<div class="postleft">
+<dl>
+<dt><strong><a href="profile.php?id=2">palinuro</a></strong></dt>
+<dd class="usertitle"><strong>Parrot Project Founder</strong></dd>
+<dd><span>From: Italy</span></dd>
+<dd><span>Registered: 2017-02-11</span></dd>
+<dd><span>Posts: 224</span></dd>
+<dd class="usercontacts"><span class="website"><a href="https://www.parrotsec.org" rel="nofollow">Website</a></span></dd>
+</dl>
+</div>
+<div class="postright">
+<h3>Re: [Solved] Anonsurf problem depending on Installation procedure</h3>
+<div class="postmsg">
+<p>upgrade the system, this bug was fixed weeks ago</p>
+</div>
+<div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
+</div>
+</div>
+</div>
+<div class="inbox">
+<div class="postfoot clearb">
+<div class="postfootleft"><p><span>Offline</span></p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="postlinksb">
+<div class="inbox crumbsplus">
+<div class="pagepost">
+<p class="pagelink conl"><span class="pages-label">Pages: </span><strong class="item1">1</strong></p>
+</div>
+<ul class="crumbs">
+<li><a href="index.php">Index</a></li>
+<li><span>»&#160;</span><a href="viewforum.php?id=5">Installation Process</a></li>
+<li><span>»&#160;</span><strong><a href="viewtopic.php?id=290">[Solved] Anonsurf problem depending on Installation procedure</a></strong></li>
+</ul>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<div id="brdfooter" class="block">
+<h2><span>Board footer</span></h2>
+<div class="box">
+<div id="brdfooternav" class="inbox">
+<div class="conl">
+<form id="qjump" method="get" action="viewforum.php">
+<div><label><span>Jump to<br/></span>
+<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+<optgroup label="Parrot Helpdesk">
+<option value="4">General Questions</option>
+<option value="5" selected="selected">Installation Process</option>
+<option value="6">System Setup and Customization</option>
+<option value="7">Advanced Topics</option>
+</optgroup>
+<optgroup label="General Board">
+<option value="28">Parrot Cloud</option>
+<option value="3">Welcome Room</option>
+<option value="2">Dashboard</option>
+<option value="12">Project Ambassadors</option>
+<option value="13">Programming Board</option>
+<option value="14">Hacking Board</option>
+<option value="15">Privacy, Cryptography and Anonymity</option>
+</optgroup>
+<optgroup label="Developers Corner">
+<option value="20">Beta Testing</option>
+<option value="8">Development Discussions</option>
+<option value="9">Community Suggestions</option>
+<option value="10">Embedded Devices and IoT Development</option>
+</optgroup>
+<optgroup label="Local Communities">
+<option value="16">Italian Community</option>
+<option value="25">Spanish Community</option>
+<option value="26">German Community</option>
+<option value="27">Greek Community</option>
+<option value="31">Canadian Community (EN/FR)</option>
+<option value="32">Russian Community</option>
+<option value="30">Indian Community</option>
+<option value="29">Turkish Community</option>
+</optgroup>
+</select></label>
+<input type="submit" value=" Go " accesskey="g"/>
+</div>
+</form>
+</div>
+<div class="conr">
+<p id="feedlinks"><span class="atom"><a href="extern.php?action=feed&amp;tid=290&amp;type=atom">Atom topic feed</a></span></p>
+<p id="poweredby">Powered by <a href="https://fluxbb.org/">FluxBB</a></p>
+</div>
+<div class="clearer"></div>
+</div>
+</div>
+</div>
+<span class="design_footer">Design by <a href="http://klocus.pl" title="Tworzenie stron WWW"><strong>Klocek</strong></a>.</span>
+</div>
+<div class="end-box"><div></div></div>
+</div>
+</body>
+</html>
