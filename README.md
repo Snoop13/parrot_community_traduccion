@@ -8,8 +8,8 @@ Este es tu sitio....
 ## Quiero ayudar!!! Qué debo hacer? 
 
 
-En primer lugar debes pasarte por el grupo de telegram https://t.me/joinchat/AAAAAECEF7201Jk3bOB5pA .
-Presentate y pasa unos dias con nosotros para saber si estás agusto y te apetece formar parte de esta gran familia. (Advertencia: no querrás dejarlo ;-) ).
+En primer lugar, debes pasarte por el grupo de telegram https://t.me/joinchat/AAAAAECEF7201Jk3bOB5pA .
+Preséntate y pasa unos días con nosotros para saber si estás a gusto y te apetece formar parte de esta gran familia. (Advertencia: no querrás dejarlo ;-D ).
 En dicho grupo, pregunta por el equipo de documentación y rápidamente te pondrán en contacto con alguno de los responsables de traducción y te darán las indicaciones adecuadas.
 
 
