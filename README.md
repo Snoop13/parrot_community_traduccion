@@ -31,6 +31,8 @@ XXXX -> tu nombre de usuario.
 #### Una vez modificado, muévelo al sitio definitivo
 `mv trabajando/XXXX/viewtopic.php\?id=1 traducidas`
 #### Sube al repositorio las modificaciones
+`git add .`
+`git commit`
 `git push`
 #### Comienza de nuevo
 Descarga de nuevo las modificaciones del repositorio.  
