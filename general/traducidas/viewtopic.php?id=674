@@ -1,0 +1,13 @@
+Que hacer después de instalar Parrot Security?
+
+1.-Se necesita añadir algún repositorio?
+No añada repositorios externos, TODO lo que necesita se encuentra ya en el repositorio oficial, el cual ya está preconfigurado.
+
+2.-Se actualiza actualiza automáticamente el SO y el software?
+SIEMPRE actualice su sistema.
+
+3.-Como se instala el navegador TOR?
+sudo apt install torbrowser-launcher.
+
+4.-Como se instala flash player?
+El software está deprecated y Adobe ha anunciado el fin de vida de dicho producto. Puede instalar flashplugin-nonfree bajo su propio riesgo (y seguramente obtendrá una gran cantidad de malware navegando) pero debería funcionar. Si el paquete falla en la instalación, entonces Debian finalmente a eliminado esa mierda.
