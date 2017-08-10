@@ -53,5 +53,5 @@ Descarga de nuevo las modificaciones del repositorio.
 
 #### Asciinema
 Hay un pequeño asciinema (parrot_contributor.json) en el que puedes ver el proceso.
-Tras instalar asciinema:
+Tras instalar asciinema:  
 `asciinema play parrot_contributor.json`
