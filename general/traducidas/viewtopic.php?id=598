@@ -1,0 +1,5 @@
+Instalando programa XXX busca libreria libssl1.0.0
+
+
+
+libssl1.0.0 es una libreria vieja, vulnerable y obsoleta. No use ningún software que la utilice y si algún software lo utiliza, contacte inmediatamente con sus desarrolladores para informarles que deben recompilar su software para que utilice dicha libreria, pero en una version mas moderna
