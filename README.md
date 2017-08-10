@@ -51,7 +51,9 @@ XXXX -> tu nombre de usuario.
 Descarga de nuevo las modificaciones del repositorio.  
 `git pull`
 
-#### Asciinema
+# Asciinema
 Hay un pequeño asciinema (parrot_contributor.json) en el que puedes ver el proceso.
+
 Tras instalar asciinema:  
+
 `asciinema play parrot_contributor.json`
