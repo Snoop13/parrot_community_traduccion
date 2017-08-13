@@ -83,18 +83,18 @@ HappyHacking!</div>
 <div class="postright">
 <h3>Development of Parrot 3.5</h3>
 <div class="postmsg">
-<p>Hello, i will start this topic here to let people discuss on what to do for the next release.<br/>The same topic was already discussed in our development mailing list, so let&#039;s start from what Palinuro have pointed out there</p><p><a href="http://lists.parrotsec.org/pipermail/parrot-devel/2017-February/000040.html" rel="nofollow">http://lists.parrotsec.org/pipermail/pa … 00040.html</a></p><br/><br/><br/><br/><div class="codebox"><pre class="vscroll"><code>UPDATES CURRENTLY DONE
+<p>Hola, quiero empezar este tema aquí para que la gente discuta sobre que hacer en las proximas actualizaciones.<br/>El mismo tema fué discutido en nuestro mail de desarrollo, vamos a comenzar con lo que Palinuro apuntó aquí</p><p><a href="http://lists.parrotsec.org/pipermail/parrot-devel/2017-February/000040.html" rel="nofollow">http://lists.parrotsec.org/pipermail/pa … 00040.html</a></p><br/><br/><br/><br/><div class="codebox"><pre class="vscroll"><code>UPDATES CURRENTLY DONE
 
 1)
-we have imported many many debian updates since parrot 3.4, many of them
-are security updates, others are general improvements.
-Debian is up to release its new stable release, so the debian testing
-branch is very stable and coherent now.
+Nosotros importamos muchas muchas actualizaciones de debian en parrot 3.4, muchas de ellas 
+son actualizaciones seguras, otras son generalmente mejoras.
+Debian está por lanzar su nueva actualización estable, la rama de testing
+es muy estable y coherente ahora.
 
 
 2)
-we have updated many tools, most of them were imported from kali, others
-from debian (pkg-security team)
+Tenemos muchas herramientas actualizadas, varias de ellas fueron importadas de kali, otras
+de debian (equipo de pkg-security)
 
 
 3)
