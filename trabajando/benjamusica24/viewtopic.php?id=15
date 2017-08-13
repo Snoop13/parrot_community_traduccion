@@ -81,7 +81,7 @@ HappyHacking!</div>
 <div class="postright">
 <h3>[SOLVED] fix packages removal</h3>
 <div class="postmsg">
-<p>hi, could you please fix the autoremoval of these packages from the parrot-interface metapackage?</p><p>mate-applet-topmenu<br/>mate-menu<br/>mate-optimus<br/>mate-polkit-bin<br/>mate-tweak</p>
+<p>Hola, ¿podrías solucionar la auto-desinstalación de estos paquetes de parrot-interface metapaquetes?</p><p>mate-applet-topmenu<br/>mate-menu<br/>mate-optimus<br/>mate-polkit-bin<br/>mate-tweak</p>
 </div>
 </div>
 </div>
@@ -111,7 +111,7 @@ HappyHacking!</div>
 <div class="postright">
 <h3>Re: [SOLVED] fix packages removal</h3>
 <div class="postmsg">
-<p>fixed here <a href="https://github.com/ParrotSec/parrot-interface/commit/619f7b9050579896cc6a5c2383f4f764dae2753f" rel="nofollow">https://github.com/ParrotSec/parrot-int … 64dae2753f</a></p>
+<p>Solucionado aquí <a href="https://github.com/ParrotSec/parrot-interface/commit/619f7b9050579896cc6a5c2383f4f764dae2753f" rel="nofollow">https://github.com/ParrotSec/parrot-int … 64dae2753f</a></p>
 </div>
 <div class="postsignature postmsg"><hr/><p>Lorenzo &quot;Palinuro&quot; Faletra - Parrot Security</p><p>GPG FINGERPRINT: B350 5059 3C2F 7656 40E6 DDDB 97CA A129 F4C6 B9A4<br/>GPG Info: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=vindex … 29F4C6B9A4</a><br/>GPG Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x97CAA129F4C6B9A4" rel="nofollow">http://pgp.mit.edu/pks/lookup?op=get&amp;se … 29F4C6B9A4</a></p></div>
 </div>
